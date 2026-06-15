@@ -17,8 +17,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "2 hr ago",
-        "ar": "قبل 2 ساعة"
+        "en": "3 hr ago",
+        "ar": "قبل 3 ساعة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 35,526.57",
-        "ar": "SAR 35,526.57"
+        "en": "SAR 32,391.37",
+        "ar": "SAR 32,391.37"
       }
     },
     {
@@ -1875,6 +1875,21 @@
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "15:50",
+      "sortKey": "2026-06-15 15:50:10",
+      "text": "APCC-2026-PO-00138 (SAR 600.00)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00138 worth SAR 600",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00138 بقيمة SAR 600"
+      },
+      "impact": {
+        "en": "SAR 600",
+        "ar": "SAR 600"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "15:43",
       "sortKey": "2026-06-15 15:43:28",
@@ -2177,28 +2192,13 @@
       },
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "12:45",
-      "sortKey": "2026-06-15 12:45:51",
-      "text": "ACC-2026-PO-00045 (SAR 3,735.20)",
-      "headline": {
-        "en": "Purchase order update: ACC-2026-PO-00045 worth SAR 3,735.2",
-        "ar": "تحديث أمر شراء: ACC-2026-PO-00045 بقيمة SAR 3,735.2"
-      },
-      "impact": {
-        "en": "SAR 3,735.2",
-        "ar": "SAR 3,735.2"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "15:46",
+  "generatedAt": "15:54",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T12:46:58.487Z",
+  "livePublishedAt": "2026-06-15T12:54:47.193Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
