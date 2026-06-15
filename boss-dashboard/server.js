@@ -19,20 +19,36 @@ const path = require('path');
 // Config
 // ----------------------------------------------------------------------------
 const ROOT = __dirname;
-const cfg = JSON.parse(fs.readFileSync(path.join(ROOT, 'config.json'), 'utf8'));
+function loadConfig() {
+  for (const name of ['config.json', 'config.example.json']) {
+    try {
+      return JSON.parse(fs.readFileSync(path.join(ROOT, name), 'utf8'));
+    } catch {
+      // Keep Vercel/serverless deploys alive when the local secret config is not present.
+    }
+  }
+  return {};
+}
+function configuredPath(configured, fallback) {
+  const primary = path.resolve(ROOT, configured || fallback);
+  if (fs.existsSync(primary)) return primary;
+  return path.resolve(ROOT, fallback);
+}
+
+const cfg = loadConfig();
 
 const PORT = Number(process.env.BOSS_PORT || cfg.port || 3001);
 const BIND = process.env.BOSS_HOST || cfg.bindHost || '0.0.0.0';
 const PASSWORD = (process.env.BOSS_DASH_PASS || cfg.password || '').trim();
 const TZ = cfg.timezone || 'Asia/Riyadh';
-const MC_URL = (cfg.missionControl && cfg.missionControl.url) || 'http://127.0.0.1:3000';
-const MC_KEY = (cfg.missionControl && cfg.missionControl.apiKey) || '';
+const MC_URL = process.env.MISSION_CONTROL_URL || (cfg.missionControl && cfg.missionControl.url) || 'http://127.0.0.1:3000';
+const MC_KEY = process.env.MISSION_CONTROL_API_KEY || (cfg.missionControl && cfg.missionControl.apiKey) || '';
 const ERP = cfg.erp || { enabled: false };
 
-const SENT_LOG = path.resolve(ROOT, (cfg.paths && cfg.paths.sentLog) || '../scheduled/sent_log.json');
-const CRON_JOBS = path.resolve(ROOT, (cfg.paths && cfg.paths.cronJobs) || '../../cron/jobs.json');
-const WORKFLOWS = path.resolve(ROOT, (cfg.paths && cfg.paths.workflows) || './workflows.json');
-const OPENCLAW = path.resolve(ROOT, (cfg.paths && cfg.paths.openclaw) || '../../openclaw.json');
+const SENT_LOG = configuredPath(cfg.paths && cfg.paths.sentLog, './data/sent_log.json');
+const CRON_JOBS = configuredPath(cfg.paths && cfg.paths.cronJobs, './data/jobs.json');
+const WORKFLOWS = configuredPath(cfg.paths && cfg.paths.workflows, './workflows.json');
+const OPENCLAW = configuredPath(cfg.paths && cfg.paths.openclaw, './data/openclaw.json');
 
 // ----------------------------------------------------------------------------
 // Friendly names. Two keyings exist:
@@ -1196,7 +1212,7 @@ button{width:100%;padding:12px;border:0;border-radius:10px;background:#1f6feb;co
 <input type="password" name="password" placeholder="Password" autofocus>
 <button type="submit">Enter</button></form></body></html>`;
 
-const server = http.createServer(async (req, res) => {
+async function handleRequest(req, res) {
   const url = new URL(req.url, `http://${req.headers.host}`);
 
   // login flow
@@ -1251,10 +1267,15 @@ const server = http.createServer(async (req, res) => {
   }
 
   send(res, 404, 'Not found');
-});
+}
 
-server.listen(PORT, BIND, () => {
-  console.log(`Boss dashboard running on http://${BIND}:${PORT}`);
-  console.log(`  Mission Control: ${MC_URL}`);
-  console.log(`  Password gate:   ${PASSWORD ? 'ON' : 'off (open on this network)'}`);
-});
+module.exports = handleRequest;
+
+if (require.main === module) {
+  const server = http.createServer(handleRequest);
+  server.listen(PORT, BIND, () => {
+    console.log(`Boss dashboard running on http://${BIND}:${PORT}`);
+    console.log(`  Mission Control: ${MC_URL}`);
+    console.log(`  Password gate:   ${PASSWORD ? 'ON' : 'off (open on this network)'}`);
+  });
+}

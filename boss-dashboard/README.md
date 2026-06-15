@@ -86,6 +86,27 @@ node server.js
 Then open **http://localhost:3001**. From a phone on the same network, use the PC's LAN IP,
 e.g. `http://192.168.1.x:3001`.
 
+## Deploy on Vercel
+
+Deploy the Git repo root, not the `boss-dashboard/` subfolder. The repo root contains
+`vercel.json` and `api/index.js`, which route Vercel requests into this dashboard.
+
+The Vercel deployment uses:
+
+- `config.example.json` when local-only `config.json` is not present.
+- `boss-dashboard/data/jobs.json` as a sanitized active-automation snapshot.
+- Empty bundled placeholders for live send logs and channel bindings.
+
+Optional Vercel environment variables:
+
+| Key | Meaning |
+|-----|---------|
+| `BOSS_DASH_PASS` | Password for the deployed dashboard. Recommended for public URLs. |
+| `MISSION_CONTROL_URL` | Public Mission Control URL, if you expose one later. |
+| `MISSION_CONTROL_API_KEY` | Mission Control API key, if using a public Mission Control endpoint. |
+
+Do not upload local `config.json`; it is ignored by git because it can contain secrets.
+
 ## Configuration — `config.json`
 
 Copy `config.example.json` to `config.json` locally and fill private values there.

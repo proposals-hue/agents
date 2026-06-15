@@ -1,0 +1,13 @@
+{
+  "name": "openclaw-boss-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Read-only boss dashboard for OpenClaw automations.",
+  "scripts": {
+    "start": "node boss-dashboard/server.js",
+    "check": "node --check boss-dashboard/server.js && node --check api/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
