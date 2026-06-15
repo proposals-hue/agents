@@ -945,8 +945,14 @@ function valueToday(todaySends, scriptsToday) {
   ];
 }
 
+function workflowTotal(workflows) {
+  return Object.entries(workflows || {})
+    .filter(([id, wf]) => id && id[0] !== '_' && wf)
+    .length;
+}
+
 function snapshotValue(agents, automations, workflows) {
-  const workflowCount = Object.values(workflows || {}).filter(Boolean).length;
+  const workflowCount = workflowTotal(workflows);
   const teamAreas = new Set([
     ...agents.map((a) => a.area).filter(Boolean),
     ...automations.flatMap((a) => a.relatedAreas || []).filter(Boolean),
@@ -1185,6 +1191,7 @@ async function buildSummary() {
     automationsRunToday: scriptsToday.size,
     activeAutomations: enabledJobs.length,
     totalAutomations: allJobs.length,
+    workflowCount: workflowTotal(workflows),
     channelsTotal: channels.length,
     agentsWorking,
     agentsTotal: agents.length,

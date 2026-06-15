@@ -360,10 +360,12 @@ const STR = {
     good:"كل شيء يعمل", goodSub:"الفريق والمهام تعمل بشكل طبيعي",
     warn:"يحتاج انتباه", warnSub:"هناك شيء يحتاج إلى مراجعة",
     offline:"تعذّر الوصول إلى النظام", offlineSub:"تعذّر الاتصال بلوحة التحكم",
-    snapshot:"نسخة منشورة", snapshotSub:"نسخة آمنة من الفريق والمهام المجدولة",
+    snapshot:"لوحة عامة", snapshotSub:"تعرض الفريق والفحوصات ومسارات العمل المنشورة. التحديثات اليومية تبقى محلية",
     nMessages:"تحديثات أُرسلت اليوم", nAutoRun:"مهام أُنجزت اليوم", nAutoActive:"فحوصات العمل الجارية",
+    snapshotWorkflows:"مسارات العمل", snapshotActivity:"سجل التحديثات اليومية", snapshotLocalOnly:"محلي",
     nAgents:"أعضاء فريق الذكاء الاصطناعي",
     secAgents:"الفريق", secAutos:"المهام المجدولة", secToday:"تحديثات العمل اليوم", secAttention:"يحتاج انتباهك", secValue:"قيمة اليوم",
+    snapshotValueTitle:"التغطية المنشورة", snapshotOverviewSub:"نظرة عامة على الفريق والفحوصات ومسارات العمل المنشورة",
     overviewSub:"ملخص تنفيذي سريع لما تم وما يحتاج انتباهك",
     agentsSub:"اضغط على أي عضو لرؤية سير عمله", jobsSub:"اضغط على أي مهمة لرؤية خطواتها",
     working:"يعمل", resting:"في الاستراحة", attention:"يحتاج انتباه",
@@ -389,10 +391,12 @@ const STR = {
     good:"Everything is running", goodSub:"Your team and tasks are working normally",
     warn:"Needs attention", warnSub:"Something needs a look",
     offline:"System unreachable", offlineSub:"Could not connect to the control panel",
-    snapshot:"Published snapshot", snapshotSub:"Safe public view of the team and scheduled work",
+    snapshot:"Public dashboard", snapshotSub:"Shows published team, checks, and workflows. Daily live updates stay local",
     nMessages:"Updates sent today", nAutoRun:"Tasks completed today", nAutoActive:"Business checks running",
+    snapshotWorkflows:"Workflows mapped", snapshotActivity:"Daily activity log", snapshotLocalOnly:"Local",
     nAgents:"AI team members",
     secAgents:"Your Team", secAutos:"Scheduled Automations", secToday:"Today's Business Updates", secAttention:"Needs Your Attention", secValue:"Value Today",
+    snapshotValueTitle:"Published Coverage", snapshotOverviewSub:"A public overview of team coverage, business checks, and workflows",
     overviewSub:"A daily executive brief of what was handled and what needs your attention",
     agentsSub:"Tap any member to see the workflows they follow", jobsSub:"Tap any automation to see its steps",
     working:"working", resting:"resting", attention:"needs attention",
@@ -474,12 +478,19 @@ function statusBanner(){
 }
 function numbersGrid(){
   const x=t(), n=data.numbers;
-  const cards=[
-    {ic:'💬',v:n.messagesSentToday,l:x.nMessages,t:'t-good'},
-    {ic:'👥',v:n.agentsTotal,l:x.nAgents,t:'t-blue'},
-    {ic:'⏰',v:n.activeAutomations,l:x.nAutoActive,t:''},
-    {ic:'✅',v:n.automationsRunToday,l:x.nAutoRun,t:'t-violet'},
-  ];
+  const cards = data.sourceMode==='snapshot'
+    ? [
+        {ic:'⏰',v:n.activeAutomations,l:x.nAutoActive,t:''},
+        {ic:'👥',v:n.agentsTotal,l:x.nAgents,t:'t-blue'},
+        {ic:'↳',v:n.workflowCount,l:x.snapshotWorkflows,t:'t-good'},
+        {ic:'🔒',v:x.snapshotLocalOnly,l:x.snapshotActivity,t:'t-violet'},
+      ]
+    : [
+        {ic:'💬',v:n.messagesSentToday,l:x.nMessages,t:'t-good'},
+        {ic:'👥',v:n.agentsTotal,l:x.nAgents,t:'t-blue'},
+        {ic:'⏰',v:n.activeAutomations,l:x.nAutoActive,t:''},
+        {ic:'✅',v:n.automationsRunToday,l:x.nAutoRun,t:'t-violet'},
+      ];
   return `<div class="grid-num">`+cards.map(c=>`<div class="num ${c.t}">
     <div class="ic">${c.ic}</div><div class="v tnum">${esc(c.v)}</div><div class="l">${esc(c.l)}</div></div>`).join('')+`</div>`;
 }
@@ -657,6 +668,10 @@ function wfCard(id, wf, open){
 // ---------------- views ----------------
 function viewOverview(){
   const x=t();
+  const isSnapshot = data.sourceMode==='snapshot';
+  const pageSub = isSnapshot ? x.snapshotOverviewSub : x.overviewSub;
+  const valueTitle = isSnapshot ? x.snapshotValueTitle : x.secValue;
+  const todayTitle = isSnapshot ? x.snapshotActivity : x.secToday;
   const todayRows = data.activity || [];
   const today = todayRows.length
     ? `<div class="list">`+todayRows.map(a=>{
@@ -667,7 +682,7 @@ function viewOverview(){
           <div class="main"><div class="title">${esc(headline)}</div>${target?`<div class="desc">${esc(target)}</div>`:''}</div>
           ${impact?`<span class="tag impact">${esc(impact)}</span>`:''}</div>`;
       }).join('')+`</div>`
-    : `<div class="empty">${data.sourceMode==='snapshot' ? x.snapshotNoActivity : x.secToday}</div>`;
+    : `<div class="empty">${isSnapshot ? x.snapshotNoActivity : x.secToday}</div>`;
   const issues = (data.attentionItems && data.attentionItems.length)
     ? data.attentionItems
     : ((data.sourceMode==='offline') ? [{title:{en:x.systemIssue,ar:x.systemIssue}, desc:{en:x.offlineSub,ar:x.offlineSub}, tag:{en:x.attention,ar:x.attention}}] : []);
@@ -676,10 +691,10 @@ function viewOverview(){
         <div class="main"><div class="title">${esc(L(i.title)||i.title)}</div>${i.desc?`<div class="desc">${esc(L(i.desc)||i.desc)}</div>`:''}</div>
         <span class="tag">${esc(L(i.tag)||i.tag)}</span></div>`).join('')+`</div>`
     : `<div class="empty">${x.noIssues}</div>`;
-  return `<div class="page-h"><div><h1>${x.navOverview}</h1><div class="page-sub">${x.overviewSub}</div></div></div>`
+  return `<div class="page-h"><div><h1>${x.navOverview}</h1><div class="page-sub">${pageSub}</div></div></div>`
     + `<div class="hero-grid">${statusBanner()}${numbersGrid()}</div>`
-    + `<h3 class="section">${x.secValue}</h3>${valueGrid()}`
-    + `<div class="overview-split"><section class="overview-main"><h3 class="section">${x.secToday}</h3>${today}</section>`
+    + `<h3 class="section">${valueTitle}</h3>${valueGrid()}`
+    + `<div class="overview-split"><section class="overview-main"><h3 class="section">${todayTitle}</h3>${today}</section>`
     + `<section class="overview-side"><h3 class="section">${x.secAttention}</h3>${attention}</section></div>`;
 }
 function viewAgents(){
