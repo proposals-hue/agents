@@ -34,10 +34,10 @@
         "en": "Watches HR documents, expiry reminders, and staff reports",
         "ar": "يتابع وثائق الموارد البشرية والتنبيهات وتقارير الموظفين"
       },
-      "state": "resting",
+      "state": "working",
       "lastActive": {
-        "en": "1 hr ago",
-        "ar": "قبل 1 ساعة"
+        "en": "just now",
+        "ar": "الآن"
       },
       "workflowCount": 0,
       "automationCount": 5
@@ -150,8 +150,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "just now",
-        "ar": "الآن"
+        "en": "1 min ago",
+        "ar": "قبل 1 دقيقة"
       },
       "workflowCount": 4,
       "automationCount": 11
@@ -167,10 +167,10 @@
         "en": "Watches content approvals and publishing activity",
         "ar": "يتابع اعتماد المحتوى ونشاط النشر"
       },
-      "state": "working",
+      "state": "resting",
       "lastActive": {
-        "en": "7 min ago",
-        "ar": "قبل 7 دقيقة"
+        "en": "17 min ago",
+        "ar": "قبل 17 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -2098,11 +2098,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "14:11",
+  "generatedAt": "14:21",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T11:11:47.761Z",
+  "livePublishedAt": "2026-06-15T11:21:01.457Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
