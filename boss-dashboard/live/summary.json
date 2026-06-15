@@ -1975,11 +1975,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "12:41",
+  "generatedAt": "12:43",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T09:41:28.336Z",
+  "livePublishedAt": "2026-06-15T09:43:13.354Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
