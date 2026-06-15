@@ -17,8 +17,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "just now",
-        "ar": "الآن"
+        "en": "1 min ago",
+        "ar": "قبل 1 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -36,8 +36,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "just now",
-        "ar": "الآن"
+        "en": "3 min ago",
+        "ar": "قبل 3 دقيقة"
       },
       "workflowCount": 0,
       "automationCount": 5
@@ -169,8 +169,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "just now",
-        "ar": "الآن"
+        "en": "1 min ago",
+        "ar": "قبل 1 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -1827,7 +1827,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 7,
+    "messagesSentToday": 8,
     "automationsRunToday": 3,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 35,394.45",
-        "ar": "SAR 35,394.45"
+        "en": "SAR 39,129.65",
+        "ar": "SAR 39,129.65"
       }
     },
     {
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "7 updates | 3 tasks",
-        "ar": "7 تحديثات | 3 مهام"
+        "en": "8 updates | 3 tasks",
+        "ar": "8 تحديثات | 3 مهام"
       }
     },
     {
@@ -1875,6 +1875,21 @@
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "12:45",
+      "sortKey": "2026-06-15 12:45:51",
+      "text": "ACC-2026-PO-00045 (SAR 3,735.20)",
+      "headline": {
+        "en": "Purchase order update: ACC-2026-PO-00045 worth SAR 3,735.2",
+        "ar": "تحديث أمر شراء: ACC-2026-PO-00045 بقيمة SAR 3,735.2"
+      },
+      "impact": {
+        "en": "SAR 3,735.2",
+        "ar": "SAR 3,735.2"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "12:31",
       "sortKey": "2026-06-15 12:31:54",
@@ -1975,11 +1990,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "12:43",
+  "generatedAt": "12:49",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T09:43:13.354Z",
+  "livePublishedAt": "2026-06-15T09:49:25.932Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
