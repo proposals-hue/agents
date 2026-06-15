@@ -36,8 +36,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "1 min ago",
-        "ar": "قبل 1 دقيقة"
+        "en": "just now",
+        "ar": "الآن"
       },
       "workflowCount": 0,
       "automationCount": 5
@@ -55,8 +55,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "39 day(s) ago",
-        "ar": "قبل 39 يوم"
+        "en": "40 day(s) ago",
+        "ar": "قبل 40 يوم"
       },
       "workflowCount": 2,
       "automationCount": 3
@@ -74,8 +74,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "1 min ago",
-        "ar": "قبل 1 دقيقة"
+        "en": "just now",
+        "ar": "الآن"
       },
       "workflowCount": 2,
       "automationCount": 3
@@ -93,8 +93,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "1 min ago",
-        "ar": "قبل 1 دقيقة"
+        "en": "just now",
+        "ar": "الآن"
       },
       "workflowCount": 7,
       "automationCount": 13
@@ -150,8 +150,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "43 min ago",
-        "ar": "قبل 43 دقيقة"
+        "en": "49 min ago",
+        "ar": "قبل 49 دقيقة"
       },
       "workflowCount": 4,
       "automationCount": 11
@@ -167,10 +167,10 @@
         "en": "Watches content approvals and publishing activity",
         "ar": "يتابع اعتماد المحتوى ونشاط النشر"
       },
-      "state": "resting",
+      "state": "working",
       "lastActive": {
-        "en": "59 min ago",
-        "ar": "قبل 59 دقيقة"
+        "en": "just now",
+        "ar": "الآن"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -1827,13 +1827,13 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 20,
+    "messagesSentToday": 21,
     "automationsRunToday": 7,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
     "channelsTotal": 0,
-    "agentsWorking": 3,
+    "agentsWorking": 4,
     "agentsTotal": 11,
     "posPending": null,
     "mrsOpen": null
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 65,234.79",
-        "ar": "SAR 65,234.79"
+        "en": "SAR 65,953.54",
+        "ar": "SAR 65,953.54"
       }
     },
     {
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "20 updates | 7 tasks",
-        "ar": "20 تحديثات | 7 مهام"
+        "en": "21 updates | 7 tasks",
+        "ar": "21 تحديثات | 7 مهام"
       }
     },
     {
@@ -1875,6 +1875,21 @@
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "15:05",
+      "sortKey": "2026-06-15 15:05:44",
+      "text": "APCC-2026-PO-00118 (SAR 718.75)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00118 worth SAR 718.75",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00118 بقيمة SAR 718.75"
+      },
+      "impact": {
+        "en": "SAR 718.75",
+        "ar": "SAR 718.75"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "14:52",
       "sortKey": "2026-06-15 14:52:36",
@@ -2155,11 +2170,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "15:02",
+  "generatedAt": "15:09",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T12:02:50.276Z",
+  "livePublishedAt": "2026-06-15T12:09:40.418Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
