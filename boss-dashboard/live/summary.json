@@ -17,8 +17,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "6 min ago",
-        "ar": "قبل 6 دقيقة"
+        "en": "10 min ago",
+        "ar": "قبل 10 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -34,10 +34,10 @@
         "en": "Watches HR documents, expiry reminders, and staff reports",
         "ar": "يتابع وثائق الموارد البشرية والتنبيهات وتقارير الموظفين"
       },
-      "state": "working",
+      "state": "resting",
       "lastActive": {
-        "en": "8 min ago",
-        "ar": "قبل 8 دقيقة"
+        "en": "12 min ago",
+        "ar": "قبل 12 دقيقة"
       },
       "workflowCount": 0,
       "automationCount": 5
@@ -93,8 +93,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "4 min ago",
-        "ar": "قبل 4 دقيقة"
+        "en": "8 min ago",
+        "ar": "قبل 8 دقيقة"
       },
       "workflowCount": 7,
       "automationCount": 13
@@ -169,8 +169,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "6 min ago",
-        "ar": "قبل 6 دقيقة"
+        "en": "10 min ago",
+        "ar": "قبل 10 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -1833,7 +1833,7 @@
     "totalAutomations": 98,
     "workflowCount": 26,
     "channelsTotal": 0,
-    "agentsWorking": 6,
+    "agentsWorking": 5,
     "agentsTotal": 11,
     "posPending": null,
     "mrsOpen": null
@@ -1990,11 +1990,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "12:54",
+  "generatedAt": "12:58",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T09:54:04.576Z",
+  "livePublishedAt": "2026-06-15T09:58:39.947Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
