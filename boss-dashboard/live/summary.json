@@ -1994,7 +1994,7 @@
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T10:07:35.464Z",
+  "livePublishedAt": "2026-06-15T10:07:45.842Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
