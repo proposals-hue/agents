@@ -17,8 +17,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "19 min ago",
-        "ar": "قبل 19 دقيقة"
+        "en": "28 min ago",
+        "ar": "قبل 28 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -36,8 +36,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "21 min ago",
-        "ar": "قبل 21 دقيقة"
+        "en": "30 min ago",
+        "ar": "قبل 30 دقيقة"
       },
       "workflowCount": 0,
       "automationCount": 5
@@ -93,8 +93,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "17 min ago",
-        "ar": "قبل 17 دقيقة"
+        "en": "26 min ago",
+        "ar": "قبل 26 دقيقة"
       },
       "workflowCount": 7,
       "automationCount": 13
@@ -1827,7 +1827,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 8,
+    "messagesSentToday": 9,
     "automationsRunToday": 3,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 39,129.65",
-        "ar": "SAR 39,129.65"
+        "en": "SAR 39,149.65",
+        "ar": "SAR 39,149.65"
       }
     },
     {
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "8 updates | 3 tasks",
-        "ar": "8 تحديثات | 3 مهام"
+        "en": "9 updates | 3 tasks",
+        "ar": "9 تحديثات | 3 مهام"
       }
     },
     {
@@ -1875,6 +1875,21 @@
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "13:11",
+      "sortKey": "2026-06-15 13:11:46",
+      "text": "ACC-2026-PO-00048 (SAR 20.00)",
+      "headline": {
+        "en": "Purchase order update: ACC-2026-PO-00048 worth SAR 20",
+        "ar": "تحديث أمر شراء: ACC-2026-PO-00048 بقيمة SAR 20"
+      },
+      "impact": {
+        "en": "SAR 20",
+        "ar": "SAR 20"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "12:45",
       "sortKey": "2026-06-15 12:45:51",
@@ -1990,11 +2005,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "13:07",
+  "generatedAt": "13:16",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T10:07:45.842Z",
+  "livePublishedAt": "2026-06-15T10:16:17.577Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
