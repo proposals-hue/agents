@@ -2102,7 +2102,7 @@
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T11:28:21.847Z",
+  "livePublishedAt": "2026-06-15T11:28:32.220Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
