@@ -2020,11 +2020,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "13:47",
+  "generatedAt": "13:48",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T10:47:57.123Z",
+  "livePublishedAt": "2026-06-15T10:48:06.681Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
