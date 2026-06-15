@@ -150,8 +150,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "21 min ago",
-        "ar": "قبل 21 دقيقة"
+        "en": "27 min ago",
+        "ar": "قبل 27 دقيقة"
       },
       "workflowCount": 4,
       "automationCount": 11
@@ -169,8 +169,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "37 min ago",
-        "ar": "قبل 37 دقيقة"
+        "en": "43 min ago",
+        "ar": "قبل 43 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -1827,8 +1827,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 17,
-    "automationsRunToday": 5,
+    "messagesSentToday": 18,
+    "automationsRunToday": 6,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "17 updates | 5 tasks",
-        "ar": "17 تحديثات | 5 مهام"
+        "en": "18 updates | 6 tasks",
+        "ar": "18 تحديثات | 6 مهام"
       }
     },
     {
@@ -1868,13 +1868,25 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "5 chats/groups",
-        "ar": "5 محادثات/مجموعات"
+        "en": "6 chats/groups",
+        "ar": "6 محادثات/مجموعات"
       }
     }
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "14:42",
+      "sortKey": "2026-06-15 14:42:17",
+      "text": "1 new MR(s): MAT-MR-2026-00620",
+      "headline": {
+        "en": "1 new MR(s): MAT-MR-2026-00620",
+        "ar": "1 new MR(s): MAT-MR-2026-00620"
+      },
+      "impact": null,
+      "to": "procurement group",
+      "source": "send"
+    },
     {
       "time": "14:31",
       "sortKey": "2026-06-15 14:31:00",
@@ -2113,11 +2125,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "14:41",
+  "generatedAt": "14:47",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T11:41:00.084Z",
+  "livePublishedAt": "2026-06-15T11:47:47.319Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
