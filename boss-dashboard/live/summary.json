@@ -2009,7 +2009,7 @@
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T10:23:08.131Z",
+  "livePublishedAt": "2026-06-15T10:23:18.257Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
