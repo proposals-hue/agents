@@ -36,8 +36,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "27 min ago",
-        "ar": "قبل 27 دقيقة"
+        "en": "33 min ago",
+        "ar": "قبل 33 دقيقة"
       },
       "workflowCount": 0,
       "automationCount": 5
@@ -1827,8 +1827,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 23,
-    "automationsRunToday": 7,
+    "messagesSentToday": 24,
+    "automationsRunToday": 8,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 35,689.57",
-        "ar": "SAR 35,689.57"
+        "en": "SAR 35,526.57",
+        "ar": "SAR 35,526.57"
       }
     },
     {
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "23 updates | 7 tasks",
-        "ar": "23 تحديثات | 7 مهام"
+        "en": "24 updates | 8 tasks",
+        "ar": "24 تحديثات | 8 مهام"
       }
     },
     {
@@ -1875,6 +1875,42 @@
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "15:43",
+      "sortKey": "2026-06-15 15:43:28",
+      "text": "1 truck(s) arriving soon [id=3EB06AF5987C80E436CA20]",
+      "headline": {
+        "en": "1 truck(s) arriving soon [id=3EB06AF5987C80E436CA20]",
+        "ar": "1 truck(s) arriving soon [id=3EB06AF5987C80E436CA20]"
+      },
+      "impact": null,
+      "to": "delivery group",
+      "source": "send"
+    },
+    {
+      "time": "15:43",
+      "sortKey": "2026-06-15 15:43:07",
+      "text": "ISMS-2026-00021 reply from SHOAIB MOHAMMED -> boss [id=3EB0008D3E27121AE0C338]",
+      "headline": {
+        "en": "ISMS-2026-00021 reply from SHOAIB MOHAMMED -> boss [id=3EB0008D3E27121AE0C338]",
+        "ar": "ISMS-2026-00021 reply from SHOAIB MOHAMMED -> boss [id=3EB0008D3E27121AE0C338]"
+      },
+      "impact": null,
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "15:40",
+      "sortKey": "2026-06-15 15:40:39",
+      "text": "Sameh team 5 below 8 visits [id=3EB0605D9589FB01186102]",
+      "headline": {
+        "en": "Sameh team 5 below 8 visits [id=3EB0605D9589FB01186102]",
+        "ar": "Sameh team 5 below 8 visits [id=3EB0605D9589FB01186102]"
+      },
+      "impact": null,
+      "to": "Sameh Darwish",
+      "source": "send"
+    },
     {
       "time": "15:40",
       "sortKey": "2026-06-15 15:40:01",
@@ -2156,40 +2192,13 @@
       },
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "12:31",
-      "sortKey": "2026-06-15 12:31:54",
-      "text": "delayed store intake reply: payment_missing_amount [id=3EB07186011244F6D65989]",
-      "headline": {
-        "en": "delayed store intake reply: payment_missing_amount [id=3EB07186011244F6D65989]",
-        "ar": "delayed store intake reply: payment_missing_amount [id=3EB07186011244F6D65989]"
-      },
-      "impact": null,
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "12:26",
-      "sortKey": "2026-06-15 12:26:56",
-      "text": "ACC-2026-PO-00029 (SAR 163.00)",
-      "headline": {
-        "en": "Purchase order update: ACC-2026-PO-00029 worth SAR 163",
-        "ar": "تحديث أمر شراء: ACC-2026-PO-00029 بقيمة SAR 163"
-      },
-      "impact": {
-        "en": "SAR 163",
-        "ar": "SAR 163"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "15:40",
+  "generatedAt": "15:46",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T12:40:02.385Z",
+  "livePublishedAt": "2026-06-15T12:46:45.712Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
