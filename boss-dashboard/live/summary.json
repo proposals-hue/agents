@@ -150,8 +150,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "49 min ago",
-        "ar": "قبل 49 دقيقة"
+        "en": "50 min ago",
+        "ar": "قبل 50 دقيقة"
       },
       "workflowCount": 4,
       "automationCount": 11
@@ -2174,7 +2174,7 @@
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T12:09:40.418Z",
+  "livePublishedAt": "2026-06-15T12:09:52.219Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
