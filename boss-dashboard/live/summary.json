@@ -15,10 +15,10 @@
         "en": "Watches vehicles, documents, and fleet incidents",
         "ar": "يتابع المركبات والوثائق وحوادث الأسطول"
       },
-      "state": "working",
+      "state": "resting",
       "lastActive": {
-        "en": "13 min ago",
-        "ar": "قبل 13 دقيقة"
+        "en": "14 min ago",
+        "ar": "قبل 14 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -36,8 +36,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "15 min ago",
-        "ar": "قبل 15 دقيقة"
+        "en": "16 min ago",
+        "ar": "قبل 16 دقيقة"
       },
       "workflowCount": 0,
       "automationCount": 5
@@ -91,10 +91,10 @@
         "en": "Watches material requests, POs, and suppliers",
         "ar": "يتابع طلبات المواد وأوامر الشراء والموردين"
       },
-      "state": "working",
+      "state": "resting",
       "lastActive": {
-        "en": "11 min ago",
-        "ar": "قبل 11 دقيقة"
+        "en": "12 min ago",
+        "ar": "قبل 12 دقيقة"
       },
       "workflowCount": 7,
       "automationCount": 13
@@ -167,10 +167,10 @@
         "en": "Watches content approvals and publishing activity",
         "ar": "يتابع اعتماد المحتوى ونشاط النشر"
       },
-      "state": "working",
+      "state": "resting",
       "lastActive": {
-        "en": "13 min ago",
-        "ar": "قبل 13 دقيقة"
+        "en": "14 min ago",
+        "ar": "قبل 14 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -1833,7 +1833,7 @@
     "totalAutomations": 98,
     "workflowCount": 26,
     "channelsTotal": 0,
-    "agentsWorking": 5,
+    "agentsWorking": 2,
     "agentsTotal": 11,
     "posPending": null,
     "mrsOpen": null
@@ -1994,7 +1994,7 @@
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T10:01:39.923Z",
+  "livePublishedAt": "2026-06-15T10:01:56.296Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
