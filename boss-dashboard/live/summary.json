@@ -36,8 +36,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "5 min ago",
-        "ar": "قبل 5 دقيقة"
+        "en": "11 min ago",
+        "ar": "قبل 11 دقيقة"
       },
       "workflowCount": 0,
       "automationCount": 5
@@ -150,8 +150,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "58 min ago",
-        "ar": "قبل 58 دقيقة"
+        "en": "1 hr ago",
+        "ar": "قبل 1 ساعة"
       },
       "workflowCount": 4,
       "automationCount": 11
@@ -2170,11 +2170,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "15:17",
+  "generatedAt": "15:24",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T12:17:56.604Z",
+  "livePublishedAt": "2026-06-15T12:24:45.362Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
