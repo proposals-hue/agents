@@ -1,0 +1,367 @@
+{
+  "_README": "Authored, bilingual workflow library for the boss dashboard. Keyed by cron job id. 'area' links a flow to a business agent (main, procurement, accounts, sales, delivery, marketing, projects, rental, fleet, hr). The trigger pill is built from the job's real (humanized) schedule at render time; node text stays short on purpose. Node types: action, decision, message, wait, stop, done. Decision branches: exactly one has continue:true (stays on the spine); the other has terminal:{en,ar} (a dead-end outcome).",
+
+  "py-raw-material-shortage-001": {
+    "area": "procurement",
+    "title": { "en": "Raw-material shortage reminder", "ar": "تنبيه نقص المواد الخام" },
+    "recipients": { "en": "Javed (procurement)", "ar": "جاويد (المشتريات)" },
+    "nodes": [
+      { "type": "action", "en": "Check BCI raw-material stock in ERP", "ar": "فحص مخزون المواد الخام في ERP" },
+      { "type": "decision", "q": { "en": "Any item short or below safety stock?", "ar": "هل يوجد صنف ناقص أو تحت حد الأمان؟" },
+        "branches": [
+          { "label": { "en": "No", "ar": "لا" }, "terminal": { "en": "nothing to do", "ar": "لا شيء" } },
+          { "label": { "en": "Yes", "ar": "نعم" }, "continue": true } ] },
+      { "type": "decision", "q": { "en": "Did Javed already open a Material Request?", "ar": "هل فتح جاويد طلب مواد بالفعل؟" },
+        "branches": [
+          { "label": { "en": "Yes", "ar": "نعم" }, "terminal": { "en": "stay quiet", "ar": "يبقى صامتاً" } },
+          { "label": { "en": "No", "ar": "لا" }, "continue": true } ] },
+      { "type": "message", "en": "WhatsApp Javed personally (+966 59 947 3704)", "ar": "مراسلة جاويد على واتساب شخصياً" },
+      { "type": "wait", "en": "Next day — still no Material Request?", "ar": "اليوم التالي — لا يزال لا يوجد طلب؟" },
+      { "type": "message", "en": "Send ONE follow-up", "ar": "إرسال تذكير واحد فقط" },
+      { "type": "stop", "en": "Then stay silent until it reappears", "ar": "ثم يبقى صامتاً حتى تتكرر المشكلة" }
+    ]
+  },
+
+  "py-mr-leadtime-001": {
+    "area": "procurement",
+    "title": { "en": "Overdue Material Request checker", "ar": "متابعة طلبات المواد المتأخرة" },
+    "recipients": { "en": "Procurement group", "ar": "مجموعة المشتريات" },
+    "nodes": [
+      { "type": "action", "en": "Find Material Requests past their due date", "ar": "إيجاد طلبات المواد المتأخرة عن موعدها" },
+      { "type": "decision", "q": { "en": "Any overdue and not yet flagged?", "ar": "هل يوجد متأخر ولم يُنبَّه عنه؟" },
+        "branches": [
+          { "label": { "en": "No", "ar": "لا" }, "terminal": { "en": "nothing", "ar": "لا شيء" } },
+          { "label": { "en": "Yes", "ar": "نعم" }, "continue": true } ] },
+      { "type": "action", "en": "Pick the single most overdue one", "ar": "اختيار الأكثر تأخراً فقط" },
+      { "type": "message", "en": "Alert the procurement group", "ar": "تنبيه مجموعة المشتريات" },
+      { "type": "stop", "en": "Re-alert only after 3 days", "ar": "إعادة التنبيه بعد 3 أيام فقط" }
+    ]
+  },
+
+  "012854ef-36ba-4061-a3f9-3727d7579555": {
+    "area": "procurement",
+    "title": { "en": "New Material Request watcher", "ar": "مراقبة طلبات المواد الجديدة" },
+    "recipients": { "en": "Procurement group", "ar": "مجموعة المشتريات" },
+    "nodes": [
+      { "type": "action", "en": "Watch ERP for newly created Material Requests", "ar": "مراقبة ERP لطلبات المواد الجديدة" },
+      { "type": "decision", "q": { "en": "A new request appeared?", "ar": "هل ظهر طلب جديد؟" },
+        "branches": [
+          { "label": { "en": "No", "ar": "لا" }, "terminal": { "en": "keep watching", "ar": "يستمر بالمراقبة" } },
+          { "label": { "en": "Yes", "ar": "نعم" }, "continue": true } ] },
+      { "type": "message", "en": "Post it to the procurement group", "ar": "نشره في مجموعة المشتريات" }
+    ]
+  },
+
+  "py-po-approval-notifier-001": {
+    "area": "procurement",
+    "title": { "en": "Purchase Order approval nudge", "ar": "تنبيه موافقة أوامر الشراء" },
+    "recipients": { "en": "Eng. Muhammad", "ar": "المهندس محمد" },
+    "nodes": [
+      { "type": "action", "en": "Find Purchase Orders pending approval", "ar": "إيجاد أوامر الشراء المنتظرة للموافقة" },
+      { "type": "decision", "q": { "en": "Any waiting?", "ar": "هل يوجد منتظر؟" },
+        "branches": [
+          { "label": { "en": "No", "ar": "لا" }, "terminal": { "en": "none", "ar": "لا شيء" } },
+          { "label": { "en": "Yes", "ar": "نعم" }, "continue": true } ] },
+      { "type": "message", "en": "Send to boss for quick approval (with employee name)", "ar": "إرسالها للمهندس للموافقة السريعة (مع اسم الموظف)" }
+    ]
+  },
+
+  "py-po-notifier-anas-001": {
+    "area": "procurement",
+    "title": { "en": "APC Purchase Order notifier", "ar": "إشعار أوامر شراء APC" },
+    "recipients": { "en": "Anas (APC manager)", "ar": "أنس (مدير APC)" },
+    "nodes": [
+      { "type": "action", "en": "Check for new APC Purchase Orders", "ar": "فحص أوامر شراء APC الجديدة" },
+      { "type": "decision", "q": { "en": "Any new ones?", "ar": "هل يوجد جديد؟" },
+        "branches": [
+          { "label": { "en": "No", "ar": "لا" }, "terminal": { "en": "none", "ar": "لا شيء" } },
+          { "label": { "en": "Yes", "ar": "نعم" }, "continue": true } ] },
+      { "type": "message", "en": "Send them to Anas", "ar": "إرسالها إلى أنس" }
+    ]
+  },
+
+  "py-chemanalyst-scraper-001": {
+    "area": "procurement",
+    "title": { "en": "Commodity price scraper", "ar": "ساحب أسعار المواد الأولية" },
+    "recipients": { "en": "Internal (feeds RFQ pricing)", "ar": "داخلي (يغذي تسعير العروض)" },
+    "nodes": [
+      { "type": "action", "en": "Scrape commodity prices (caustic soda, MDI, …)", "ar": "سحب أسعار المواد (الصودا الكاوية، MDI، …)" },
+      { "type": "action", "en": "Save them for price-drift detection", "ar": "حفظها لرصد تغيّر الأسعار" },
+      { "type": "stop", "en": "Silent — feeds procurement decisions", "ar": "صامت — يغذّي قرارات الشراء" }
+    ]
+  },
+
+  "py-rm-barcode-allocator-001": {
+    "area": "procurement",
+    "title": { "en": "Raw-material barcode allocator", "ar": "مُخصِّص باركود المواد الخام" },
+    "recipients": { "en": "Internal (silent)", "ar": "داخلي (صامت)" },
+    "nodes": [
+      { "type": "action", "en": "Find raw items missing a barcode", "ar": "إيجاد المواد بدون باركود" },
+      { "type": "decision", "q": { "en": "Any missing?", "ar": "هل يوجد ناقص؟" },
+        "branches": [
+          { "label": { "en": "No", "ar": "لا" }, "terminal": { "en": "all set", "ar": "كله جاهز" } },
+          { "label": { "en": "Yes", "ar": "نعم" }, "continue": true } ] },
+      { "type": "action", "en": "Assign next barcode + Code128 image", "ar": "تعيين باركود جديد وصورة Code128" },
+      { "type": "stop", "en": "Runs silently", "ar": "يعمل بصمت" }
+    ]
+  },
+
+  "py-erp-monitor-001": {
+    "area": "main",
+    "title": { "en": "ERP new-activity monitor", "ar": "مراقب نشاط ERP الجديد" },
+    "recipients": { "en": "Eng. Muhammad", "ar": "المهندس محمد" },
+    "nodes": [
+      { "type": "action", "en": "Scan ERP for new records since last check", "ar": "مسح ERP عن السجلات الجديدة منذ آخر فحص" },
+      { "type": "action", "en": "New staff, leaves, items, POs, projects", "ar": "موظفون، إجازات، أصناف، أوامر شراء، مشاريع" },
+      { "type": "decision", "q": { "en": "Anything new found?", "ar": "هل وُجد شيء جديد؟" },
+        "branches": [
+          { "label": { "en": "No", "ar": "لا" }, "terminal": { "en": "stay silent", "ar": "يبقى صامتاً" } },
+          { "label": { "en": "Yes", "ar": "نعم" }, "continue": true } ] },
+      { "type": "message", "en": "Send a short summary to Eng. Muhammad", "ar": "إرسال ملخص قصير للمهندس محمد" }
+    ]
+  },
+
+  "py-morning-briefing-001": {
+    "area": "main",
+    "title": { "en": "Morning briefing", "ar": "الموجز الصباحي" },
+    "recipients": { "en": "Eng. Muhammad", "ar": "المهندس محمد" },
+    "nodes": [
+      { "type": "action", "en": "Gather collections due, pending approvals, sales snapshot", "ar": "جمع التحصيلات المستحقة والموافقات ولمحة المبيعات" },
+      { "type": "action", "en": "Build the morning briefing", "ar": "إعداد الموجز الصباحي" },
+      { "type": "message", "en": "Send it to Eng. Muhammad", "ar": "إرساله للمهندس محمد" }
+    ]
+  },
+
+  "py-collections-brief-001": {
+    "area": "accounts",
+    "title": { "en": "Collections intelligence brief", "ar": "موجز ذكاء التحصيلات" },
+    "recipients": { "en": "Eng. Muhammad (Arabic)", "ar": "المهندس محمد (بالعربية)" },
+    "nodes": [
+      { "type": "action", "en": "Analyze receivables aging + top 10 debtors", "ar": "تحليل أعمار الذمم وأكبر 10 مدينين" },
+      { "type": "action", "en": "Rank who to chase first", "ar": "ترتيب أولوية التحصيل" },
+      { "type": "message", "en": "Send the collections brief to the boss", "ar": "إرسال موجز التحصيلات للمهندس" }
+    ]
+  },
+
+  "py-dn-so-notifier-001": {
+    "area": "sales",
+    "title": { "en": "Daily deliveries & orders digest", "ar": "ملخص التسليمات والطلبات اليومي" },
+    "recipients": { "en": "Each salesman", "ar": "كل مندوب" },
+    "nodes": [
+      { "type": "action", "en": "Collect today's Delivery Notes & Sales Orders", "ar": "جمع إشعارات التسليم وأوامر البيع لليوم" },
+      { "type": "action", "en": "Group them by salesman", "ar": "تجميعها حسب المندوب" },
+      { "type": "decision", "q": { "en": "Salesman's number known?", "ar": "هل رقم المندوب معروف؟" },
+        "branches": [
+          { "label": { "en": "No", "ar": "لا" }, "terminal": { "en": "send to boss instead", "ar": "تُرسل للمهندس بدلاً منه" } },
+          { "label": { "en": "Yes", "ar": "نعم" }, "continue": true } ] },
+      { "type": "message", "en": "Send each salesman his daily digest", "ar": "إرسال ملخص يومي لكل مندوب" }
+    ]
+  },
+
+  "py-salesman-target-tracker-001": {
+    "area": "sales",
+    "title": { "en": "Salesman target tracker", "ar": "متابعة أهداف المندوبين" },
+    "recipients": { "en": "Each salesman (text + voice)", "ar": "كل مندوب (نص وصوت)" },
+    "nodes": [
+      { "type": "action", "en": "Compute month-to-date sales vs target", "ar": "حساب المبيعات حتى تاريخه مقابل الهدف" },
+      { "type": "action", "en": "Add rank, top 3 customers, days left", "ar": "إضافة الترتيب وأفضل 3 عملاء والأيام المتبقية" },
+      { "type": "message", "en": "Send a positive performance update", "ar": "إرسال تحديث أداء إيجابي" }
+    ]
+  },
+
+  "py-salesman-visit-tracker-noon-001": {
+    "area": "sales",
+    "title": { "en": "Visit tracker — noon nudge", "ar": "متابعة الزيارات — تذكير الظهيرة" },
+    "recipients": { "en": "Salesmen", "ar": "المندوبون" },
+    "nodes": [
+      { "type": "action", "en": "Check who hasn't logged any visit yet", "ar": "من لم يسجّل أي زيارة بعد" },
+      { "type": "decision", "q": { "en": "Logged at least one?", "ar": "هل سجّل زيارة واحدة على الأقل؟" },
+        "branches": [
+          { "label": { "en": "Yes", "ar": "نعم" }, "terminal": { "en": "ok", "ar": "تمام" } },
+          { "label": { "en": "No", "ar": "لا" }, "continue": true } ] },
+      { "type": "message", "en": "Gentle nudge to start logging visits", "ar": "تذكير لطيف ببدء تسجيل الزيارات" }
+    ]
+  },
+
+  "py-salesman-visit-tracker-midday-001": {
+    "area": "sales",
+    "title": { "en": "Visit tracker — 15:30 nudge", "ar": "متابعة الزيارات — تذكير 15:30" },
+    "recipients": { "en": "Salesmen", "ar": "المندوبون" },
+    "nodes": [
+      { "type": "action", "en": "Check visit count so far today", "ar": "فحص عدد الزيارات حتى الآن اليوم" },
+      { "type": "decision", "q": { "en": "On track for the day?", "ar": "هل هو على المسار الصحيح لليوم؟" },
+        "branches": [
+          { "label": { "en": "Yes", "ar": "نعم" }, "terminal": { "en": "ok", "ar": "تمام" } },
+          { "label": { "en": "No", "ar": "لا" }, "continue": true } ] },
+      { "type": "message", "en": "Nudge: still time to catch up", "ar": "تذكير: لا يزال هناك وقت للحاق" }
+    ]
+  },
+
+  "py-salesman-visit-tracker-eod-001": {
+    "area": "sales",
+    "title": { "en": "Visit tracker — end-of-day report", "ar": "متابعة الزيارات — تقرير نهاية اليوم" },
+    "recipients": { "en": "Eng. Muhammad", "ar": "المهندس محمد" },
+    "nodes": [
+      { "type": "action", "en": "Count each salesman's site visits today", "ar": "عدّ زيارات كل مندوب اليوم" },
+      { "type": "decision", "q": { "en": "Below the daily floor?", "ar": "أقل من الحد اليومي؟" },
+        "branches": [
+          { "label": { "en": "No", "ar": "لا" }, "terminal": { "en": "good day", "ar": "يوم جيد" } },
+          { "label": { "en": "Yes", "ar": "نعم" }, "continue": true } ] },
+      { "type": "message", "en": "Report the shortfall names to the boss", "ar": "إبلاغ المهندس بأسماء المقصّرين" }
+    ]
+  },
+
+  "py-quotation-followup-001": {
+    "area": "sales",
+    "title": { "en": "Quotation follow-up", "ar": "متابعة عروض الأسعار" },
+    "recipients": { "en": "Each salesman", "ar": "كل مندوب" },
+    "nodes": [
+      { "type": "action", "en": "Find quotations older than 3 days", "ar": "إيجاد عروض الأسعار الأقدم من 3 أيام" },
+      { "type": "decision", "q": { "en": "Salesman already nudged in last 3 days?", "ar": "هل ذُكِّر المندوب خلال آخر 3 أيام؟" },
+        "branches": [
+          { "label": { "en": "Yes", "ar": "نعم" }, "terminal": { "en": "skip", "ar": "تجاوز" } },
+          { "label": { "en": "No", "ar": "لا" }, "continue": true } ] },
+      { "type": "action", "en": "Group his quotes by age (3-5d / 6-13d / 14d+)", "ar": "تجميع عروضه حسب العمر (3-5 / 6-13 / 14+ يوم)" },
+      { "type": "message", "en": "Send a follow-up digest to the salesman", "ar": "إرسال ملخص متابعة للمندوب" }
+    ]
+  },
+
+  "py-shipment-delay-001": {
+    "area": "delivery",
+    "title": { "en": "Shipment delay checker", "ar": "فاحص تأخر الشحنات" },
+    "recipients": { "en": "Delivery group + driver", "ar": "مجموعة التوصيل والسائق" },
+    "nodes": [
+      { "type": "action", "en": "Check in-transit shipments vs expected arrival", "ar": "فحص الشحنات الجارية مقابل وقت الوصول المتوقع" },
+      { "type": "decision", "q": { "en": "Running late by 40+ minutes?", "ar": "متأخرة 40 دقيقة أو أكثر؟" },
+        "branches": [
+          { "label": { "en": "No", "ar": "لا" }, "terminal": { "en": "on time", "ar": "في الوقت" } },
+          { "label": { "en": "Yes", "ar": "نعم" }, "continue": true } ] },
+      { "type": "message", "en": "Alert delivery group + ask driver for ETA", "ar": "تنبيه مجموعة التوصيل وسؤال السائق عن الوصول" },
+      { "type": "wait", "en": "When it finally arrives", "ar": "عند وصولها أخيراً" },
+      { "type": "done", "en": "Send an arrival / cleared notice", "ar": "إرسال إشعار الوصول" }
+    ]
+  },
+
+  "py-truck-arrival-001": {
+    "area": "delivery",
+    "title": { "en": "Truck arrival alert", "ar": "تنبيه وصول الشاحنات" },
+    "recipients": { "en": "Delivery group", "ar": "مجموعة التوصيل" },
+    "nodes": [
+      { "type": "action", "en": "Check in-transit trucks' expected arrival", "ar": "فحص وقت وصول الشاحنات الجارية" },
+      { "type": "decision", "q": { "en": "Arriving within 30 minutes?", "ar": "ستصل خلال 30 دقيقة؟" },
+        "branches": [
+          { "label": { "en": "No", "ar": "لا" }, "terminal": { "en": "keep waiting", "ar": "ينتظر" } },
+          { "label": { "en": "Yes", "ar": "نعم" }, "continue": true } ] },
+      { "type": "action", "en": "Gather the truck's cargo list", "ar": "جلب قائمة حمولة الشاحنة" },
+      { "type": "message", "en": "Notify delivery group: truck approaching", "ar": "إشعار مجموعة التوصيل: الشاحنة تقترب" }
+    ]
+  },
+
+  "py-bci-dn-so-reconcile-001": {
+    "area": "delivery",
+    "title": { "en": "Store deliveries vs orders check", "ar": "مطابقة تسليمات المخزن مع الطلبات" },
+    "recipients": { "en": "BCI Store group", "ar": "مجموعة مخزن BCI" },
+    "nodes": [
+      { "type": "action", "en": "Compare BCI Delivery Notes against Sales Orders", "ar": "مطابقة إشعارات التسليم مع أوامر البيع" },
+      { "type": "decision", "q": { "en": "Any mismatch found?", "ar": "هل وُجد عدم تطابق؟" },
+        "branches": [
+          { "label": { "en": "No", "ar": "لا" }, "terminal": { "en": "all matched", "ar": "كله مطابق" } },
+          { "label": { "en": "Yes", "ar": "نعم" }, "continue": true } ] },
+      { "type": "message", "en": "Flag it to the BCI Store group", "ar": "تنبيه مجموعة مخزن BCI" }
+    ]
+  },
+
+  "py-bci-store-group-reminders-001": {
+    "area": "delivery",
+    "title": { "en": "Store delivery-note reminder", "ar": "تذكير إشعارات تسليم المخزن" },
+    "recipients": { "en": "BCI Store group", "ar": "مجموعة مخزن BCI" },
+    "nodes": [
+      { "type": "action", "en": "Find delivery requests still without a note in ERP", "ar": "إيجاد طلبات التسليم بدون إشعار في ERP" },
+      { "type": "decision", "q": { "en": "Any still pending?", "ar": "هل يوجد معلّق؟" },
+        "branches": [
+          { "label": { "en": "No", "ar": "لا" }, "terminal": { "en": "clear", "ar": "لا شيء" } },
+          { "label": { "en": "Yes", "ar": "نعم" }, "continue": true } ] },
+      { "type": "message", "en": "Remind the group to create the delivery note", "ar": "تذكير المجموعة بإنشاء إشعار التسليم" }
+    ]
+  },
+
+  "py-oil-change-001": {
+    "area": "fleet",
+    "title": { "en": "Oil-change checker", "ar": "فاحص تغيير الزيت" },
+    "recipients": { "en": "Delivery group", "ar": "مجموعة التوصيل" },
+    "nodes": [
+      { "type": "action", "en": "For each vehicle, compute km since last oil change", "ar": "حساب المسافة منذ آخر تغيير زيت لكل مركبة" },
+      { "type": "decision", "q": { "en": "9,000+ km since last service?", "ar": "9000 كم أو أكثر منذ آخر صيانة؟" },
+        "branches": [
+          { "label": { "en": "No", "ar": "لا" }, "terminal": { "en": "fine", "ar": "سليمة" } },
+          { "label": { "en": "Yes", "ar": "نعم" }, "continue": true } ] },
+      { "type": "message", "en": "Alert delivery group for that vehicle", "ar": "تنبيه المجموعة لهذه المركبة" },
+      { "type": "stop", "en": "Cooldown 7 days before repeating", "ar": "فترة انتظار 7 أيام قبل التكرار" }
+    ]
+  },
+
+  "py-unengaged-trucks-001": {
+    "area": "fleet",
+    "title": { "en": "Idle-trucks reminder", "ar": "تذكير الشاحنات غير المشغّلة" },
+    "recipients": { "en": "Delivery group", "ar": "مجموعة التوصيل" },
+    "nodes": [
+      { "type": "action", "en": "List vehicles with no trip today", "ar": "حصر المركبات بدون رحلة اليوم" },
+      { "type": "decision", "q": { "en": "Any idle trucks on a working day?", "ar": "هل توجد شاحنات خاملة في يوم عمل؟" },
+        "branches": [
+          { "label": { "en": "No", "ar": "لا" }, "terminal": { "en": "all engaged", "ar": "كلها مشغّلة" } },
+          { "label": { "en": "Yes", "ar": "نعم" }, "continue": true } ] },
+      { "type": "message", "en": "Ask delivery group to assign trips", "ar": "مطالبة المجموعة بإسناد رحلات" }
+    ]
+  },
+
+  "py-rent-reminder-001": {
+    "area": "rental",
+    "title": { "en": "Rent installment reminder", "ar": "تذكير أقساط الإيجار" },
+    "recipients": { "en": "Eng. Muhammad + Uzair", "ar": "المهندس محمد وعزير" },
+    "nodes": [
+      { "type": "action", "en": "Compute rent installments due in the next 15 days", "ar": "حساب أقساط الإيجار المستحقة خلال 15 يوماً" },
+      { "type": "decision", "q": { "en": "Any due soon and not yet reminded?", "ar": "هل يوجد مستحق قريباً ولم يُذكَّر به؟" },
+        "branches": [
+          { "label": { "en": "No", "ar": "لا" }, "terminal": { "en": "nothing", "ar": "لا شيء" } },
+          { "label": { "en": "Yes", "ar": "نعم" }, "continue": true } ] },
+      { "type": "message", "en": "Remind boss (Arabic) + Uzair (English)", "ar": "تذكير المهندس (بالعربية) وعزير (بالإنجليزية)" },
+      { "type": "stop", "en": "One reminder per installment only", "ar": "تذكير واحد لكل قسط فقط" }
+    ]
+  },
+
+  "py-rental-overdue-001": {
+    "area": "rental",
+    "title": { "en": "Rental overdue checker", "ar": "فاحص الإيجارات المتأخرة" },
+    "recipients": { "en": "Rental owners", "ar": "المسؤولون عن الإيجارات" },
+    "nodes": [
+      { "type": "action", "en": "Check rent contracts for overdue payments", "ar": "فحص العقود عن مدفوعات متأخرة" },
+      { "type": "decision", "q": { "en": "Any overdue?", "ar": "هل يوجد متأخر؟" },
+        "branches": [
+          { "label": { "en": "No", "ar": "لا" }, "terminal": { "en": "none", "ar": "لا شيء" } },
+          { "label": { "en": "Yes", "ar": "نعم" }, "continue": true } ] },
+      { "type": "message", "en": "Notify the rental owners", "ar": "إشعار المسؤولين عن الإيجارات" }
+    ]
+  },
+
+  "mkt-weekly-planning": {
+    "area": "marketing",
+    "title": { "en": "Weekly content planning", "ar": "تخطيط محتوى الأسبوع" },
+    "recipients": { "en": "Marketing group", "ar": "مجموعة التسويق" },
+    "nodes": [
+      { "type": "action", "en": "Review last week's posts & engagement", "ar": "مراجعة منشورات الأسبوع الماضي والتفاعل" },
+      { "type": "action", "en": "Draft the week's content calendar", "ar": "إعداد تقويم محتوى الأسبوع" },
+      { "type": "message", "en": "Share the plan with the marketing group", "ar": "مشاركة الخطة مع مجموعة التسويق" }
+    ]
+  },
+
+  "mkt-daily-drafting": {
+    "area": "marketing",
+    "title": { "en": "Daily post drafting", "ar": "إعداد منشور اليوم" },
+    "recipients": { "en": "Marketing group (for approval)", "ar": "مجموعة التسويق (للموافقة)" },
+    "nodes": [
+      { "type": "action", "en": "Check today's planned post", "ar": "فحص منشور اليوم المخطط" },
+      { "type": "action", "en": "Request visuals from Shakir, draft the caption", "ar": "طلب التصميم من شاكر وكتابة النص" },
+      { "type": "message", "en": "Post the draft for approval", "ar": "إرسال المسودة للموافقة" }
+    ]
+  }
+}

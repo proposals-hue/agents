@@ -1,0 +1,4 @@
+interface:
+  display_name: "Boss Dashboard Sync"
+  short_description: "Keep boss dashboard aligned with OpenClaw changes"
+  default_prompt: "Use $boss-dashboard-sync when adding or changing OpenClaw agents, cron jobs, automations, workflows, or dashboard wording."
