@@ -74,8 +74,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "1 min ago",
-        "ar": "قبل 1 دقيقة"
+        "en": "just now",
+        "ar": "الآن"
       },
       "workflowCount": 2,
       "automationCount": 3
@@ -93,8 +93,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "1 min ago",
-        "ar": "قبل 1 دقيقة"
+        "en": "just now",
+        "ar": "الآن"
       },
       "workflowCount": 7,
       "automationCount": 13
@@ -169,8 +169,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "1 min ago",
-        "ar": "قبل 1 دقيقة"
+        "en": "just now",
+        "ar": "الآن"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 36,164.52",
-        "ar": "SAR 36,164.52"
+        "en": "SAR 35,689.57",
+        "ar": "SAR 35,689.57"
       }
     },
     {
@@ -1868,13 +1868,25 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "11 chats/groups",
-        "ar": "11 محادثات/مجموعات"
+        "en": "12 chats/groups",
+        "ar": "12 محادثات/مجموعات"
       }
     }
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "15:40",
+      "sortKey": "2026-06-15 15:40:01",
+      "text": "midday visits 0/8 [id=3EB092C2341535C62CA569]",
+      "headline": {
+        "en": "midday visits 0/8 [id=3EB092C2341535C62CA569]",
+        "ar": "midday visits 0/8 [id=3EB092C2341535C62CA569]"
+      },
+      "impact": null,
+      "to": "Sameh Darwish",
+      "source": "send"
+    },
     {
       "time": "15:39",
       "sortKey": "2026-06-15 15:39:23",
@@ -2171,28 +2183,13 @@
       },
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "12:09",
-      "sortKey": "2026-06-15 12:09:07",
-      "text": "ACC-2026-PO-00026 (SAR 474.95)",
-      "headline": {
-        "en": "Purchase order update: ACC-2026-PO-00026 worth SAR 474.95",
-        "ar": "تحديث أمر شراء: ACC-2026-PO-00026 بقيمة SAR 474.95"
-      },
-      "impact": {
-        "en": "SAR 474.95",
-        "ar": "SAR 474.95"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "15:39",
+  "generatedAt": "15:40",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T12:39:50.532Z",
+  "livePublishedAt": "2026-06-15T12:40:02.385Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
