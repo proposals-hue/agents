@@ -150,8 +150,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "28 min ago",
-        "ar": "قبل 28 دقيقة"
+        "en": "36 min ago",
+        "ar": "قبل 36 دقيقة"
       },
       "workflowCount": 4,
       "automationCount": 11
@@ -169,8 +169,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "44 min ago",
-        "ar": "قبل 44 دقيقة"
+        "en": "52 min ago",
+        "ar": "قبل 52 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -1827,8 +1827,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 18,
-    "automationsRunToday": 6,
+    "messagesSentToday": 20,
+    "automationsRunToday": 7,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 53,320.79",
-        "ar": "SAR 53,320.79"
+        "en": "SAR 65,234.79",
+        "ar": "SAR 65,234.79"
       }
     },
     {
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "18 updates | 6 tasks",
-        "ar": "18 تحديثات | 6 مهام"
+        "en": "20 updates | 7 tasks",
+        "ar": "20 تحديثات | 7 مهام"
       }
     },
     {
@@ -1868,13 +1868,43 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "6 chats/groups",
-        "ar": "6 محادثات/مجموعات"
+        "en": "7 chats/groups",
+        "ar": "7 محادثات/مجموعات"
       }
     }
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "14:52",
+      "sortKey": "2026-06-15 14:52:36",
+      "text": "1 new APC PO(s): APCC-2026-PO-00804",
+      "headline": {
+        "en": "Procurement sent 1 new APC purchase order to Anas",
+        "ar": "المشتريات أرسلت 1 أوامر شراء جديدة من APC إلى Anas"
+      },
+      "impact": {
+        "en": "1 POs",
+        "ar": "1 أوامر شراء"
+      },
+      "to": "Anas",
+      "source": "send"
+    },
+    {
+      "time": "14:51",
+      "sortKey": "2026-06-15 14:51:31",
+      "text": "APCC-2026-PO-00101 (SAR 11,914)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00101 worth SAR 11,914",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00101 بقيمة SAR 11,914"
+      },
+      "impact": {
+        "en": "SAR 11,914",
+        "ar": "SAR 11,914"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "14:42",
       "sortKey": "2026-06-15 14:42:17",
@@ -2125,11 +2155,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "14:48",
+  "generatedAt": "14:56",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T11:48:01.714Z",
+  "livePublishedAt": "2026-06-15T11:56:16.447Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
