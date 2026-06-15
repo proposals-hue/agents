@@ -34,10 +34,10 @@
         "en": "Watches HR documents, expiry reminders, and staff reports",
         "ar": "يتابع وثائق الموارد البشرية والتنبيهات وتقارير الموظفين"
       },
-      "state": "working",
+      "state": "resting",
       "lastActive": {
-        "en": "12 min ago",
-        "ar": "قبل 12 دقيقة"
+        "en": "17 min ago",
+        "ar": "قبل 17 دقيقة"
       },
       "workflowCount": 0,
       "automationCount": 5
@@ -1827,13 +1827,13 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 21,
+    "messagesSentToday": 22,
     "automationsRunToday": 7,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
     "channelsTotal": 0,
-    "agentsWorking": 4,
+    "agentsWorking": 3,
     "agentsTotal": 11,
     "posPending": null,
     "mrsOpen": null
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 65,953.54",
-        "ar": "SAR 65,953.54"
+        "en": "SAR 70,921.02",
+        "ar": "SAR 70,921.02"
       }
     },
     {
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "21 updates | 7 tasks",
-        "ar": "21 تحديثات | 7 مهام"
+        "en": "22 updates | 7 tasks",
+        "ar": "22 تحديثات | 7 مهام"
       }
     },
     {
@@ -1875,6 +1875,21 @@
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "15:26",
+      "sortKey": "2026-06-15 15:26:40",
+      "text": "APCC-2026-PO-00136 (SAR 4,967.48)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00136 worth SAR 4,967.48",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00136 بقيمة SAR 4,967.48"
+      },
+      "impact": {
+        "en": "SAR 4,967.48",
+        "ar": "SAR 4,967.48"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "15:05",
       "sortKey": "2026-06-15 15:05:44",
@@ -2170,11 +2185,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "15:24",
+  "generatedAt": "15:30",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T12:24:55.066Z",
+  "livePublishedAt": "2026-06-15T12:30:33.325Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
