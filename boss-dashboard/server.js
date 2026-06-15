@@ -30,9 +30,11 @@ function loadConfig() {
   return {};
 }
 function configuredPath(configured, fallback) {
+  const fallbackPath = path.resolve(ROOT, fallback);
+  if (process.env.VERCEL === '1') return fallbackPath;
   const primary = path.resolve(ROOT, configured || fallback);
   if (fs.existsSync(primary)) return primary;
-  return path.resolve(ROOT, fallback);
+  return fallbackPath;
 }
 
 const cfg = loadConfig();
@@ -677,7 +679,23 @@ function humanizeCron(expr) {
 // ----------------------------------------------------------------------------
 function readJsonSafe(file, fallback) {
   try { return JSON.parse(fs.readFileSync(file, 'utf8')); }
-  catch { return fallback; }
+  catch {
+    const bundled = readBundledJson(file);
+    return bundled === undefined ? fallback : bundled;
+  }
+}
+
+function readBundledJson(file) {
+  const normalized = path.normalize(file);
+  try {
+    if (normalized === path.normalize(path.resolve(ROOT, 'data', 'jobs.json'))) return require('./data/jobs.json');
+    if (normalized === path.normalize(path.resolve(ROOT, 'data', 'sent_log.json'))) return require('./data/sent_log.json');
+    if (normalized === path.normalize(path.resolve(ROOT, 'data', 'openclaw.json'))) return require('./data/openclaw.json');
+    if (normalized === path.normalize(path.resolve(ROOT, 'workflows.json'))) return require('./workflows.json');
+  } catch {
+    return undefined;
+  }
+  return undefined;
 }
 
 async function fetchMC(pathname) {
@@ -927,6 +945,40 @@ function valueToday(todaySends, scriptsToday) {
   ];
 }
 
+function snapshotValue(agents, automations, workflows) {
+  const workflowCount = Object.values(workflows || {}).filter(Boolean).length;
+  const teamAreas = new Set([
+    ...agents.map((a) => a.area).filter(Boolean),
+    ...automations.flatMap((a) => a.relatedAreas || []).filter(Boolean),
+  ]);
+  return [
+    {
+      icon: '✓',
+      label: { en: 'Business checks published', ar: 'فحوصات العمل المنشورة' },
+      value: {
+        en: `${automations.length} ${plural(automations.length, 'check', 'checks')}`,
+        ar: arCount(automations.length, 'فحص', 'فحوصات'),
+      },
+    },
+    {
+      icon: '↳',
+      label: { en: 'Workflows mapped', ar: 'مسارات العمل الموثقة' },
+      value: {
+        en: `${workflowCount} ${plural(workflowCount, 'workflow', 'workflows')}`,
+        ar: arCount(workflowCount, 'مسار عمل', 'مسارات عمل'),
+      },
+    },
+    {
+      icon: '@',
+      label: { en: 'Teams covered', ar: 'الفرق المغطاة' },
+      value: {
+        en: `${teamAreas.size} ${plural(teamAreas.size, 'team area', 'team areas')}`,
+        ar: arCount(teamAreas.size, 'فريق', 'فرق'),
+      },
+    },
+  ];
+}
+
 function buildChannels(openclaw, automations) {
   const bindings = Array.isArray(openclaw.bindings) ? openclaw.bindings : [];
   const whatsapp = (openclaw.channels && openclaw.channels.whatsapp) || {};
@@ -979,6 +1031,7 @@ async function buildSummary() {
   // --- a) Agents (Mission Control) ---
   let agents = [];
   let mcReachable = false;
+  const mcConfigured = !!MC_KEY;
   const agentsResp = await fetchMC('/api/agents?limit=100');
   if (agentsResp && Array.isArray(agentsResp.agents)) {
     mcReachable = true;
@@ -1139,9 +1192,11 @@ async function buildSummary() {
     mrsOpen,      // null if ERP unreachable
   };
 
-  const overallStatus = (!mcReachable || anyAttention) ? 'attention' : 'good';
+  const sourceMode = mcReachable ? 'live' : (mcConfigured ? 'offline' : 'snapshot');
+  const missionControlMissing = mcConfigured && !mcReachable;
+  const overallStatus = (missionControlMissing || anyAttention) ? 'attention' : 'good';
   const attentionItems = [];
-  if (!mcReachable) {
+  if (missionControlMissing) {
     attentionItems.push({
       title: { en: 'Control panel is unreachable', ar: 'تعذر الاتصال بلوحة التحكم' },
       desc: { en: 'Team status may be stale until Mission Control is back online', ar: 'قد تكون حالة الفريق غير محدثة حتى يعود الاتصال' },
@@ -1159,12 +1214,16 @@ async function buildSummary() {
   return {
     overallStatus,
     mcReachable,
+    mcConfigured,
+    sourceMode,
     agents,
     automations,
     channels,
     categories,
     numbers,
-    valueToday: valueToday(todaySends, scriptsToday),
+    valueToday: sourceMode === 'snapshot' && todaySends.length === 0
+      ? snapshotValue(agents, automations, workflows)
+      : valueToday(todaySends, scriptsToday),
     attentionItems,
     activity: activityTop,
     generatedAt: clockNow(),

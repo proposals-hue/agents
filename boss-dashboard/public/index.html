@@ -360,6 +360,7 @@ const STR = {
     good:"كل شيء يعمل", goodSub:"الفريق والمهام تعمل بشكل طبيعي",
     warn:"يحتاج انتباه", warnSub:"هناك شيء يحتاج إلى مراجعة",
     offline:"تعذّر الوصول إلى النظام", offlineSub:"تعذّر الاتصال بلوحة التحكم",
+    snapshot:"نسخة منشورة", snapshotSub:"نسخة آمنة من الفريق والمهام المجدولة",
     nMessages:"تحديثات أُرسلت اليوم", nAutoRun:"مهام أُنجزت اليوم", nAutoActive:"فحوصات العمل الجارية",
     nAgents:"أعضاء فريق الذكاء الاصطناعي",
     secAgents:"الفريق", secAutos:"المهام المجدولة", secToday:"تحديثات العمل اليوم", secAttention:"يحتاج انتباهك", secValue:"قيمة اليوم",
@@ -378,6 +379,7 @@ const STR = {
     channels:"القنوات", channelsSub:"المجموعات والمحادثات المرتبطة بالفريق", noChannels:"لا توجد قنوات مرتبطة", channelShort:"قنوات", channelOne:"قناة", owner:"المسؤول",
     group:"مجموعة", chat:"محادثة", routePolicy:"سياسة الرد",
     noIssues:"لا يوجد شيء يحتاج انتباهك الآن", systemIssue:"تعذّر الاتصال بلوحة التحكم", agentIssue:"عضو يحتاج مراجعة", sentTo:"أُرسل إلى",
+    snapshotNoActivity:"التحديثات اليومية الحية تبقى داخل اللوحة المحلية فقط",
     tapCat:"اضغط على أي فئة لعرض مهامها",
   },
   en:{
@@ -387,6 +389,7 @@ const STR = {
     good:"Everything is running", goodSub:"Your team and tasks are working normally",
     warn:"Needs attention", warnSub:"Something needs a look",
     offline:"System unreachable", offlineSub:"Could not connect to the control panel",
+    snapshot:"Published snapshot", snapshotSub:"Safe public view of the team and scheduled work",
     nMessages:"Updates sent today", nAutoRun:"Tasks completed today", nAutoActive:"Business checks running",
     nAgents:"AI team members",
     secAgents:"Your Team", secAutos:"Scheduled Automations", secToday:"Today's Business Updates", secAttention:"Needs Your Attention", secValue:"Value Today",
@@ -405,6 +408,7 @@ const STR = {
     channels:"Channels", channelsSub:"Bound groups and chats for the team", noChannels:"No bound channels", channelShort:"channels", channelOne:"channel", owner:"Owner",
     group:"Group", chat:"Chat", routePolicy:"Policy",
     noIssues:"Nothing needs your attention right now", systemIssue:"Control panel is unreachable", agentIssue:"Team member needs review", sentTo:"Sent to",
+    snapshotNoActivity:"Live daily updates stay on the local dashboard",
     tapCat:"Tap any category to see its automations",
   }
 };
@@ -462,7 +466,8 @@ function areaIcon(area){
 }
 function statusBanner(){
   const x=t(); let cls,icon,head,sub;
-  if(!data.mcReachable){ cls='b-warn'; icon='!'; head=x.offline; sub=x.offlineSub; }
+  if(data.sourceMode==='snapshot'){ cls='b-good'; icon='✓'; head=x.snapshot; sub=x.snapshotSub; }
+  else if(!data.mcReachable){ cls='b-warn'; icon='!'; head=x.offline; sub=x.offlineSub; }
   else if(data.overallStatus==='good'){ cls='b-good'; icon='✓'; head=x.good; sub=x.goodSub; }
   else { cls='b-warn'; icon='!'; head=x.warn; sub=x.warnSub; }
   return `<div class="banner ${cls}"><div class="dot">${icon}</div><div><h2>${head}</h2><p>${sub}</p></div></div>`;
@@ -662,10 +667,10 @@ function viewOverview(){
           <div class="main"><div class="title">${esc(headline)}</div>${target?`<div class="desc">${esc(target)}</div>`:''}</div>
           ${impact?`<span class="tag impact">${esc(impact)}</span>`:''}</div>`;
       }).join('')+`</div>`
-    : `<div class="empty">${x.secToday}</div>`;
+    : `<div class="empty">${data.sourceMode==='snapshot' ? x.snapshotNoActivity : x.secToday}</div>`;
   const issues = (data.attentionItems && data.attentionItems.length)
     ? data.attentionItems
-    : ((!data.mcReachable) ? [{title:{en:x.systemIssue,ar:x.systemIssue}, desc:{en:x.offlineSub,ar:x.offlineSub}, tag:{en:x.attention,ar:x.attention}}] : []);
+    : ((data.sourceMode==='offline') ? [{title:{en:x.systemIssue,ar:x.systemIssue}, desc:{en:x.offlineSub,ar:x.offlineSub}, tag:{en:x.attention,ar:x.attention}}] : []);
   const attention = issues.length
     ? `<div class="list">`+issues.map(i=>`<div class="row"><div class="tm">!</div>
         <div class="main"><div class="title">${esc(L(i.title)||i.title)}</div>${i.desc?`<div class="desc">${esc(L(i.desc)||i.desc)}</div>`:''}</div>
