@@ -91,10 +91,10 @@
         "en": "Watches material requests, POs, and suppliers",
         "ar": "يتابع طلبات المواد وأوامر الشراء والموردين"
       },
-      "state": "resting",
+      "state": "working",
       "lastActive": {
-        "en": "1 hr ago",
-        "ar": "قبل 1 ساعة"
+        "en": "just now",
+        "ar": "الآن"
       },
       "workflowCount": 7,
       "automationCount": 13
@@ -169,8 +169,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "just now",
-        "ar": "الآن"
+        "en": "7 min ago",
+        "ar": "قبل 7 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -1827,13 +1827,13 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 11,
-    "automationsRunToday": 3,
+    "messagesSentToday": 16,
+    "automationsRunToday": 5,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
     "channelsTotal": 0,
-    "agentsWorking": 3,
+    "agentsWorking": 4,
     "agentsTotal": 11,
     "posPending": null,
     "mrsOpen": null
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 43,227.15",
-        "ar": "SAR 43,227.15"
+        "en": "SAR 43,587.19",
+        "ar": "SAR 43,587.19"
       }
     },
     {
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "11 updates | 3 tasks",
-        "ar": "11 تحديثات | 3 مهام"
+        "en": "16 updates | 5 tasks",
+        "ar": "16 تحديثات | 5 مهام"
       }
     },
     {
@@ -1868,13 +1868,76 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "3 chats/groups",
-        "ar": "3 محادثات/مجموعات"
+        "en": "5 chats/groups",
+        "ar": "5 محادثات/مجموعات"
       }
     }
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "14:11",
+      "sortKey": "2026-06-15 14:11:15",
+      "text": "1 boss instruction task(s) for 2026-06-15 message 1/1 [id=3EB09B1C0CD5D84DAFE1E6]",
+      "headline": {
+        "en": "1 boss instruction task(s) for 2026-06-15 message 1/1 [id=3EB09B1C0CD5D84DAFE1E6]",
+        "ar": "1 boss instruction task(s) for 2026-06-15 message 1/1 [id=3EB09B1C0CD5D84DAFE1E6]"
+      },
+      "impact": null,
+      "to": "Mohamad Monib",
+      "source": "send"
+    },
+    {
+      "time": "14:09",
+      "sortKey": "2026-06-15 14:09:09",
+      "text": "Fleet accident follow-up FID-00154 (Claim Submission) [id=3EB0FFF4C669AA5353519B]",
+      "headline": {
+        "en": "Fleet accident follow-up FID-00154 (Claim Submission) [id=3EB0FFF4C669AA5353519B]",
+        "ar": "Fleet accident follow-up FID-00154 (Claim Submission) [id=3EB0FFF4C669AA5353519B]"
+      },
+      "impact": null,
+      "to": "hr group",
+      "source": "send"
+    },
+    {
+      "time": "14:08",
+      "sortKey": "2026-06-15 14:08:38",
+      "text": "Fleet accident follow-up FID-00153 (Legal Follow-up) [id=3EB05732BFEC7A978C3175]",
+      "headline": {
+        "en": "Fleet accident follow-up FID-00153 (Legal Follow-up) [id=3EB05732BFEC7A978C3175]",
+        "ar": "Fleet accident follow-up FID-00153 (Legal Follow-up) [id=3EB05732BFEC7A978C3175]"
+      },
+      "impact": null,
+      "to": "hr group",
+      "source": "send"
+    },
+    {
+      "time": "14:08",
+      "sortKey": "2026-06-15 14:08:25",
+      "text": "Fleet accident follow-up FID-00153 (Legal Follow-up) [id=3EB0D2DC1B299618DEACA7]",
+      "headline": {
+        "en": "Fleet accident follow-up FID-00153 (Legal Follow-up) [id=3EB0D2DC1B299618DEACA7]",
+        "ar": "Fleet accident follow-up FID-00153 (Legal Follow-up) [id=3EB0D2DC1B299618DEACA7]"
+      },
+      "impact": null,
+      "to": "hr group",
+      "source": "send"
+    },
+    {
+      "time": "14:06",
+      "sortKey": "2026-06-15 14:06:40",
+      "text": "APCC-2026-PO-00071 (SAR 360.04)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00071 worth SAR 360.04",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00071 بقيمة SAR 360.04"
+      },
+      "impact": {
+        "en": "SAR 360.04",
+        "ar": "SAR 360.04"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "13:51",
       "sortKey": "2026-06-15 13:51:13",
@@ -2035,11 +2098,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "14:03",
+  "generatedAt": "14:11",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T11:03:41.910Z",
+  "livePublishedAt": "2026-06-15T11:11:37.577Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
