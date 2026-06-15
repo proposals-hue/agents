@@ -361,6 +361,9 @@ const STR = {
     warn:"يحتاج انتباه", warnSub:"هناك شيء يحتاج إلى مراجعة",
     offline:"تعذّر الوصول إلى النظام", offlineSub:"تعذّر الاتصال بلوحة التحكم",
     snapshot:"لوحة عامة", snapshotSub:"تعرض الفريق والفحوصات ومسارات العمل المنشورة. التحديثات اليومية تبقى محلية",
+    livePub:"لوحة مباشرة", livePubSub:"آخر تحديث من نظام OpenClaw المحلي",
+    liveStale:"التحديث المباشر متأخر", liveStaleSub:"آخر ملخص وصل منذ فترة. تحقق من ناشر اللوحة",
+    minAgo:"دقيقة مضت", minOld:"دقيقة",
     nMessages:"تحديثات أُرسلت اليوم", nAutoRun:"مهام أُنجزت اليوم", nAutoActive:"فحوصات العمل الجارية",
     snapshotWorkflows:"مسارات العمل", snapshotActivity:"سجل التحديثات اليومية", snapshotLocalOnly:"محلي",
     nAgents:"أعضاء فريق الذكاء الاصطناعي",
@@ -392,6 +395,9 @@ const STR = {
     warn:"Needs attention", warnSub:"Something needs a look",
     offline:"System unreachable", offlineSub:"Could not connect to the control panel",
     snapshot:"Public dashboard", snapshotSub:"Shows published team, checks, and workflows. Daily live updates stay local",
+    livePub:"Live dashboard", livePubSub:"Latest safe update from the local OpenClaw system",
+    liveStale:"Live feed is stale", liveStaleSub:"The last safe summary is old. Check the dashboard publisher",
+    minAgo:"min ago", minOld:"min old",
     nMessages:"Updates sent today", nAutoRun:"Tasks completed today", nAutoActive:"Business checks running",
     snapshotWorkflows:"Workflows mapped", snapshotActivity:"Daily activity log", snapshotLocalOnly:"Local",
     nAgents:"AI team members",
@@ -470,7 +476,15 @@ function areaIcon(area){
 }
 function statusBanner(){
   const x=t(); let cls,icon,head,sub;
-  if(data.sourceMode==='snapshot'){ cls='b-good'; icon='✓'; head=x.snapshot; sub=x.snapshotSub; }
+  if(data.sourceMode==='live-published'){
+    cls='b-good'; icon='✓'; head=x.livePub;
+    sub = data.liveAgeMinutes!=null ? `${x.livePubSub} · ${data.liveAgeMinutes} ${x.minAgo}` : x.livePubSub;
+  }
+  else if(data.sourceMode==='live-stale'){
+    cls='b-warn'; icon='!'; head=x.liveStale;
+    sub = data.liveAgeMinutes!=null ? `${x.liveStaleSub} · ${data.liveAgeMinutes} ${x.minOld}` : x.liveStaleSub;
+  }
+  else if(data.sourceMode==='snapshot'){ cls='b-good'; icon='✓'; head=x.snapshot; sub=x.snapshotSub; }
   else if(!data.mcReachable){ cls='b-warn'; icon='!'; head=x.offline; sub=x.offlineSub; }
   else if(data.overallStatus==='good'){ cls='b-good'; icon='✓'; head=x.good; sub=x.goodSub; }
   else { cls='b-warn'; icon='!'; head=x.warn; sub=x.warnSub; }

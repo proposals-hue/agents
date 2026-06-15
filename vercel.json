@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "ignoreCommand": "git diff --quiet HEAD^ HEAD -- . ':!boss-dashboard/live/*.json'",
   "functions": {
     "api/index.js": {
       "includeFiles": "boss-dashboard/**"

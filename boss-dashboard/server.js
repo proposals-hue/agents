@@ -46,11 +46,21 @@ const TZ = cfg.timezone || 'Asia/Riyadh';
 const MC_URL = process.env.MISSION_CONTROL_URL || (cfg.missionControl && cfg.missionControl.url) || 'http://127.0.0.1:3000';
 const MC_KEY = process.env.MISSION_CONTROL_API_KEY || (cfg.missionControl && cfg.missionControl.apiKey) || '';
 const ERP = cfg.erp || { enabled: false };
+const LIVE_SUMMARY_URL = process.env.BOSS_LIVE_SUMMARY_URL || cfg.liveSummaryUrl || defaultLiveSummaryUrl();
+const LIVE_SUMMARY_MAX_AGE_MS = Number(process.env.BOSS_LIVE_SUMMARY_MAX_AGE_MS || cfg.liveSummaryMaxAgeMs || 30 * 60 * 1000);
 
 const SENT_LOG = configuredPath(cfg.paths && cfg.paths.sentLog, './data/sent_log.json');
 const CRON_JOBS = configuredPath(cfg.paths && cfg.paths.cronJobs, './data/jobs.json');
 const WORKFLOWS = configuredPath(cfg.paths && cfg.paths.workflows, './workflows.json');
 const OPENCLAW = configuredPath(cfg.paths && cfg.paths.openclaw, './data/openclaw.json');
+
+function defaultLiveSummaryUrl() {
+  if (process.env.VERCEL !== '1') return '';
+  const owner = process.env.VERCEL_GIT_REPO_OWNER || 'proposals-hue';
+  const repo = process.env.VERCEL_GIT_REPO_SLUG || 'agents';
+  const branch = process.env.VERCEL_GIT_COMMIT_REF || 'master';
+  return `https://raw.githubusercontent.com/${owner}/${repo}/${branch}/boss-dashboard/live/summary.json`;
+}
 
 // ----------------------------------------------------------------------------
 // Friendly names. Two keyings exist:
@@ -260,6 +270,10 @@ const AUTOMATION_AR_COPY = {
   'bb52724f-411d-4da4-ba16-cd9394e1a87b': {
     name: 'ترقية ذاكرة النظام',
     desc: 'يراجع أهم الملاحظات القصيرة ويرقي المفيد منها إلى الذاكرة الدائمة.',
+  },
+  'py-boss-dashboard-live-publish-001': {
+    name: 'تحديث لوحة المدير المباشرة',
+    desc: 'ينشر ملخصاً آمناً ومحدثاً للوحة المدير حتى تظهر آخر الأرقام على الجوال.',
   },
   '012854ef-36ba-4061-a3f9-3727d7579555': {
     name: 'مراقبة طلبات المواد',
@@ -712,6 +726,31 @@ async function fetchMC(pathname) {
   }
 }
 
+async function fetchLiveSummary() {
+  if (process.env.VERCEL !== '1' || !LIVE_SUMMARY_URL) return null;
+  try {
+    const bust = LIVE_SUMMARY_URL.includes('?') ? '&' : '?';
+    const res = await fetch(`${LIVE_SUMMARY_URL}${bust}t=${Date.now()}`, {
+      headers: { 'Cache-Control': 'no-cache', Pragma: 'no-cache' },
+      signal: AbortSignal.timeout(5000),
+    });
+    if (!res.ok) return null;
+    const json = await res.json();
+    if (!json || typeof json !== 'object') return null;
+    if (!json.publicLive || !json.numbers || !Array.isArray(json.automations)) return null;
+    const publishedAt = Date.parse(json.livePublishedAt || '');
+    const ageMs = Number.isFinite(publishedAt) ? Date.now() - publishedAt : null;
+    const stale = ageMs == null || ageMs > LIVE_SUMMARY_MAX_AGE_MS;
+    return {
+      ...json,
+      sourceMode: stale ? 'live-stale' : 'live-published',
+      liveAgeMinutes: ageMs == null ? null : Math.max(0, Math.round(ageMs / 60000)),
+    };
+  } catch {
+    return null;
+  }
+}
+
 async function erpCount(doctype, filters) {
   if (!ERP.enabled) return null;
   try {
@@ -1030,6 +1069,9 @@ function buildChannels(openclaw, automations) {
 }
 
 async function buildSummary() {
+  const liveSummary = await fetchLiveSummary();
+  if (liveSummary) return liveSummary;
+
   const today = todayStr();
   const workflows = readJsonSafe(WORKFLOWS, {});
   const openclaw = readJsonSafe(OPENCLAW, {});
@@ -1335,6 +1377,7 @@ async function handleRequest(req, res) {
   send(res, 404, 'Not found');
 }
 
+handleRequest.buildSummary = buildSummary;
 module.exports = handleRequest;
 
 if (require.main === module) {

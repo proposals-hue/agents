@@ -1,0 +1,1987 @@
+{
+  "overallStatus": "good",
+  "mcReachable": true,
+  "mcConfigured": true,
+  "sourceMode": "live-published",
+  "agents": [
+    {
+      "name": "Asṭūli",
+      "area": "fleet",
+      "role": {
+        "en": "Fleet",
+        "ar": "الأسطول"
+      },
+      "summary": {
+        "en": "Watches vehicles, documents, and fleet incidents",
+        "ar": "يتابع المركبات والوثائق وحوادث الأسطول"
+      },
+      "state": "working",
+      "lastActive": {
+        "en": "just now",
+        "ar": "الآن"
+      },
+      "workflowCount": 2,
+      "automationCount": 4
+    },
+    {
+      "name": "Muwazzif",
+      "area": "hr",
+      "role": {
+        "en": "HR",
+        "ar": "الموارد البشرية"
+      },
+      "summary": {
+        "en": "Watches HR documents, expiry reminders, and staff reports",
+        "ar": "يتابع وثائق الموارد البشرية والتنبيهات وتقارير الموظفين"
+      },
+      "state": "working",
+      "lastActive": {
+        "en": "just now",
+        "ar": "الآن"
+      },
+      "workflowCount": 0,
+      "automationCount": 5
+    },
+    {
+      "name": "Mu'ajjir Support",
+      "area": "rental",
+      "role": {
+        "en": "Support",
+        "ar": "الدعم"
+      },
+      "summary": {
+        "en": "Watches tenants, rent reminders, and lease activity",
+        "ar": "يتابع المستأجرين وتذكيرات الإيجار وحركة العقود"
+      },
+      "state": "resting",
+      "lastActive": {
+        "en": "39 day(s) ago",
+        "ar": "قبل 39 يوم"
+      },
+      "workflowCount": 2,
+      "automationCount": 3
+    },
+    {
+      "name": "Fahad",
+      "area": "main",
+      "role": {
+        "en": "Executive Assistant",
+        "ar": "المساعد التنفيذي"
+      },
+      "summary": {
+        "en": "Keeps the boss updated and routes important requests",
+        "ar": "يتابع التحديثات المهمة ويوصل الطلبات لصاحب القرار"
+      },
+      "state": "working",
+      "lastActive": {
+        "en": "just now",
+        "ar": "الآن"
+      },
+      "workflowCount": 2,
+      "automationCount": 3
+    },
+    {
+      "name": "Raqeeb",
+      "area": "procurement",
+      "role": {
+        "en": "Procurement",
+        "ar": "المشتريات"
+      },
+      "summary": {
+        "en": "Watches material requests, POs, and suppliers",
+        "ar": "يتابع طلبات المواد وأوامر الشراء والموردين"
+      },
+      "state": "working",
+      "lastActive": {
+        "en": "just now",
+        "ar": "الآن"
+      },
+      "workflowCount": 7,
+      "automationCount": 13
+    },
+    {
+      "name": "Haseb",
+      "area": "accounts",
+      "role": {
+        "en": "Accounts",
+        "ar": "الحسابات"
+      },
+      "summary": {
+        "en": "Watches collections, invoices, and payment follow-ups",
+        "ar": "يتابع التحصيل والفواتير ومتابعة الدفعات"
+      },
+      "state": "resting",
+      "lastActive": {
+        "en": "18 hr ago",
+        "ar": "قبل 18 ساعة"
+      },
+      "workflowCount": 1,
+      "automationCount": 5
+    },
+    {
+      "name": "Mutabi",
+      "area": "sales",
+      "role": {
+        "en": "Sales",
+        "ar": "المبيعات"
+      },
+      "summary": {
+        "en": "Watches quotations, targets, tenders, and sales follow-ups",
+        "ar": "يتابع عروض الأسعار والأهداف والمناقصات ومتابعات المبيعات"
+      },
+      "state": "resting",
+      "lastActive": {
+        "en": "unknown",
+        "ar": "غير معروف"
+      },
+      "workflowCount": 6,
+      "automationCount": 15
+    },
+    {
+      "name": "Naqqal",
+      "area": "delivery",
+      "role": {
+        "en": "Delivery",
+        "ar": "التوصيل"
+      },
+      "summary": {
+        "en": "Watches shipments, stores, and delivery delays",
+        "ar": "يتابع الشحنات والمستودعات وتأخير التسليم"
+      },
+      "state": "working",
+      "lastActive": {
+        "en": "just now",
+        "ar": "الآن"
+      },
+      "workflowCount": 4,
+      "automationCount": 11
+    },
+    {
+      "name": "Musawwiq",
+      "area": "marketing",
+      "role": {
+        "en": "Marketing",
+        "ar": "التسويق"
+      },
+      "summary": {
+        "en": "Watches content approvals and publishing activity",
+        "ar": "يتابع اعتماد المحتوى ونشاط النشر"
+      },
+      "state": "working",
+      "lastActive": {
+        "en": "just now",
+        "ar": "الآن"
+      },
+      "workflowCount": 2,
+      "automationCount": 4
+    },
+    {
+      "name": "Musharif",
+      "area": "projects",
+      "role": {
+        "en": "Projects",
+        "ar": "المشاريع"
+      },
+      "summary": {
+        "en": "Watches project follow-ups and delivery signals",
+        "ar": "يتابع متابعات المشاريع وإشارات التسليم"
+      },
+      "state": "resting",
+      "lastActive": {
+        "en": "unknown",
+        "ar": "غير معروف"
+      },
+      "workflowCount": 0,
+      "automationCount": 2
+    },
+    {
+      "name": "Mu'ajjir",
+      "area": "rental",
+      "role": {
+        "en": "Rentals",
+        "ar": "الإيجارات"
+      },
+      "summary": {
+        "en": "Watches tenants, rent reminders, and lease activity",
+        "ar": "يتابع المستأجرين وتذكيرات الإيجار وحركة العقود"
+      },
+      "state": "resting",
+      "lastActive": {
+        "en": "40 day(s) ago",
+        "ar": "قبل 40 يوم"
+      },
+      "workflowCount": 2,
+      "automationCount": 3
+    }
+  ],
+  "automations": [
+    {
+      "id": "bb52724f-411d-4da4-ba16-cd9394e1a87b",
+      "name": "Memory Dreaming Promotion",
+      "description": "Promote weighted short-term recalls into MEMORY.md (limit=10, minScore=0.800, minRecallCount=3, minUniqueQueries=3, recencyHalfLifeDays=14, maxAgeDays=30).",
+      "displayName": {
+        "en": "Memory Dreaming Promotion",
+        "ar": "ترقية ذاكرة النظام"
+      },
+      "displayDescription": {
+        "en": "Promote weighted short-term recalls into MEMORY.md (limit=10, minScore=0.800, minRecallCount=3, minUniqueQueries=3, recencyHalfLifeDays=14, maxAgeDays=30).",
+        "ar": "يراجع أهم الملاحظات القصيرة ويرقي المفيد منها إلى الذاكرة الدائمة."
+      },
+      "areaKey": "",
+      "relatedAreas": [],
+      "area": "",
+      "category": {
+        "key": "system",
+        "en": "System & Monitoring",
+        "ar": "النظام والمراقبة",
+        "icon": "🛡️"
+      },
+      "when": {
+        "en": "Every night at 3:00",
+        "ar": "كل ليلة عند 3:00"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-boss-dashboard-live-publish-001",
+      "name": "Boss Dashboard Live Publisher",
+      "description": "Every 5 min: publishes a sanitized dashboard summary to GitHub so the Vercel phone dashboard shows latest safe numbers.",
+      "displayName": {
+        "en": "Boss Dashboard Live Publisher",
+        "ar": "تحديث لوحة المدير المباشرة"
+      },
+      "displayDescription": {
+        "en": "Every 5 min: publishes a sanitized dashboard summary to GitHub so the Vercel phone dashboard shows latest safe numbers.",
+        "ar": "ينشر ملخصاً آمناً ومحدثاً للوحة المدير حتى تظهر آخر الأرقام على الجوال."
+      },
+      "areaKey": "",
+      "relatedAreas": [],
+      "area": "",
+      "category": {
+        "key": "reports",
+        "en": "Reports & Briefings",
+        "ar": "التقارير والملخصات",
+        "icon": "📊"
+      },
+      "when": {
+        "en": "Every 5 min",
+        "ar": "كل 5 دقيقة"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "012854ef-36ba-4061-a3f9-3727d7579555",
+      "name": "Procurement Material Request Watcher - Every 30 min",
+      "description": "Checks ERP for new Material Requests every 30 min 08-17 and announces them to the procurement group.",
+      "displayName": {
+        "en": "Procurement Material Request Watcher - Every 30 min",
+        "ar": "مراقبة طلبات المواد"
+      },
+      "displayDescription": {
+        "en": "Checks ERP for new Material Requests every 30 min 08-17 and announces them to the procurement group.",
+        "ar": "يفحص ERP بحثاً عن طلبات مواد جديدة ويبلغ مجموعة المشتريات."
+      },
+      "areaKey": "procurement",
+      "relatedAreas": [
+        "procurement"
+      ],
+      "area": "Raqeeb",
+      "category": {
+        "key": "procurement",
+        "en": "Procurement & Suppliers",
+        "ar": "المشتريات والموردون",
+        "icon": "📦"
+      },
+      "when": {
+        "en": "Every 30 min during work hours",
+        "ar": "كل 30 دقيقة خلال ساعات العمل"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-rm-barcode-allocator-001",
+      "name": "RM Barcode Allocator",
+      "description": "End of every working day (17:30 Sat-Thu): scans BCI-Raw Material submitted items created in the last 30 days, assigns next free RM###### barcode + uploaded Code128 image to any item missing one. Silent automation, no outbound messaging.",
+      "displayName": {
+        "en": "RM Barcode Allocator",
+        "ar": "تخصيص باركود المواد الخام"
+      },
+      "displayDescription": {
+        "en": "End of every working day (17:30 Sat-Thu): scans BCI-Raw Material submitted items created in the last 30 days, assigns next free RM###### barcode + uploaded Code128 image to any item missing one. Silent automation, no outbound messaging.",
+        "ar": "يفحص مواد BCI الخام الجديدة ويخصص الباركود التالي المتاح لها."
+      },
+      "areaKey": "procurement",
+      "relatedAreas": [
+        "procurement"
+      ],
+      "area": "Raqeeb",
+      "category": {
+        "key": "procurement",
+        "en": "Procurement & Suppliers",
+        "ar": "المشتريات والموردون",
+        "icon": "📦"
+      },
+      "when": {
+        "en": "Every evening at 17:30 (not Fri)",
+        "ar": "كل مساء عند 17:30 (عدا الجمعة)"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-erp-monitor-001",
+      "name": "ERP Monitor",
+      "description": "checks for new employees, items, POs to check, leave requests, new projects → notifies boss via WhatsApp.",
+      "displayName": {
+        "en": "ERP Monitor",
+        "ar": "متابعة تحديثات ERP"
+      },
+      "displayDescription": {
+        "en": "checks for new employees, items, POs to check, leave requests, new projects → notifies boss via WhatsApp.",
+        "ar": "يتابع الموظفين والمواد وأوامر الشراء والإجازات والمشاريع الجديدة ويبلغ Eng. Muhammad."
+      },
+      "areaKey": "main",
+      "relatedAreas": [
+        "main",
+        "projects"
+      ],
+      "area": "Fahad",
+      "category": {
+        "key": "reports",
+        "en": "Reports & Briefings",
+        "ar": "التقارير والملخصات",
+        "icon": "📊"
+      },
+      "when": {
+        "en": "Every 30 min during work hours",
+        "ar": "كل 30 دقيقة خلال ساعات العمل"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-chemanalyst-scraper-001",
+      "name": "ChemAnalyst Weekly Price Scraper",
+      "description": "Weekly Saturday 06:00: pulls quarterly USD/MT prices from ChemAnalyst public pages for caustic soda, methanol, polyols, MDI, TDI, PU resin. Feeds the RFQ decider so BCI quotes that match a stale LPR can be flagged when the underlying commodity has moved 10%+ since last buy.",
+      "displayName": {
+        "en": "ChemAnalyst Weekly Price Scraper",
+        "ar": "متابعة أسعار ChemAnalyst الأسبوعية"
+      },
+      "displayDescription": {
+        "en": "Weekly Saturday 06:00: pulls quarterly USD/MT prices from ChemAnalyst public pages for caustic soda, methanol, polyols, MDI, TDI, PU resin. Feeds the RFQ decider so BCI quotes that match a stale LPR can be flagged when the underlying commodity has moved 10%+ since last buy.",
+        "ar": "يجلب أسعار المواد الرئيسية من ChemAnalyst لاستخدامها في قرارات عروض الموردين."
+      },
+      "areaKey": "procurement",
+      "relatedAreas": [
+        "procurement"
+      ],
+      "area": "Raqeeb",
+      "category": {
+        "key": "procurement",
+        "en": "Procurement & Suppliers",
+        "ar": "المشتريات والموردون",
+        "icon": "📦"
+      },
+      "when": {
+        "en": "Every morning at 6:00 (Sat)",
+        "ar": "كل صباح عند 6:00 (السبت)"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-dn-so-notifier-001",
+      "name": "DN/SO EOD Digest",
+      "description": "one end-of-day digest per salesman summarizing today's new Delivery Notes and Sales Orders. (Was every 30 min 8-17; reduced to cut nag volume - re-enable old expr if reverting.)",
+      "displayName": {
+        "en": "DN/SO EOD Digest",
+        "ar": "ملخص أوامر البيع والتسليم اليومي"
+      },
+      "displayDescription": {
+        "en": "one end-of-day digest per salesman summarizing today's new Delivery Notes and Sales Orders. (Was every 30 min 8-17; reduced to cut nag volume - re-enable old expr if reverting.)",
+        "ar": "يرسل لكل مندوب ملخص نهاية اليوم عن أوامر البيع وسندات التسليم الجديدة."
+      },
+      "areaKey": "sales",
+      "relatedAreas": [
+        "sales",
+        "delivery"
+      ],
+      "area": "Mutabi",
+      "category": {
+        "key": "reports",
+        "en": "Reports & Briefings",
+        "ar": "التقارير والملخصات",
+        "icon": "📊"
+      },
+      "when": {
+        "en": "Every evening at 17:33",
+        "ar": "كل مساء عند 17:33"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-shipment-delay-001",
+      "name": "Shipment Delay Checker",
+      "description": "checks for delayed shipments → DMs driver and alerts delivery group.",
+      "displayName": {
+        "en": "Shipment Delay Checker",
+        "ar": "مراقبة تأخير الشحنات"
+      },
+      "displayDescription": {
+        "en": "checks for delayed shipments → DMs driver and alerts delivery group.",
+        "ar": "يتابع الشحنات المتأخرة وينبه السائق ومجموعة التوصيل."
+      },
+      "areaKey": "delivery",
+      "relatedAreas": [
+        "delivery"
+      ],
+      "area": "Naqqal",
+      "category": {
+        "key": "delivery",
+        "en": "Delivery & Fleet",
+        "ar": "التوصيل والأسطول",
+        "icon": "🚚"
+      },
+      "when": {
+        "en": "Every 30 min",
+        "ar": "كل 30 دقيقة"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-bci-dn-so-reconcile-001",
+      "name": "BCI Store DN/SO Reconciliation",
+      "description": "Every 30 min from 07:00 to 19:00 Riyadh daily: checks new BCI Delivery Notes in Completed/To Bill state, compares items and quantities with linked Sales Orders, and asks the relevant store WhatsApp group only when something is suspicious. Follow-up replies can still be handled by the delivery agent outside this window. First run bootstraps without sending old backlog.",
+      "displayName": {
+        "en": "BCI Store DN/SO Reconciliation",
+        "ar": "مطابقة سندات تسليم BCI مع أوامر البيع"
+      },
+      "displayDescription": {
+        "en": "Every 30 min from 07:00 to 19:00 Riyadh daily: checks new BCI Delivery Notes in Completed/To Bill state, compares items and quantities with linked Sales Orders, and asks the relevant store WhatsApp group only when something is suspicious. Follow-up replies can still be handled by the delivery agent outside this window. First run bootstraps without sending old backlog.",
+        "ar": "يقارن سندات التسليم المكتملة مع أوامر البيع المرتبطة للتأكد من الكميات والمواد."
+      },
+      "areaKey": "delivery",
+      "relatedAreas": [
+        "delivery",
+        "sales"
+      ],
+      "area": "Naqqal",
+      "category": {
+        "key": "delivery",
+        "en": "Delivery & Fleet",
+        "ar": "التوصيل والأسطول",
+        "icon": "🚚"
+      },
+      "when": {
+        "en": "Every 30 min from 7am to 6pm",
+        "ar": "كل 30 دقيقة من 7am إلى 6pm"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-bci-store-group-reminders-001",
+      "name": "BCI Store WhatsApp DN Creation Reminders",
+      "description": "Every hour from 07:00 to 19:00 Riyadh daily: checks BCI store WhatsApp delivery requests that still have no Delivery Note in ERP and reminds the original sender in the relevant store group.",
+      "displayName": {
+        "en": "BCI Store WhatsApp DN Creation Reminders",
+        "ar": "تذكير إنشاء سندات التسليم من مجموعة المستودع"
+      },
+      "displayDescription": {
+        "en": "Every hour from 07:00 to 19:00 Riyadh daily: checks BCI store WhatsApp delivery requests that still have no Delivery Note in ERP and reminds the original sender in the relevant store group.",
+        "ar": "يتابع طلبات التوصيل في مجموعة المستودع التي لم يصبح لها سند تسليم في ERP."
+      },
+      "areaKey": "delivery",
+      "relatedAreas": [
+        "delivery"
+      ],
+      "area": "Naqqal",
+      "category": {
+        "key": "delivery",
+        "en": "Delivery & Fleet",
+        "ar": "التوصيل والأسطول",
+        "icon": "🚚"
+      },
+      "when": {
+        "en": "Every hour from 7am to 6pm",
+        "ar": "كل ساعة من 7am إلى 6pm"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-bci-store-group-delayed-intake-001",
+      "name": "BCI Store WhatsApp Delayed Intake Flush",
+      "description": "Every minute from 07:00 to 19:00 Riyadh daily: flushes delayed BCI store media/screenshot messages after the burst window, sending at most one classified reply per sender burst.",
+      "displayName": {
+        "en": "BCI Store WhatsApp Delayed Intake Flush",
+        "ar": "معالجة رسائل المستودع المتأخرة"
+      },
+      "displayDescription": {
+        "en": "Every minute from 07:00 to 19:00 Riyadh daily: flushes delayed BCI store media/screenshot messages after the burst window, sending at most one classified reply per sender burst.",
+        "ar": "يجمع رسائل وصور المستودع المتأخرة ثم يرسل رداً مصنفاً واحداً بعد اكتمال الرسالة."
+      },
+      "areaKey": "delivery",
+      "relatedAreas": [
+        "delivery"
+      ],
+      "area": "Naqqal",
+      "category": {
+        "key": "delivery",
+        "en": "Delivery & Fleet",
+        "ar": "التوصيل والأسطول",
+        "icon": "🚚"
+      },
+      "when": {
+        "en": "Continuously from 7am to 6pm",
+        "ar": "باستمرار من 7am إلى 6pm"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-mr-leadtime-001",
+      "name": "MR Lead Time Checker",
+      "description": "sends ONE overdue MR per cycle to procurement group, re-alerts every 3 days.",
+      "displayName": {
+        "en": "MR Lead Time Checker",
+        "ar": "متابعة تأخير طلبات المواد"
+      },
+      "displayDescription": {
+        "en": "sends ONE overdue MR per cycle to procurement group, re-alerts every 3 days.",
+        "ar": "يرسل طلب مادة متأخر واحد في كل دورة إلى مجموعة المشتريات ويعيد التنبيه كل 3 أيام."
+      },
+      "areaKey": "procurement",
+      "relatedAreas": [
+        "procurement"
+      ],
+      "area": "Raqeeb",
+      "category": {
+        "key": "procurement",
+        "en": "Procurement & Suppliers",
+        "ar": "المشتريات والموردون",
+        "icon": "📦"
+      },
+      "when": {
+        "en": "Every 20 min during work hours",
+        "ar": "كل 20 دقيقة خلال ساعات العمل"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-raw-material-shortage-001",
+      "name": "Raw Material Shortage Reminder",
+      "description": "Daily 09:08: reminds Javed by personal WhatsApp DM about BCI-Raw Material items below safety stock/short/projected short, then sends one next-day follow-up if no Purchase Material Request exists.",
+      "displayName": {
+        "en": "Raw Material Shortage Reminder",
+        "ar": "تذكير نقص المواد الخام"
+      },
+      "displayDescription": {
+        "en": "Daily 09:08: reminds Javed by personal WhatsApp DM about BCI-Raw Material items below safety stock/short/projected short, then sends one next-day follow-up if no Purchase Material Request exists.",
+        "ar": "ينبه جافيد بالمواد الخام الأقل من حد الأمان أو المتوقع نقصها، مع متابعة في اليوم التالي عند الحاجة."
+      },
+      "areaKey": "procurement",
+      "relatedAreas": [
+        "procurement"
+      ],
+      "area": "Raqeeb",
+      "category": {
+        "key": "procurement",
+        "en": "Procurement & Suppliers",
+        "ar": "المشتريات والموردون",
+        "icon": "📦"
+      },
+      "when": {
+        "en": "Every morning at 9:08",
+        "ar": "كل صباح عند 9:08"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-quotation-followup-001",
+      "name": "Quotation Follow-up",
+      "description": "reminds salesmen about open quotations not converted to orders (24h first, then every 3 days). Action-time slot - after target-tracker hook lands at 08:00, salesmen are settled in and ready to call customers about live quotes.",
+      "displayName": {
+        "en": "Quotation Follow-up",
+        "ar": "متابعة عروض الأسعار المفتوحة"
+      },
+      "displayDescription": {
+        "en": "reminds salesmen about open quotations not converted to orders (24h first, then every 3 days). Action-time slot - after target-tracker hook lands at 08:00, salesmen are settled in and ready to call customers about live quotes.",
+        "ar": "يذكر مندوبي المبيعات بعروض الأسعار المفتوحة التي لم تتحول إلى أوامر بيع."
+      },
+      "areaKey": "sales",
+      "relatedAreas": [
+        "sales"
+      ],
+      "area": "Mutabi",
+      "category": {
+        "key": "sales",
+        "en": "Sales & Quotations",
+        "ar": "المبيعات وعروض الأسعار",
+        "icon": "📈"
+      },
+      "when": {
+        "en": "Every morning at 9:26",
+        "ar": "كل صباح عند 9:26"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-salesman-target-tracker-001",
+      "name": "Salesman Target Tracker",
+      "description": "per-salesman MTD invoiced net sales vs monthly target, rank, top customers, plus a warm daily site-visit expectation. Uses Sales Invoice posting_date/net_total so totals align with accounting. Voice+text lands before customer-facing time.",
+      "displayName": {
+        "en": "Salesman Target Tracker",
+        "ar": "متابعة أهداف مندوبي المبيعات"
+      },
+      "displayDescription": {
+        "en": "per-salesman MTD invoiced net sales vs monthly target, rank, top customers, plus a warm daily site-visit expectation. Uses Sales Invoice posting_date/net_total so totals align with accounting. Voice+text lands before customer-facing time.",
+        "ar": "يرسل لكل مندوب مبيعات تحديث الشهر الحالي، ترتيبه، أبرز العملاء، وتذكير الزيارات اليومية."
+      },
+      "areaKey": "sales",
+      "relatedAreas": [
+        "sales",
+        "accounts"
+      ],
+      "area": "Mutabi",
+      "category": {
+        "key": "sales",
+        "en": "Sales & Quotations",
+        "ar": "المبيعات وعروض الأسعار",
+        "icon": "📈"
+      },
+      "when": {
+        "en": "Every morning at 8:29 (not Fri)",
+        "ar": "كل صباح عند 8:29 (عدا الجمعة)"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-salesman-visit-tracker-noon-001",
+      "name": "Salesman Visit Tracker - Noon",
+      "description": "nudges active BCI salesmen who have not logged any Salesperson site visit yet today (no numbers in the message) and sends Sameh a team roll-up when his team is behind. Daily minimum (8) is judged internally, never stated to salesmen.",
+      "displayName": {
+        "en": "Salesman Visit Tracker - Noon",
+        "ar": "متابعة زيارات المندوبين - منتصف اليوم"
+      },
+      "displayDescription": {
+        "en": "nudges active BCI salesmen who have not logged any Salesperson site visit yet today (no numbers in the message) and sends Sameh a team roll-up when his team is behind. Daily minimum (8) is judged internally, never stated to salesmen.",
+        "ar": "ينبه المندوبين الذين لم يسجلوا زيارة ميدانية اليوم ويرسل ملخص الفريق عند الحاجة."
+      },
+      "areaKey": "sales",
+      "relatedAreas": [
+        "sales"
+      ],
+      "area": "Mutabi",
+      "category": {
+        "key": "sales",
+        "en": "Sales & Quotations",
+        "ar": "المبيعات وعروض الأسعار",
+        "icon": "📈"
+      },
+      "when": {
+        "en": "Every afternoon at 12:00 (not Fri)",
+        "ar": "كل يوم بعد الظهر عند 12:00 (عدا الجمعة)"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-salesman-visit-tracker-midday-001",
+      "name": "Salesman Visit Tracker - 15:30",
+      "description": "nudges active BCI salesmen still below the internal daily minimum of submitted Salesperson site visits (no numbers in the message) and sends Sameh a team roll-up when his team is behind. Daily minimum (8) is judged internally, never stated to salesmen.",
+      "displayName": {
+        "en": "Salesman Visit Tracker - 15:30",
+        "ar": "متابعة زيارات المندوبين - 3:30"
+      },
+      "displayDescription": {
+        "en": "nudges active BCI salesmen still below the internal daily minimum of submitted Salesperson site visits (no numbers in the message) and sends Sameh a team roll-up when his team is behind. Daily minimum (8) is judged internally, never stated to salesmen.",
+        "ar": "ينبه المندوبين الذين ما زالوا أقل من الحد اليومي للزيارات المسجلة."
+      },
+      "areaKey": "sales",
+      "relatedAreas": [
+        "sales"
+      ],
+      "area": "Mutabi",
+      "category": {
+        "key": "sales",
+        "en": "Sales & Quotations",
+        "ar": "المبيعات وعروض الأسعار",
+        "icon": "📈"
+      },
+      "when": {
+        "en": "Every afternoon at 15:30 (not Fri)",
+        "ar": "كل يوم بعد الظهر عند 15:30 (عدا الجمعة)"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-salesman-visit-tracker-eod-001",
+      "name": "Salesman Visit Tracker - Boss EOD",
+      "description": "sends boss an exception summary (with counts) for active BCI salesmen still below the daily minimum of 8 submitted Salesperson site visits.",
+      "displayName": {
+        "en": "Salesman Visit Tracker - Boss EOD",
+        "ar": "ملخص زيارات المندوبين لصاحب القرار"
+      },
+      "displayDescription": {
+        "en": "sends boss an exception summary (with counts) for active BCI salesmen still below the daily minimum of 8 submitted Salesperson site visits.",
+        "ar": "يرسل ملخص الاستثناءات لـ Eng. Muhammad عن المندوبين الأقل من الحد اليومي للزيارات."
+      },
+      "areaKey": "sales",
+      "relatedAreas": [
+        "sales"
+      ],
+      "area": "Mutabi",
+      "category": {
+        "key": "sales",
+        "en": "Sales & Quotations",
+        "ar": "المبيعات وعروض الأسعار",
+        "icon": "📈"
+      },
+      "when": {
+        "en": "Every evening at 17:45 (not Fri)",
+        "ar": "كل مساء عند 17:45 (عدا الجمعة)"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-rent-reminder-001",
+      "name": "Rent Installment Reminder",
+      "description": "sends 15-day-ahead WhatsApp reminders to boss and Uzair for each Rent Contract installment. Adnan outbound is blocked.",
+      "displayName": {
+        "en": "Rent Installment Reminder",
+        "ar": "تذكير أقساط الإيجار"
+      },
+      "displayDescription": {
+        "en": "sends 15-day-ahead WhatsApp reminders to boss and Uzair for each Rent Contract installment. Adnan outbound is blocked.",
+        "ar": "يرسل تذكيرات مبكرة لأقساط عقود الإيجار إلى Eng. Muhammad وعزير."
+      },
+      "areaKey": "rental",
+      "relatedAreas": [
+        "rental"
+      ],
+      "area": "Mu'ajjir",
+      "category": {
+        "key": "rental",
+        "en": "Rentals",
+        "ar": "الإيجارات",
+        "icon": "🏢"
+      },
+      "when": {
+        "en": "Every morning at 9:20",
+        "ar": "كل صباح عند 9:20"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-truck-arrival-001",
+      "name": "Truck Arrival Alert",
+      "description": "Alerts delivery group 30 min before a truck reaches its destination. Runs 24/7 for overnight long-distance trips.",
+      "displayName": {
+        "en": "Truck Arrival Alert",
+        "ar": "تنبيه قرب وصول الشاحنات"
+      },
+      "displayDescription": {
+        "en": "Alerts delivery group 30 min before a truck reaches its destination. Runs 24/7 for overnight long-distance trips.",
+        "ar": "ينبه مجموعة التوصيل قبل وصول الشاحنة إلى الوجهة بنحو 30 دقيقة."
+      },
+      "areaKey": "delivery",
+      "relatedAreas": [
+        "delivery"
+      ],
+      "area": "Naqqal",
+      "category": {
+        "key": "delivery",
+        "en": "Delivery & Fleet",
+        "ar": "التوصيل والأسطول",
+        "icon": "🚚"
+      },
+      "when": {
+        "en": "Every 30 min",
+        "ar": "كل 30 دقيقة"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-unengaged-trucks-001",
+      "name": "Unengaged Trucks Reminder",
+      "description": "Reminds delivery group every 3 hours about trucks with no active Delivery Trip today.",
+      "displayName": {
+        "en": "Unengaged Trucks Reminder",
+        "ar": "تذكير الشاحنات غير المشغولة"
+      },
+      "displayDescription": {
+        "en": "Reminds delivery group every 3 hours about trucks with no active Delivery Trip today.",
+        "ar": "ينبه مجموعة التوصيل بالشاحنات التي لا يوجد لها رحلة تسليم نشطة اليوم."
+      },
+      "areaKey": "fleet",
+      "relatedAreas": [
+        "fleet",
+        "delivery"
+      ],
+      "area": "Astuli",
+      "category": {
+        "key": "delivery",
+        "en": "Delivery & Fleet",
+        "ar": "التوصيل والأسطول",
+        "icon": "🚚"
+      },
+      "when": {
+        "en": "At 8:13, 11:13, 14:13, 17:13",
+        "ar": "الساعة 8:13, 11:13, 14:13, 17:13"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-oil-change-001",
+      "name": "Oil Change Checker",
+      "description": "Alerts delivery group when a truck exceeds 9,000 km since last oil change. Uses Vehicle Log odometer data.",
+      "displayName": {
+        "en": "Oil Change Checker",
+        "ar": "متابعة تغيير زيت الشاحنات"
+      },
+      "displayDescription": {
+        "en": "Alerts delivery group when a truck exceeds 9,000 km since last oil change. Uses Vehicle Log odometer data.",
+        "ar": "ينبه عند تجاوز الشاحنة حد الكيلومترات منذ آخر تغيير زيت."
+      },
+      "areaKey": "fleet",
+      "relatedAreas": [
+        "fleet",
+        "delivery"
+      ],
+      "area": "Astuli",
+      "category": {
+        "key": "delivery",
+        "en": "Delivery & Fleet",
+        "ar": "التوصيل والأسطول",
+        "icon": "🚚"
+      },
+      "when": {
+        "en": "Every morning at 8:23",
+        "ar": "كل صباح عند 8:23"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "mkt-weekly-planning",
+      "name": "Marketing Weekly Content Planning",
+      "description": "Saturday 9AM: plans the next week's content calendar and posts it to BCI Marketing group for batch approval.",
+      "displayName": {
+        "en": "Marketing Weekly Content Planning",
+        "ar": "تخطيط محتوى التسويق الأسبوعي"
+      },
+      "displayDescription": {
+        "en": "Saturday 9AM: plans the next week's content calendar and posts it to BCI Marketing group for batch approval.",
+        "ar": "يجهز خطة محتوى الأسبوع التالي ويرسلها لمجموعة تسويق BCI للاعتماد."
+      },
+      "areaKey": "marketing",
+      "relatedAreas": [
+        "marketing"
+      ],
+      "area": "Musawwiq",
+      "category": {
+        "key": "marketing",
+        "en": "Marketing",
+        "ar": "التسويق",
+        "icon": "📣"
+      },
+      "when": {
+        "en": "Every morning at 9:00 (Sat)",
+        "ar": "كل صباح عند 9:00 (السبت)"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "mkt-daily-drafting",
+      "name": "Marketing Calendar Post Request - Shakir",
+      "description": "",
+      "displayName": {
+        "en": "Marketing Calendar Post Request - Shakir",
+        "ar": "طلب منشورات تقويم التسويق - شاكر"
+      },
+      "displayDescription": {
+        "en": "",
+        "ar": "يرسل طلبات منشورات التقويم التسويقي اليومية إلى شاكر."
+      },
+      "areaKey": "marketing",
+      "relatedAreas": [
+        "marketing"
+      ],
+      "area": "Musawwiq",
+      "category": {
+        "key": "marketing",
+        "en": "Marketing",
+        "ar": "التسويق",
+        "icon": "📣"
+      },
+      "when": {
+        "en": "Every morning at 8:00 (Sun–Thu)",
+        "ar": "كل صباح عند 8:00 (الأحد–الخميس)"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-morning-briefing-001",
+      "name": "Morning Briefing",
+      "description": "Sends daily 8 AM curated brief to Eng. Muhammad: collections due, pending approvals, sales snapshot, yesterday's recap.",
+      "displayName": {
+        "en": "Morning Briefing",
+        "ar": "الملخص الصباحي"
+      },
+      "displayDescription": {
+        "en": "Sends daily 8 AM curated brief to Eng. Muhammad: collections due, pending approvals, sales snapshot, yesterday's recap.",
+        "ar": "يرسل لـ Eng. Muhammad ملخصاً يومياً عن التحصيل والاعتمادات والمبيعات وما تم أمس."
+      },
+      "areaKey": "main",
+      "relatedAreas": [
+        "main",
+        "sales"
+      ],
+      "area": "Fahad",
+      "category": {
+        "key": "reports",
+        "en": "Reports & Briefings",
+        "ar": "التقارير والملخصات",
+        "icon": "📊"
+      },
+      "when": {
+        "en": "Every morning at 8:11",
+        "ar": "كل صباح عند 8:11"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-collections-brief-001",
+      "name": "Collections Intelligence Brief",
+      "description": "Daily 10 AM deep-dive into overdue receivables: aging buckets, top 10 debtors, chase priority list. Arabic, to Eng. Muhammad DM.",
+      "displayName": {
+        "en": "Collections Intelligence Brief",
+        "ar": "ملخص التحصيل الذكي"
+      },
+      "displayDescription": {
+        "en": "Daily 10 AM deep-dive into overdue receivables: aging buckets, top 10 debtors, chase priority list. Arabic, to Eng. Muhammad DM.",
+        "ar": "يرسل تحليل الفواتير المتأخرة وأولويات التحصيل وأكبر العملاء المتأخرين."
+      },
+      "areaKey": "accounts",
+      "relatedAreas": [
+        "accounts"
+      ],
+      "area": "Haseb",
+      "category": {
+        "key": "accounts",
+        "en": "Accounts & Collections",
+        "ar": "الحسابات والتحصيل",
+        "icon": "💰"
+      },
+      "when": {
+        "en": "Every morning at 10:14",
+        "ar": "كل صباح عند 10:14"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-po-approval-notifier-001",
+      "name": "PO Approval Notifier",
+      "description": "Every 10 min from 08:00 to 17:59 Asia/Riyadh: refreshes the pending_actions registry and pushes any newly-pending PO to Eng. Muhammad via WhatsApp for quick-reply approval.",
+      "displayName": {
+        "en": "PO Approval Notifier",
+        "ar": "تنبيه اعتماد أوامر الشراء"
+      },
+      "displayDescription": {
+        "en": "Every 10 min from 08:00 to 17:59 Asia/Riyadh: refreshes the pending_actions registry and pushes any newly-pending PO to Eng. Muhammad via WhatsApp for quick-reply approval.",
+        "ar": "يتابع أوامر الشراء التي تنتظر اعتماد Eng. Muhammad ويرسلها للرد السريع."
+      },
+      "areaKey": "procurement",
+      "relatedAreas": [
+        "procurement"
+      ],
+      "area": "Raqeeb",
+      "category": {
+        "key": "procurement",
+        "en": "Procurement & Suppliers",
+        "ar": "المشتريات والموردون",
+        "icon": "📦"
+      },
+      "when": {
+        "en": "Every 20 min during work hours",
+        "ar": "كل 20 دقيقة خلال ساعات العمل"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-po-notifier-anas-001",
+      "name": "APC PO Notifier -> Anas",
+      "description": "Every 30 min 08:00-17:00: sends new APC Purchase Orders to Anas (APC manager) via WhatsApp.",
+      "displayName": {
+        "en": "APC PO Notifier -> Anas",
+        "ar": "تنبيه أوامر شراء APC إلى أنس"
+      },
+      "displayDescription": {
+        "en": "Every 30 min 08:00-17:00: sends new APC Purchase Orders to Anas (APC manager) via WhatsApp.",
+        "ar": "يرسل أوامر شراء APC الجديدة إلى أنس عبر واتساب."
+      },
+      "areaKey": "procurement",
+      "relatedAreas": [
+        "procurement"
+      ],
+      "area": "Raqeeb",
+      "category": {
+        "key": "procurement",
+        "en": "Procurement & Suppliers",
+        "ar": "المشتريات والموردون",
+        "icon": "📦"
+      },
+      "when": {
+        "en": "Every 30 min during work hours",
+        "ar": "كل 30 دقيقة خلال ساعات العمل"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-register-approvals-001",
+      "name": "Register Pending PO Approvals",
+      "description": "",
+      "displayName": {
+        "en": "Register Pending PO Approvals",
+        "ar": "تسجيل أوامر الشراء المعلقة"
+      },
+      "displayDescription": {
+        "en": "",
+        "ar": "يحدث سجل أوامر الشراء التي تنتظر الاعتماد."
+      },
+      "areaKey": "procurement",
+      "relatedAreas": [
+        "procurement"
+      ],
+      "area": "Raqeeb",
+      "category": {
+        "key": "procurement",
+        "en": "Procurement & Suppliers",
+        "ar": "المشتريات والموردون",
+        "icon": "📦"
+      },
+      "when": {
+        "en": "At 8:09, 14:09",
+        "ar": "الساعة 8:09, 14:09"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "mkt-watchdog",
+      "name": "Marketing Watchdog - Every 2 Hours Business Hours",
+      "description": "Sun-Thu every 2 hours 9AM-5PM Riyadh: reminds boss about pending marketing approvals with varied value-based nudges, checks overdue tasks, and stays silent if nothing needs action.",
+      "displayName": {
+        "en": "Marketing Watchdog - Every 2 Hours Business Hours",
+        "ar": "مراقبة التسويق خلال ساعات العمل"
+      },
+      "displayDescription": {
+        "en": "Sun-Thu every 2 hours 9AM-5PM Riyadh: reminds boss about pending marketing approvals with varied value-based nudges, checks overdue tasks, and stays silent if nothing needs action.",
+        "ar": "يذكر Eng. Muhammad بالاعتمادات التسويقية المعلقة ويتابع المهام المتأخرة."
+      },
+      "areaKey": "marketing",
+      "relatedAreas": [
+        "marketing"
+      ],
+      "area": "Musawwiq",
+      "category": {
+        "key": "marketing",
+        "en": "Marketing",
+        "ar": "التسويق",
+        "icon": "📣"
+      },
+      "when": {
+        "en": "At 9:00, 11:00, 13:00, 15:00, 17:00 (Sun–Thu)",
+        "ar": "الساعة 9:00, 11:00, 13:00, 15:00, 17:00 (الأحد–الخميس)"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-eod-summary-001",
+      "name": "End-of-Day Summary",
+      "description": "Sends daily 6 PM scorecard to Eng. Muhammad: today's completed work, approvals, still-pending items.",
+      "displayName": {
+        "en": "End-of-Day Summary",
+        "ar": "ملخص نهاية اليوم"
+      },
+      "displayDescription": {
+        "en": "Sends daily 6 PM scorecard to Eng. Muhammad: today's completed work, approvals, still-pending items.",
+        "ar": "يرسل بطاقة نهاية اليوم: ما تم إنجازه، الاعتمادات، والعناصر التي ما زالت معلقة."
+      },
+      "areaKey": "",
+      "relatedAreas": [],
+      "area": "",
+      "category": {
+        "key": "reports",
+        "en": "Reports & Briefings",
+        "ar": "التقارير والملخصات",
+        "icon": "📊"
+      },
+      "when": {
+        "en": "Every evening at 18:16",
+        "ar": "كل مساء عند 18:16"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "33884025-b4a0-4d1e-9563-6cda102c0056",
+      "name": "Salesman Overdue Collections",
+      "description": "Daily 1 PM reminder to each BCI salesman about overdue customer collections on their accounts. Moved from morning bundle (08:00 hook + 09:30 quote follow-up was already two messages); collections is the heaviest, lands in post-lunch admin slot when salesmen have energy for chasing money rather than starting the day with bad news.",
+      "displayName": {
+        "en": "Salesman Overdue Collections",
+        "ar": "تحصيلات العملاء المتأخرة للمندوبين"
+      },
+      "displayDescription": {
+        "en": "Daily 1 PM reminder to each BCI salesman about overdue customer collections on their accounts. Moved from morning bundle (08:00 hook + 09:30 quote follow-up was already two messages); collections is the heaviest, lands in post-lunch admin slot when salesmen have energy for chasing money rather than starting the day with bad news.",
+        "ar": "يرسل تذكيراً يومياً لكل مندوب BCI عن العملاء المتأخرين في السداد ضمن حساباته."
+      },
+      "areaKey": "main",
+      "relatedAreas": [
+        "main",
+        "sales",
+        "accounts"
+      ],
+      "area": "Fahad",
+      "category": {
+        "key": "accounts",
+        "en": "Accounts & Collections",
+        "ar": "الحسابات والتحصيل",
+        "icon": "💰"
+      },
+      "when": {
+        "en": "Every afternoon at 13:07",
+        "ar": "كل يوم بعد الظهر عند 13:07"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-rental-overdue-001",
+      "name": "Rental Overdue Checker",
+      "description": "Daily 09:00 Asia/Riyadh: scans SH (Sharafat Aliemar) rental contracts. Sends boss overdue digest; reminds tenants 15d/3d before due date, on due date, then every 3d overdue until paid. Tenant replies route to rental-tenant support.",
+      "displayName": {
+        "en": "Rental Overdue Checker",
+        "ar": "متابعة الإيجارات المتأخرة"
+      },
+      "displayDescription": {
+        "en": "Daily 09:00 Asia/Riyadh: scans SH (Sharafat Aliemar) rental contracts. Sends boss overdue digest; reminds tenants 15d/3d before due date, on due date, then every 3d overdue until paid. Tenant replies route to rental-tenant support.",
+        "ar": "يفحص عقود الإيجار ويرسل ملخص المتأخرات وتذكيرات المستأجرين حسب مواعيد الاستحقاق."
+      },
+      "areaKey": "rental",
+      "relatedAreas": [
+        "rental"
+      ],
+      "area": "Mu'ajjir",
+      "category": {
+        "key": "rental",
+        "en": "Rentals",
+        "ar": "الإيجارات",
+        "icon": "🏢"
+      },
+      "when": {
+        "en": "Every morning at 9:14",
+        "ar": "كل صباح عند 9:14"
+      },
+      "hasWorkflow": true
+    },
+    {
+      "id": "py-rental-payment-reminder-001",
+      "name": "APC/BCI Rental Payment Reminder",
+      "description": "Daily 08:30 Asia/Riyadh (no Friday): approved APC/BCI Rental Contracts — reminds HR group about rent installments + electricity bills at 30/7/3/1 days before due and on due date (skips rows already Paid, re-checked fresh each run), overdue nudge every 3d until paid, lease expiry notices at 90/30/7/0 days before end_date.",
+      "displayName": {
+        "en": "APC/BCI Rental Payment Reminder",
+        "ar": "تذكير دفعات إيجار APC/BCI"
+      },
+      "displayDescription": {
+        "en": "Daily 08:30 Asia/Riyadh (no Friday): approved APC/BCI Rental Contracts — reminds HR group about rent installments + electricity bills at 30/7/3/1 days before due and on due date (skips rows already Paid, re-checked fresh each run), overdue nudge every 3d until paid, lease expiry notices at 90/30/7/0 days before end_date.",
+        "ar": "ينبه مجموعة الموارد البشرية بأقساط الإيجار وفواتير الكهرباء قبل الاستحقاق."
+      },
+      "areaKey": "rental",
+      "relatedAreas": [
+        "rental",
+        "hr"
+      ],
+      "area": "Mu'ajjir",
+      "category": {
+        "key": "rental",
+        "en": "Rentals",
+        "ar": "الإيجارات",
+        "icon": "🏢"
+      },
+      "when": {
+        "en": "Every morning at 8:30 (not Fri)",
+        "ar": "كل صباح عند 8:30 (عدا الجمعة)"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-rfq-email-poller-001",
+      "name": "RFQ Email Poller",
+      "description": "Enabled 2026-05-19 (Adyan): supplier email outbound + inbound channels live.",
+      "displayName": {
+        "en": "RFQ Email Poller",
+        "ar": "متابعة بريد RFQ"
+      },
+      "displayDescription": {
+        "en": "Enabled 2026-05-19 (Adyan): supplier email outbound + inbound channels live.",
+        "ar": "يتابع رسائل الموردين الصادرة والواردة الخاصة بطلبات عروض الأسعار."
+      },
+      "areaKey": "procurement",
+      "relatedAreas": [
+        "procurement"
+      ],
+      "area": "Raqeeb",
+      "category": {
+        "key": "procurement",
+        "en": "Procurement & Suppliers",
+        "ar": "المشتريات والموردون",
+        "icon": "📦"
+      },
+      "when": {
+        "en": "Every 3 min",
+        "ar": "كل 3 دقيقة"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-rfq-group-notifier-001",
+      "name": "RFQ Group Notifier Safety Net",
+      "description": "Catches up any po_drafted RFQ rounds whose group/boss notification was missed (e.g. fire-and-forget subprocess killed). Idempotent.",
+      "displayName": {
+        "en": "RFQ Group Notifier Safety Net",
+        "ar": "شبكة أمان تنبيهات RFQ"
+      },
+      "displayDescription": {
+        "en": "Catches up any po_drafted RFQ rounds whose group/boss notification was missed (e.g. fire-and-forget subprocess killed). Idempotent.",
+        "ar": "يلتقط أي جولة RFQ تم تجهيزها ولم يصل تنبيهها للمجموعة أو لصاحب القرار."
+      },
+      "areaKey": "procurement",
+      "relatedAreas": [
+        "procurement"
+      ],
+      "area": "Raqeeb",
+      "category": {
+        "key": "procurement",
+        "en": "Procurement & Suppliers",
+        "ar": "المشتريات والموردون",
+        "icon": "📦"
+      },
+      "when": {
+        "en": "Every 15 min during work hours (Sun–Thu)",
+        "ar": "كل 15 دقيقة خلال ساعات العمل (الأحد–الخميس)"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "boss-dashboard-regen",
+      "name": "Boss Dashboard - Regenerate",
+      "description": "Read-only file write, safe on Fridays.",
+      "displayName": {
+        "en": "Boss Dashboard - Regenerate",
+        "ar": "تحديث لوحة المتابعة"
+      },
+      "displayDescription": {
+        "en": "Read-only file write, safe on Fridays.",
+        "ar": "يعيد توليد بيانات لوحة المتابعة بشكل دوري."
+      },
+      "areaKey": "",
+      "relatedAreas": [],
+      "area": "",
+      "category": {
+        "key": "system",
+        "en": "System & Monitoring",
+        "ar": "النظام والمراقبة",
+        "icon": "🛡️"
+      },
+      "when": {
+        "en": "Every hour at :27",
+        "ar": "كل ساعة عند الدقيقة 27"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-etimad-tender-watcher-001",
+      "name": "Etimad Tender Watcher",
+      "description": "Daily 08:00: scrapes tenders.etimad.sa for new public tenders, filters to APC scope (Building Construction + Civil Works, all KSA), sends Arabic voice + text digest to boss DM. Friday-gated. Boss-DM preview phase before pushing to projects group.",
+      "displayName": {
+        "en": "Etimad Tender Watcher",
+        "ar": "مراقبة مناقصات اعتماد"
+      },
+      "displayDescription": {
+        "en": "Daily 08:00: scrapes tenders.etimad.sa for new public tenders, filters to APC scope (Building Construction + Civil Works, all KSA), sends Arabic voice + text digest to boss DM. Friday-gated. Boss-DM preview phase before pushing to projects group.",
+        "ar": "يفحص مناقصات اعتماد العامة ويبلغ Eng. Muhammad بالمناقصات المناسبة لنطاق APC."
+      },
+      "areaKey": "sales",
+      "relatedAreas": [
+        "sales",
+        "projects"
+      ],
+      "area": "Mutabi",
+      "category": {
+        "key": "sales",
+        "en": "Sales & Quotations",
+        "ar": "المبيعات وعروض الأسعار",
+        "icon": "📈"
+      },
+      "when": {
+        "en": "Every morning at 8:00",
+        "ar": "كل صباح عند 8:00"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-hr-fleet-expiry-001",
+      "name": "HR Fleet Document Expiry Reminder",
+      "description": "Sends all due expired documents.",
+      "displayName": {
+        "en": "HR Fleet Document Expiry Reminder",
+        "ar": "تذكير انتهاء وثائق الأسطول للموارد البشرية"
+      },
+      "displayDescription": {
+        "en": "Sends all due expired documents.",
+        "ar": "يرسل وثائق الأسطول المنتهية أو القريبة من الانتهاء إلى مجموعة الموارد البشرية."
+      },
+      "areaKey": "hr",
+      "relatedAreas": [
+        "hr",
+        "fleet"
+      ],
+      "area": "Muwazzif",
+      "category": {
+        "key": "hr",
+        "en": "HR & Documents",
+        "ar": "الموارد البشرية والوثائق",
+        "icon": "👤"
+      },
+      "when": {
+        "en": "Every morning at 8:00",
+        "ar": "كل صباح عند 8:00"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-hr-employee-expiry-001",
+      "name": "HR Employee Iqama + Contract Expiry Reminder",
+      "description": "Iqama alerts at 7 and 1 days before expiry; a weekly Tuesday digest of currently-expired iqamas (recently-expired listed, older backlog counted); contract renewal alerts at 65 and 61 days before contract_end_date (61-day only if not yet renewed), for employees that have a contract and do not have renewal disabled.",
+      "displayName": {
+        "en": "HR Employee Iqama + Contract Expiry Reminder",
+        "ar": "تذكير انتهاء إقامات وعقود الموظفين"
+      },
+      "displayDescription": {
+        "en": "Iqama alerts at 7 and 1 days before expiry; a weekly Tuesday digest of currently-expired iqamas (recently-expired listed, older backlog counted); contract renewal alerts at 65 and 61 days before contract_end_date (61-day only if not yet renewed), for employees that have a contract and do not have renewal disabled.",
+        "ar": "ينبه قبل انتهاء الإقامات والعقود ويرسل ملخصاً أسبوعياً للمنتهي منها."
+      },
+      "areaKey": "hr",
+      "relatedAreas": [
+        "hr"
+      ],
+      "area": "Muwazzif",
+      "category": {
+        "key": "hr",
+        "en": "HR & Documents",
+        "ar": "الموارد البشرية والوثائق",
+        "icon": "👤"
+      },
+      "when": {
+        "en": "Every morning at 8:00",
+        "ar": "كل صباح عند 8:00"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-fleet-accident-followup-001",
+      "name": "Fleet Accident Follow-up",
+      "description": "Every 2 working-hours Sunday-Thursday: follows open Fleet Incident Details accident cases from local state, reminds the HR group for Najm/Taqdeer/claim/payment/legal next steps, and keeps timing metadata out of ERP. (Moved fleet group -> HR group 2026-06-09; HR group is now the primary home for the accident workflow, fleet group remains a fallback for reports.)",
+      "displayName": {
+        "en": "Fleet Accident Follow-up",
+        "ar": "متابعة حوادث الأسطول"
+      },
+      "displayDescription": {
+        "en": "Every 2 working-hours Sunday-Thursday: follows open Fleet Incident Details accident cases from local state, reminds the HR group for Najm/Taqdeer/claim/payment/legal next steps, and keeps timing metadata out of ERP. (Moved fleet group -> HR group 2026-06-09; HR group is now the primary home for the accident workflow, fleet group remains a fallback for reports.)",
+        "ar": "يتابع حالات الحوادث المفتوحة ويذكر مجموعة الموارد البشرية بخطوات نجم وتقدير والمطالبة."
+      },
+      "areaKey": "delivery",
+      "relatedAreas": [
+        "delivery",
+        "hr",
+        "fleet"
+      ],
+      "area": "Naqqal",
+      "category": {
+        "key": "delivery",
+        "en": "Delivery & Fleet",
+        "ar": "التوصيل والأسطول",
+        "icon": "🚚"
+      },
+      "when": {
+        "en": "Every 2 hr during work hours (Sun–Thu)",
+        "ar": "كل 2 ساعة خلال ساعات العمل (الأحد–الخميس)"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "mkt-linkedin-playwright-review",
+      "name": "LinkedIn Safe Auto Daily",
+      "description": "Daily 8:30 Riyadh: uses on BCI LinkedIn Page Admin, sends limited safe outreach/replies, and alerts boss for important items.",
+      "displayName": {
+        "en": "LinkedIn Safe Auto Daily",
+        "ar": "متابعة LinkedIn اليومية الآمنة"
+      },
+      "displayDescription": {
+        "en": "Daily 8:30 Riyadh: uses on BCI LinkedIn Page Admin, sends limited safe outreach/replies, and alerts boss for important items.",
+        "ar": "ينفذ تفاعلات محدودة وآمنة على صفحة LinkedIn الخاصة بـ BCI وينبه Eng. Muhammad عند وجود أمر مهم."
+      },
+      "areaKey": "marketing",
+      "relatedAreas": [
+        "marketing"
+      ],
+      "area": "Musawwiq",
+      "category": {
+        "key": "marketing",
+        "en": "Marketing",
+        "ar": "التسويق",
+        "icon": "📣"
+      },
+      "when": {
+        "en": "Every morning at 8:30 (Sun–Thu)",
+        "ar": "كل صباح عند 8:30 (الأحد–الخميس)"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-watchdog-gateway-001",
+      "name": "Gateway Watchdog",
+      "description": "Every 5 min: probes the OpenClaw gateway WhatsApp listener. Alerts Adyan via Telegram (direct HTTPS, no gateway dependency) after 10 min down, escalates to Telegram+Twilio SMS after 60 min down, repeats critical hourly, and sends a single 'recovered' message when the listener comes back. NO failureAlert via WhatsApp — that's the channel it watches.",
+      "displayName": {
+        "en": "Gateway Watchdog",
+        "ar": "مراقبة بوابة واتساب"
+      },
+      "displayDescription": {
+        "en": "Every 5 min: probes the OpenClaw gateway WhatsApp listener. Alerts Adyan via Telegram (direct HTTPS, no gateway dependency) after 10 min down, escalates to Telegram+Twilio SMS after 60 min down, repeats critical hourly, and sends a single 'recovered' message when the listener comes back. NO failureAlert via WhatsApp — that's the channel it watches.",
+        "ar": "يفحص جاهزية بوابة OpenClaw وواتساب وينبه عند توقفها."
+      },
+      "areaKey": "",
+      "relatedAreas": [],
+      "area": "",
+      "category": {
+        "key": "system",
+        "en": "System & Monitoring",
+        "ar": "النظام والمراقبة",
+        "icon": "🛡️"
+      },
+      "when": {
+        "en": "Every 5 min",
+        "ar": "كل 5 دقيقة"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-support-collections-queue-001",
+      "name": "Support Collections Queue Refresh",
+      "description": "Every hour 08-17 Asia/Riyadh: reads ERP Accounts Receivable and writes a sanitized pending-payment queue for the separate support OpenClaw. No WhatsApp sends.",
+      "displayName": {
+        "en": "Support Collections Queue Refresh",
+        "ar": "تحديث قائمة التحصيل للدعم"
+      },
+      "displayDescription": {
+        "en": "Every hour 08-17 Asia/Riyadh: reads ERP Accounts Receivable and writes a sanitized pending-payment queue for the separate support OpenClaw. No WhatsApp sends.",
+        "ar": "يقرأ الذمم المدينة من ERP ويجهز قائمة مدفوعات معلقة نظيفة لنظام الدعم المنفصل."
+      },
+      "areaKey": "accounts",
+      "relatedAreas": [
+        "accounts"
+      ],
+      "area": "Haseb",
+      "category": {
+        "key": "accounts",
+        "en": "Accounts & Collections",
+        "ar": "الحسابات والتحصيل",
+        "icon": "💰"
+      },
+      "when": {
+        "en": "Every hour during work hours",
+        "ar": "كل ساعة خلال ساعات العمل"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-item-price-reply-promoter-001",
+      "name": "Item Price Reply Promoter",
+      "description": "Idempotent; safe to re-run.",
+      "displayName": {
+        "en": "Item Price Reply Promoter",
+        "ar": "ترقية ردود أسعار المواد"
+      },
+      "displayDescription": {
+        "en": "Idempotent; safe to re-run.",
+        "ar": "يعالج ردود أسعار الموردين بشكل آمن وقابل لإعادة التشغيل."
+      },
+      "areaKey": "procurement",
+      "relatedAreas": [
+        "procurement"
+      ],
+      "area": "Raqeeb",
+      "category": {
+        "key": "procurement",
+        "en": "Procurement & Suppliers",
+        "ar": "المشتريات والموردون",
+        "icon": "📦"
+      },
+      "when": {
+        "en": "Every 10 min during work hours (not Fri)",
+        "ar": "كل 10 دقيقة خلال ساعات العمل (عدا الجمعة)"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-item-price-outreach-5h",
+      "name": "Item Price Outreach - Every 5h (drain BCI supplier price gap)",
+      "description": "every 5 hours (skip Friday). Batches ~50 supplier emails per run; rate-limited by Zoho naturally. Gap-compute is idempotent; deferred suppliers are picked up automatically on the next run. Drains the 320-supplier price-list backlog over ~25h, then continues filling gaps as new items / suppliers appear.",
+      "displayName": {
+        "en": "Item Price Outreach - Every 5h (drain BCI supplier price gap)",
+        "ar": "طلب أسعار المواد من الموردين"
+      },
+      "displayDescription": {
+        "en": "every 5 hours (skip Friday). Batches ~50 supplier emails per run; rate-limited by Zoho naturally. Gap-compute is idempotent; deferred suppliers are picked up automatically on the next run. Drains the 320-supplier price-list backlog over ~25h, then continues filling gaps as new items / suppliers appear.",
+        "ar": "يرسل دفعات من طلبات تحديث الأسعار للموردين لسد فجوات أسعار مواد BCI."
+      },
+      "areaKey": "procurement",
+      "relatedAreas": [
+        "procurement"
+      ],
+      "area": "Raqeeb",
+      "category": {
+        "key": "procurement",
+        "en": "Procurement & Suppliers",
+        "ar": "المشتريات والموردون",
+        "icon": "📦"
+      },
+      "when": {
+        "en": "Every 5 hr (not Fri)",
+        "ar": "كل 5 ساعة (عدا الجمعة)"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-boss-instruction-instant-001",
+      "name": "Boss Instruction Instant Watcher",
+      "description": "Every minute except Friday: checks recently modified boss-owned Instruction From Sales Management To Staff records and WhatsApp-notifies the assigned employee about newly added task rows for today.",
+      "displayName": {
+        "en": "Boss Instruction Instant Watcher",
+        "ar": "مراقبة تعليمات Eng. Muhammad الفورية"
+      },
+      "displayDescription": {
+        "en": "Every minute except Friday: checks recently modified boss-owned Instruction From Sales Management To Staff records and WhatsApp-notifies the assigned employee about newly added task rows for today.",
+        "ar": "يتابع تعليمات Eng. Muhammad الجديدة أو المعدلة ويبلغ الموظف المعني فوراً."
+      },
+      "areaKey": "",
+      "relatedAreas": [
+        "sales"
+      ],
+      "area": "",
+      "category": {
+        "key": "system",
+        "en": "System & Monitoring",
+        "ar": "النظام والمراقبة",
+        "icon": "🛡️"
+      },
+      "when": {
+        "en": "Continuously (not Fri)",
+        "ar": "باستمرار (عدا الجمعة)"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-boss-instruction-reminder-001",
+      "name": "Boss Instruction Reminder",
+      "description": "Daily 14:00 Asia/Riyadh except Friday: checks open boss-owned Instruction From Sales Management To Staff records and WhatsApp-notifies each assigned employee about today's task rows only, with the ERP list link.",
+      "displayName": {
+        "en": "Boss Instruction Reminder",
+        "ar": "تذكير تعليمات Eng. Muhammad المفتوحة"
+      },
+      "displayDescription": {
+        "en": "Daily 14:00 Asia/Riyadh except Friday: checks open boss-owned Instruction From Sales Management To Staff records and WhatsApp-notifies each assigned employee about today's task rows only, with the ERP list link.",
+        "ar": "يتابع التعليمات المفتوحة ويرسل تذكيراً للموظفين المعنيين."
+      },
+      "areaKey": "",
+      "relatedAreas": [
+        "sales"
+      ],
+      "area": "",
+      "category": {
+        "key": "system",
+        "en": "System & Monitoring",
+        "ar": "النظام والمراقبة",
+        "icon": "🛡️"
+      },
+      "when": {
+        "en": "Every afternoon at 14:00 (not Fri)",
+        "ar": "كل يوم بعد الظهر عند 14:00 (عدا الجمعة)"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-smr-watcher-001",
+      "name": "Salesman Material Request Watcher",
+      "description": "Every 5 min Asia/Riyadh, all 7 days (no Friday gate, boss wants full coverage): watches ERP Salesman Material Request status. Open notifies boss (Arabic); Sent to Store notifies active Store Person(s) of the source warehouse (English, Arabic override for Roushdy); Received notifies salesman + boss (Arabic). Per-doc/per-state/per-recipient dedup; first rollout bootstrapped to avoid backlog spam.",
+      "displayName": {
+        "en": "Salesman Material Request Watcher",
+        "ar": "مراقبة طلبات مواد المندوبين"
+      },
+      "displayDescription": {
+        "en": "Every 5 min Asia/Riyadh, all 7 days (no Friday gate, boss wants full coverage): watches ERP Salesman Material Request status. Open notifies boss (Arabic); Sent to Store notifies active Store Person(s) of the source warehouse (English, Arabic override for Roushdy); Received notifies salesman + boss (Arabic). Per-doc/per-state/per-recipient dedup; first rollout bootstrapped to avoid backlog spam.",
+        "ar": "يتابع حالة طلبات مواد المندوبين في ERP ويبلغ Eng. Muhammad أو المندوب حسب المرحلة."
+      },
+      "areaKey": "procurement",
+      "relatedAreas": [
+        "procurement",
+        "sales",
+        "delivery"
+      ],
+      "area": "Raqeeb",
+      "category": {
+        "key": "procurement",
+        "en": "Procurement & Suppliers",
+        "ar": "المشتريات والموردون",
+        "icon": "📦"
+      },
+      "when": {
+        "en": "Every 5 min",
+        "ar": "كل 5 دقيقة"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-cash-receipt-group-watcher-001",
+      "name": "Cash Receipt Group Watcher",
+      "description": "Every minute Asia/Riyadh, all 7 days: watches ERP Cash Receipt lifecycle and announces ERP-recorded receipt, driver received, and accountant received milestones to the relevant BCI delivery/store WhatsApp group. Draft/created receipts stay silent. Per-doc/per-stage/group dedup; first rollout bootstrapped to avoid backlog spam.",
+      "displayName": {
+        "en": "Cash Receipt Group Watcher",
+        "ar": "مراقبة سندات القبض في المجموعة"
+      },
+      "displayDescription": {
+        "en": "Every minute Asia/Riyadh, all 7 days: watches ERP Cash Receipt lifecycle and announces ERP-recorded receipt, driver received, and accountant received milestones to the relevant BCI delivery/store WhatsApp group. Draft/created receipts stay silent. Per-doc/per-stage/group dedup; first rollout bootstrapped to avoid backlog spam.",
+        "ar": "يتابع دورة سند القبض في ERP ويعلن مراحل التسجيل والاستلام."
+      },
+      "areaKey": "accounts",
+      "relatedAreas": [
+        "accounts",
+        "delivery"
+      ],
+      "area": "Haseb",
+      "category": {
+        "key": "accounts",
+        "en": "Accounts & Collections",
+        "ar": "الحسابات والتحصيل",
+        "icon": "💰"
+      },
+      "when": {
+        "en": "Continuously",
+        "ar": "باستمرار"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-employee-daily-activity-reminder-001",
+      "name": "Employee Daily Activity Report Reminder",
+      "description": "Daily 16:30 and 17:30 Asia/Riyadh except Friday: reminds active Office Staff Rakah - BCI employees who have not submitted today's Employee Daily Activity Report.",
+      "displayName": {
+        "en": "Employee Daily Activity Report Reminder",
+        "ar": "تذكير تقرير النشاط اليومي للموظفين"
+      },
+      "displayDescription": {
+        "en": "Daily 16:30 and 17:30 Asia/Riyadh except Friday: reminds active Office Staff Rakah - BCI employees who have not submitted today's Employee Daily Activity Report.",
+        "ar": "يذكر موظفي المكتب النشطين الذين لم يرسلوا تقرير النشاط اليومي."
+      },
+      "areaKey": "hr",
+      "relatedAreas": [
+        "hr"
+      ],
+      "area": "Muwazzif",
+      "category": {
+        "key": "hr",
+        "en": "HR & Documents",
+        "ar": "الموارد البشرية والوثائق",
+        "icon": "👤"
+      },
+      "when": {
+        "en": "At 16:30, 17:30 (not Fri)",
+        "ar": "الساعة 16:30, 17:30 (عدا الجمعة)"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "6898b94e-f142-4610-bc99-4143dbe1a2e4",
+      "name": "Technical Support Notifier - Every 5 min 08-17",
+      "description": "Bridges the Technical Support thread: notifies Asim of new requests + completions (English) and the salesman of technical replies/comments (Arabic). Polls ERP docs + comments.",
+      "displayName": {
+        "en": "Technical Support Notifier - Every 5 min 08-17",
+        "ar": "تنبيهات الدعم الفني"
+      },
+      "displayDescription": {
+        "en": "Bridges the Technical Support thread: notifies Asim of new requests + completions (English) and the salesman of technical replies/comments (Arabic). Polls ERP docs + comments.",
+        "ar": "ينبه عاصم بطلبات الدعم الجديدة والمكتملة، وينبه المندوب بردود الدعم الفني."
+      },
+      "areaKey": "",
+      "relatedAreas": [
+        "sales"
+      ],
+      "area": "",
+      "category": {
+        "key": "system",
+        "en": "System & Monitoring",
+        "ar": "النظام والمراقبة",
+        "icon": "🛡️"
+      },
+      "when": {
+        "en": "Every 5 min during work hours",
+        "ar": "كل 5 دقيقة خلال ساعات العمل"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "0dad0883-1fae-465e-9d9b-e673d6e4271b",
+      "name": "Boss Instruction Reply Watcher",
+      "description": "Every minute except Friday: watches ERP comments on boss-owned Instruction From Sales Management To Staff records. Staff replies notify boss; boss replies notify the assigned employee.",
+      "displayName": {
+        "en": "Boss Instruction Reply Watcher",
+        "ar": "مراقبة ردود تعليمات Eng. Muhammad"
+      },
+      "displayDescription": {
+        "en": "Every minute except Friday: watches ERP comments on boss-owned Instruction From Sales Management To Staff records. Staff replies notify boss; boss replies notify the assigned employee.",
+        "ar": "يتابع تعليقات تعليمات Eng. Muhammad في ERP وينقل ردود الموظفين أو ردود Eng. Muhammad للطرف المناسب."
+      },
+      "areaKey": "",
+      "relatedAreas": [
+        "sales"
+      ],
+      "area": "",
+      "category": {
+        "key": "system",
+        "en": "System & Monitoring",
+        "ar": "النظام والمراقبة",
+        "icon": "🛡️"
+      },
+      "when": {
+        "en": "Continuously (not Fri)",
+        "ar": "باستمرار (عدا الجمعة)"
+      },
+      "hasWorkflow": false
+    }
+  ],
+  "channels": [],
+  "categories": [
+    {
+      "key": "procurement",
+      "en": "Procurement & Suppliers",
+      "ar": "المشتريات والموردون",
+      "icon": "📦",
+      "count": 13
+    },
+    {
+      "key": "sales",
+      "en": "Sales & Quotations",
+      "ar": "المبيعات وعروض الأسعار",
+      "icon": "📈",
+      "count": 6
+    },
+    {
+      "key": "delivery",
+      "en": "Delivery & Fleet",
+      "ar": "التوصيل والأسطول",
+      "icon": "🚚",
+      "count": 8
+    },
+    {
+      "key": "accounts",
+      "en": "Accounts & Collections",
+      "ar": "الحسابات والتحصيل",
+      "icon": "💰",
+      "count": 4
+    },
+    {
+      "key": "rental",
+      "en": "Rentals",
+      "ar": "الإيجارات",
+      "icon": "🏢",
+      "count": 3
+    },
+    {
+      "key": "marketing",
+      "en": "Marketing",
+      "ar": "التسويق",
+      "icon": "📣",
+      "count": 4
+    },
+    {
+      "key": "hr",
+      "en": "HR & Documents",
+      "ar": "الموارد البشرية والوثائق",
+      "icon": "👤",
+      "count": 3
+    },
+    {
+      "key": "reports",
+      "en": "Reports & Briefings",
+      "ar": "التقارير والملخصات",
+      "icon": "📊",
+      "count": 5
+    },
+    {
+      "key": "system",
+      "en": "System & Monitoring",
+      "ar": "النظام والمراقبة",
+      "icon": "🛡️",
+      "count": 7
+    }
+  ],
+  "numbers": {
+    "messagesSentToday": 7,
+    "automationsRunToday": 3,
+    "activeAutomations": 53,
+    "totalAutomations": 98,
+    "workflowCount": 26,
+    "channelsTotal": 0,
+    "agentsWorking": 6,
+    "agentsTotal": 11,
+    "posPending": null,
+    "mrsOpen": null
+  },
+  "valueToday": [
+    {
+      "icon": "$",
+      "label": {
+        "en": "Money watched",
+        "ar": "الأموال التي تمت متابعتها"
+      },
+      "value": {
+        "en": "SAR 35,394.45",
+        "ar": "SAR 35,394.45"
+      }
+    },
+    {
+      "icon": "✓",
+      "label": {
+        "en": "Approvals / follow-ups handled",
+        "ar": "اعتمادات ومتابعات تمت"
+      },
+      "value": {
+        "en": "7 updates | 3 tasks",
+        "ar": "7 تحديثات | 3 مهام"
+      }
+    },
+    {
+      "icon": "@",
+      "label": {
+        "en": "Teams notified",
+        "ar": "الفرق التي تم تنبيهها"
+      },
+      "value": {
+        "en": "3 chats/groups",
+        "ar": "3 محادثات/مجموعات"
+      }
+    }
+  ],
+  "attentionItems": [],
+  "activity": [
+    {
+      "time": "12:31",
+      "sortKey": "2026-06-15 12:31:54",
+      "text": "delayed store intake reply: payment_missing_amount [id=3EB07186011244F6D65989]",
+      "headline": {
+        "en": "delayed store intake reply: payment_missing_amount [id=3EB07186011244F6D65989]",
+        "ar": "delayed store intake reply: payment_missing_amount [id=3EB07186011244F6D65989]"
+      },
+      "impact": null,
+      "to": "WhatsApp group",
+      "source": "send"
+    },
+    {
+      "time": "12:26",
+      "sortKey": "2026-06-15 12:26:56",
+      "text": "ACC-2026-PO-00029 (SAR 163.00)",
+      "headline": {
+        "en": "Purchase order update: ACC-2026-PO-00029 worth SAR 163",
+        "ar": "تحديث أمر شراء: ACC-2026-PO-00029 بقيمة SAR 163"
+      },
+      "impact": {
+        "en": "SAR 163",
+        "ar": "SAR 163"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "12:09",
+      "sortKey": "2026-06-15 12:09:07",
+      "text": "ACC-2026-PO-00026 (SAR 474.95)",
+      "headline": {
+        "en": "Purchase order update: ACC-2026-PO-00026 worth SAR 474.95",
+        "ar": "تحديث أمر شراء: ACC-2026-PO-00026 بقيمة SAR 474.95"
+      },
+      "impact": {
+        "en": "SAR 474.95",
+        "ar": "SAR 474.95"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "12:07",
+      "sortKey": "2026-06-15 12:07:27",
+      "text": "noon visits 0/1 [id=3EB0F7781CF9930CE427E1]",
+      "headline": {
+        "en": "noon visits 0/1 [id=3EB0F7781CF9930CE427E1]",
+        "ar": "noon visits 0/1 [id=3EB0F7781CF9930CE427E1]"
+      },
+      "impact": null,
+      "to": "Monir",
+      "source": "send"
+    },
+    {
+      "time": "11:44",
+      "sortKey": "2026-06-15 11:44:28",
+      "text": "BCI-2026-PO-01417 (SAR 31,999)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01417 worth SAR 31,999",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01417 بقيمة SAR 31,999"
+      },
+      "impact": {
+        "en": "SAR 31,999",
+        "ar": "SAR 31,999"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "11:25",
+      "sortKey": "2026-06-15 11:25:35",
+      "text": "BCI-2026-PO-01416 (SAR 361.50)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01416 worth SAR 361.5",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01416 بقيمة SAR 361.5"
+      },
+      "impact": {
+        "en": "SAR 361.5",
+        "ar": "SAR 361.5"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "11:07",
+      "sortKey": "2026-06-15 11:07:19",
+      "text": "APCC-2026-PO-00798 (SAR 2,396.00)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00798 worth SAR 2,396",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00798 بقيمة SAR 2,396"
+      },
+      "impact": {
+        "en": "SAR 2,396",
+        "ar": "SAR 2,396"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    }
+  ],
+  "generatedAt": "12:41",
+  "version": 1,
+  "publicLive": true,
+  "localSourceMode": "live",
+  "livePublishedAt": "2026-06-15T09:41:28.336Z",
+  "publisher": {
+    "name": "openclaw-local-dashboard-publisher",
+    "cadence": "5 minutes"
+  }
+}

@@ -13,6 +13,18 @@
       }
     },
     {
+      "id": "py-boss-dashboard-live-publish-001",
+      "agentId": "runner",
+      "name": "Boss Dashboard Live Publisher",
+      "description": "Every 5 min: publishes a sanitized dashboard summary to GitHub so the Vercel phone dashboard shows latest safe numbers.",
+      "enabled": true,
+      "schedule": {
+        "kind": "cron",
+        "expr": "*/5 * * * *",
+        "tz": "Asia/Riyadh"
+      }
+    },
+    {
       "id": "012854ef-36ba-4061-a3f9-3727d7579555",
       "agentId": "runner",
       "name": "Procurement Material Request Watcher - Every 30 min",

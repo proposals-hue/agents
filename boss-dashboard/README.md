@@ -96,16 +96,36 @@ The Vercel deployment uses:
 - `config.example.json` when local-only `config.json` is not present.
 - `boss-dashboard/data/jobs.json` as a sanitized active-automation snapshot.
 - Empty bundled placeholders for live send logs and channel bindings.
+- `boss-dashboard/live/summary.json` when the local live publisher has pushed a
+  fresh safe summary.
 
 Optional Vercel environment variables:
 
 | Key | Meaning |
 |-----|---------|
 | `BOSS_DASH_PASS` | Password for the deployed dashboard. Recommended for public URLs. |
+| `BOSS_LIVE_SUMMARY_URL` | Optional override for the safe live summary URL. Defaults to this repo's GitHub raw `boss-dashboard/live/summary.json` on Vercel. |
+| `BOSS_LIVE_SUMMARY_MAX_AGE_MS` | How long the public live summary is considered fresh. Default: 30 minutes. |
 | `MISSION_CONTROL_URL` | Public Mission Control URL, if you expose one later. |
 | `MISSION_CONTROL_API_KEY` | Mission Control API key, if using a public Mission Control endpoint. |
 
 Do not upload local `config.json`; it is ignored by git because it can contain secrets.
+
+### Phone live updates
+
+Boss phone view gets current numbers through a safe publisher:
+
+```cmd
+python C:\Users\DELL\.openclaw\workspace\scheduled\boss_dashboard_live_publish.py
+```
+
+The script builds the local `/api/summary` payload, removes risky fields, writes
+`boss-dashboard/live/summary.json`, commits only that file, and pushes it to GitHub.
+Vercel reads that raw JSON at runtime, so the phone dashboard refreshes without a
+new deployment. `vercel.json` ignores live-summary-only commits to avoid rebuild
+noise.
+
+OpenClaw cron runs this every 5 minutes.
 
 ## Configuration — `config.json`
 

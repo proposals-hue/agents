@@ -5,7 +5,8 @@
   "description": "Read-only boss dashboard for OpenClaw automations.",
   "scripts": {
     "start": "node boss-dashboard/server.js",
-    "check": "node --check boss-dashboard/server.js && node --check api/index.js"
+    "check": "node --check boss-dashboard/server.js && node --check api/index.js && node --check boss-dashboard/scripts/publish_live_summary.js",
+    "publish:boss-dashboard": "node boss-dashboard/scripts/publish_live_summary.js --commit --push"
   },
   "engines": {
     "node": ">=18"
