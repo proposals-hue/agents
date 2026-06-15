@@ -93,8 +93,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "just now",
-        "ar": "الآن"
+        "en": "3 min ago",
+        "ar": "قبل 3 دقيقة"
       },
       "workflowCount": 7,
       "automationCount": 13
@@ -169,8 +169,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "21 min ago",
-        "ar": "قبل 21 دقيقة"
+        "en": "28 min ago",
+        "ar": "قبل 28 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 32,785.37",
-        "ar": "SAR 32,785.37"
+        "en": "SAR 32,285.37",
+        "ar": "SAR 32,285.37"
       }
     },
     {
@@ -1875,6 +1875,21 @@
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "16:27",
+      "sortKey": "2026-06-15 16:27:58",
+      "text": "APCC-2026-PO-00166 (SAR 300.00)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00166 worth SAR 300",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00166 بقيمة SAR 300"
+      },
+      "impact": {
+        "en": "SAR 300",
+        "ar": "SAR 300"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "16:08",
       "sortKey": "2026-06-15 16:08:05",
@@ -2177,28 +2192,13 @@
       },
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "13:25",
-      "sortKey": "2026-06-15 13:25:13",
-      "text": "APCC-2026-PO-00009 (SAR 800.00)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00009 worth SAR 800",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00009 بقيمة SAR 800"
-      },
-      "impact": {
-        "en": "SAR 800",
-        "ar": "SAR 800"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "16:26",
+  "generatedAt": "16:33",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T13:26:02.472Z",
+  "livePublishedAt": "2026-06-15T13:33:35.434Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
