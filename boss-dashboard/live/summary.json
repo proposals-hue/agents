@@ -1990,11 +1990,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "12:53",
+  "generatedAt": "12:54",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-15T09:53:58.103Z",
+  "livePublishedAt": "2026-06-15T09:54:04.576Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
