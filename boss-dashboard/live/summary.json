@@ -17,8 +17,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "just now",
-        "ar": "الآن"
+        "en": "6 min ago",
+        "ar": "قبل 6 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -36,8 +36,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "37 min ago",
-        "ar": "قبل 37 دقيقة"
+        "en": "43 min ago",
+        "ar": "قبل 43 دقيقة"
       },
       "workflowCount": 0,
       "automationCount": 5
@@ -1827,7 +1827,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 9,
+    "messagesSentToday": 12,
     "automationsRunToday": 5,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 236,165.1",
-        "ar": "SAR 236,165.1"
+        "en": "SAR 237,455.1",
+        "ar": "SAR 237,455.1"
       }
     },
     {
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "9 updates | 5 tasks",
-        "ar": "9 تحديثات | 5 مهام"
+        "en": "12 updates | 5 tasks",
+        "ar": "12 تحديثات | 5 مهام"
       }
     },
     {
@@ -1875,6 +1875,45 @@
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "11:49",
+      "sortKey": "2026-06-16 11:49:42",
+      "text": "APCC-2026-PO-00742 (SAR 1,290.00)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00742 worth SAR 1,290",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00742 بقيمة SAR 1,290"
+      },
+      "impact": {
+        "en": "SAR 1,290",
+        "ar": "SAR 1,290"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "11:49",
+      "sortKey": "2026-06-16 11:49:07",
+      "text": "MAT-MR-2026-00174",
+      "headline": {
+        "en": "MAT-MR-2026-00174",
+        "ar": "MAT-MR-2026-00174"
+      },
+      "impact": null,
+      "to": "procurement group",
+      "source": "send"
+    },
+    {
+      "time": "11:47",
+      "sortKey": "2026-06-16 11:47:34",
+      "text": "1 alert section(s) sent",
+      "headline": {
+        "en": "1 alert section(s) sent",
+        "ar": "1 alert section(s) sent"
+      },
+      "impact": null,
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "11:31",
       "sortKey": "2026-06-16 11:31:20",
@@ -1993,11 +2032,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "11:46",
+  "generatedAt": "11:52",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-16T08:46:22.278Z",
+  "livePublishedAt": "2026-06-16T08:52:47.286Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
