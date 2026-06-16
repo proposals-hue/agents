@@ -36,8 +36,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "2 min ago",
-        "ar": "قبل 2 دقيقة"
+        "en": "8 min ago",
+        "ar": "قبل 8 دقيقة"
       },
       "workflowCount": 0,
       "automationCount": 5
@@ -93,8 +93,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "42 min ago",
-        "ar": "قبل 42 دقيقة"
+        "en": "48 min ago",
+        "ar": "قبل 48 دقيقة"
       },
       "workflowCount": 7,
       "automationCount": 13
@@ -1827,7 +1827,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 5,
+    "messagesSentToday": 6,
     "automationsRunToday": 4,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "5 updates | 4 tasks",
-        "ar": "5 تحديثات | 4 مهام"
+        "en": "6 updates | 4 tasks",
+        "ar": "6 تحديثات | 4 مهام"
       }
     },
     {
@@ -1875,6 +1875,18 @@
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "11:13",
+      "sortKey": "2026-06-16 11:13:12",
+      "text": "MAT-MR-2026-00206",
+      "headline": {
+        "en": "MAT-MR-2026-00206",
+        "ar": "MAT-MR-2026-00206"
+      },
+      "impact": null,
+      "to": "procurement group",
+      "source": "send"
+    },
     {
       "time": "11:07",
       "sortKey": "2026-06-16 11:07:58",
@@ -1942,11 +1954,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "11:11",
+  "generatedAt": "11:17",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-16T08:11:01.591Z",
+  "livePublishedAt": "2026-06-16T08:17:15.438Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
