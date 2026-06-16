@@ -91,10 +91,10 @@
         "en": "Watches material requests, POs, and suppliers",
         "ar": "يتابع طلبات المواد وأوامر الشراء والموردين"
       },
-      "state": "working",
+      "state": "resting",
       "lastActive": {
-        "en": "7 min ago",
-        "ar": "قبل 7 دقيقة"
+        "en": "13 min ago",
+        "ar": "قبل 13 دقيقة"
       },
       "workflowCount": 7,
       "automationCount": 13
@@ -1833,7 +1833,7 @@
     "totalAutomations": 98,
     "workflowCount": 26,
     "channelsTotal": 0,
-    "agentsWorking": 6,
+    "agentsWorking": 5,
     "agentsTotal": 11,
     "posPending": null,
     "mrsOpen": null
@@ -1875,11 +1875,11 @@
   ],
   "attentionItems": [],
   "activity": [],
-  "generatedAt": "10:36",
+  "generatedAt": "10:42",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-16T07:36:16.075Z",
+  "livePublishedAt": "2026-06-16T07:42:44.999Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
