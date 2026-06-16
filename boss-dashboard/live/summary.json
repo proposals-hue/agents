@@ -1808,8 +1808,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 31,
-    "automationsRunToday": 6,
+    "messagesSentToday": 33,
+    "automationsRunToday": 8,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "31 updates | 6 tasks",
-        "ar": "31 تحديثات | 6 مهام"
+        "en": "33 updates | 8 tasks",
+        "ar": "33 تحديثات | 8 مهام"
       }
     },
     {
@@ -1849,8 +1849,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "22 chats/groups",
-        "ar": "22 محادثات/مجموعات"
+        "en": "23 chats/groups",
+        "ar": "23 محادثات/مجموعات"
       }
     }
   ],
@@ -1871,6 +1871,30 @@
     }
   ],
   "activity": [
+    {
+      "time": "17:19",
+      "sortKey": "2026-06-16 17:19:24",
+      "text": "1 unengaged truck(s) [id=3EB0E60731EE4BC4FD7307]",
+      "headline": {
+        "en": "1 unengaged truck(s) [id=3EB0E60731EE4BC4FD7307]",
+        "ar": "1 unengaged truck(s) [id=3EB0E60731EE4BC4FD7307]"
+      },
+      "impact": null,
+      "to": "delivery group",
+      "source": "send"
+    },
+    {
+      "time": "17:18",
+      "sortKey": "2026-06-16 17:18:07",
+      "text": "1 truck(s) arriving soon [id=3EB058369B4833A56EB4C0]",
+      "headline": {
+        "en": "1 truck(s) arriving soon [id=3EB058369B4833A56EB4C0]",
+        "ar": "1 truck(s) arriving soon [id=3EB058369B4833A56EB4C0]"
+      },
+      "impact": null,
+      "to": "delivery group",
+      "source": "send"
+    },
     {
       "time": "17:08",
       "sortKey": "2026-06-16 17:08:39",
@@ -2161,37 +2185,13 @@
       },
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "15:50",
-      "sortKey": "2026-06-16 15:50:44",
-      "text": "1 alert section(s) sent",
-      "headline": {
-        "en": "1 alert section(s) sent",
-        "ar": "1 alert section(s) sent"
-      },
-      "impact": null,
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "15:43",
-      "sortKey": "2026-06-16 15:43:04",
-      "text": "Sameh team 5 below 8 visits [id=3EB00256CF5F5D539C9CDE]",
-      "headline": {
-        "en": "Sameh team 5 below 8 visits [id=3EB00256CF5F5D539C9CDE]",
-        "ar": "Sameh team 5 below 8 visits [id=3EB00256CF5F5D539C9CDE]"
-      },
-      "impact": null,
-      "to": "Sameh Darwish",
-      "source": "send"
     }
   ],
-  "generatedAt": "17:13",
+  "generatedAt": "17:25",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-16T14:13:37.522Z",
+  "livePublishedAt": "2026-06-16T14:25:46.258Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
