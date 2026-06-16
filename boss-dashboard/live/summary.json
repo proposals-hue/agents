@@ -36,8 +36,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "8 min ago",
-        "ar": "قبل 8 دقيقة"
+        "en": "12 min ago",
+        "ar": "قبل 12 دقيقة"
       },
       "workflowCount": 0,
       "automationCount": 5
@@ -93,8 +93,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "48 min ago",
-        "ar": "قبل 48 دقيقة"
+        "en": "52 min ago",
+        "ar": "قبل 52 دقيقة"
       },
       "workflowCount": 7,
       "automationCount": 13
@@ -1827,8 +1827,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 6,
-    "automationsRunToday": 4,
+    "messagesSentToday": 7,
+    "automationsRunToday": 5,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "6 updates | 4 tasks",
-        "ar": "6 تحديثات | 4 مهام"
+        "en": "7 updates | 5 tasks",
+        "ar": "7 تحديثات | 5 مهام"
       }
     },
     {
@@ -1875,6 +1875,18 @@
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "11:19",
+      "sortKey": "2026-06-16 11:19:13",
+      "text": "2 unengaged truck(s) [id=3EB02F675C1699F0F8FB6B]",
+      "headline": {
+        "en": "2 unengaged truck(s) [id=3EB02F675C1699F0F8FB6B]",
+        "ar": "2 unengaged truck(s) [id=3EB02F675C1699F0F8FB6B]"
+      },
+      "impact": null,
+      "to": "delivery group",
+      "source": "send"
+    },
     {
       "time": "11:13",
       "sortKey": "2026-06-16 11:13:12",
@@ -1954,11 +1966,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "11:17",
+  "generatedAt": "11:21",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-16T08:17:15.438Z",
+  "livePublishedAt": "2026-06-16T08:21:33.260Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
