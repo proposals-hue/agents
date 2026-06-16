@@ -1808,8 +1808,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 48,
-    "automationsRunToday": 11,
+    "messagesSentToday": 49,
+    "automationsRunToday": 12,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1827,8 +1827,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 35,958.95",
-        "ar": "SAR 35,958.95"
+        "en": "SAR 47,238.95",
+        "ar": "SAR 47,238.95"
       }
     },
     {
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "48 updates | 11 tasks",
-        "ar": "48 تحديثات | 11 مهام"
+        "en": "49 updates | 12 tasks",
+        "ar": "49 تحديثات | 12 مهام"
       }
     },
     {
@@ -1871,6 +1871,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "18:30",
+      "sortKey": "2026-06-16 18:30:05",
+      "text": "CR-2026-00029 Receipt Recorded In ERP SAR 11,280.00 Riyadh [id=3EB017C5BF8043C5FDF4B3]",
+      "headline": {
+        "en": "CR-2026-00029 Receipt Recorded In ERP SAR 11,280.00 Riyadh [id=3EB017C5BF8043C5FDF4B3]",
+        "ar": "CR-2026-00029 Receipt Recorded In ERP SAR 11,280.00 Riyadh [id=3EB017C5BF8043C5FDF4B3]"
+      },
+      "impact": {
+        "en": "SAR 11,280",
+        "ar": "SAR 11,280"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
     {
       "time": "18:18",
       "sortKey": "2026-06-16 18:18:56",
@@ -2167,25 +2182,13 @@
       "impact": null,
       "to": "RAMY MOHAMED ELSAYED NEGM",
       "source": "send"
-    },
-    {
-      "time": "16:49",
-      "sortKey": "2026-06-16 16:49:10",
-      "text": "initial reminder for 2026-06-16 [id=3EB0162501C31527629849]",
-      "headline": {
-        "en": "initial reminder for 2026-06-16 [id=3EB0162501C31527629849]",
-        "ar": "initial reminder for 2026-06-16 [id=3EB0162501C31527629849]"
-      },
-      "impact": null,
-      "to": "NAZISH HASSAN",
-      "source": "send"
     }
   ],
-  "generatedAt": "18:25",
+  "generatedAt": "18:30",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-16T15:25:58.349Z",
+  "livePublishedAt": "2026-06-16T15:30:23.304Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
