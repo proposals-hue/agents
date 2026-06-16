@@ -1,66 +1,9 @@
 {
-  "overallStatus": "good",
-  "mcReachable": true,
+  "overallStatus": "attention",
+  "mcReachable": false,
   "mcConfigured": true,
   "sourceMode": "live-published",
   "agents": [
-    {
-      "name": "Asṭūli",
-      "area": "fleet",
-      "role": {
-        "en": "Fleet",
-        "ar": "الأسطول"
-      },
-      "summary": {
-        "en": "Watches vehicles, documents, and fleet incidents",
-        "ar": "يتابع المركبات والوثائق وحوادث الأسطول"
-      },
-      "state": "resting",
-      "lastActive": {
-        "en": "2 hr ago",
-        "ar": "قبل 2 ساعة"
-      },
-      "workflowCount": 2,
-      "automationCount": 4
-    },
-    {
-      "name": "Muwazzif",
-      "area": "hr",
-      "role": {
-        "en": "HR",
-        "ar": "الموارد البشرية"
-      },
-      "summary": {
-        "en": "Watches HR documents, expiry reminders, and staff reports",
-        "ar": "يتابع وثائق الموارد البشرية والتنبيهات وتقارير الموظفين"
-      },
-      "state": "working",
-      "lastActive": {
-        "en": "just now",
-        "ar": "الآن"
-      },
-      "workflowCount": 0,
-      "automationCount": 5
-    },
-    {
-      "name": "Mu'ajjir Support",
-      "area": "rental",
-      "role": {
-        "en": "Support",
-        "ar": "الدعم"
-      },
-      "summary": {
-        "en": "Watches tenants, rent reminders, and lease activity",
-        "ar": "يتابع المستأجرين وتذكيرات الإيجار وحركة العقود"
-      },
-      "state": "resting",
-      "lastActive": {
-        "en": "40 day(s) ago",
-        "ar": "قبل 40 يوم"
-      },
-      "workflowCount": 2,
-      "automationCount": 3
-    },
     {
       "name": "Fahad",
       "area": "main",
@@ -72,10 +15,10 @@
         "en": "Keeps the boss updated and routes important requests",
         "ar": "يتابع التحديثات المهمة ويوصل الطلبات لصاحب القرار"
       },
-      "state": "working",
+      "state": "resting",
       "lastActive": {
-        "en": "just now",
-        "ar": "الآن"
+        "en": "",
+        "ar": ""
       },
       "workflowCount": 2,
       "automationCount": 3
@@ -93,8 +36,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "3 hr ago",
-        "ar": "قبل 3 ساعة"
+        "en": "",
+        "ar": ""
       },
       "workflowCount": 7,
       "automationCount": 13
@@ -112,8 +55,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "1 day(s) ago",
-        "ar": "قبل 1 يوم"
+        "en": "",
+        "ar": ""
       },
       "workflowCount": 1,
       "automationCount": 5
@@ -131,8 +74,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "unknown",
-        "ar": "غير معروف"
+        "en": "",
+        "ar": ""
       },
       "workflowCount": 6,
       "automationCount": 15
@@ -148,10 +91,10 @@
         "en": "Watches shipments, stores, and delivery delays",
         "ar": "يتابع الشحنات والمستودعات وتأخير التسليم"
       },
-      "state": "working",
+      "state": "resting",
       "lastActive": {
-        "en": "just now",
-        "ar": "الآن"
+        "en": "",
+        "ar": ""
       },
       "workflowCount": 4,
       "automationCount": 11
@@ -167,10 +110,10 @@
         "en": "Watches content approvals and publishing activity",
         "ar": "يتابع اعتماد المحتوى ونشاط النشر"
       },
-      "state": "working",
+      "state": "resting",
       "lastActive": {
-        "en": "just now",
-        "ar": "الآن"
+        "en": "",
+        "ar": ""
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -188,8 +131,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "unknown",
-        "ar": "غير معروف"
+        "en": "",
+        "ar": ""
       },
       "workflowCount": 0,
       "automationCount": 2
@@ -207,11 +150,49 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "41 day(s) ago",
-        "ar": "قبل 41 يوم"
+        "en": "",
+        "ar": ""
       },
       "workflowCount": 2,
       "automationCount": 3
+    },
+    {
+      "name": "Astuli",
+      "area": "fleet",
+      "role": {
+        "en": "Fleet",
+        "ar": "الأسطول"
+      },
+      "summary": {
+        "en": "Watches vehicles, documents, and fleet incidents",
+        "ar": "يتابع المركبات والوثائق وحوادث الأسطول"
+      },
+      "state": "resting",
+      "lastActive": {
+        "en": "",
+        "ar": ""
+      },
+      "workflowCount": 2,
+      "automationCount": 4
+    },
+    {
+      "name": "Muwazzif",
+      "area": "hr",
+      "role": {
+        "en": "HR",
+        "ar": "الموارد البشرية"
+      },
+      "summary": {
+        "en": "Watches HR documents, expiry reminders, and staff reports",
+        "ar": "يتابع وثائق الموارد البشرية والتنبيهات وتقارير الموظفين"
+      },
+      "state": "resting",
+      "lastActive": {
+        "en": "",
+        "ar": ""
+      },
+      "workflowCount": 0,
+      "automationCount": 5
     }
   ],
   "automations": [
@@ -1833,8 +1814,8 @@
     "totalAutomations": 98,
     "workflowCount": 26,
     "channelsTotal": 0,
-    "agentsWorking": 4,
-    "agentsTotal": 11,
+    "agentsWorking": 0,
+    "agentsTotal": 10,
     "posPending": null,
     "mrsOpen": null
   },
@@ -1873,7 +1854,22 @@
       }
     }
   ],
-  "attentionItems": [],
+  "attentionItems": [
+    {
+      "title": {
+        "en": "Control panel is unreachable",
+        "ar": "تعذر الاتصال بلوحة التحكم"
+      },
+      "desc": {
+        "en": "Team status may be stale until Mission Control is back online",
+        "ar": "قد تكون حالة الفريق غير محدثة حتى يعود الاتصال"
+      },
+      "tag": {
+        "en": "System",
+        "ar": "النظام"
+      }
+    }
+  ],
   "activity": [
     {
       "time": "13:47",
@@ -2212,11 +2208,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "13:51",
+  "generatedAt": "14:00",
   "version": 1,
   "publicLive": true,
-  "localSourceMode": "live",
-  "livePublishedAt": "2026-06-16T10:51:15.428Z",
+  "localSourceMode": "offline",
+  "livePublishedAt": "2026-06-16T11:00:06.948Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
