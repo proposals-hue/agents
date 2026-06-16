@@ -17,8 +17,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "15 min ago",
-        "ar": "قبل 15 دقيقة"
+        "en": "22 min ago",
+        "ar": "قبل 22 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -169,8 +169,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "just now",
-        "ar": "الآن"
+        "en": "6 min ago",
+        "ar": "قبل 6 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -1827,8 +1827,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 12,
-    "automationsRunToday": 5,
+    "messagesSentToday": 14,
+    "automationsRunToday": 6,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "12 updates | 5 tasks",
-        "ar": "12 تحديثات | 5 مهام"
+        "en": "14 updates | 6 tasks",
+        "ar": "14 تحديثات | 6 مهام"
       }
     },
     {
@@ -1868,13 +1868,37 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "3 chats/groups",
-        "ar": "3 محادثات/مجموعات"
+        "en": "5 chats/groups",
+        "ar": "5 محادثات/مجموعات"
       }
     }
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "12:08",
+      "sortKey": "2026-06-16 12:08:19",
+      "text": "noon visits 0/1 [id=3EB00EA4037552A74A551B]",
+      "headline": {
+        "en": "noon visits 0/1 [id=3EB00EA4037552A74A551B]",
+        "ar": "noon visits 0/1 [id=3EB00EA4037552A74A551B]"
+      },
+      "impact": null,
+      "to": "Mohammed Yassin",
+      "source": "send"
+    },
+    {
+      "time": "12:07",
+      "sortKey": "2026-06-16 12:07:36",
+      "text": "noon visits 0/1 [id=3EB0C7A4B274ADBDD06D90]",
+      "headline": {
+        "en": "noon visits 0/1 [id=3EB0C7A4B274ADBDD06D90]",
+        "ar": "noon visits 0/1 [id=3EB0C7A4B274ADBDD06D90]"
+      },
+      "impact": null,
+      "to": "Hossam",
+      "source": "send"
+    },
     {
       "time": "11:49",
       "sortKey": "2026-06-16 11:49:42",
@@ -2032,11 +2056,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "12:01",
+  "generatedAt": "12:08",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-16T09:01:41.047Z",
+  "livePublishedAt": "2026-06-16T09:08:50.509Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
