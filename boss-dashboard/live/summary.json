@@ -2184,11 +2184,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "19:41",
+  "generatedAt": "19:46",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-16T16:41:14.416Z",
+  "livePublishedAt": "2026-06-16T16:46:11.733Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
