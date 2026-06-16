@@ -1808,7 +1808,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 3,
+    "messagesSentToday": 7,
     "automationsRunToday": 1,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "3 updates | 1 task",
-        "ar": "3 تحديثات | 1 مهمة"
+        "en": "7 updates | 1 task",
+        "ar": "7 تحديثات | 1 مهمة"
       }
     },
     {
@@ -1849,8 +1849,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "3 chats/groups",
-        "ar": "3 محادثات/مجموعات"
+        "en": "6 chats/groups",
+        "ar": "6 محادثات/مجموعات"
       }
     }
   ],
@@ -1871,6 +1871,54 @@
     }
   ],
   "activity": [
+    {
+      "time": "15:43",
+      "sortKey": "2026-06-16 15:43:04",
+      "text": "Sameh team 5 below 8 visits [id=3EB00256CF5F5D539C9CDE]",
+      "headline": {
+        "en": "Sameh team 5 below 8 visits [id=3EB00256CF5F5D539C9CDE]",
+        "ar": "Sameh team 5 below 8 visits [id=3EB00256CF5F5D539C9CDE]"
+      },
+      "impact": null,
+      "to": "Sameh Darwish",
+      "source": "send"
+    },
+    {
+      "time": "15:42",
+      "sortKey": "2026-06-16 15:42:23",
+      "text": "midday visits 0/8 [id=3EB0737F166BE141BD24BB]",
+      "headline": {
+        "en": "midday visits 0/8 [id=3EB0737F166BE141BD24BB]",
+        "ar": "midday visits 0/8 [id=3EB0737F166BE141BD24BB]"
+      },
+      "impact": null,
+      "to": "Sameh Darwish",
+      "source": "send"
+    },
+    {
+      "time": "15:41",
+      "sortKey": "2026-06-16 15:41:43",
+      "text": "midday visits 0/8 [id=3EB061062C773CD0B64FB0]",
+      "headline": {
+        "en": "midday visits 0/8 [id=3EB061062C773CD0B64FB0]",
+        "ar": "midday visits 0/8 [id=3EB061062C773CD0B64FB0]"
+      },
+      "impact": null,
+      "to": "Ramy",
+      "source": "send"
+    },
+    {
+      "time": "15:41",
+      "sortKey": "2026-06-16 15:41:02",
+      "text": "midday visits 0/8 [id=3EB06FA84FCA37C436BBA0]",
+      "headline": {
+        "en": "midday visits 0/8 [id=3EB06FA84FCA37C436BBA0]",
+        "ar": "midday visits 0/8 [id=3EB06FA84FCA37C436BBA0]"
+      },
+      "impact": null,
+      "to": "Monir",
+      "source": "send"
+    },
     {
       "time": "15:40",
       "sortKey": "2026-06-16 15:40:21",
@@ -1908,11 +1956,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "15:40",
+  "generatedAt": "15:49",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-16T12:40:27.731Z",
+  "livePublishedAt": "2026-06-16T12:49:08.946Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
