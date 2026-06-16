@@ -1808,7 +1808,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 27,
+    "messagesSentToday": 28,
     "automationsRunToday": 7,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1827,8 +1827,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 297,704.62",
-        "ar": "SAR 297,704.62"
+        "en": "SAR 298,304.62",
+        "ar": "SAR 298,304.62"
       }
     },
     {
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "27 updates | 7 tasks",
-        "ar": "27 تحديثات | 7 مهام"
+        "en": "28 updates | 7 tasks",
+        "ar": "28 تحديثات | 7 مهام"
       }
     },
     {
@@ -1871,6 +1871,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "14:29",
+      "sortKey": "2026-06-16 14:29:37",
+      "text": "APCC-2026-PO-00771 (SAR 600.00)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00771 worth SAR 600",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00771 بقيمة SAR 600"
+      },
+      "impact": {
+        "en": "SAR 600",
+        "ar": "SAR 600"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "13:47",
       "sortKey": "2026-06-16 13:47:47",
@@ -2194,25 +2209,13 @@
       "impact": null,
       "to": "delivery group",
       "source": "send"
-    },
-    {
-      "time": "10:51",
-      "sortKey": "2026-06-16 10:51:00",
-      "text": "MAT-MR-2026-00280",
-      "headline": {
-        "en": "MAT-MR-2026-00280",
-        "ar": "MAT-MR-2026-00280"
-      },
-      "impact": null,
-      "to": "procurement group",
-      "source": "send"
     }
   ],
-  "generatedAt": "14:27",
+  "generatedAt": "14:32",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-16T11:27:22.516Z",
+  "livePublishedAt": "2026-06-16T11:32:30.311Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
