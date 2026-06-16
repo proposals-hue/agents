@@ -1827,7 +1827,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 26,
+    "messagesSentToday": 29,
     "automationsRunToday": 13,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 149,392.75 + JOD 5,664",
-        "ar": "SAR 149,392.75 + JOD 5,664"
+        "en": "SAR 154,912.75 + JOD 5,664",
+        "ar": "SAR 154,912.75 + JOD 5,664"
       }
     },
     {
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "26 updates | 13 tasks",
-        "ar": "26 تحديثات | 13 مهام"
+        "en": "29 updates | 13 tasks",
+        "ar": "29 تحديثات | 13 مهام"
       }
     },
     {
@@ -1875,6 +1875,45 @@
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "09:53",
+      "sortKey": "2026-06-16 09:53:42",
+      "text": "APCC-2026-PO-00187 (SAR 5,520.00)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00187 worth SAR 5,520",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00187 بقيمة SAR 5,520"
+      },
+      "impact": {
+        "en": "SAR 5,520",
+        "ar": "SAR 5,520"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "09:52",
+      "sortKey": "2026-06-16 09:52:38",
+      "text": "MAT-MR-2026-00458",
+      "headline": {
+        "en": "MAT-MR-2026-00458",
+        "ar": "MAT-MR-2026-00458"
+      },
+      "impact": null,
+      "to": "procurement group",
+      "source": "send"
+    },
+    {
+      "time": "09:51",
+      "sortKey": "2026-06-16 09:51:01",
+      "text": "1 alert section(s) sent",
+      "headline": {
+        "en": "1 alert section(s) sent",
+        "ar": "1 alert section(s) sent"
+      },
+      "impact": null,
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "09:48",
       "sortKey": "2026-06-16 09:48:01",
@@ -2156,49 +2195,13 @@
       "impact": null,
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "09:23",
-      "sortKey": "2026-06-16 09:23:51",
-      "text": "2 DNs, 1 SOs",
-      "headline": {
-        "en": "2 DNs, 1 SOs",
-        "ar": "2 DNs, 1 SOs"
-      },
-      "impact": null,
-      "to": "Monir",
-      "source": "send"
-    },
-    {
-      "time": "09:23",
-      "sortKey": "2026-06-16 09:23:01",
-      "text": "4 DNs, 5 SOs",
-      "headline": {
-        "en": "4 DNs, 5 SOs",
-        "ar": "4 DNs, 5 SOs"
-      },
-      "impact": null,
-      "to": "Ayman",
-      "source": "send"
-    },
-    {
-      "time": "09:22",
-      "sortKey": "2026-06-16 09:22:22",
-      "text": "2 alert section(s) sent",
-      "headline": {
-        "en": "2 alert section(s) sent",
-        "ar": "2 alert section(s) sent"
-      },
-      "impact": null,
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "09:49",
+  "generatedAt": "09:58",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-16T06:49:31.845Z",
+  "livePublishedAt": "2026-06-16T06:58:02.269Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
