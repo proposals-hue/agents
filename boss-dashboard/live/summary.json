@@ -2211,11 +2211,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "14:38",
+  "generatedAt": "14:45",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-16T11:38:48.568Z",
+  "livePublishedAt": "2026-06-16T11:45:29.639Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
