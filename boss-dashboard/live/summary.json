@@ -1808,8 +1808,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 7,
-    "automationsRunToday": 1,
+    "messagesSentToday": 9,
+    "automationsRunToday": 3,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "7 updates | 1 task",
-        "ar": "7 تحديثات | 1 مهمة"
+        "en": "9 updates | 3 tasks",
+        "ar": "9 تحديثات | 3 مهام"
       }
     },
     {
@@ -1849,8 +1849,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "6 chats/groups",
-        "ar": "6 محادثات/مجموعات"
+        "en": "7 chats/groups",
+        "ar": "7 محادثات/مجموعات"
       }
     }
   ],
@@ -1871,6 +1871,33 @@
     }
   ],
   "activity": [
+    {
+      "time": "15:53",
+      "sortKey": "2026-06-16 15:53:31",
+      "text": "BCI-2026-PO-01431 (SAR 0.00)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01431 worth ",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01431 بقيمة "
+      },
+      "impact": {
+        "en": "",
+        "ar": ""
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "15:50",
+      "sortKey": "2026-06-16 15:50:44",
+      "text": "1 alert section(s) sent",
+      "headline": {
+        "en": "1 alert section(s) sent",
+        "ar": "1 alert section(s) sent"
+      },
+      "impact": null,
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "15:43",
       "sortKey": "2026-06-16 15:43:04",
@@ -1956,11 +1983,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "15:49",
+  "generatedAt": "15:57",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-16T12:49:08.946Z",
+  "livePublishedAt": "2026-06-16T12:57:01.391Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
