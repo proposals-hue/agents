@@ -1808,8 +1808,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 15,
-    "automationsRunToday": 5,
+    "messagesSentToday": 18,
+    "automationsRunToday": 6,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "15 updates | 5 tasks",
-        "ar": "15 تحديثات | 5 مهام"
+        "en": "18 updates | 6 tasks",
+        "ar": "18 تحديثات | 6 مهام"
       }
     },
     {
@@ -1849,8 +1849,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "9 chats/groups",
-        "ar": "9 محادثات/مجموعات"
+        "en": "12 chats/groups",
+        "ar": "12 محادثات/مجموعات"
       }
     }
   ],
@@ -1871,6 +1871,42 @@
     }
   ],
   "activity": [
+    {
+      "time": "16:43",
+      "sortKey": "2026-06-16 16:43:50",
+      "text": "initial reminder for 2026-06-16 [id=3EB0BAB06C7A13259BE7CD]",
+      "headline": {
+        "en": "initial reminder for 2026-06-16 [id=3EB0BAB06C7A13259BE7CD]",
+        "ar": "initial reminder for 2026-06-16 [id=3EB0BAB06C7A13259BE7CD]"
+      },
+      "impact": null,
+      "to": "ABDULWAHEED--YOUSUF SAYED",
+      "source": "send"
+    },
+    {
+      "time": "16:43",
+      "sortKey": "2026-06-16 16:43:15",
+      "text": "initial reminder for 2026-06-16 [id=3EB023CFCDB9BAB82D59CA]",
+      "headline": {
+        "en": "initial reminder for 2026-06-16 [id=3EB023CFCDB9BAB82D59CA]",
+        "ar": "initial reminder for 2026-06-16 [id=3EB023CFCDB9BAB82D59CA]"
+      },
+      "impact": null,
+      "to": "ABDULAZIZ YAHYA MOHAMED ALAWDAH",
+      "source": "send"
+    },
+    {
+      "time": "16:42",
+      "sortKey": "2026-06-16 16:42:40",
+      "text": "initial reminder for 2026-06-16 [id=3EB08767BB8FA270F380CC]",
+      "headline": {
+        "en": "initial reminder for 2026-06-16 [id=3EB08767BB8FA270F380CC]",
+        "ar": "initial reminder for 2026-06-16 [id=3EB08767BB8FA270F380CC]"
+      },
+      "impact": null,
+      "to": "ABDUL REHMAN MARICAR",
+      "source": "send"
+    },
     {
       "time": "16:25",
       "sortKey": "2026-06-16 16:25:21",
@@ -2061,11 +2097,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "16:36",
+  "generatedAt": "16:44",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-16T13:36:11.552Z",
+  "livePublishedAt": "2026-06-16T13:44:19.807Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
