@@ -1808,8 +1808,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 31,
-    "automationsRunToday": 7,
+    "messagesSentToday": 0,
+    "automationsRunToday": 0,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1827,8 +1827,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 299,619.62",
-        "ar": "SAR 299,619.62"
+        "en": "No money updates",
+        "ar": "لا توجد تحديثات مالية"
       }
     },
     {
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "31 updates | 7 tasks",
-        "ar": "31 تحديثات | 7 مهام"
+        "en": "0 updates | 0 tasks",
+        "ar": "0 تحديثات | 0 مهام"
       }
     },
     {
@@ -1849,8 +1849,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "8 chats/groups",
-        "ar": "8 محادثات/مجموعات"
+        "en": "0 chats/groups",
+        "ar": "0 محادثات/مجموعات"
       }
     }
   ],
@@ -1870,355 +1870,12 @@
       }
     }
   ],
-  "activity": [
-    {
-      "time": "15:24",
-      "sortKey": "2026-06-16 15:24:55",
-      "text": "BCI-2026-PO-01426 (SAR 1,200.00)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01426 worth SAR 1,200",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01426 بقيمة SAR 1,200"
-      },
-      "impact": {
-        "en": "SAR 1,200",
-        "ar": "SAR 1,200"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "15:16",
-      "sortKey": "2026-06-16 15:16:54",
-      "text": "1 alert section(s) sent",
-      "headline": {
-        "en": "1 alert section(s) sent",
-        "ar": "1 alert section(s) sent"
-      },
-      "impact": null,
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "15:11",
-      "sortKey": "2026-06-16 15:11:45",
-      "text": "BCI-2026-PO-01305 (SAR 115.00)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01305 worth SAR 115",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01305 بقيمة SAR 115"
-      },
-      "impact": {
-        "en": "SAR 115",
-        "ar": "SAR 115"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "14:29",
-      "sortKey": "2026-06-16 14:29:37",
-      "text": "APCC-2026-PO-00771 (SAR 600.00)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00771 worth SAR 600",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00771 بقيمة SAR 600"
-      },
-      "impact": {
-        "en": "SAR 600",
-        "ar": "SAR 600"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "13:47",
-      "sortKey": "2026-06-16 13:47:47",
-      "text": "APCC-2026-PO-00766 (SAR 15,601)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00766 worth SAR 15,601",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00766 بقيمة SAR 15,601"
-      },
-      "impact": {
-        "en": "SAR 15,601",
-        "ar": "SAR 15,601"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "13:39",
-      "sortKey": "2026-06-16 13:39:07",
-      "text": "CR-2026-00027 Receipt Recorded In ERP SAR 950.00 Jeddah [id=3EB05C038F5BFA4F508F67]",
-      "headline": {
-        "en": "CR-2026-00027 Receipt Recorded In ERP SAR 950.00 Jeddah [id=3EB05C038F5BFA4F508F67]",
-        "ar": "CR-2026-00027 Receipt Recorded In ERP SAR 950.00 Jeddah [id=3EB05C038F5BFA4F508F67]"
-      },
-      "impact": {
-        "en": "SAR 950",
-        "ar": "SAR 950"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "13:38",
-      "sortKey": "2026-06-16 13:38:24",
-      "text": "CR-2026-00026 Receipt Recorded In ERP SAR 5,640.00 Riyadh [id=3EB0CB125D658B4C692751]",
-      "headline": {
-        "en": "CR-2026-00026 Receipt Recorded In ERP SAR 5,640.00 Riyadh [id=3EB0CB125D658B4C692751]",
-        "ar": "CR-2026-00026 Receipt Recorded In ERP SAR 5,640.00 Riyadh [id=3EB0CB125D658B4C692751]"
-      },
-      "impact": {
-        "en": "SAR 5,640",
-        "ar": "SAR 5,640"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "13:28",
-      "sortKey": "2026-06-16 13:28:06",
-      "text": "APCC-2026-PO-00725 (SAR 869.52)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00725 worth SAR 869.52",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00725 بقيمة SAR 869.52"
-      },
-      "impact": {
-        "en": "SAR 869.52",
-        "ar": "SAR 869.52"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "13:25",
-      "sortKey": "2026-06-16 13:25:41",
-      "text": "CR-2026-00025 Receipt Recorded In ERP SAR 11,280.00 Riyadh [id=3EB0E81EACC139EBEDD676]",
-      "headline": {
-        "en": "CR-2026-00025 Receipt Recorded In ERP SAR 11,280.00 Riyadh [id=3EB0E81EACC139EBEDD676]",
-        "ar": "CR-2026-00025 Receipt Recorded In ERP SAR 11,280.00 Riyadh [id=3EB0E81EACC139EBEDD676]"
-      },
-      "impact": {
-        "en": "SAR 11,280",
-        "ar": "SAR 11,280"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "13:19",
-      "sortKey": "2026-06-16 13:19:58",
-      "text": "1 alert section(s) sent",
-      "headline": {
-        "en": "1 alert section(s) sent",
-        "ar": "1 alert section(s) sent"
-      },
-      "impact": null,
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "13:06",
-      "sortKey": "2026-06-16 13:06:09",
-      "text": "APCC-2026-PO-00694 (SAR 0.00)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00694 worth ",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00694 بقيمة "
-      },
-      "impact": {
-        "en": "",
-        "ar": ""
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "12:51",
-      "sortKey": "2026-06-16 12:51:25",
-      "text": "BCI-2026-PO-01429 (SAR 2,024.00)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01429 worth SAR 2,024",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01429 بقيمة SAR 2,024"
-      },
-      "impact": {
-        "en": "SAR 2,024",
-        "ar": "SAR 2,024"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "12:27",
-      "sortKey": "2026-06-16 12:27:41",
-      "text": "BCI-2026-PO-01424 (SAR 80.00)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01424 worth SAR 80",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01424 بقيمة SAR 80"
-      },
-      "impact": {
-        "en": "SAR 80",
-        "ar": "SAR 80"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "12:12",
-      "sortKey": "2026-06-16 12:12:33",
-      "text": "BCI-2026-PO-01427 (SAR 23,805)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01427 worth SAR 23,805",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01427 بقيمة SAR 23,805"
-      },
-      "impact": {
-        "en": "SAR 23,805",
-        "ar": "SAR 23,805"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "12:11",
-      "sortKey": "2026-06-16 12:11:53",
-      "text": "MAT-MR-2026-00173",
-      "headline": {
-        "en": "MAT-MR-2026-00173",
-        "ar": "MAT-MR-2026-00173"
-      },
-      "impact": null,
-      "to": "procurement group",
-      "source": "send"
-    },
-    {
-      "time": "12:11",
-      "sortKey": "2026-06-16 12:11:15",
-      "text": "Sameh team 5 below 1 visits [id=3EB05040CA59F706204AF6]",
-      "headline": {
-        "en": "Sameh team 5 below 1 visits [id=3EB05040CA59F706204AF6]",
-        "ar": "Sameh team 5 below 1 visits [id=3EB05040CA59F706204AF6]"
-      },
-      "impact": null,
-      "to": "Sameh Darwish",
-      "source": "send"
-    },
-    {
-      "time": "12:09",
-      "sortKey": "2026-06-16 12:09:00",
-      "text": "noon visits 0/1 [id=3EB06B011597B3C36CB7D9]",
-      "headline": {
-        "en": "noon visits 0/1 [id=3EB06B011597B3C36CB7D9]",
-        "ar": "noon visits 0/1 [id=3EB06B011597B3C36CB7D9]"
-      },
-      "impact": null,
-      "to": "Monir",
-      "source": "send"
-    },
-    {
-      "time": "12:08",
-      "sortKey": "2026-06-16 12:08:19",
-      "text": "noon visits 0/1 [id=3EB00EA4037552A74A551B]",
-      "headline": {
-        "en": "noon visits 0/1 [id=3EB00EA4037552A74A551B]",
-        "ar": "noon visits 0/1 [id=3EB00EA4037552A74A551B]"
-      },
-      "impact": null,
-      "to": "Mohammed Yassin",
-      "source": "send"
-    },
-    {
-      "time": "12:07",
-      "sortKey": "2026-06-16 12:07:36",
-      "text": "noon visits 0/1 [id=3EB0C7A4B274ADBDD06D90]",
-      "headline": {
-        "en": "noon visits 0/1 [id=3EB0C7A4B274ADBDD06D90]",
-        "ar": "noon visits 0/1 [id=3EB0C7A4B274ADBDD06D90]"
-      },
-      "impact": null,
-      "to": "Hossam",
-      "source": "send"
-    },
-    {
-      "time": "11:49",
-      "sortKey": "2026-06-16 11:49:42",
-      "text": "APCC-2026-PO-00742 (SAR 1,290.00)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00742 worth SAR 1,290",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00742 بقيمة SAR 1,290"
-      },
-      "impact": {
-        "en": "SAR 1,290",
-        "ar": "SAR 1,290"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "11:49",
-      "sortKey": "2026-06-16 11:49:07",
-      "text": "MAT-MR-2026-00174",
-      "headline": {
-        "en": "MAT-MR-2026-00174",
-        "ar": "MAT-MR-2026-00174"
-      },
-      "impact": null,
-      "to": "procurement group",
-      "source": "send"
-    },
-    {
-      "time": "11:47",
-      "sortKey": "2026-06-16 11:47:34",
-      "text": "1 alert section(s) sent",
-      "headline": {
-        "en": "1 alert section(s) sent",
-        "ar": "1 alert section(s) sent"
-      },
-      "impact": null,
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "11:31",
-      "sortKey": "2026-06-16 11:31:20",
-      "text": "MAT-MR-2026-00175",
-      "headline": {
-        "en": "MAT-MR-2026-00175",
-        "ar": "MAT-MR-2026-00175"
-      },
-      "impact": null,
-      "to": "procurement group",
-      "source": "send"
-    },
-    {
-      "time": "11:27",
-      "sortKey": "2026-06-16 11:27:31",
-      "text": "BCI-2026-PO-01425 (SAR 426.60)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01425 worth SAR 426.6",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01425 بقيمة SAR 426.6"
-      },
-      "impact": {
-        "en": "SAR 426.6",
-        "ar": "SAR 426.6"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "11:19",
-      "sortKey": "2026-06-16 11:19:13",
-      "text": "2 unengaged truck(s) [id=3EB02F675C1699F0F8FB6B]",
-      "headline": {
-        "en": "2 unengaged truck(s) [id=3EB02F675C1699F0F8FB6B]",
-        "ar": "2 unengaged truck(s) [id=3EB02F675C1699F0F8FB6B]"
-      },
-      "impact": null,
-      "to": "delivery group",
-      "source": "send"
-    }
-  ],
-  "generatedAt": "15:29",
+  "activity": [],
+  "generatedAt": "15:34",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-16T12:29:17.909Z",
+  "livePublishedAt": "2026-06-16T12:34:10.295Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
