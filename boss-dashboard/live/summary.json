@@ -15,10 +15,10 @@
         "en": "Watches vehicles, documents, and fleet incidents",
         "ar": "يتابع المركبات والوثائق وحوادث الأسطول"
       },
-      "state": "working",
+      "state": "resting",
       "lastActive": {
-        "en": "10 min ago",
-        "ar": "قبل 10 دقيقة"
+        "en": "15 min ago",
+        "ar": "قبل 15 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -34,10 +34,10 @@
         "en": "Watches HR documents, expiry reminders, and staff reports",
         "ar": "يتابع وثائق الموارد البشرية والتنبيهات وتقارير الموظفين"
       },
-      "state": "resting",
+      "state": "working",
       "lastActive": {
-        "en": "47 min ago",
-        "ar": "قبل 47 دقيقة"
+        "en": "just now",
+        "ar": "الآن"
       },
       "workflowCount": 0,
       "automationCount": 5
@@ -2032,11 +2032,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "11:56",
+  "generatedAt": "12:01",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-16T08:56:30.968Z",
+  "livePublishedAt": "2026-06-16T09:01:41.047Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
