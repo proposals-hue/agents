@@ -1808,7 +1808,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 30,
+    "messagesSentToday": 31,
     "automationsRunToday": 7,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1827,8 +1827,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 298,419.62",
-        "ar": "SAR 298,419.62"
+        "en": "SAR 299,619.62",
+        "ar": "SAR 299,619.62"
       }
     },
     {
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "30 updates | 7 tasks",
-        "ar": "30 تحديثات | 7 مهام"
+        "en": "31 updates | 7 tasks",
+        "ar": "31 تحديثات | 7 مهام"
       }
     },
     {
@@ -1871,6 +1871,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "15:24",
+      "sortKey": "2026-06-16 15:24:55",
+      "text": "BCI-2026-PO-01426 (SAR 1,200.00)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01426 worth SAR 1,200",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01426 بقيمة SAR 1,200"
+      },
+      "impact": {
+        "en": "SAR 1,200",
+        "ar": "SAR 1,200"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "15:16",
       "sortKey": "2026-06-16 15:16:54",
@@ -2197,25 +2212,13 @@
       "impact": null,
       "to": "delivery group",
       "source": "send"
-    },
-    {
-      "time": "11:13",
-      "sortKey": "2026-06-16 11:13:12",
-      "text": "MAT-MR-2026-00206",
-      "headline": {
-        "en": "MAT-MR-2026-00206",
-        "ar": "MAT-MR-2026-00206"
-      },
-      "impact": null,
-      "to": "procurement group",
-      "source": "send"
     }
   ],
-  "generatedAt": "15:22",
+  "generatedAt": "15:29",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-16T12:22:56.765Z",
+  "livePublishedAt": "2026-06-16T12:29:17.909Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
