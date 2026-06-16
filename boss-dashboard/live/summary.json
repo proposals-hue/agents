@@ -1808,7 +1808,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 14,
+    "messagesSentToday": 15,
     "automationsRunToday": 5,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1827,8 +1827,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 649.75",
-        "ar": "SAR 649.75"
+        "en": "SAR 1,849.75",
+        "ar": "SAR 1,849.75"
       }
     },
     {
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "14 updates | 5 tasks",
-        "ar": "14 تحديثات | 5 مهام"
+        "en": "15 updates | 5 tasks",
+        "ar": "15 تحديثات | 5 مهام"
       }
     },
     {
@@ -1871,6 +1871,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "16:25",
+      "sortKey": "2026-06-16 16:25:21",
+      "text": "BCI-2026-PO-01433 (SAR 1,200.00)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01433 worth SAR 1,200",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01433 بقيمة SAR 1,200"
+      },
+      "impact": {
+        "en": "SAR 1,200",
+        "ar": "SAR 1,200"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "16:12",
       "sortKey": "2026-06-16 16:12:36",
@@ -2046,11 +2061,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "16:23",
+  "generatedAt": "16:29",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-16T13:23:25.601Z",
+  "livePublishedAt": "2026-06-16T13:29:24.961Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
