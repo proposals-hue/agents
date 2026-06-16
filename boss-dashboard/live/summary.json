@@ -1808,8 +1808,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 0,
-    "automationsRunToday": 0,
+    "messagesSentToday": 3,
+    "automationsRunToday": 1,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "0 updates | 0 tasks",
-        "ar": "0 تحديثات | 0 مهام"
+        "en": "3 updates | 1 task",
+        "ar": "3 تحديثات | 1 مهمة"
       }
     },
     {
@@ -1849,8 +1849,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "0 chats/groups",
-        "ar": "0 محادثات/مجموعات"
+        "en": "3 chats/groups",
+        "ar": "3 محادثات/مجموعات"
       }
     }
   ],
@@ -1870,12 +1870,49 @@
       }
     }
   ],
-  "activity": [],
-  "generatedAt": "15:34",
+  "activity": [
+    {
+      "time": "15:40",
+      "sortKey": "2026-06-16 15:40:21",
+      "text": "midday visits 0/8 [id=3EB04C7ECB6CDD6A4771D5]",
+      "headline": {
+        "en": "midday visits 0/8 [id=3EB04C7ECB6CDD6A4771D5]",
+        "ar": "midday visits 0/8 [id=3EB04C7ECB6CDD6A4771D5]"
+      },
+      "impact": null,
+      "to": "Mohammed Yassin",
+      "source": "send"
+    },
+    {
+      "time": "15:39",
+      "sortKey": "2026-06-16 15:39:41",
+      "text": "midday visits 0/8 [id=3EB0EF62B04ED1112FC8A3]",
+      "headline": {
+        "en": "midday visits 0/8 [id=3EB0EF62B04ED1112FC8A3]",
+        "ar": "midday visits 0/8 [id=3EB0EF62B04ED1112FC8A3]"
+      },
+      "impact": null,
+      "to": "Hossam",
+      "source": "send"
+    },
+    {
+      "time": "15:37",
+      "sortKey": "2026-06-16 15:37:29",
+      "text": "midday visits 0/8 [id=3EB0CDC47B7971F3D86920]",
+      "headline": {
+        "en": "midday visits 0/8 [id=3EB0CDC47B7971F3D86920]",
+        "ar": "midday visits 0/8 [id=3EB0CDC47B7971F3D86920]"
+      },
+      "impact": null,
+      "to": "Ayman",
+      "source": "send"
+    }
+  ],
+  "generatedAt": "15:40",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-16T12:34:10.295Z",
+  "livePublishedAt": "2026-06-16T12:40:27.731Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
