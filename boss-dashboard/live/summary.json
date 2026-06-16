@@ -1808,8 +1808,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 47,
-    "automationsRunToday": 10,
+    "messagesSentToday": 48,
+    "automationsRunToday": 11,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "47 updates | 10 tasks",
-        "ar": "47 تحديثات | 10 مهام"
+        "en": "48 updates | 11 tasks",
+        "ar": "48 تحديثات | 11 مهام"
       }
     },
     {
@@ -1871,6 +1871,18 @@
     }
   ],
   "activity": [
+    {
+      "time": "18:18",
+      "sortKey": "2026-06-16 18:18:56",
+      "text": "EOD summary with 3 sections",
+      "headline": {
+        "en": "EOD summary with 3 sections",
+        "ar": "EOD summary with 3 sections"
+      },
+      "impact": null,
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "17:57",
       "sortKey": "2026-06-16 17:57:00",
@@ -2167,28 +2179,13 @@
       "impact": null,
       "to": "NAZISH HASSAN",
       "source": "send"
-    },
-    {
-      "time": "16:48",
-      "sortKey": "2026-06-16 16:48:41",
-      "text": "BCI-2026-PO-01413 (SAR 113.00)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01413 worth SAR 113",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01413 بقيمة SAR 113"
-      },
-      "impact": {
-        "en": "SAR 113",
-        "ar": "SAR 113"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "18:16",
+  "generatedAt": "18:20",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-16T15:16:05.848Z",
+  "livePublishedAt": "2026-06-16T15:20:41.220Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
