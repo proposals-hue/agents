@@ -36,8 +36,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "17 min ago",
-        "ar": "قبل 17 دقيقة"
+        "en": "24 min ago",
+        "ar": "قبل 24 دقيقة"
       },
       "workflowCount": 0,
       "automationCount": 5
@@ -93,8 +93,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "57 min ago",
-        "ar": "قبل 57 دقيقة"
+        "en": "1 hr ago",
+        "ar": "قبل 1 ساعة"
       },
       "workflowCount": 7,
       "automationCount": 13
@@ -1827,7 +1827,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 7,
+    "messagesSentToday": 9,
     "automationsRunToday": 5,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 235,738.5",
-        "ar": "SAR 235,738.5"
+        "en": "SAR 236,165.1",
+        "ar": "SAR 236,165.1"
       }
     },
     {
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "7 updates | 5 tasks",
-        "ar": "7 تحديثات | 5 مهام"
+        "en": "9 updates | 5 tasks",
+        "ar": "9 تحديثات | 5 مهام"
       }
     },
     {
@@ -1875,6 +1875,33 @@
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "11:31",
+      "sortKey": "2026-06-16 11:31:20",
+      "text": "MAT-MR-2026-00175",
+      "headline": {
+        "en": "MAT-MR-2026-00175",
+        "ar": "MAT-MR-2026-00175"
+      },
+      "impact": null,
+      "to": "procurement group",
+      "source": "send"
+    },
+    {
+      "time": "11:27",
+      "sortKey": "2026-06-16 11:27:31",
+      "text": "BCI-2026-PO-01425 (SAR 426.60)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01425 worth SAR 426.6",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01425 بقيمة SAR 426.6"
+      },
+      "impact": {
+        "en": "SAR 426.6",
+        "ar": "SAR 426.6"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "11:19",
       "sortKey": "2026-06-16 11:19:13",
@@ -1966,11 +1993,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "11:26",
+  "generatedAt": "11:33",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-16T08:26:01.687Z",
+  "livePublishedAt": "2026-06-16T08:33:47.436Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
