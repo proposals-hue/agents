@@ -167,10 +167,10 @@
         "en": "Watches content approvals and publishing activity",
         "ar": "يتابع اعتماد المحتوى ونشاط النشر"
       },
-      "state": "resting",
+      "state": "working",
       "lastActive": {
-        "en": "1 hr ago",
-        "ar": "قبل 1 ساعة"
+        "en": "just now",
+        "ar": "الآن"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -1827,13 +1827,13 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 20,
+    "messagesSentToday": 21,
     "automationsRunToday": 6,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
     "channelsTotal": 0,
-    "agentsWorking": 3,
+    "agentsWorking": 4,
     "agentsTotal": 11,
     "posPending": null,
     "mrsOpen": null
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "20 updates | 6 tasks",
-        "ar": "20 تحديثات | 6 مهام"
+        "en": "21 updates | 6 tasks",
+        "ar": "21 تحديثات | 6 مهام"
       }
     },
     {
@@ -1875,6 +1875,21 @@
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "13:06",
+      "sortKey": "2026-06-16 13:06:09",
+      "text": "APCC-2026-PO-00694 (SAR 0.00)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00694 worth ",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00694 بقيمة "
+      },
+      "impact": {
+        "en": "",
+        "ar": ""
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "12:51",
       "sortKey": "2026-06-16 12:51:25",
@@ -2137,11 +2152,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "13:02",
+  "generatedAt": "13:10",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-16T10:02:51.676Z",
+  "livePublishedAt": "2026-06-16T10:10:11.946Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
