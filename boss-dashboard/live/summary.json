@@ -1827,7 +1827,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 24,
+    "messagesSentToday": 25,
     "automationsRunToday": 7,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 275,513.62",
-        "ar": "SAR 275,513.62"
+        "en": "SAR 281,153.62",
+        "ar": "SAR 281,153.62"
       }
     },
     {
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "24 updates | 7 tasks",
-        "ar": "24 تحديثات | 7 مهام"
+        "en": "25 updates | 7 tasks",
+        "ar": "25 تحديثات | 7 مهام"
       }
     },
     {
@@ -1875,6 +1875,21 @@
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "13:38",
+      "sortKey": "2026-06-16 13:38:24",
+      "text": "CR-2026-00026 Receipt Recorded In ERP SAR 5,640.00 Riyadh [id=3EB0CB125D658B4C692751]",
+      "headline": {
+        "en": "CR-2026-00026 Receipt Recorded In ERP SAR 5,640.00 Riyadh [id=3EB0CB125D658B4C692751]",
+        "ar": "CR-2026-00026 Receipt Recorded In ERP SAR 5,640.00 Riyadh [id=3EB0CB125D658B4C692751]"
+      },
+      "impact": {
+        "en": "SAR 5,640",
+        "ar": "SAR 5,640"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
     {
       "time": "13:28",
       "sortKey": "2026-06-16 13:28:06",
@@ -2194,11 +2209,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "13:32",
+  "generatedAt": "13:38",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-16T10:32:13.176Z",
+  "livePublishedAt": "2026-06-16T10:38:54.381Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
