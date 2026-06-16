@@ -34,10 +34,10 @@
         "en": "Watches HR documents, expiry reminders, and staff reports",
         "ar": "يتابع وثائق الموارد البشرية والتنبيهات وتقارير الموظفين"
       },
-      "state": "resting",
+      "state": "working",
       "lastActive": {
-        "en": "17 hr ago",
-        "ar": "قبل 17 ساعة"
+        "en": "just now",
+        "ar": "الآن"
       },
       "workflowCount": 0,
       "automationCount": 5
@@ -1827,13 +1827,13 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 29,
-    "automationsRunToday": 13,
+    "messagesSentToday": 0,
+    "automationsRunToday": 0,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
     "channelsTotal": 0,
-    "agentsWorking": 5,
+    "agentsWorking": 6,
     "agentsTotal": 11,
     "posPending": null,
     "mrsOpen": null
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 154,912.75 + JOD 5,664",
-        "ar": "SAR 154,912.75 + JOD 5,664"
+        "en": "No money updates",
+        "ar": "لا توجد تحديثات مالية"
       }
     },
     {
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "29 updates | 13 tasks",
-        "ar": "29 تحديثات | 13 مهام"
+        "en": "0 updates | 0 tasks",
+        "ar": "0 تحديثات | 0 مهام"
       }
     },
     {
@@ -1868,340 +1868,18 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "16 chats/groups",
-        "ar": "16 محادثات/مجموعات"
+        "en": "0 chats/groups",
+        "ar": "0 محادثات/مجموعات"
       }
     }
   ],
   "attentionItems": [],
-  "activity": [
-    {
-      "time": "09:53",
-      "sortKey": "2026-06-16 09:53:42",
-      "text": "APCC-2026-PO-00187 (SAR 5,520.00)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00187 worth SAR 5,520",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00187 بقيمة SAR 5,520"
-      },
-      "impact": {
-        "en": "SAR 5,520",
-        "ar": "SAR 5,520"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "09:52",
-      "sortKey": "2026-06-16 09:52:38",
-      "text": "MAT-MR-2026-00458",
-      "headline": {
-        "en": "MAT-MR-2026-00458",
-        "ar": "MAT-MR-2026-00458"
-      },
-      "impact": null,
-      "to": "procurement group",
-      "source": "send"
-    },
-    {
-      "time": "09:51",
-      "sortKey": "2026-06-16 09:51:01",
-      "text": "1 alert section(s) sent",
-      "headline": {
-        "en": "1 alert section(s) sent",
-        "ar": "1 alert section(s) sent"
-      },
-      "impact": null,
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "09:48",
-      "sortKey": "2026-06-16 09:48:01",
-      "text": "expired-iqama weekly digest (3 recent, 53 older)",
-      "headline": {
-        "en": "expired-iqama weekly digest (3 recent, 53 older)",
-        "ar": "expired-iqama weekly digest (3 recent, 53 older)"
-      },
-      "impact": null,
-      "to": "HR group",
-      "source": "send"
-    },
-    {
-      "time": "09:47",
-      "sortKey": "2026-06-16 09:47:11",
-      "text": "3 contract lead-time alert(s)",
-      "headline": {
-        "en": "3 contract lead-time alert(s)",
-        "ar": "3 contract lead-time alert(s)"
-      },
-      "impact": null,
-      "to": "HR group",
-      "source": "send"
-    },
-    {
-      "time": "09:43",
-      "sortKey": "2026-06-16 09:43:53",
-      "text": "Rental group digest: 5 tenants, 5,664 JOD",
-      "headline": {
-        "en": "Rentals followed up 5 tenants worth JOD 5,664",
-        "ar": "الإيجارات تابعت 5 مستأجرين بقيمة JOD 5,664"
-      },
-      "impact": {
-        "en": "JOD 5,664",
-        "ar": "JOD 5,664"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "09:43",
-      "sortKey": "2026-06-16 09:43:09",
-      "text": "EOD summary with 2 sections",
-      "headline": {
-        "en": "EOD summary with 2 sections",
-        "ar": "EOD summary with 2 sections"
-      },
-      "impact": null,
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "09:41",
-      "sortKey": "2026-06-16 09:41:27",
-      "text": "Daily briefing with 4 sections",
-      "headline": {
-        "en": "Daily briefing with 4 sections",
-        "ar": "Daily briefing with 4 sections"
-      },
-      "impact": null,
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "09:38",
-      "sortKey": "2026-06-16 09:38:21",
-      "text": "CR-2026-00014 Accountant Received SAR 33,840.00 Riyadh [id=3EB037F8055EAB5341A9A2]",
-      "headline": {
-        "en": "CR-2026-00014 Accountant Received SAR 33,840.00 Riyadh [id=3EB037F8055EAB5341A9A2]",
-        "ar": "CR-2026-00014 Accountant Received SAR 33,840.00 Riyadh [id=3EB037F8055EAB5341A9A2]"
-      },
-      "impact": {
-        "en": "SAR 33,840",
-        "ar": "SAR 33,840"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "09:37",
-      "sortKey": "2026-06-16 09:37:42",
-      "text": "MAT-MR-2026-00582",
-      "headline": {
-        "en": "MAT-MR-2026-00582",
-        "ar": "MAT-MR-2026-00582"
-      },
-      "impact": null,
-      "to": "procurement group",
-      "source": "send"
-    },
-    {
-      "time": "09:37",
-      "sortKey": "2026-06-16 09:37:37",
-      "text": "CR-2026-00009 Accountant Received SAR 16,920.00 Riyadh [id=3EB0BF0C45C207462C5699]",
-      "headline": {
-        "en": "CR-2026-00009 Accountant Received SAR 16,920.00 Riyadh [id=3EB0BF0C45C207462C5699]",
-        "ar": "CR-2026-00009 Accountant Received SAR 16,920.00 Riyadh [id=3EB0BF0C45C207462C5699]"
-      },
-      "impact": {
-        "en": "SAR 16,920",
-        "ar": "SAR 16,920"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "09:36",
-      "sortKey": "2026-06-16 09:36:53",
-      "text": "CR-2026-00009 Driver Received SAR 16,920.00 Riyadh [id=3EB061F20BC3A9E9F9A635]",
-      "headline": {
-        "en": "CR-2026-00009 Driver Received SAR 16,920.00 Riyadh [id=3EB061F20BC3A9E9F9A635]",
-        "ar": "CR-2026-00009 Driver Received SAR 16,920.00 Riyadh [id=3EB061F20BC3A9E9F9A635]"
-      },
-      "impact": {
-        "en": "SAR 16,920",
-        "ar": "SAR 16,920"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "09:29",
-      "sortKey": "2026-06-16 09:29:38",
-      "text": "initial reminder for 2026-06-16 [id=3EB0661346689764B7611E]",
-      "headline": {
-        "en": "initial reminder for 2026-06-16 [id=3EB0661346689764B7611E]",
-        "ar": "initial reminder for 2026-06-16 [id=3EB0661346689764B7611E]"
-      },
-      "impact": null,
-      "to": "MUHAMMAD UZAIR ANJUM SHOUKAT ALI ANJUM",
-      "source": "send"
-    },
-    {
-      "time": "09:29",
-      "sortKey": "2026-06-16 09:29:34",
-      "text": "Rent reminder REN-2026-0018 installment 2/4 due 2026-07-01",
-      "headline": {
-        "en": "Rent reminder REN-2026-0018 installment 2/4 due 2026-07-01",
-        "ar": "Rent reminder REN-2026-0018 installment 2/4 due 2026-07-01"
-      },
-      "impact": null,
-      "to": "+********1681",
-      "source": "send"
-    },
-    {
-      "time": "09:28",
-      "sortKey": "2026-06-16 09:28:54",
-      "text": "initial reminder for 2026-06-16 [id=3EB002EE874B2D714F52B6]",
-      "headline": {
-        "en": "initial reminder for 2026-06-16 [id=3EB002EE874B2D714F52B6]",
-        "ar": "initial reminder for 2026-06-16 [id=3EB002EE874B2D714F52B6]"
-      },
-      "impact": null,
-      "to": "Muhammad Shehzad",
-      "source": "send"
-    },
-    {
-      "time": "09:28",
-      "sortKey": "2026-06-16 09:28:49",
-      "text": "Rent reminder REN-2026-0018 installment 2/4 due 2026-07-01",
-      "headline": {
-        "en": "Rent reminder REN-2026-0018 installment 2/4 due 2026-07-01",
-        "ar": "Rent reminder REN-2026-0018 installment 2/4 due 2026-07-01"
-      },
-      "impact": null,
-      "to": "+********2300",
-      "source": "send"
-    },
-    {
-      "time": "09:28",
-      "sortKey": "2026-06-16 09:28:17",
-      "text": "initial reminder for 2026-06-16 [id=3EB0111C88B249E4B44FE4]",
-      "headline": {
-        "en": "initial reminder for 2026-06-16 [id=3EB0111C88B249E4B44FE4]",
-        "ar": "initial reminder for 2026-06-16 [id=3EB0111C88B249E4B44FE4]"
-      },
-      "impact": null,
-      "to": "MOHMMED ADYAN",
-      "source": "send"
-    },
-    {
-      "time": "09:28",
-      "sortKey": "2026-06-16 09:28:13",
-      "text": "Rent reminder REN-2026-0010 installment 4/6 due 2026-07-01",
-      "headline": {
-        "en": "Rent reminder REN-2026-0010 installment 4/6 due 2026-07-01",
-        "ar": "Rent reminder REN-2026-0010 installment 4/6 due 2026-07-01"
-      },
-      "impact": null,
-      "to": "+********1681",
-      "source": "send"
-    },
-    {
-      "time": "09:28",
-      "sortKey": "2026-06-16 09:28:13",
-      "text": "3 SOs SAR 45,632 + 2 DNs SAR 35,592 across 3 salesmen",
-      "headline": {
-        "en": "3 SOs SAR 45,632 + 2 DNs SAR 35,592 across 3 salesmen",
-        "ar": "3 SOs SAR 45,632 + 2 DNs SAR 35,592 across 3 salesmen"
-      },
-      "impact": {
-        "en": "SAR 45,632",
-        "ar": "SAR 45,632"
-      },
-      "to": "Sameh Darwish",
-      "source": "send"
-    },
-    {
-      "time": "09:27",
-      "sortKey": "2026-06-16 09:27:28",
-      "text": "Rent reminder REN-2026-0010 installment 4/6 due 2026-07-01",
-      "headline": {
-        "en": "Rent reminder REN-2026-0010 installment 4/6 due 2026-07-01",
-        "ar": "Rent reminder REN-2026-0010 installment 4/6 due 2026-07-01"
-      },
-      "impact": null,
-      "to": "+********2300",
-      "source": "send"
-    },
-    {
-      "time": "09:27",
-      "sortKey": "2026-06-16 09:27:27",
-      "text": "0 DNs, 1 SOs",
-      "headline": {
-        "en": "0 DNs, 1 SOs",
-        "ar": "0 DNs, 1 SOs"
-      },
-      "impact": null,
-      "to": "Emad Basiony",
-      "source": "send"
-    },
-    {
-      "time": "09:27",
-      "sortKey": "2026-06-16 09:27:26",
-      "text": "APCC-2026-PO-00181 (SAR 488.75)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00181 worth SAR 488.75",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00181 بقيمة SAR 488.75"
-      },
-      "impact": {
-        "en": "SAR 488.75",
-        "ar": "SAR 488.75"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "09:26",
-      "sortKey": "2026-06-16 09:26:38",
-      "text": "Rent reminder REN-2026-0006 installment 2/2 due 2026-07-01",
-      "headline": {
-        "en": "Rent reminder REN-2026-0006 installment 2/2 due 2026-07-01",
-        "ar": "Rent reminder REN-2026-0006 installment 2/2 due 2026-07-01"
-      },
-      "impact": null,
-      "to": "+********1681",
-      "source": "send"
-    },
-    {
-      "time": "09:26",
-      "sortKey": "2026-06-16 09:26:36",
-      "text": "0 DNs, 1 SOs",
-      "headline": {
-        "en": "0 DNs, 1 SOs",
-        "ar": "0 DNs, 1 SOs"
-      },
-      "impact": null,
-      "to": "FATHY SAAD",
-      "source": "send"
-    },
-    {
-      "time": "09:25",
-      "sortKey": "2026-06-16 09:25:02",
-      "text": "9 salesmen below 8 visits [id=3EB0078925CF7AB5672A5D]",
-      "headline": {
-        "en": "9 salesmen below 8 visits [id=3EB0078925CF7AB5672A5D]",
-        "ar": "9 salesmen below 8 visits [id=3EB0078925CF7AB5672A5D]"
-      },
-      "impact": null,
-      "to": "Eng. Muhammad",
-      "source": "send"
-    }
-  ],
-  "generatedAt": "10:01",
+  "activity": [],
+  "generatedAt": "10:08",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-16T07:01:26.091Z",
+  "livePublishedAt": "2026-06-16T07:08:16.735Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
