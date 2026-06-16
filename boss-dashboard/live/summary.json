@@ -17,8 +17,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "28 min ago",
-        "ar": "قبل 28 دقيقة"
+        "en": "35 min ago",
+        "ar": "قبل 35 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -167,10 +167,10 @@
         "en": "Watches content approvals and publishing activity",
         "ar": "يتابع اعتماد المحتوى ونشاط النشر"
       },
-      "state": "working",
+      "state": "resting",
       "lastActive": {
-        "en": "12 min ago",
-        "ar": "قبل 12 دقيقة"
+        "en": "19 min ago",
+        "ar": "قبل 19 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -1833,7 +1833,7 @@
     "totalAutomations": 98,
     "workflowCount": 26,
     "channelsTotal": 0,
-    "agentsWorking": 4,
+    "agentsWorking": 3,
     "agentsTotal": 11,
     "posPending": null,
     "mrsOpen": null
@@ -2107,11 +2107,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "12:14",
+  "generatedAt": "12:21",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-16T09:14:46.452Z",
+  "livePublishedAt": "2026-06-16T09:21:08.035Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
