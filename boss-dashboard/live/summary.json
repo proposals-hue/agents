@@ -1808,8 +1808,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 9,
-    "automationsRunToday": 3,
+    "messagesSentToday": 13,
+    "automationsRunToday": 5,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "9 updates | 3 tasks",
-        "ar": "9 تحديثات | 3 مهام"
+        "en": "13 updates | 5 tasks",
+        "ar": "13 تحديثات | 5 مهام"
       }
     },
     {
@@ -1849,8 +1849,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "7 chats/groups",
-        "ar": "7 محادثات/مجموعات"
+        "en": "9 chats/groups",
+        "ar": "9 محادثات/مجموعات"
       }
     }
   ],
@@ -1871,6 +1871,54 @@
     }
   ],
   "activity": [
+    {
+      "time": "16:07",
+      "sortKey": "2026-06-16 16:07:22",
+      "text": "Fleet accident follow-up FID-00156 (Legal Follow-up) [id=3EB09D50122E0DBB689486]",
+      "headline": {
+        "en": "Fleet accident follow-up FID-00156 (Legal Follow-up) [id=3EB09D50122E0DBB689486]",
+        "ar": "Fleet accident follow-up FID-00156 (Legal Follow-up) [id=3EB09D50122E0DBB689486]"
+      },
+      "impact": null,
+      "to": "hr group",
+      "source": "send"
+    },
+    {
+      "time": "16:06",
+      "sortKey": "2026-06-16 16:06:42",
+      "text": "Fleet accident follow-up FID-00154 (Claim Submission) [id=3EB0A1F05993DAA460B9FF]",
+      "headline": {
+        "en": "Fleet accident follow-up FID-00154 (Claim Submission) [id=3EB0A1F05993DAA460B9FF]",
+        "ar": "Fleet accident follow-up FID-00154 (Claim Submission) [id=3EB0A1F05993DAA460B9FF]"
+      },
+      "impact": null,
+      "to": "hr group",
+      "source": "send"
+    },
+    {
+      "time": "16:06",
+      "sortKey": "2026-06-16 16:06:18",
+      "text": "Fleet accident follow-up FID-00153 (Legal Follow-up) [id=3EB05380859656C853EFBF]",
+      "headline": {
+        "en": "Fleet accident follow-up FID-00153 (Legal Follow-up) [id=3EB05380859656C853EFBF]",
+        "ar": "Fleet accident follow-up FID-00153 (Legal Follow-up) [id=3EB05380859656C853EFBF]"
+      },
+      "impact": null,
+      "to": "hr group",
+      "source": "send"
+    },
+    {
+      "time": "16:03",
+      "sortKey": "2026-06-16 16:03:51",
+      "text": "missing DN reminder for BCI-2026-SO-01384 [id=3EB0EE8090F5E6B0297A69]",
+      "headline": {
+        "en": "missing DN reminder for BCI-2026-SO-01384 [id=3EB0EE8090F5E6B0297A69]",
+        "ar": "missing DN reminder for BCI-2026-SO-01384 [id=3EB0EE8090F5E6B0297A69]"
+      },
+      "impact": null,
+      "to": "WhatsApp group",
+      "source": "send"
+    },
     {
       "time": "15:53",
       "sortKey": "2026-06-16 15:53:31",
@@ -1983,11 +2031,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "16:01",
+  "generatedAt": "16:08",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-16T13:01:52.443Z",
+  "livePublishedAt": "2026-06-16T13:08:46.720Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
