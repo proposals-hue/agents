@@ -17,8 +17,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "15 hr ago",
-        "ar": "قبل 15 ساعة"
+        "en": "16 hr ago",
+        "ar": "قبل 16 ساعة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -72,10 +72,10 @@
         "en": "Keeps the boss updated and routes important requests",
         "ar": "يتابع التحديثات المهمة ويوصل الطلبات لصاحب القرار"
       },
-      "state": "resting",
+      "state": "working",
       "lastActive": {
-        "en": "15 hr ago",
-        "ar": "قبل 15 ساعة"
+        "en": "just now",
+        "ar": "الآن"
       },
       "workflowCount": 2,
       "automationCount": 3
@@ -91,10 +91,10 @@
         "en": "Watches material requests, POs, and suppliers",
         "ar": "يتابع طلبات المواد وأوامر الشراء والموردين"
       },
-      "state": "resting",
+      "state": "working",
       "lastActive": {
-        "en": "16 hr ago",
-        "ar": "قبل 16 ساعة"
+        "en": "just now",
+        "ar": "الآن"
       },
       "workflowCount": 7,
       "automationCount": 13
@@ -150,8 +150,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "15 hr ago",
-        "ar": "قبل 15 ساعة"
+        "en": "16 hr ago",
+        "ar": "قبل 16 ساعة"
       },
       "workflowCount": 4,
       "automationCount": 11
@@ -167,10 +167,10 @@
         "en": "Watches content approvals and publishing activity",
         "ar": "يتابع اعتماد المحتوى ونشاط النشر"
       },
-      "state": "resting",
+      "state": "working",
       "lastActive": {
-        "en": "17 hr ago",
-        "ar": "قبل 17 ساعة"
+        "en": "just now",
+        "ar": "الآن"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -1827,13 +1827,13 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 1,
-    "automationsRunToday": 1,
+    "messagesSentToday": 17,
+    "automationsRunToday": 7,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
     "channelsTotal": 0,
-    "agentsWorking": 0,
+    "agentsWorking": 3,
     "agentsTotal": 11,
     "posPending": null,
     "mrsOpen": null
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "No money updates",
-        "ar": "لا توجد تحديثات مالية"
+        "en": "SAR 81,712.75",
+        "ar": "SAR 81,712.75"
       }
     },
     {
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "1 update | 1 task",
-        "ar": "1 تحديث | 1 مهمة"
+        "en": "17 updates | 7 tasks",
+        "ar": "17 تحديثات | 7 مهام"
       }
     },
     {
@@ -1868,13 +1868,211 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "1 chat/group",
-        "ar": "1 محادثة/مجموعة"
+        "en": "13 chats/groups",
+        "ar": "13 محادثات/مجموعات"
       }
     }
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "09:29",
+      "sortKey": "2026-06-16 09:29:38",
+      "text": "initial reminder for 2026-06-16 [id=3EB0661346689764B7611E]",
+      "headline": {
+        "en": "initial reminder for 2026-06-16 [id=3EB0661346689764B7611E]",
+        "ar": "initial reminder for 2026-06-16 [id=3EB0661346689764B7611E]"
+      },
+      "impact": null,
+      "to": "MUHAMMAD UZAIR ANJUM SHOUKAT ALI ANJUM",
+      "source": "send"
+    },
+    {
+      "time": "09:29",
+      "sortKey": "2026-06-16 09:29:34",
+      "text": "Rent reminder REN-2026-0018 installment 2/4 due 2026-07-01",
+      "headline": {
+        "en": "Rent reminder REN-2026-0018 installment 2/4 due 2026-07-01",
+        "ar": "Rent reminder REN-2026-0018 installment 2/4 due 2026-07-01"
+      },
+      "impact": null,
+      "to": "+********1681",
+      "source": "send"
+    },
+    {
+      "time": "09:28",
+      "sortKey": "2026-06-16 09:28:54",
+      "text": "initial reminder for 2026-06-16 [id=3EB002EE874B2D714F52B6]",
+      "headline": {
+        "en": "initial reminder for 2026-06-16 [id=3EB002EE874B2D714F52B6]",
+        "ar": "initial reminder for 2026-06-16 [id=3EB002EE874B2D714F52B6]"
+      },
+      "impact": null,
+      "to": "Muhammad Shehzad",
+      "source": "send"
+    },
+    {
+      "time": "09:28",
+      "sortKey": "2026-06-16 09:28:49",
+      "text": "Rent reminder REN-2026-0018 installment 2/4 due 2026-07-01",
+      "headline": {
+        "en": "Rent reminder REN-2026-0018 installment 2/4 due 2026-07-01",
+        "ar": "Rent reminder REN-2026-0018 installment 2/4 due 2026-07-01"
+      },
+      "impact": null,
+      "to": "+********2300",
+      "source": "send"
+    },
+    {
+      "time": "09:28",
+      "sortKey": "2026-06-16 09:28:17",
+      "text": "initial reminder for 2026-06-16 [id=3EB0111C88B249E4B44FE4]",
+      "headline": {
+        "en": "initial reminder for 2026-06-16 [id=3EB0111C88B249E4B44FE4]",
+        "ar": "initial reminder for 2026-06-16 [id=3EB0111C88B249E4B44FE4]"
+      },
+      "impact": null,
+      "to": "MOHMMED ADYAN",
+      "source": "send"
+    },
+    {
+      "time": "09:28",
+      "sortKey": "2026-06-16 09:28:13",
+      "text": "Rent reminder REN-2026-0010 installment 4/6 due 2026-07-01",
+      "headline": {
+        "en": "Rent reminder REN-2026-0010 installment 4/6 due 2026-07-01",
+        "ar": "Rent reminder REN-2026-0010 installment 4/6 due 2026-07-01"
+      },
+      "impact": null,
+      "to": "+********1681",
+      "source": "send"
+    },
+    {
+      "time": "09:28",
+      "sortKey": "2026-06-16 09:28:13",
+      "text": "3 SOs SAR 45,632 + 2 DNs SAR 35,592 across 3 salesmen",
+      "headline": {
+        "en": "3 SOs SAR 45,632 + 2 DNs SAR 35,592 across 3 salesmen",
+        "ar": "3 SOs SAR 45,632 + 2 DNs SAR 35,592 across 3 salesmen"
+      },
+      "impact": {
+        "en": "SAR 45,632",
+        "ar": "SAR 45,632"
+      },
+      "to": "Sameh Darwish",
+      "source": "send"
+    },
+    {
+      "time": "09:27",
+      "sortKey": "2026-06-16 09:27:28",
+      "text": "Rent reminder REN-2026-0010 installment 4/6 due 2026-07-01",
+      "headline": {
+        "en": "Rent reminder REN-2026-0010 installment 4/6 due 2026-07-01",
+        "ar": "Rent reminder REN-2026-0010 installment 4/6 due 2026-07-01"
+      },
+      "impact": null,
+      "to": "+********2300",
+      "source": "send"
+    },
+    {
+      "time": "09:27",
+      "sortKey": "2026-06-16 09:27:27",
+      "text": "0 DNs, 1 SOs",
+      "headline": {
+        "en": "0 DNs, 1 SOs",
+        "ar": "0 DNs, 1 SOs"
+      },
+      "impact": null,
+      "to": "Emad Basiony",
+      "source": "send"
+    },
+    {
+      "time": "09:27",
+      "sortKey": "2026-06-16 09:27:26",
+      "text": "APCC-2026-PO-00181 (SAR 488.75)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00181 worth SAR 488.75",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00181 بقيمة SAR 488.75"
+      },
+      "impact": {
+        "en": "SAR 488.75",
+        "ar": "SAR 488.75"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "09:26",
+      "sortKey": "2026-06-16 09:26:38",
+      "text": "Rent reminder REN-2026-0006 installment 2/2 due 2026-07-01",
+      "headline": {
+        "en": "Rent reminder REN-2026-0006 installment 2/2 due 2026-07-01",
+        "ar": "Rent reminder REN-2026-0006 installment 2/2 due 2026-07-01"
+      },
+      "impact": null,
+      "to": "+********1681",
+      "source": "send"
+    },
+    {
+      "time": "09:26",
+      "sortKey": "2026-06-16 09:26:36",
+      "text": "0 DNs, 1 SOs",
+      "headline": {
+        "en": "0 DNs, 1 SOs",
+        "ar": "0 DNs, 1 SOs"
+      },
+      "impact": null,
+      "to": "FATHY SAAD",
+      "source": "send"
+    },
+    {
+      "time": "09:25",
+      "sortKey": "2026-06-16 09:25:02",
+      "text": "9 salesmen below 8 visits [id=3EB0078925CF7AB5672A5D]",
+      "headline": {
+        "en": "9 salesmen below 8 visits [id=3EB0078925CF7AB5672A5D]",
+        "ar": "9 salesmen below 8 visits [id=3EB0078925CF7AB5672A5D]"
+      },
+      "impact": null,
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "09:23",
+      "sortKey": "2026-06-16 09:23:51",
+      "text": "2 DNs, 1 SOs",
+      "headline": {
+        "en": "2 DNs, 1 SOs",
+        "ar": "2 DNs, 1 SOs"
+      },
+      "impact": null,
+      "to": "Monir",
+      "source": "send"
+    },
+    {
+      "time": "09:23",
+      "sortKey": "2026-06-16 09:23:01",
+      "text": "4 DNs, 5 SOs",
+      "headline": {
+        "en": "4 DNs, 5 SOs",
+        "ar": "4 DNs, 5 SOs"
+      },
+      "impact": null,
+      "to": "Ayman",
+      "source": "send"
+    },
+    {
+      "time": "09:22",
+      "sortKey": "2026-06-16 09:22:22",
+      "text": "2 alert section(s) sent",
+      "headline": {
+        "en": "2 alert section(s) sent",
+        "ar": "2 alert section(s) sent"
+      },
+      "impact": null,
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "09:16",
       "sortKey": "2026-06-16 09:16:31",
@@ -1888,11 +2086,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "09:20",
+  "generatedAt": "09:34",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-16T06:20:28.983Z",
+  "livePublishedAt": "2026-06-16T06:34:42.838Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
