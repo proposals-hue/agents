@@ -17,8 +17,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "22 min ago",
-        "ar": "قبل 22 دقيقة"
+        "en": "28 min ago",
+        "ar": "قبل 28 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -169,8 +169,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "6 min ago",
-        "ar": "قبل 6 دقيقة"
+        "en": "12 min ago",
+        "ar": "قبل 12 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -1827,7 +1827,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 14,
+    "messagesSentToday": 18,
     "automationsRunToday": 6,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 237,455.1",
-        "ar": "SAR 237,455.1"
+        "en": "SAR 261,260.1",
+        "ar": "SAR 261,260.1"
       }
     },
     {
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "14 updates | 6 tasks",
-        "ar": "14 تحديثات | 6 مهام"
+        "en": "18 updates | 6 tasks",
+        "ar": "18 تحديثات | 6 مهام"
       }
     },
     {
@@ -1868,13 +1868,64 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "5 chats/groups",
-        "ar": "5 محادثات/مجموعات"
+        "en": "7 chats/groups",
+        "ar": "7 محادثات/مجموعات"
       }
     }
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "12:12",
+      "sortKey": "2026-06-16 12:12:33",
+      "text": "BCI-2026-PO-01427 (SAR 23,805)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01427 worth SAR 23,805",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01427 بقيمة SAR 23,805"
+      },
+      "impact": {
+        "en": "SAR 23,805",
+        "ar": "SAR 23,805"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "12:11",
+      "sortKey": "2026-06-16 12:11:53",
+      "text": "MAT-MR-2026-00173",
+      "headline": {
+        "en": "MAT-MR-2026-00173",
+        "ar": "MAT-MR-2026-00173"
+      },
+      "impact": null,
+      "to": "procurement group",
+      "source": "send"
+    },
+    {
+      "time": "12:11",
+      "sortKey": "2026-06-16 12:11:15",
+      "text": "Sameh team 5 below 1 visits [id=3EB05040CA59F706204AF6]",
+      "headline": {
+        "en": "Sameh team 5 below 1 visits [id=3EB05040CA59F706204AF6]",
+        "ar": "Sameh team 5 below 1 visits [id=3EB05040CA59F706204AF6]"
+      },
+      "impact": null,
+      "to": "Sameh Darwish",
+      "source": "send"
+    },
+    {
+      "time": "12:09",
+      "sortKey": "2026-06-16 12:09:00",
+      "text": "noon visits 0/1 [id=3EB06B011597B3C36CB7D9]",
+      "headline": {
+        "en": "noon visits 0/1 [id=3EB06B011597B3C36CB7D9]",
+        "ar": "noon visits 0/1 [id=3EB06B011597B3C36CB7D9]"
+      },
+      "impact": null,
+      "to": "Monir",
+      "source": "send"
+    },
     {
       "time": "12:08",
       "sortKey": "2026-06-16 12:08:19",
@@ -2056,11 +2107,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "12:08",
+  "generatedAt": "12:14",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-16T09:08:50.509Z",
+  "livePublishedAt": "2026-06-16T09:14:46.452Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
