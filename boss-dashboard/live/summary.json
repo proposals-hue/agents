@@ -1808,7 +1808,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 40,
+    "messagesSentToday": 47,
     "automationsRunToday": 10,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1827,8 +1827,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 35,758.95",
-        "ar": "SAR 35,758.95"
+        "en": "SAR 35,958.95",
+        "ar": "SAR 35,958.95"
       }
     },
     {
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "40 updates | 10 tasks",
-        "ar": "40 تحديثات | 10 مهام"
+        "en": "47 updates | 10 tasks",
+        "ar": "47 تحديثات | 10 مهام"
       }
     },
     {
@@ -1849,8 +1849,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "26 chats/groups",
-        "ar": "26 محادثات/مجموعات"
+        "en": "27 chats/groups",
+        "ar": "27 محادثات/مجموعات"
       }
     }
   ],
@@ -1871,6 +1871,93 @@
     }
   ],
   "activity": [
+    {
+      "time": "17:57",
+      "sortKey": "2026-06-16 17:57:00",
+      "text": "retry reminder for 2026-06-16 [id=3EB0CA10A337D520CC31DB]",
+      "headline": {
+        "en": "retry reminder for 2026-06-16 [id=3EB0CA10A337D520CC31DB]",
+        "ar": "retry reminder for 2026-06-16 [id=3EB0CA10A337D520CC31DB]"
+      },
+      "impact": null,
+      "to": "REHMAN ULLAH JAN GUL",
+      "source": "send"
+    },
+    {
+      "time": "17:56",
+      "sortKey": "2026-06-16 17:56:24",
+      "text": "retry reminder for 2026-06-16 [id=3EB081B12E3393B287DC3E]",
+      "headline": {
+        "en": "retry reminder for 2026-06-16 [id=3EB081B12E3393B287DC3E]",
+        "ar": "retry reminder for 2026-06-16 [id=3EB081B12E3393B287DC3E]"
+      },
+      "impact": null,
+      "to": "RAMY MOHAMED ELSAYED NEGM",
+      "source": "send"
+    },
+    {
+      "time": "17:55",
+      "sortKey": "2026-06-16 17:55:48",
+      "text": "retry reminder for 2026-06-16 [id=3EB08E4EDE1D72F4DC6ECC]",
+      "headline": {
+        "en": "retry reminder for 2026-06-16 [id=3EB08E4EDE1D72F4DC6ECC]",
+        "ar": "retry reminder for 2026-06-16 [id=3EB08E4EDE1D72F4DC6ECC]"
+      },
+      "impact": null,
+      "to": "NAZISH HASSAN",
+      "source": "send"
+    },
+    {
+      "time": "17:55",
+      "sortKey": "2026-06-16 17:55:42",
+      "text": "BCI-2026-PO-01435 (SAR 200.00)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01435 worth SAR 200",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01435 بقيمة SAR 200"
+      },
+      "impact": {
+        "en": "SAR 200",
+        "ar": "SAR 200"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "17:55",
+      "sortKey": "2026-06-16 17:55:11",
+      "text": "retry reminder for 2026-06-16 [id=3EB07D0CD1EA831543B261]",
+      "headline": {
+        "en": "retry reminder for 2026-06-16 [id=3EB07D0CD1EA831543B261]",
+        "ar": "retry reminder for 2026-06-16 [id=3EB07D0CD1EA831543B261]"
+      },
+      "impact": null,
+      "to": "MUHAMMAD UZAIR ANJUM SHOUKAT ALI ANJUM",
+      "source": "send"
+    },
+    {
+      "time": "17:54",
+      "sortKey": "2026-06-16 17:54:35",
+      "text": "retry reminder for 2026-06-16 [id=3EB0E84E2308AD4C46A8F6]",
+      "headline": {
+        "en": "retry reminder for 2026-06-16 [id=3EB0E84E2308AD4C46A8F6]",
+        "ar": "retry reminder for 2026-06-16 [id=3EB0E84E2308AD4C46A8F6]"
+      },
+      "impact": null,
+      "to": "MOHAMED KAMAL OMER ABDELMAHMOUD",
+      "source": "send"
+    },
+    {
+      "time": "17:52",
+      "sortKey": "2026-06-16 17:52:30",
+      "text": "retry reminder for 2026-06-16 [id=3EB03B29DDB2B5F58ED3AF]",
+      "headline": {
+        "en": "retry reminder for 2026-06-16 [id=3EB03B29DDB2B5F58ED3AF]",
+        "ar": "retry reminder for 2026-06-16 [id=3EB03B29DDB2B5F58ED3AF]"
+      },
+      "impact": null,
+      "to": "ABUZAID, ZAINAB ALI H",
+      "source": "send"
+    },
     {
       "time": "17:50",
       "sortKey": "2026-06-16 17:50:22",
@@ -2095,97 +2182,13 @@
       },
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "16:48",
-      "sortKey": "2026-06-16 16:48:33",
-      "text": "initial reminder for 2026-06-16 [id=3EB08DE3770FF4E22BA018]",
-      "headline": {
-        "en": "initial reminder for 2026-06-16 [id=3EB08DE3770FF4E22BA018]",
-        "ar": "initial reminder for 2026-06-16 [id=3EB08DE3770FF4E22BA018]"
-      },
-      "impact": null,
-      "to": "MOHAMED KAMAL OMER ABDELMAHMOUD",
-      "source": "send"
-    },
-    {
-      "time": "16:47",
-      "sortKey": "2026-06-16 16:47:08",
-      "text": "initial reminder for 2026-06-16 [id=3EB06D4E8113E22FA75AB9]",
-      "headline": {
-        "en": "initial reminder for 2026-06-16 [id=3EB06D4E8113E22FA75AB9]",
-        "ar": "initial reminder for 2026-06-16 [id=3EB06D4E8113E22FA75AB9]"
-      },
-      "impact": null,
-      "to": "MARWAN MOHAMED ABDALLA NASIR",
-      "source": "send"
-    },
-    {
-      "time": "16:45",
-      "sortKey": "2026-06-16 16:45:02",
-      "text": "initial reminder for 2026-06-16 [id=3EB008062CEE6FE6AEA421]",
-      "headline": {
-        "en": "initial reminder for 2026-06-16 [id=3EB008062CEE6FE6AEA421]",
-        "ar": "initial reminder for 2026-06-16 [id=3EB008062CEE6FE6AEA421]"
-      },
-      "impact": null,
-      "to": "ASIM BILAL FARYAD ALI",
-      "source": "send"
-    },
-    {
-      "time": "16:44",
-      "sortKey": "2026-06-16 16:44:26",
-      "text": "initial reminder for 2026-06-16 [id=3EB07A7952ED7FF54868D0]",
-      "headline": {
-        "en": "initial reminder for 2026-06-16 [id=3EB07A7952ED7FF54868D0]",
-        "ar": "initial reminder for 2026-06-16 [id=3EB07A7952ED7FF54868D0]"
-      },
-      "impact": null,
-      "to": "ABUZAID, ZAINAB ALI H",
-      "source": "send"
-    },
-    {
-      "time": "16:43",
-      "sortKey": "2026-06-16 16:43:50",
-      "text": "initial reminder for 2026-06-16 [id=3EB0BAB06C7A13259BE7CD]",
-      "headline": {
-        "en": "initial reminder for 2026-06-16 [id=3EB0BAB06C7A13259BE7CD]",
-        "ar": "initial reminder for 2026-06-16 [id=3EB0BAB06C7A13259BE7CD]"
-      },
-      "impact": null,
-      "to": "ABDULWAHEED--YOUSUF SAYED",
-      "source": "send"
-    },
-    {
-      "time": "16:43",
-      "sortKey": "2026-06-16 16:43:15",
-      "text": "initial reminder for 2026-06-16 [id=3EB023CFCDB9BAB82D59CA]",
-      "headline": {
-        "en": "initial reminder for 2026-06-16 [id=3EB023CFCDB9BAB82D59CA]",
-        "ar": "initial reminder for 2026-06-16 [id=3EB023CFCDB9BAB82D59CA]"
-      },
-      "impact": null,
-      "to": "ABDULAZIZ YAHYA MOHAMED ALAWDAH",
-      "source": "send"
-    },
-    {
-      "time": "16:42",
-      "sortKey": "2026-06-16 16:42:40",
-      "text": "initial reminder for 2026-06-16 [id=3EB08767BB8FA270F380CC]",
-      "headline": {
-        "en": "initial reminder for 2026-06-16 [id=3EB08767BB8FA270F380CC]",
-        "ar": "initial reminder for 2026-06-16 [id=3EB08767BB8FA270F380CC]"
-      },
-      "impact": null,
-      "to": "ABDUL REHMAN MARICAR",
-      "source": "send"
     }
   ],
-  "generatedAt": "17:50",
+  "generatedAt": "18:00",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-16T14:50:49.714Z",
+  "livePublishedAt": "2026-06-16T15:00:38.117Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
