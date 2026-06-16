@@ -1808,8 +1808,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 49,
-    "automationsRunToday": 12,
+    "messagesSentToday": 0,
+    "automationsRunToday": 0,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1827,8 +1827,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 47,238.95",
-        "ar": "SAR 47,238.95"
+        "en": "No money updates",
+        "ar": "لا توجد تحديثات مالية"
       }
     },
     {
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "49 updates | 12 tasks",
-        "ar": "49 تحديثات | 12 مهام"
+        "en": "0 updates | 0 tasks",
+        "ar": "0 تحديثات | 0 مهام"
       }
     },
     {
@@ -1849,8 +1849,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "27 chats/groups",
-        "ar": "27 محادثات/مجموعات"
+        "en": "0 chats/groups",
+        "ar": "0 محادثات/مجموعات"
       }
     }
   ],
@@ -1870,325 +1870,12 @@
       }
     }
   ],
-  "activity": [
-    {
-      "time": "18:30",
-      "sortKey": "2026-06-16 18:30:05",
-      "text": "CR-2026-00029 Receipt Recorded In ERP SAR 11,280.00 Riyadh [id=3EB017C5BF8043C5FDF4B3]",
-      "headline": {
-        "en": "CR-2026-00029 Receipt Recorded In ERP SAR 11,280.00 Riyadh [id=3EB017C5BF8043C5FDF4B3]",
-        "ar": "CR-2026-00029 Receipt Recorded In ERP SAR 11,280.00 Riyadh [id=3EB017C5BF8043C5FDF4B3]"
-      },
-      "impact": {
-        "en": "SAR 11,280",
-        "ar": "SAR 11,280"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "18:18",
-      "sortKey": "2026-06-16 18:18:56",
-      "text": "EOD summary with 3 sections",
-      "headline": {
-        "en": "EOD summary with 3 sections",
-        "ar": "EOD summary with 3 sections"
-      },
-      "impact": null,
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "17:57",
-      "sortKey": "2026-06-16 17:57:00",
-      "text": "retry reminder for 2026-06-16 [id=3EB0CA10A337D520CC31DB]",
-      "headline": {
-        "en": "retry reminder for 2026-06-16 [id=3EB0CA10A337D520CC31DB]",
-        "ar": "retry reminder for 2026-06-16 [id=3EB0CA10A337D520CC31DB]"
-      },
-      "impact": null,
-      "to": "REHMAN ULLAH JAN GUL",
-      "source": "send"
-    },
-    {
-      "time": "17:56",
-      "sortKey": "2026-06-16 17:56:24",
-      "text": "retry reminder for 2026-06-16 [id=3EB081B12E3393B287DC3E]",
-      "headline": {
-        "en": "retry reminder for 2026-06-16 [id=3EB081B12E3393B287DC3E]",
-        "ar": "retry reminder for 2026-06-16 [id=3EB081B12E3393B287DC3E]"
-      },
-      "impact": null,
-      "to": "RAMY MOHAMED ELSAYED NEGM",
-      "source": "send"
-    },
-    {
-      "time": "17:55",
-      "sortKey": "2026-06-16 17:55:48",
-      "text": "retry reminder for 2026-06-16 [id=3EB08E4EDE1D72F4DC6ECC]",
-      "headline": {
-        "en": "retry reminder for 2026-06-16 [id=3EB08E4EDE1D72F4DC6ECC]",
-        "ar": "retry reminder for 2026-06-16 [id=3EB08E4EDE1D72F4DC6ECC]"
-      },
-      "impact": null,
-      "to": "NAZISH HASSAN",
-      "source": "send"
-    },
-    {
-      "time": "17:55",
-      "sortKey": "2026-06-16 17:55:42",
-      "text": "BCI-2026-PO-01435 (SAR 200.00)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01435 worth SAR 200",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01435 بقيمة SAR 200"
-      },
-      "impact": {
-        "en": "SAR 200",
-        "ar": "SAR 200"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "17:55",
-      "sortKey": "2026-06-16 17:55:11",
-      "text": "retry reminder for 2026-06-16 [id=3EB07D0CD1EA831543B261]",
-      "headline": {
-        "en": "retry reminder for 2026-06-16 [id=3EB07D0CD1EA831543B261]",
-        "ar": "retry reminder for 2026-06-16 [id=3EB07D0CD1EA831543B261]"
-      },
-      "impact": null,
-      "to": "MUHAMMAD UZAIR ANJUM SHOUKAT ALI ANJUM",
-      "source": "send"
-    },
-    {
-      "time": "17:54",
-      "sortKey": "2026-06-16 17:54:35",
-      "text": "retry reminder for 2026-06-16 [id=3EB0E84E2308AD4C46A8F6]",
-      "headline": {
-        "en": "retry reminder for 2026-06-16 [id=3EB0E84E2308AD4C46A8F6]",
-        "ar": "retry reminder for 2026-06-16 [id=3EB0E84E2308AD4C46A8F6]"
-      },
-      "impact": null,
-      "to": "MOHAMED KAMAL OMER ABDELMAHMOUD",
-      "source": "send"
-    },
-    {
-      "time": "17:52",
-      "sortKey": "2026-06-16 17:52:30",
-      "text": "retry reminder for 2026-06-16 [id=3EB03B29DDB2B5F58ED3AF]",
-      "headline": {
-        "en": "retry reminder for 2026-06-16 [id=3EB03B29DDB2B5F58ED3AF]",
-        "ar": "retry reminder for 2026-06-16 [id=3EB03B29DDB2B5F58ED3AF]"
-      },
-      "impact": null,
-      "to": "ABUZAID, ZAINAB ALI H",
-      "source": "send"
-    },
-    {
-      "time": "17:50",
-      "sortKey": "2026-06-16 17:50:22",
-      "text": "retry reminder for 2026-06-16 [id=3EB04939D2F2C5E4DF7894]",
-      "headline": {
-        "en": "retry reminder for 2026-06-16 [id=3EB04939D2F2C5E4DF7894]",
-        "ar": "retry reminder for 2026-06-16 [id=3EB04939D2F2C5E4DF7894]"
-      },
-      "impact": null,
-      "to": "ABDUL REHMAN MARICAR",
-      "source": "send"
-    },
-    {
-      "time": "17:41",
-      "sortKey": "2026-06-16 17:41:07",
-      "text": "1 SOs SAR 1,012 + 3 DNs SAR 27,784 across 2 salesmen",
-      "headline": {
-        "en": "1 SOs SAR 1,012 + 3 DNs SAR 27,784 across 2 salesmen",
-        "ar": "1 SOs SAR 1,012 + 3 DNs SAR 27,784 across 2 salesmen"
-      },
-      "impact": {
-        "en": "SAR 1,012",
-        "ar": "SAR 1,012"
-      },
-      "to": "Sameh Darwish",
-      "source": "send"
-    },
-    {
-      "time": "17:40",
-      "sortKey": "2026-06-16 17:40:40",
-      "text": "1 delayed shipment(s) [id=3EB0033AB0C98B62AD3373]",
-      "headline": {
-        "en": "1 delayed shipment(s) [id=3EB0033AB0C98B62AD3373]",
-        "ar": "1 delayed shipment(s) [id=3EB0033AB0C98B62AD3373]"
-      },
-      "impact": null,
-      "to": "delivery group",
-      "source": "send"
-    },
-    {
-      "time": "17:40",
-      "sortKey": "2026-06-16 17:40:29",
-      "text": "1 DNs, 0 SOs",
-      "headline": {
-        "en": "1 DNs, 0 SOs",
-        "ar": "1 DNs, 0 SOs"
-      },
-      "impact": null,
-      "to": "Mohammed Qasrwai",
-      "source": "send"
-    },
-    {
-      "time": "17:39",
-      "sortKey": "2026-06-16 17:39:36",
-      "text": "1 DNs, 0 SOs",
-      "headline": {
-        "en": "1 DNs, 0 SOs",
-        "ar": "1 DNs, 0 SOs"
-      },
-      "impact": null,
-      "to": "FATHY SAAD",
-      "source": "send"
-    },
-    {
-      "time": "17:38",
-      "sortKey": "2026-06-16 17:38:58",
-      "text": "2 DNs, 1 SOs",
-      "headline": {
-        "en": "2 DNs, 1 SOs",
-        "ar": "2 DNs, 1 SOs"
-      },
-      "impact": null,
-      "to": "Emad Basiony",
-      "source": "send"
-    },
-    {
-      "time": "17:38",
-      "sortKey": "2026-06-16 17:38:21",
-      "text": "7 DNs, 4 SOs",
-      "headline": {
-        "en": "7 DNs, 4 SOs",
-        "ar": "7 DNs, 4 SOs"
-      },
-      "impact": null,
-      "to": "Ayman",
-      "source": "send"
-    },
-    {
-      "time": "17:19",
-      "sortKey": "2026-06-16 17:19:24",
-      "text": "1 unengaged truck(s) [id=3EB0E60731EE4BC4FD7307]",
-      "headline": {
-        "en": "1 unengaged truck(s) [id=3EB0E60731EE4BC4FD7307]",
-        "ar": "1 unengaged truck(s) [id=3EB0E60731EE4BC4FD7307]"
-      },
-      "impact": null,
-      "to": "delivery group",
-      "source": "send"
-    },
-    {
-      "time": "17:18",
-      "sortKey": "2026-06-16 17:18:07",
-      "text": "1 truck(s) arriving soon [id=3EB058369B4833A56EB4C0]",
-      "headline": {
-        "en": "1 truck(s) arriving soon [id=3EB058369B4833A56EB4C0]",
-        "ar": "1 truck(s) arriving soon [id=3EB058369B4833A56EB4C0]"
-      },
-      "impact": null,
-      "to": "delivery group",
-      "source": "send"
-    },
-    {
-      "time": "17:08",
-      "sortKey": "2026-06-16 17:08:39",
-      "text": "BCI-2026-PO-01434 (SAR 5,000.20)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01434 worth SAR 5,000.2",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01434 بقيمة SAR 5,000.2"
-      },
-      "impact": {
-        "en": "SAR 5,000.2",
-        "ar": "SAR 5,000.2"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "17:07",
-      "sortKey": "2026-06-16 17:07:00",
-      "text": "missing DN reminder for BCI-2026-SO-01384 [id=3EB086FCDEB452119F3762]",
-      "headline": {
-        "en": "missing DN reminder for BCI-2026-SO-01384 [id=3EB086FCDEB452119F3762]",
-        "ar": "missing DN reminder for BCI-2026-SO-01384 [id=3EB086FCDEB452119F3762]"
-      },
-      "impact": null,
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "16:52",
-      "sortKey": "2026-06-16 16:52:15",
-      "text": "initial reminder for 2026-06-16 [id=3EB04E1AEF32BBB38516AD]",
-      "headline": {
-        "en": "initial reminder for 2026-06-16 [id=3EB04E1AEF32BBB38516AD]",
-        "ar": "initial reminder for 2026-06-16 [id=3EB04E1AEF32BBB38516AD]"
-      },
-      "impact": null,
-      "to": "ZAFAR RAZA",
-      "source": "send"
-    },
-    {
-      "time": "16:51",
-      "sortKey": "2026-06-16 16:51:38",
-      "text": "initial reminder for 2026-06-16 [id=3EB0AEFA78B72993658E19]",
-      "headline": {
-        "en": "initial reminder for 2026-06-16 [id=3EB0AEFA78B72993658E19]",
-        "ar": "initial reminder for 2026-06-16 [id=3EB0AEFA78B72993658E19]"
-      },
-      "impact": null,
-      "to": "VENKATESAN CHINNADURAI CHINNADURAI",
-      "source": "send"
-    },
-    {
-      "time": "16:51",
-      "sortKey": "2026-06-16 16:51:01",
-      "text": "initial reminder for 2026-06-16 [id=3EB09324538FB0278747BA]",
-      "headline": {
-        "en": "initial reminder for 2026-06-16 [id=3EB09324538FB0278747BA]",
-        "ar": "initial reminder for 2026-06-16 [id=3EB09324538FB0278747BA]"
-      },
-      "impact": null,
-      "to": "S.NEELAKANDAN",
-      "source": "send"
-    },
-    {
-      "time": "16:50",
-      "sortKey": "2026-06-16 16:50:25",
-      "text": "initial reminder for 2026-06-16 [id=3EB0A068910250787B91C9]",
-      "headline": {
-        "en": "initial reminder for 2026-06-16 [id=3EB0A068910250787B91C9]",
-        "ar": "initial reminder for 2026-06-16 [id=3EB0A068910250787B91C9]"
-      },
-      "impact": null,
-      "to": "REHMAN ULLAH JAN GUL",
-      "source": "send"
-    },
-    {
-      "time": "16:49",
-      "sortKey": "2026-06-16 16:49:48",
-      "text": "initial reminder for 2026-06-16 [id=3EB048F77DA28128C231EE]",
-      "headline": {
-        "en": "initial reminder for 2026-06-16 [id=3EB048F77DA28128C231EE]",
-        "ar": "initial reminder for 2026-06-16 [id=3EB048F77DA28128C231EE]"
-      },
-      "impact": null,
-      "to": "RAMY MOHAMED ELSAYED NEGM",
-      "source": "send"
-    }
-  ],
-  "generatedAt": "20:21",
+  "activity": [],
+  "generatedAt": "20:25",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-16T17:21:10.490Z",
+  "livePublishedAt": "2026-06-16T17:25:42.684Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
