@@ -93,8 +93,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "20 min ago",
-        "ar": "قبل 20 دقيقة"
+        "en": "23 min ago",
+        "ar": "قبل 23 دقيقة"
       },
       "workflowCount": 7,
       "automationCount": 13
@@ -169,8 +169,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "2 min ago",
-        "ar": "قبل 2 دقيقة"
+        "en": "5 min ago",
+        "ar": "قبل 5 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -1827,8 +1827,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 2,
-    "automationsRunToday": 2,
+    "messagesSentToday": 3,
+    "automationsRunToday": 3,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "2 updates | 2 tasks",
-        "ar": "2 تحديثات | 2 مهام"
+        "en": "3 updates | 3 tasks",
+        "ar": "3 تحديثات | 3 مهام"
       }
     },
     {
@@ -1868,13 +1868,25 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "1 chat/group",
-        "ar": "1 محادثة/مجموعة"
+        "en": "2 chats/groups",
+        "ar": "2 محادثات/مجموعات"
       }
     }
   ],
   "attentionItems": [],
   "activity": [
+    {
+      "time": "10:51",
+      "sortKey": "2026-06-16 10:51:00",
+      "text": "MAT-MR-2026-00280",
+      "headline": {
+        "en": "MAT-MR-2026-00280",
+        "ar": "MAT-MR-2026-00280"
+      },
+      "impact": null,
+      "to": "procurement group",
+      "source": "send"
+    },
     {
       "time": "10:45",
       "sortKey": "2026-06-16 10:45:14",
@@ -1903,11 +1915,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "10:49",
+  "generatedAt": "10:52",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-16T07:49:16.439Z",
+  "livePublishedAt": "2026-06-16T07:52:48.376Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
