@@ -1808,7 +1808,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 29,
+    "messagesSentToday": 30,
     "automationsRunToday": 7,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "29 updates | 7 tasks",
-        "ar": "29 تحديثات | 7 مهام"
+        "en": "30 updates | 7 tasks",
+        "ar": "30 تحديثات | 7 مهام"
       }
     },
     {
@@ -1871,6 +1871,18 @@
     }
   ],
   "activity": [
+    {
+      "time": "15:16",
+      "sortKey": "2026-06-16 15:16:54",
+      "text": "1 alert section(s) sent",
+      "headline": {
+        "en": "1 alert section(s) sent",
+        "ar": "1 alert section(s) sent"
+      },
+      "impact": null,
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "15:11",
       "sortKey": "2026-06-16 15:11:45",
@@ -2197,28 +2209,13 @@
       "impact": null,
       "to": "procurement group",
       "source": "send"
-    },
-    {
-      "time": "11:07",
-      "sortKey": "2026-06-16 11:07:58",
-      "text": "BCI-2026-PO-01422 (SAR 235,658)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01422 worth SAR 235,658",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01422 بقيمة SAR 235,658"
-      },
-      "impact": {
-        "en": "SAR 235,658",
-        "ar": "SAR 235,658"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "15:15",
+  "generatedAt": "15:22",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-16T12:15:33.844Z",
+  "livePublishedAt": "2026-06-16T12:22:56.765Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
