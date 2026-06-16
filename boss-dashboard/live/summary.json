@@ -93,8 +93,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "just now",
-        "ar": "الآن"
+        "en": "3 min ago",
+        "ar": "قبل 3 دقيقة"
       },
       "workflowCount": 7,
       "automationCount": 13
@@ -1827,8 +1827,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 5,
-    "automationsRunToday": 4,
+    "messagesSentToday": 0,
+    "automationsRunToday": 0,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 701",
-        "ar": "SAR 701"
+        "en": "No money updates",
+        "ar": "لا توجد تحديثات مالية"
       }
     },
     {
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "5 updates | 4 tasks",
-        "ar": "5 تحديثات | 4 مهام"
+        "en": "0 updates | 0 tasks",
+        "ar": "0 تحديثات | 0 مهام"
       }
     },
     {
@@ -1868,85 +1868,18 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "3 chats/groups",
-        "ar": "3 محادثات/مجموعات"
+        "en": "0 chats/groups",
+        "ar": "0 محادثات/مجموعات"
       }
     }
   ],
   "attentionItems": [],
-  "activity": [
-    {
-      "time": "10:26",
-      "sortKey": "2026-06-16 10:26:24",
-      "text": "APCC-2026-PO-00193 (SAR 425.00)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00193 worth SAR 425",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00193 بقيمة SAR 425"
-      },
-      "impact": {
-        "en": "SAR 425",
-        "ar": "SAR 425"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "10:16",
-      "sortKey": "2026-06-16 10:16:58",
-      "text": "1 alert section(s) sent",
-      "headline": {
-        "en": "1 alert section(s) sent",
-        "ar": "1 alert section(s) sent"
-      },
-      "impact": null,
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "10:12",
-      "sortKey": "2026-06-16 10:12:09",
-      "text": "APCC-2026-PO-00190 (SAR 276.00)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00190 worth SAR 276",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00190 بقيمة SAR 276"
-      },
-      "impact": {
-        "en": "SAR 276",
-        "ar": "SAR 276"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "10:11",
-      "sortKey": "2026-06-16 10:11:27",
-      "text": "MAT-MR-2026-00352",
-      "headline": {
-        "en": "MAT-MR-2026-00352",
-        "ar": "MAT-MR-2026-00352"
-      },
-      "impact": null,
-      "to": "procurement group",
-      "source": "send"
-    },
-    {
-      "time": "10:10",
-      "sortKey": "2026-06-16 10:10:37",
-      "text": "1 delayed shipment(s) [id=3EB00D7888835CE7B017C3]",
-      "headline": {
-        "en": "1 delayed shipment(s) [id=3EB00D7888835CE7B017C3]",
-        "ar": "1 delayed shipment(s) [id=3EB00D7888835CE7B017C3]"
-      },
-      "impact": null,
-      "to": "delivery group",
-      "source": "send"
-    }
-  ],
-  "generatedAt": "10:27",
+  "activity": [],
+  "generatedAt": "10:32",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-16T07:27:36.246Z",
+  "livePublishedAt": "2026-06-16T07:32:50.829Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
