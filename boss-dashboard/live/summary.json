@@ -93,8 +93,8 @@
       },
       "state": "resting",
       "lastActive": {
-        "en": "13 min ago",
-        "ar": "قبل 13 دقيقة"
+        "en": "20 min ago",
+        "ar": "قبل 20 دقيقة"
       },
       "workflowCount": 7,
       "automationCount": 13
@@ -169,8 +169,8 @@
       },
       "state": "working",
       "lastActive": {
-        "en": "just now",
-        "ar": "الآن"
+        "en": "2 min ago",
+        "ar": "قبل 2 دقيقة"
       },
       "workflowCount": 2,
       "automationCount": 4
@@ -1827,8 +1827,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 0,
-    "automationsRunToday": 0,
+    "messagesSentToday": 2,
+    "automationsRunToday": 2,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1846,8 +1846,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "No money updates",
-        "ar": "لا توجد تحديثات مالية"
+        "en": "SAR 80.5",
+        "ar": "SAR 80.5"
       }
     },
     {
@@ -1857,8 +1857,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "0 updates | 0 tasks",
-        "ar": "0 تحديثات | 0 مهام"
+        "en": "2 updates | 2 tasks",
+        "ar": "2 تحديثات | 2 مهام"
       }
     },
     {
@@ -1868,18 +1868,46 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "0 chats/groups",
-        "ar": "0 محادثات/مجموعات"
+        "en": "1 chat/group",
+        "ar": "1 محادثة/مجموعة"
       }
     }
   ],
   "attentionItems": [],
-  "activity": [],
-  "generatedAt": "10:42",
+  "activity": [
+    {
+      "time": "10:45",
+      "sortKey": "2026-06-16 10:45:14",
+      "text": "APCC-2026-PO-00800 (SAR 80.50)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00800 worth SAR 80.5",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00800 بقيمة SAR 80.5"
+      },
+      "impact": {
+        "en": "SAR 80.5",
+        "ar": "SAR 80.5"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "10:44",
+      "sortKey": "2026-06-16 10:44:17",
+      "text": "1 alert section(s) sent",
+      "headline": {
+        "en": "1 alert section(s) sent",
+        "ar": "1 alert section(s) sent"
+      },
+      "impact": null,
+      "to": "Eng. Muhammad",
+      "source": "send"
+    }
+  ],
+  "generatedAt": "10:49",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "live",
-  "livePublishedAt": "2026-06-16T07:42:44.999Z",
+  "livePublishedAt": "2026-06-16T07:49:16.439Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
