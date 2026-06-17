@@ -1872,6 +1872,21 @@
   ],
   "activity": [
     {
+      "time": "13:10",
+      "sortKey": "2026-06-17 13:10:52",
+      "text": "BCI-2026-PO-01447 (SAR 8,740.00)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01447 worth SAR 8,740",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01447 بقيمة SAR 8,740"
+      },
+      "impact": {
+        "en": "SAR 8,740",
+        "ar": "SAR 8,740"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
       "time": "13:03",
       "sortKey": "2026-06-17 13:03:46",
       "text": "missing DN reminder for BCI-2026-SO-01384 [id=3EB03F08C05C58689BC60A]",
@@ -2197,28 +2212,13 @@
       },
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "10:07",
-      "sortKey": "2026-06-17 10:07:56",
-      "text": "APCC-2026-PO-00306 (SAR 200.00)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00306 worth SAR 200",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00306 بقيمة SAR 200"
-      },
-      "impact": {
-        "en": "SAR 200",
-        "ar": "SAR 200"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "13:07",
+  "generatedAt": "13:14",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T10:07:18.749Z",
+  "livePublishedAt": "2026-06-17T10:14:13.037Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
