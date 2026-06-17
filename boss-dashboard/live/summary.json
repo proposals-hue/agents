@@ -1838,8 +1838,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 26,
-    "automationsRunToday": 7,
+    "messagesSentToday": 25,
+    "automationsRunToday": 8,
     "activeAutomations": 54,
     "totalAutomations": 99,
     "workflowCount": 26,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 6,838.21",
-        "ar": "SAR 6,838.21"
+        "en": "SAR 6,263.21",
+        "ar": "SAR 6,263.21"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "26 updates | 7 tasks",
-        "ar": "26 تحديثات | 7 مهام"
+        "en": "25 updates | 8 tasks",
+        "ar": "25 تحديثات | 8 مهام"
       }
     },
     {
@@ -1879,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "13 chats/groups",
-        "ar": "13 محادثات/مجموعات"
+        "en": "15 chats/groups",
+        "ar": "15 محادثات/مجموعات"
       }
     }
   ],
@@ -1901,6 +1901,30 @@
     }
   ],
   "activity": [
+    {
+      "time": "16:42",
+      "sortKey": "2026-06-17 16:42:53",
+      "text": "initial reminder for 2026-06-17 [id=3EB064D21EA231AFEEC371]",
+      "headline": {
+        "en": "initial reminder for 2026-06-17 [id=3EB064D21EA231AFEEC371]",
+        "ar": "initial reminder for 2026-06-17 [id=3EB064D21EA231AFEEC371]"
+      },
+      "impact": null,
+      "to": "ABUZAID, ZAINAB ALI H",
+      "source": "send"
+    },
+    {
+      "time": "16:42",
+      "sortKey": "2026-06-17 16:42:16",
+      "text": "initial reminder for 2026-06-17 [id=3EB0969453F959E97EEBBB]",
+      "headline": {
+        "en": "initial reminder for 2026-06-17 [id=3EB0969453F959E97EEBBB]",
+        "ar": "initial reminder for 2026-06-17 [id=3EB0969453F959E97EEBBB]"
+      },
+      "impact": null,
+      "to": "ABDULAZIZ YAHYA MOHAMED ALAWDAH",
+      "source": "send"
+    },
     {
       "time": "16:25",
       "sortKey": "2026-06-17 16:25:37",
@@ -2200,40 +2224,13 @@
       },
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "14:20",
-      "sortKey": "2026-06-17 14:20:36",
-      "text": "1 alert section(s) sent",
-      "headline": {
-        "en": "1 alert section(s) sent",
-        "ar": "1 alert section(s) sent"
-      },
-      "impact": null,
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "14:14",
-      "sortKey": "2026-06-17 14:14:50",
-      "text": "BCI-2026-PO-01449 (SAR 575.00)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01449 worth SAR 575",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01449 بقيمة SAR 575"
-      },
-      "impact": {
-        "en": "SAR 575",
-        "ar": "SAR 575"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "16:32",
+  "generatedAt": "16:43",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T13:32:18.757Z",
+  "livePublishedAt": "2026-06-17T13:43:21.624Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
