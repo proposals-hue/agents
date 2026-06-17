@@ -2001,11 +2001,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "09:55",
+  "generatedAt": "10:01",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T06:55:18.354Z",
+  "livePublishedAt": "2026-06-17T07:01:01.082Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
