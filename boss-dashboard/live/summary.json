@@ -1808,8 +1808,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 1,
-    "automationsRunToday": 1,
+    "messagesSentToday": 3,
+    "automationsRunToday": 3,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1827,8 +1827,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "No money updates",
-        "ar": "لا توجد تحديثات مالية"
+        "en": "SAR 1,725.03",
+        "ar": "SAR 1,725.03"
       }
     },
     {
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "1 update | 1 task",
-        "ar": "1 تحديث | 1 مهمة"
+        "en": "3 updates | 3 tasks",
+        "ar": "3 تحديثات | 3 مهام"
       }
     },
     {
@@ -1849,8 +1849,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "1 chat/group",
-        "ar": "1 محادثة/مجموعة"
+        "en": "3 chats/groups",
+        "ar": "3 محادثات/مجموعات"
       }
     }
   ],
@@ -1872,6 +1872,33 @@
   ],
   "activity": [
     {
+      "time": "09:26",
+      "sortKey": "2026-06-17 09:26:11",
+      "text": "APCC-2026-PO-00269 (SAR 1,725.03)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00269 worth SAR 1,725.03",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00269 بقيمة SAR 1,725.03"
+      },
+      "impact": {
+        "en": "SAR 1,725.03",
+        "ar": "SAR 1,725.03"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "09:23",
+      "sortKey": "2026-06-17 09:23:51",
+      "text": "Rent reminder REN-2026-0019 installment 2/4 due 2026-07-01",
+      "headline": {
+        "en": "Rent reminder REN-2026-0019 installment 2/4 due 2026-07-01",
+        "ar": "Rent reminder REN-2026-0019 installment 2/4 due 2026-07-01"
+      },
+      "impact": null,
+      "to": "+********2300",
+      "source": "send"
+    },
+    {
       "time": "09:14",
       "sortKey": "2026-06-17 09:14:05",
       "text": "BCD1004, BC Duracal DC 4, BCF0010, BCC1003, BCN0010",
@@ -1884,11 +1911,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "09:20",
+  "generatedAt": "09:28",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T06:20:35.640Z",
+  "livePublishedAt": "2026-06-17T06:28:17.579Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
