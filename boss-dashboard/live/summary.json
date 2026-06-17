@@ -1808,7 +1808,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 11,
+    "messagesSentToday": 13,
     "automationsRunToday": 6,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1827,8 +1827,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 1,995.05",
-        "ar": "SAR 1,995.05"
+        "en": "SAR 2,195.05",
+        "ar": "SAR 2,195.05"
       }
     },
     {
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "11 updates | 6 tasks",
-        "ar": "11 تحديثات | 6 مهام"
+        "en": "13 updates | 6 tasks",
+        "ar": "13 تحديثات | 6 مهام"
       }
     },
     {
@@ -1871,6 +1871,33 @@
     }
   ],
   "activity": [
+    {
+      "time": "10:07",
+      "sortKey": "2026-06-17 10:07:56",
+      "text": "APCC-2026-PO-00306 (SAR 200.00)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00306 worth SAR 200",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00306 بقيمة SAR 200"
+      },
+      "impact": {
+        "en": "SAR 200",
+        "ar": "SAR 200"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "10:07",
+      "sortKey": "2026-06-17 10:07:19",
+      "text": "delayed store intake reply: payment_missing_amount [id=3EB01A953091813C3A4BA2]",
+      "headline": {
+        "en": "delayed store intake reply: payment_missing_amount [id=3EB01A953091813C3A4BA2]",
+        "ar": "delayed store intake reply: payment_missing_amount [id=3EB01A953091813C3A4BA2]"
+      },
+      "impact": null,
+      "to": "WhatsApp group",
+      "source": "send"
+    },
     {
       "time": "10:02",
       "sortKey": "2026-06-17 10:02:41",
@@ -2013,11 +2040,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "10:05",
+  "generatedAt": "10:12",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T07:05:50.591Z",
+  "livePublishedAt": "2026-06-17T07:12:16.309Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
