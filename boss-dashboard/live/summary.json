@@ -1838,7 +1838,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 34,
+    "messagesSentToday": 28,
     "automationsRunToday": 8,
     "activeAutomations": 54,
     "totalAutomations": 99,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 41,881.58",
-        "ar": "SAR 41,881.58"
+        "en": "SAR 24,824.58",
+        "ar": "SAR 24,824.58"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "34 updates | 8 tasks",
-        "ar": "34 تحديثات | 8 مهام"
+        "en": "28 updates | 8 tasks",
+        "ar": "28 تحديثات | 8 مهام"
       }
     },
     {
@@ -1879,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "12 chats/groups",
-        "ar": "12 محادثات/مجموعات"
+        "en": "13 chats/groups",
+        "ar": "13 محادثات/مجموعات"
       }
     }
   ],
@@ -1901,6 +1901,90 @@
     }
   ],
   "activity": [
+    {
+      "time": "15:43",
+      "sortKey": "2026-06-17 15:43:31",
+      "text": "midday visits 0/8 [id=3EB01DD5D51BD80FE8210D]",
+      "headline": {
+        "en": "midday visits 0/8 [id=3EB01DD5D51BD80FE8210D]",
+        "ar": "midday visits 0/8 [id=3EB01DD5D51BD80FE8210D]"
+      },
+      "impact": null,
+      "to": "Monir",
+      "source": "send"
+    },
+    {
+      "time": "15:42",
+      "sortKey": "2026-06-17 15:42:50",
+      "text": "midday visits 0/8 [id=3EB00DE12D57D6E4C9FC06]",
+      "headline": {
+        "en": "midday visits 0/8 [id=3EB00DE12D57D6E4C9FC06]",
+        "ar": "midday visits 0/8 [id=3EB00DE12D57D6E4C9FC06]"
+      },
+      "impact": null,
+      "to": "Mohammed Yassin",
+      "source": "send"
+    },
+    {
+      "time": "15:42",
+      "sortKey": "2026-06-17 15:42:09",
+      "text": "midday visits 0/8 [id=3EB048D9429D870524A1A5]",
+      "headline": {
+        "en": "midday visits 0/8 [id=3EB048D9429D870524A1A5]",
+        "ar": "midday visits 0/8 [id=3EB048D9429D870524A1A5]"
+      },
+      "impact": null,
+      "to": "Hossam",
+      "source": "send"
+    },
+    {
+      "time": "15:41",
+      "sortKey": "2026-06-17 15:41:26",
+      "text": "midday visits 0/8 [id=3EB08164A9B63069EEE347]",
+      "headline": {
+        "en": "midday visits 0/8 [id=3EB08164A9B63069EEE347]",
+        "ar": "midday visits 0/8 [id=3EB08164A9B63069EEE347]"
+      },
+      "impact": null,
+      "to": "FATHY SAAD",
+      "source": "send"
+    },
+    {
+      "time": "15:40",
+      "sortKey": "2026-06-17 15:40:43",
+      "text": "midday visits 0/8 [id=3EB0F12C7FC71B82005B15]",
+      "headline": {
+        "en": "midday visits 0/8 [id=3EB0F12C7FC71B82005B15]",
+        "ar": "midday visits 0/8 [id=3EB0F12C7FC71B82005B15]"
+      },
+      "impact": null,
+      "to": "Emad Basiony",
+      "source": "send"
+    },
+    {
+      "time": "15:40",
+      "sortKey": "2026-06-17 15:40:02",
+      "text": "midday visits 0/8 [id=3EB0BDE7DCA4BACF8E42D1]",
+      "headline": {
+        "en": "midday visits 0/8 [id=3EB0BDE7DCA4BACF8E42D1]",
+        "ar": "midday visits 0/8 [id=3EB0BDE7DCA4BACF8E42D1]"
+      },
+      "impact": null,
+      "to": "Ayman",
+      "source": "send"
+    },
+    {
+      "time": "15:39",
+      "sortKey": "2026-06-17 15:39:20",
+      "text": "midday visits 0/8 [id=3EB0CDF568974B7E052DA8]",
+      "headline": {
+        "en": "midday visits 0/8 [id=3EB0CDF568974B7E052DA8]",
+        "ar": "midday visits 0/8 [id=3EB0CDF568974B7E052DA8]"
+      },
+      "impact": null,
+      "to": "Ahmed Adel",
+      "source": "send"
+    },
     {
       "time": "15:30",
       "sortKey": "2026-06-17 15:30:48",
@@ -2152,97 +2236,13 @@
       },
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "12:10",
-      "sortKey": "2026-06-17 12:10:06",
-      "text": "Sameh team 5 below 1 visits [id=3EB09F24B014A3915488B7]",
-      "headline": {
-        "en": "Sameh team 5 below 1 visits [id=3EB09F24B014A3915488B7]",
-        "ar": "Sameh team 5 below 1 visits [id=3EB09F24B014A3915488B7]"
-      },
-      "impact": null,
-      "to": "Sameh Darwish",
-      "source": "send"
-    },
-    {
-      "time": "12:09",
-      "sortKey": "2026-06-17 12:09:25",
-      "text": "noon visits 0/1 [id=3EB01D2B624998694ADFC0]",
-      "headline": {
-        "en": "noon visits 0/1 [id=3EB01D2B624998694ADFC0]",
-        "ar": "noon visits 0/1 [id=3EB01D2B624998694ADFC0]"
-      },
-      "impact": null,
-      "to": "Sameh Darwish",
-      "source": "send"
-    },
-    {
-      "time": "12:07",
-      "sortKey": "2026-06-17 12:07:55",
-      "text": "noon visits 0/1 [id=3EB05DF4585C2C69C339DB]",
-      "headline": {
-        "en": "noon visits 0/1 [id=3EB05DF4585C2C69C339DB]",
-        "ar": "noon visits 0/1 [id=3EB05DF4585C2C69C339DB]"
-      },
-      "impact": null,
-      "to": "Monir",
-      "source": "send"
-    },
-    {
-      "time": "12:07",
-      "sortKey": "2026-06-17 12:07:13",
-      "text": "noon visits 0/1 [id=3EB07DBD656800AEBE5F5C]",
-      "headline": {
-        "en": "noon visits 0/1 [id=3EB07DBD656800AEBE5F5C]",
-        "ar": "noon visits 0/1 [id=3EB07DBD656800AEBE5F5C]"
-      },
-      "impact": null,
-      "to": "Mohammed Yassin",
-      "source": "send"
-    },
-    {
-      "time": "12:06",
-      "sortKey": "2026-06-17 12:06:31",
-      "text": "noon visits 0/1 [id=3EB099D15AEF0DE68059D6]",
-      "headline": {
-        "en": "noon visits 0/1 [id=3EB099D15AEF0DE68059D6]",
-        "ar": "noon visits 0/1 [id=3EB099D15AEF0DE68059D6]"
-      },
-      "impact": null,
-      "to": "Hossam",
-      "source": "send"
-    },
-    {
-      "time": "12:05",
-      "sortKey": "2026-06-17 12:05:51",
-      "text": "noon visits 0/1 [id=3EB0EA59215D1B132D89F3]",
-      "headline": {
-        "en": "noon visits 0/1 [id=3EB0EA59215D1B132D89F3]",
-        "ar": "noon visits 0/1 [id=3EB0EA59215D1B132D89F3]"
-      },
-      "impact": null,
-      "to": "FATHY SAAD",
-      "source": "send"
-    },
-    {
-      "time": "12:04",
-      "sortKey": "2026-06-17 12:04:25",
-      "text": "noon visits 0/1 [id=3EB041E8A421226EDF7231]",
-      "headline": {
-        "en": "noon visits 0/1 [id=3EB041E8A421226EDF7231]",
-        "ar": "noon visits 0/1 [id=3EB041E8A421226EDF7231]"
-      },
-      "impact": null,
-      "to": "Ayman",
-      "source": "send"
     }
   ],
-  "generatedAt": "15:35",
+  "generatedAt": "15:44",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T12:35:54.506Z",
+  "livePublishedAt": "2026-06-17T12:44:13.459Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
