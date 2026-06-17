@@ -1808,8 +1808,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 23,
-    "automationsRunToday": 7,
+    "messagesSentToday": 25,
+    "automationsRunToday": 6,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1827,8 +1827,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 2.96M",
-        "ar": "SAR 2.96M"
+        "en": "SAR 2.95M",
+        "ar": "SAR 2.95M"
       }
     },
     {
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "23 updates | 7 tasks",
-        "ar": "23 تحديثات | 7 مهام"
+        "en": "25 updates | 6 tasks",
+        "ar": "25 تحديثات | 6 مهام"
       }
     },
     {
@@ -1849,8 +1849,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "10 chats/groups",
-        "ar": "10 محادثات/مجموعات"
+        "en": "13 chats/groups",
+        "ar": "13 محادثات/مجموعات"
       }
     }
   ],
@@ -1871,6 +1871,78 @@
     }
   ],
   "activity": [
+    {
+      "time": "12:07",
+      "sortKey": "2026-06-17 12:07:55",
+      "text": "noon visits 0/1 [id=3EB05DF4585C2C69C339DB]",
+      "headline": {
+        "en": "noon visits 0/1 [id=3EB05DF4585C2C69C339DB]",
+        "ar": "noon visits 0/1 [id=3EB05DF4585C2C69C339DB]"
+      },
+      "impact": null,
+      "to": "Monir",
+      "source": "send"
+    },
+    {
+      "time": "12:07",
+      "sortKey": "2026-06-17 12:07:13",
+      "text": "noon visits 0/1 [id=3EB07DBD656800AEBE5F5C]",
+      "headline": {
+        "en": "noon visits 0/1 [id=3EB07DBD656800AEBE5F5C]",
+        "ar": "noon visits 0/1 [id=3EB07DBD656800AEBE5F5C]"
+      },
+      "impact": null,
+      "to": "Mohammed Yassin",
+      "source": "send"
+    },
+    {
+      "time": "12:06",
+      "sortKey": "2026-06-17 12:06:31",
+      "text": "noon visits 0/1 [id=3EB099D15AEF0DE68059D6]",
+      "headline": {
+        "en": "noon visits 0/1 [id=3EB099D15AEF0DE68059D6]",
+        "ar": "noon visits 0/1 [id=3EB099D15AEF0DE68059D6]"
+      },
+      "impact": null,
+      "to": "Hossam",
+      "source": "send"
+    },
+    {
+      "time": "12:05",
+      "sortKey": "2026-06-17 12:05:51",
+      "text": "noon visits 0/1 [id=3EB0EA59215D1B132D89F3]",
+      "headline": {
+        "en": "noon visits 0/1 [id=3EB0EA59215D1B132D89F3]",
+        "ar": "noon visits 0/1 [id=3EB0EA59215D1B132D89F3]"
+      },
+      "impact": null,
+      "to": "FATHY SAAD",
+      "source": "send"
+    },
+    {
+      "time": "12:04",
+      "sortKey": "2026-06-17 12:04:25",
+      "text": "noon visits 0/1 [id=3EB041E8A421226EDF7231]",
+      "headline": {
+        "en": "noon visits 0/1 [id=3EB041E8A421226EDF7231]",
+        "ar": "noon visits 0/1 [id=3EB041E8A421226EDF7231]"
+      },
+      "impact": null,
+      "to": "Ayman",
+      "source": "send"
+    },
+    {
+      "time": "12:03",
+      "sortKey": "2026-06-17 12:03:42",
+      "text": "noon visits 0/1 [id=3EB0C2F1967BAADD829DA6]",
+      "headline": {
+        "en": "noon visits 0/1 [id=3EB0C2F1967BAADD829DA6]",
+        "ar": "noon visits 0/1 [id=3EB0C2F1967BAADD829DA6]"
+      },
+      "impact": null,
+      "to": "Ahmed Adel",
+      "source": "send"
+    },
     {
       "time": "11:53",
       "sortKey": "2026-06-17 11:53:12",
@@ -2134,64 +2206,13 @@
       "impact": null,
       "to": "+********1978",
       "source": "send"
-    },
-    {
-      "time": "09:30",
-      "sortKey": "2026-06-17 09:30:05",
-      "text": "Digest: 6 open quotes for Sameh Darwish [id=3EB010F3021E399A192471]",
-      "headline": {
-        "en": "Digest: 6 open quotes for Sameh Darwish [id=3EB010F3021E399A192471]",
-        "ar": "Digest: 6 open quotes for Sameh Darwish [id=3EB010F3021E399A192471]"
-      },
-      "impact": null,
-      "to": "+********1070",
-      "source": "send"
-    },
-    {
-      "time": "09:26",
-      "sortKey": "2026-06-17 09:26:11",
-      "text": "APCC-2026-PO-00269 (SAR 1,725.03)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00269 worth SAR 1,725.03",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00269 بقيمة SAR 1,725.03"
-      },
-      "impact": {
-        "en": "SAR 1,725.03",
-        "ar": "SAR 1,725.03"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "09:23",
-      "sortKey": "2026-06-17 09:23:51",
-      "text": "Rent reminder REN-2026-0019 installment 2/4 due 2026-07-01",
-      "headline": {
-        "en": "Rent reminder REN-2026-0019 installment 2/4 due 2026-07-01",
-        "ar": "Rent reminder REN-2026-0019 installment 2/4 due 2026-07-01"
-      },
-      "impact": null,
-      "to": "+********2300",
-      "source": "send"
-    },
-    {
-      "time": "09:14",
-      "sortKey": "2026-06-17 09:14:05",
-      "text": "BCD1004, BC Duracal DC 4, BCF0010, BCC1003, BCN0010",
-      "headline": {
-        "en": "BCD1004, BC Duracal DC 4, BCF0010, BCC1003, BCN0010",
-        "ar": "BCD1004, BC Duracal DC 4, BCF0010, BCC1003, BCN0010"
-      },
-      "impact": null,
-      "to": "Javed personal WhatsApp",
-      "source": "send"
     }
   ],
-  "generatedAt": "12:00",
+  "generatedAt": "12:08",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T09:00:26.951Z",
+  "livePublishedAt": "2026-06-17T09:08:20.304Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
