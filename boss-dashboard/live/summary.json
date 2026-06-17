@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 24,824.58",
-        "ar": "SAR 24,824.58"
+        "en": "SAR 22,814.56",
+        "ar": "SAR 22,814.56"
       }
     },
     {
@@ -1879,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "13 chats/groups",
-        "ar": "13 محادثات/مجموعات"
+        "en": "14 chats/groups",
+        "ar": "14 محادثات/مجموعات"
       }
     }
   ],
@@ -1901,6 +1901,57 @@
     }
   ],
   "activity": [
+    {
+      "time": "15:50",
+      "sortKey": "2026-06-17 15:50:27",
+      "text": "BCI-2026-PO-01421 (SAR 2,019.98)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01421 worth SAR 2,019.98",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01421 بقيمة SAR 2,019.98"
+      },
+      "impact": {
+        "en": "SAR 2,019.98",
+        "ar": "SAR 2,019.98"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "15:45",
+      "sortKey": "2026-06-17 15:45:36",
+      "text": "Sameh team 5 below 8 visits [id=3EB02A08B32905337416E2]",
+      "headline": {
+        "en": "Sameh team 5 below 8 visits [id=3EB02A08B32905337416E2]",
+        "ar": "Sameh team 5 below 8 visits [id=3EB02A08B32905337416E2]"
+      },
+      "impact": null,
+      "to": "Sameh Darwish",
+      "source": "send"
+    },
+    {
+      "time": "15:44",
+      "sortKey": "2026-06-17 15:44:56",
+      "text": "midday visits 0/8 [id=3EB0C6DB79EA940D6410E2]",
+      "headline": {
+        "en": "midday visits 0/8 [id=3EB0C6DB79EA940D6410E2]",
+        "ar": "midday visits 0/8 [id=3EB0C6DB79EA940D6410E2]"
+      },
+      "impact": null,
+      "to": "Sameh Darwish",
+      "source": "send"
+    },
+    {
+      "time": "15:44",
+      "sortKey": "2026-06-17 15:44:14",
+      "text": "midday visits 0/8 [id=3EB033C8AB527F44521E85]",
+      "headline": {
+        "en": "midday visits 0/8 [id=3EB033C8AB527F44521E85]",
+        "ar": "midday visits 0/8 [id=3EB033C8AB527F44521E85]"
+      },
+      "impact": null,
+      "to": "Ramy",
+      "source": "send"
+    },
     {
       "time": "15:43",
       "sortKey": "2026-06-17 15:43:31",
@@ -2179,70 +2230,13 @@
       },
       "to": "Anas",
       "source": "send"
-    },
-    {
-      "time": "12:48",
-      "sortKey": "2026-06-17 12:48:16",
-      "text": "BCI-2026-PO-01444 (SAR 1,600.00)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01444 worth SAR 1,600",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01444 بقيمة SAR 1,600"
-      },
-      "impact": {
-        "en": "SAR 1,600",
-        "ar": "SAR 1,600"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "12:46",
-      "sortKey": "2026-06-17 12:46:57",
-      "text": "1 alert section(s) sent",
-      "headline": {
-        "en": "1 alert section(s) sent",
-        "ar": "1 alert section(s) sent"
-      },
-      "impact": null,
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "12:28",
-      "sortKey": "2026-06-17 12:28:00",
-      "text": "BCI-2026-PO-01443 (SAR 6,086.38)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01443 worth SAR 6,086.38",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01443 بقيمة SAR 6,086.38"
-      },
-      "impact": {
-        "en": "SAR 6,086.38",
-        "ar": "SAR 6,086.38"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "12:11",
-      "sortKey": "2026-06-17 12:11:52",
-      "text": "APCC-2026-PO-00791 (SAR 4,030.00)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00791 worth SAR 4,030",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00791 بقيمة SAR 4,030"
-      },
-      "impact": {
-        "en": "SAR 4,030",
-        "ar": "SAR 4,030"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "15:44",
+  "generatedAt": "15:54",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T12:44:13.459Z",
+  "livePublishedAt": "2026-06-17T12:54:54.967Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
