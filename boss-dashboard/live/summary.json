@@ -1838,7 +1838,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 31,
+    "messagesSentToday": 32,
     "automationsRunToday": 8,
     "activeAutomations": 54,
     "totalAutomations": 99,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 41,281.58",
-        "ar": "SAR 41,281.58"
+        "en": "SAR 41,681.58",
+        "ar": "SAR 41,681.58"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "31 updates | 8 tasks",
-        "ar": "31 تحديثات | 8 مهام"
+        "en": "32 updates | 8 tasks",
+        "ar": "32 تحديثات | 8 مهام"
       }
     },
     {
@@ -1901,6 +1901,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "15:06",
+      "sortKey": "2026-06-17 15:06:13",
+      "text": "APCC-2026-PO-00784 (SAR 400.00)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00784 worth SAR 400",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00784 بقيمة SAR 400"
+      },
+      "impact": {
+        "en": "SAR 400",
+        "ar": "SAR 400"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "14:50",
       "sortKey": "2026-06-17 14:50:20",
@@ -2221,28 +2236,13 @@
       },
       "to": "Anas",
       "source": "send"
-    },
-    {
-      "time": "11:51",
-      "sortKey": "2026-06-17 11:51:27",
-      "text": "BCI-2026-PO-01442 (SAR 370.00)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01442 worth SAR 370",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01442 بقيمة SAR 370"
-      },
-      "impact": {
-        "en": "SAR 370",
-        "ar": "SAR 370"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "15:02",
+  "generatedAt": "15:11",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T12:02:59.075Z",
+  "livePublishedAt": "2026-06-17T12:11:35.183Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
