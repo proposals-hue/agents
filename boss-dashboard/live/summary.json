@@ -1872,6 +1872,21 @@
   ],
   "activity": [
     {
+      "time": "13:30",
+      "sortKey": "2026-06-17 13:30:57",
+      "text": "BCI-2026-PO-01448 (SAR 520.00)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01448 worth SAR 520",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01448 بقيمة SAR 520"
+      },
+      "impact": {
+        "en": "SAR 520",
+        "ar": "SAR 520"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
       "time": "13:10",
       "sortKey": "2026-06-17 13:10:52",
       "text": "BCI-2026-PO-01447 (SAR 8,740.00)",
@@ -2197,28 +2212,13 @@
       },
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "10:20",
-      "sortKey": "2026-06-17 10:20:12",
-      "text": "Collections brief: 344 overdue invoices, 2,919,423 SAR",
-      "headline": {
-        "en": "Accounts flagged 344 overdue invoices worth SAR 2.92M",
-        "ar": "الحسابات نبهت على 344 فواتير متأخرة بقيمة SAR 2.92M"
-      },
-      "impact": {
-        "en": "SAR 2.92M",
-        "ar": "SAR 2.92M"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "13:28",
+  "generatedAt": "13:34",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T10:28:33.210Z",
+  "livePublishedAt": "2026-06-17T10:34:32.982Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
