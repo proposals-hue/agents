@@ -1838,8 +1838,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 45,
-    "automationsRunToday": 11,
+    "messagesSentToday": 20,
+    "automationsRunToday": 8,
     "activeAutomations": 54,
     "totalAutomations": 99,
     "workflowCount": 26,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 38,826.61",
-        "ar": "SAR 38,826.61"
+        "en": "SAR 35,836.6",
+        "ar": "SAR 35,836.6"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "45 updates | 11 tasks",
-        "ar": "45 تحديثات | 11 مهام"
+        "en": "20 updates | 8 tasks",
+        "ar": "20 تحديثات | 8 مهام"
       }
     },
     {
@@ -1879,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "27 chats/groups",
-        "ar": "27 محادثات/مجموعات"
+        "en": "15 chats/groups",
+        "ar": "15 محادثات/مجموعات"
       }
     }
   ],
@@ -2158,73 +2158,13 @@
       "impact": null,
       "to": "NAZISH HASSAN",
       "source": "send"
-    },
-    {
-      "time": "16:47",
-      "sortKey": "2026-06-17 16:47:25",
-      "text": "initial reminder for 2026-06-17 [id=3EB0330B470C48B5963149]",
-      "headline": {
-        "en": "initial reminder for 2026-06-17 [id=3EB0330B470C48B5963149]",
-        "ar": "initial reminder for 2026-06-17 [id=3EB0330B470C48B5963149]"
-      },
-      "impact": null,
-      "to": "Muhammad Shehzad",
-      "source": "send"
-    },
-    {
-      "time": "16:46",
-      "sortKey": "2026-06-17 16:46:03",
-      "text": "initial reminder for 2026-06-17 [id=3EB03A0B0558BE862270E5]",
-      "headline": {
-        "en": "initial reminder for 2026-06-17 [id=3EB03A0B0558BE862270E5]",
-        "ar": "initial reminder for 2026-06-17 [id=3EB03A0B0558BE862270E5]"
-      },
-      "impact": null,
-      "to": "Mohamad Monib",
-      "source": "send"
-    },
-    {
-      "time": "16:45",
-      "sortKey": "2026-06-17 16:45:24",
-      "text": "initial reminder for 2026-06-17 [id=3EB0DA8B06C428B367680A]",
-      "headline": {
-        "en": "initial reminder for 2026-06-17 [id=3EB0DA8B06C428B367680A]",
-        "ar": "initial reminder for 2026-06-17 [id=3EB0DA8B06C428B367680A]"
-      },
-      "impact": null,
-      "to": "MARWAN MOHAMED ABDALLA NASIR",
-      "source": "send"
-    },
-    {
-      "time": "16:44",
-      "sortKey": "2026-06-17 16:44:47",
-      "text": "initial reminder for 2026-06-17 [id=3EB0D028493305CCE43564]",
-      "headline": {
-        "en": "initial reminder for 2026-06-17 [id=3EB0D028493305CCE43564]",
-        "ar": "initial reminder for 2026-06-17 [id=3EB0D028493305CCE43564]"
-      },
-      "impact": null,
-      "to": "KHALED EBRAHIM AHMED HASSANEIN",
-      "source": "send"
-    },
-    {
-      "time": "16:44",
-      "sortKey": "2026-06-17 16:44:09",
-      "text": "initial reminder for 2026-06-17 [id=3EB0A41F620B9C1EFCC70E]",
-      "headline": {
-        "en": "initial reminder for 2026-06-17 [id=3EB0A41F620B9C1EFCC70E]",
-        "ar": "initial reminder for 2026-06-17 [id=3EB0A41F620B9C1EFCC70E]"
-      },
-      "impact": null,
-      "to": "ASMA fawzi mohamed ABDELMONIEM",
-      "source": "send"
     }
   ],
-  "generatedAt": "20:35",
+  "generatedAt": "20:40",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T17:35:48.961Z",
+  "livePublishedAt": "2026-06-17T17:40:49.851Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
