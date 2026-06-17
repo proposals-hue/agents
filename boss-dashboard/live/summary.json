@@ -1838,7 +1838,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 30,
+    "messagesSentToday": 31,
     "automationsRunToday": 6,
     "activeAutomations": 54,
     "totalAutomations": 99,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 3,015.01",
-        "ar": "SAR 3,015.01"
+        "en": "SAR 3,128.01",
+        "ar": "SAR 3,128.01"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "30 updates | 6 tasks",
-        "ar": "30 تحديثات | 6 مهام"
+        "en": "31 updates | 6 tasks",
+        "ar": "31 تحديثات | 6 مهام"
       }
     },
     {
@@ -1901,6 +1901,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "17:06",
+      "sortKey": "2026-06-17 17:06:26",
+      "text": "APCC-2026-PO-00460 (SAR 113.00)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00460 worth SAR 113",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00460 بقيمة SAR 113"
+      },
+      "impact": {
+        "en": "SAR 113",
+        "ar": "SAR 113"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "16:50",
       "sortKey": "2026-06-17 16:50:45",
@@ -2200,25 +2215,13 @@
       "impact": null,
       "to": "Monir",
       "source": "send"
-    },
-    {
-      "time": "15:42",
-      "sortKey": "2026-06-17 15:42:50",
-      "text": "midday visits 0/8 [id=3EB00DE12D57D6E4C9FC06]",
-      "headline": {
-        "en": "midday visits 0/8 [id=3EB00DE12D57D6E4C9FC06]",
-        "ar": "midday visits 0/8 [id=3EB00DE12D57D6E4C9FC06]"
-      },
-      "impact": null,
-      "to": "Mohammed Yassin",
-      "source": "send"
     }
   ],
-  "generatedAt": "17:03",
+  "generatedAt": "17:11",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T14:03:10.644Z",
+  "livePublishedAt": "2026-06-17T14:11:20.128Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
