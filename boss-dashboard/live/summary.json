@@ -1838,8 +1838,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 43,
-    "automationsRunToday": 9,
+    "messagesSentToday": 44,
+    "automationsRunToday": 10,
     "activeAutomations": 54,
     "totalAutomations": 99,
     "workflowCount": 26,
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "43 updates | 9 tasks",
-        "ar": "43 تحديثات | 9 مهام"
+        "en": "44 updates | 10 tasks",
+        "ar": "44 تحديثات | 10 مهام"
       }
     },
     {
@@ -1901,6 +1901,18 @@
     }
   ],
   "activity": [
+    {
+      "time": "18:22",
+      "sortKey": "2026-06-17 18:22:26",
+      "text": "EOD summary with 3 sections",
+      "headline": {
+        "en": "EOD summary with 3 sections",
+        "ar": "EOD summary with 3 sections"
+      },
+      "impact": null,
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "17:53",
       "sortKey": "2026-06-17 17:53:44",
@@ -2203,25 +2215,13 @@
       "impact": null,
       "to": "ASIM BILAL FARYAD ALI",
       "source": "send"
-    },
-    {
-      "time": "16:42",
-      "sortKey": "2026-06-17 16:42:53",
-      "text": "initial reminder for 2026-06-17 [id=3EB064D21EA231AFEEC371]",
-      "headline": {
-        "en": "initial reminder for 2026-06-17 [id=3EB064D21EA231AFEEC371]",
-        "ar": "initial reminder for 2026-06-17 [id=3EB064D21EA231AFEEC371]"
-      },
-      "impact": null,
-      "to": "ABUZAID, ZAINAB ALI H",
-      "source": "send"
     }
   ],
-  "generatedAt": "18:19",
+  "generatedAt": "18:30",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T15:19:57.636Z",
+  "livePublishedAt": "2026-06-17T15:30:29.573Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
