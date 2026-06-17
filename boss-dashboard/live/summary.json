@@ -1808,8 +1808,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 25,
-    "automationsRunToday": 5,
+    "messagesSentToday": 26,
+    "automationsRunToday": 6,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1827,8 +1827,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 2.96M",
-        "ar": "SAR 2.96M"
+        "en": "SAR 2.97M",
+        "ar": "SAR 2.97M"
       }
     },
     {
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "25 updates | 5 tasks",
-        "ar": "25 تحديثات | 5 مهام"
+        "en": "26 updates | 6 tasks",
+        "ar": "26 تحديثات | 6 مهام"
       }
     },
     {
@@ -1871,6 +1871,33 @@
     }
   ],
   "activity": [
+    {
+      "time": "12:48",
+      "sortKey": "2026-06-17 12:48:16",
+      "text": "BCI-2026-PO-01444 (SAR 1,600.00)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01444 worth SAR 1,600",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01444 بقيمة SAR 1,600"
+      },
+      "impact": {
+        "en": "SAR 1,600",
+        "ar": "SAR 1,600"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "12:46",
+      "sortKey": "2026-06-17 12:46:57",
+      "text": "1 alert section(s) sent",
+      "headline": {
+        "en": "1 alert section(s) sent",
+        "ar": "1 alert section(s) sent"
+      },
+      "impact": null,
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "12:28",
       "sortKey": "2026-06-17 12:28:00",
@@ -2182,43 +2209,13 @@
       "impact": null,
       "to": "WhatsApp group",
       "source": "send"
-    },
-    {
-      "time": "09:50",
-      "sortKey": "2026-06-17 09:50:42",
-      "text": "2 new APC PO(s): APCC-2026-PO-00813, APCC-2026-PO-00814",
-      "headline": {
-        "en": "Procurement sent 2 new APC purchase orders to Anas",
-        "ar": "المشتريات أرسلت 2 أوامر شراء جديدة من APC إلى Anas"
-      },
-      "impact": {
-        "en": "2 POs",
-        "ar": "2 أوامر شراء"
-      },
-      "to": "Anas",
-      "source": "send"
-    },
-    {
-      "time": "09:46",
-      "sortKey": "2026-06-17 09:46:34",
-      "text": "APCC-2026-PO-00278 (SAR 270.02)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00278 worth SAR 270.02",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00278 بقيمة SAR 270.02"
-      },
-      "impact": {
-        "en": "SAR 270.02",
-        "ar": "SAR 270.02"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "12:45",
+  "generatedAt": "12:52",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T09:45:48.427Z",
+  "livePublishedAt": "2026-06-17T09:52:46.124Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
