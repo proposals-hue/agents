@@ -1838,7 +1838,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 38,
+    "messagesSentToday": 43,
     "automationsRunToday": 9,
     "activeAutomations": 54,
     "totalAutomations": 99,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 29,535.01",
-        "ar": "SAR 29,535.01"
+        "en": "SAR 36,186.61",
+        "ar": "SAR 36,186.61"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "38 updates | 9 tasks",
-        "ar": "38 تحديثات | 9 مهام"
+        "en": "43 updates | 9 tasks",
+        "ar": "43 تحديثات | 9 مهام"
       }
     },
     {
@@ -1879,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "25 chats/groups",
-        "ar": "25 محادثات/مجموعات"
+        "en": "27 chats/groups",
+        "ar": "27 محادثات/مجموعات"
       }
     }
   ],
@@ -1901,6 +1901,69 @@
     }
   ],
   "activity": [
+    {
+      "time": "17:53",
+      "sortKey": "2026-06-17 17:53:44",
+      "text": "APCC-2026-PO-00479 (SAR 6,651.60)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00479 worth SAR 6,651.6",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00479 بقيمة SAR 6,651.6"
+      },
+      "impact": {
+        "en": "SAR 6,651.6",
+        "ar": "SAR 6,651.6"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "17:52",
+      "sortKey": "2026-06-17 17:52:33",
+      "text": "retry reminder for 2026-06-17 [id=3EB09848CB616947DE28DC]",
+      "headline": {
+        "en": "retry reminder for 2026-06-17 [id=3EB09848CB616947DE28DC]",
+        "ar": "retry reminder for 2026-06-17 [id=3EB09848CB616947DE28DC]"
+      },
+      "impact": null,
+      "to": "ZAFAR RAZA",
+      "source": "send"
+    },
+    {
+      "time": "17:52",
+      "sortKey": "2026-06-17 17:52:05",
+      "text": "9 salesmen below 8 visits [id=3EB0DF4EA2E626BB2BF36D]",
+      "headline": {
+        "en": "9 salesmen below 8 visits [id=3EB0DF4EA2E626BB2BF36D]",
+        "ar": "9 salesmen below 8 visits [id=3EB0DF4EA2E626BB2BF36D]"
+      },
+      "impact": null,
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "17:48",
+      "sortKey": "2026-06-17 17:48:09",
+      "text": "retry reminder for 2026-06-17 [id=3EB02BB8C232FDF986923A]",
+      "headline": {
+        "en": "retry reminder for 2026-06-17 [id=3EB02BB8C232FDF986923A]",
+        "ar": "retry reminder for 2026-06-17 [id=3EB02BB8C232FDF986923A]"
+      },
+      "impact": null,
+      "to": "MARWAN MOHAMED ABDALLA NASIR",
+      "source": "send"
+    },
+    {
+      "time": "17:47",
+      "sortKey": "2026-06-17 17:47:30",
+      "text": "retry reminder for 2026-06-17 [id=3EB008A54E1EF611994C5E]",
+      "headline": {
+        "en": "retry reminder for 2026-06-17 [id=3EB008A54E1EF611994C5E]",
+        "ar": "retry reminder for 2026-06-17 [id=3EB008A54E1EF611994C5E]"
+      },
+      "impact": null,
+      "to": "ASMA fawzi mohamed ABDELMONIEM",
+      "source": "send"
+    },
     {
       "time": "17:46",
       "sortKey": "2026-06-17 17:46:53",
@@ -2152,76 +2215,13 @@
       "impact": null,
       "to": "ABUZAID, ZAINAB ALI H",
       "source": "send"
-    },
-    {
-      "time": "16:42",
-      "sortKey": "2026-06-17 16:42:16",
-      "text": "initial reminder for 2026-06-17 [id=3EB0969453F959E97EEBBB]",
-      "headline": {
-        "en": "initial reminder for 2026-06-17 [id=3EB0969453F959E97EEBBB]",
-        "ar": "initial reminder for 2026-06-17 [id=3EB0969453F959E97EEBBB]"
-      },
-      "impact": null,
-      "to": "ABDULAZIZ YAHYA MOHAMED ALAWDAH",
-      "source": "send"
-    },
-    {
-      "time": "16:25",
-      "sortKey": "2026-06-17 16:25:37",
-      "text": "APCC-2026-PO-00418 (SAR 220.00)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00418 worth SAR 220",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00418 بقيمة SAR 220"
-      },
-      "impact": {
-        "en": "SAR 220",
-        "ar": "SAR 220"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "16:24",
-      "sortKey": "2026-06-17 16:24:54",
-      "text": "delayed store intake reply: payment_missing_amount [id=3EB06B6121F8D2722445AB]",
-      "headline": {
-        "en": "delayed store intake reply: payment_missing_amount [id=3EB06B6121F8D2722445AB]",
-        "ar": "delayed store intake reply: payment_missing_amount [id=3EB06B6121F8D2722445AB]"
-      },
-      "impact": null,
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "16:17",
-      "sortKey": "2026-06-17 16:17:47",
-      "text": "1 truck(s) arriving soon [id=3EB03838E74709BA439D63]",
-      "headline": {
-        "en": "1 truck(s) arriving soon [id=3EB03838E74709BA439D63]",
-        "ar": "1 truck(s) arriving soon [id=3EB03838E74709BA439D63]"
-      },
-      "impact": null,
-      "to": "delivery group",
-      "source": "send"
-    },
-    {
-      "time": "16:10",
-      "sortKey": "2026-06-17 16:10:30",
-      "text": "Fleet accident follow-up FID-00156 (Legal Follow-up) [id=3EB0CE21AE165CFC3853EE]",
-      "headline": {
-        "en": "Fleet accident follow-up FID-00156 (Legal Follow-up) [id=3EB0CE21AE165CFC3853EE]",
-        "ar": "Fleet accident follow-up FID-00156 (Legal Follow-up) [id=3EB0CE21AE165CFC3853EE]"
-      },
-      "impact": null,
-      "to": "hr group",
-      "source": "send"
     }
   ],
-  "generatedAt": "17:47",
+  "generatedAt": "18:01",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T14:47:25.636Z",
+  "livePublishedAt": "2026-06-17T15:01:31.365Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
