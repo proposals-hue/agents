@@ -1838,8 +1838,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 44,
-    "automationsRunToday": 10,
+    "messagesSentToday": 45,
+    "automationsRunToday": 11,
     "activeAutomations": 54,
     "totalAutomations": 99,
     "workflowCount": 26,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 36,186.61",
-        "ar": "SAR 36,186.61"
+        "en": "SAR 38,826.61",
+        "ar": "SAR 38,826.61"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "44 updates | 10 tasks",
-        "ar": "44 تحديثات | 10 مهام"
+        "en": "45 updates | 11 tasks",
+        "ar": "45 تحديثات | 11 مهام"
       }
     },
     {
@@ -1901,6 +1901,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "20:20",
+      "sortKey": "2026-06-17 20:20:46",
+      "text": "CR-2026-00033 Receipt Recorded In ERP SAR 2,640.00 Riyadh [id=3EB00124DCE13347AA0380]",
+      "headline": {
+        "en": "CR-2026-00033 Receipt Recorded In ERP SAR 2,640.00 Riyadh [id=3EB00124DCE13347AA0380]",
+        "ar": "CR-2026-00033 Receipt Recorded In ERP SAR 2,640.00 Riyadh [id=3EB00124DCE13347AA0380]"
+      },
+      "impact": {
+        "en": "SAR 2,640",
+        "ar": "SAR 2,640"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
     {
       "time": "18:22",
       "sortKey": "2026-06-17 18:22:26",
@@ -2203,25 +2218,13 @@
       "impact": null,
       "to": "ASMA fawzi mohamed ABDELMONIEM",
       "source": "send"
-    },
-    {
-      "time": "16:43",
-      "sortKey": "2026-06-17 16:43:31",
-      "text": "initial reminder for 2026-06-17 [id=3EB0C0DF998A538D4BD3E6]",
-      "headline": {
-        "en": "initial reminder for 2026-06-17 [id=3EB0C0DF998A538D4BD3E6]",
-        "ar": "initial reminder for 2026-06-17 [id=3EB0C0DF998A538D4BD3E6]"
-      },
-      "impact": null,
-      "to": "ASIM BILAL FARYAD ALI",
-      "source": "send"
     }
   ],
-  "generatedAt": "20:20",
+  "generatedAt": "20:25",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T17:20:42.682Z",
+  "livePublishedAt": "2026-06-17T17:25:30.232Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
