@@ -1808,7 +1808,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 7,
+    "messagesSentToday": 8,
     "automationsRunToday": 4,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "7 updates | 4 tasks",
-        "ar": "7 تحديثات | 4 مهام"
+        "en": "8 updates | 4 tasks",
+        "ar": "8 تحديثات | 4 مهام"
       }
     },
     {
@@ -1849,8 +1849,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "7 chats/groups",
-        "ar": "7 محادثات/مجموعات"
+        "en": "8 chats/groups",
+        "ar": "8 محادثات/مجموعات"
       }
     }
   ],
@@ -1871,6 +1871,18 @@
     }
   ],
   "activity": [
+    {
+      "time": "09:33",
+      "sortKey": "2026-06-17 09:33:26",
+      "text": "Digest: 1 open quotes for Emad Basiony [id=3EB046768AC0254EAF7F9D]",
+      "headline": {
+        "en": "Digest: 1 open quotes for Emad Basiony [id=3EB046768AC0254EAF7F9D]",
+        "ar": "Digest: 1 open quotes for Emad Basiony [id=3EB046768AC0254EAF7F9D]"
+      },
+      "impact": null,
+      "to": "+********4778",
+      "source": "send"
+    },
     {
       "time": "09:32",
       "sortKey": "2026-06-17 09:32:02",
@@ -1959,11 +1971,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "09:33",
+  "generatedAt": "09:36",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T06:33:20.253Z",
+  "livePublishedAt": "2026-06-17T06:36:22.332Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
