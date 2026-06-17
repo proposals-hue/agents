@@ -1838,8 +1838,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 28,
-    "automationsRunToday": 8,
+    "messagesSentToday": 27,
+    "automationsRunToday": 7,
     "activeAutomations": 54,
     "totalAutomations": 99,
     "workflowCount": 26,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 22,814.56",
-        "ar": "SAR 22,814.56"
+        "en": "SAR 15,878.21",
+        "ar": "SAR 15,878.21"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "28 updates | 8 tasks",
-        "ar": "28 تحديثات | 8 مهام"
+        "en": "27 updates | 7 tasks",
+        "ar": "27 تحديثات | 7 مهام"
       }
     },
     {
@@ -1879,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "14 chats/groups",
-        "ar": "14 محادثات/مجموعات"
+        "en": "13 chats/groups",
+        "ar": "13 محادثات/مجموعات"
       }
     }
   ],
@@ -1901,6 +1901,45 @@
     }
   ],
   "activity": [
+    {
+      "time": "16:10",
+      "sortKey": "2026-06-17 16:10:30",
+      "text": "Fleet accident follow-up FID-00156 (Legal Follow-up) [id=3EB0CE21AE165CFC3853EE]",
+      "headline": {
+        "en": "Fleet accident follow-up FID-00156 (Legal Follow-up) [id=3EB0CE21AE165CFC3853EE]",
+        "ar": "Fleet accident follow-up FID-00156 (Legal Follow-up) [id=3EB0CE21AE165CFC3853EE]"
+      },
+      "impact": null,
+      "to": "hr group",
+      "source": "send"
+    },
+    {
+      "time": "16:09",
+      "sortKey": "2026-06-17 16:09:08",
+      "text": "Fleet accident follow-up FID-00153 (Legal Follow-up) [id=3EB0E96000F7024C2571F3]",
+      "headline": {
+        "en": "Fleet accident follow-up FID-00153 (Legal Follow-up) [id=3EB0E96000F7024C2571F3]",
+        "ar": "Fleet accident follow-up FID-00153 (Legal Follow-up) [id=3EB0E96000F7024C2571F3]"
+      },
+      "impact": null,
+      "to": "hr group",
+      "source": "send"
+    },
+    {
+      "time": "16:06",
+      "sortKey": "2026-06-17 16:06:18",
+      "text": "APCC-2026-PO-00813 (SAR 750.03)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00813 worth SAR 750.03",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00813 بقيمة SAR 750.03"
+      },
+      "impact": {
+        "en": "SAR 750.03",
+        "ar": "SAR 750.03"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "15:50",
       "sortKey": "2026-06-17 15:50:27",
@@ -2188,55 +2227,13 @@
       },
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "13:10",
-      "sortKey": "2026-06-17 13:10:52",
-      "text": "BCI-2026-PO-01447 (SAR 8,740.00)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01447 worth SAR 8,740",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01447 بقيمة SAR 8,740"
-      },
-      "impact": {
-        "en": "SAR 8,740",
-        "ar": "SAR 8,740"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "13:03",
-      "sortKey": "2026-06-17 13:03:46",
-      "text": "missing DN reminder for BCI-2026-SO-01384 [id=3EB03F08C05C58689BC60A]",
-      "headline": {
-        "en": "missing DN reminder for BCI-2026-SO-01384 [id=3EB03F08C05C58689BC60A]",
-        "ar": "missing DN reminder for BCI-2026-SO-01384 [id=3EB03F08C05C58689BC60A]"
-      },
-      "impact": null,
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "12:55",
-      "sortKey": "2026-06-17 12:55:11",
-      "text": "1 new APC PO(s): APCC-2026-PO-00818",
-      "headline": {
-        "en": "Procurement sent 1 new APC purchase order to Anas",
-        "ar": "المشتريات أرسلت 1 أوامر شراء جديدة من APC إلى Anas"
-      },
-      "impact": {
-        "en": "1 POs",
-        "ar": "1 أوامر شراء"
-      },
-      "to": "Anas",
-      "source": "send"
     }
   ],
-  "generatedAt": "16:02",
+  "generatedAt": "16:12",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T13:02:49.124Z",
+  "livePublishedAt": "2026-06-17T13:12:51.290Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
