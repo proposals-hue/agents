@@ -1808,8 +1808,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 1,
-    "automationsRunToday": 1,
+    "messagesSentToday": 5,
+    "automationsRunToday": 3,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1827,8 +1827,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 2,082.94",
-        "ar": "SAR 2,082.94"
+        "en": "SAR 86,432.94",
+        "ar": "SAR 86,432.94"
       }
     },
     {
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "1 update | 1 task",
-        "ar": "1 تحديث | 1 مهمة"
+        "en": "5 updates | 3 tasks",
+        "ar": "5 تحديثات | 3 مهام"
       }
     },
     {
@@ -1849,8 +1849,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "1 chat/group",
-        "ar": "1 محادثة/مجموعة"
+        "en": "5 chats/groups",
+        "ar": "5 محادثات/مجموعات"
       }
     }
   ],
@@ -1872,6 +1872,66 @@
   ],
   "activity": [
     {
+      "time": "09:03",
+      "sortKey": "2026-06-17 09:03:35",
+      "text": "MTD SAR 0/166,667, rank 8/9",
+      "headline": {
+        "en": "Sales sent an individual target update to Mohammed Yassin",
+        "ar": "المبيعات أرسلت تحديث هدف فردي إلى Mohammed Yassin"
+      },
+      "impact": {
+        "en": " | rank 8/9",
+        "ar": " | الترتيب 8/9"
+      },
+      "to": "Mohammed Yassin",
+      "source": "send"
+    },
+    {
+      "time": "09:02",
+      "sortKey": "2026-06-17 09:02:54",
+      "text": "MTD SAR 0/300,000, rank 7/9",
+      "headline": {
+        "en": "Sales sent an individual target update to Hossam",
+        "ar": "المبيعات أرسلت تحديث هدف فردي إلى Hossam"
+      },
+      "impact": {
+        "en": " | rank 7/9",
+        "ar": " | الترتيب 7/9"
+      },
+      "to": "Hossam",
+      "source": "send"
+    },
+    {
+      "time": "09:01",
+      "sortKey": "2026-06-17 09:01:12",
+      "text": "2 payment reminder(s), 0 lease expiry notice(s)",
+      "headline": {
+        "en": "Rentals sent 2 payment reminders and 0 lease notices",
+        "ar": "الإيجارات أرسلت 2 تذكيرات دفع و 0 تنبيهات عقود"
+      },
+      "impact": {
+        "en": "2 follow-ups",
+        "ar": "2 متابعات"
+      },
+      "to": "HR group",
+      "source": "send"
+    },
+    {
+      "time": "08:59",
+      "sortKey": "2026-06-17 08:59:13",
+      "text": "MTD SAR 84,350/1,250,000, rank 2/9",
+      "headline": {
+        "en": "Sales sent an individual target update to Sameh Darwish",
+        "ar": "المبيعات أرسلت تحديث هدف فردي إلى Sameh Darwish"
+      },
+      "impact": {
+        "en": "SAR 84,350 | rank 2/9",
+        "ar": "SAR 84,350 | الترتيب 2/9"
+      },
+      "to": "Sameh Darwish",
+      "source": "send"
+    },
+    {
       "time": "08:47",
       "sortKey": "2026-06-17 08:47:22",
       "text": "APCC-2026-PO-00234 (SAR 2,082.94)",
@@ -1887,11 +1947,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "08:55",
+  "generatedAt": "09:04",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T05:55:51.242Z",
+  "livePublishedAt": "2026-06-17T06:04:52.737Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
