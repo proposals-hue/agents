@@ -1838,8 +1838,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 34,
-    "automationsRunToday": 8,
+    "messagesSentToday": 38,
+    "automationsRunToday": 9,
     "activeAutomations": 54,
     "totalAutomations": 99,
     "workflowCount": 26,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 4,028.01",
-        "ar": "SAR 4,028.01"
+        "en": "SAR 29,535.01",
+        "ar": "SAR 29,535.01"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "34 updates | 8 tasks",
-        "ar": "34 تحديثات | 8 مهام"
+        "en": "38 updates | 9 tasks",
+        "ar": "38 تحديثات | 9 مهام"
       }
     },
     {
@@ -1901,6 +1901,57 @@
     }
   ],
   "activity": [
+    {
+      "time": "17:46",
+      "sortKey": "2026-06-17 17:46:53",
+      "text": "retry reminder for 2026-06-17 [id=3EB03E96B02AD8D2AD8582]",
+      "headline": {
+        "en": "retry reminder for 2026-06-17 [id=3EB03E96B02AD8D2AD8582]",
+        "ar": "retry reminder for 2026-06-17 [id=3EB03E96B02AD8D2AD8582]"
+      },
+      "impact": null,
+      "to": "ABUZAID, ZAINAB ALI H",
+      "source": "send"
+    },
+    {
+      "time": "17:46",
+      "sortKey": "2026-06-17 17:46:16",
+      "text": "retry reminder for 2026-06-17 [id=3EB0D682985DD13FBA48D6]",
+      "headline": {
+        "en": "retry reminder for 2026-06-17 [id=3EB0D682985DD13FBA48D6]",
+        "ar": "retry reminder for 2026-06-17 [id=3EB0D682985DD13FBA48D6]"
+      },
+      "impact": null,
+      "to": "ABDULAZIZ YAHYA MOHAMED ALAWDAH",
+      "source": "send"
+    },
+    {
+      "time": "17:40",
+      "sortKey": "2026-06-17 17:40:07",
+      "text": "2 SOs SAR 24,564 + 2 DNs SAR 943 across 1 salesmen",
+      "headline": {
+        "en": "2 SOs SAR 24,564 + 2 DNs SAR 943 across 1 salesmen",
+        "ar": "2 SOs SAR 24,564 + 2 DNs SAR 943 across 1 salesmen"
+      },
+      "impact": {
+        "en": "SAR 24,564",
+        "ar": "SAR 24,564"
+      },
+      "to": "Sameh Darwish",
+      "source": "send"
+    },
+    {
+      "time": "17:39",
+      "sortKey": "2026-06-17 17:39:28",
+      "text": "2 DNs, 2 SOs",
+      "headline": {
+        "en": "2 DNs, 2 SOs",
+        "ar": "2 DNs, 2 SOs"
+      },
+      "impact": null,
+      "to": "FATHY SAAD",
+      "source": "send"
+    },
     {
       "time": "17:30",
       "sortKey": "2026-06-17 17:30:20",
@@ -2164,67 +2215,13 @@
       "impact": null,
       "to": "hr group",
       "source": "send"
-    },
-    {
-      "time": "16:09",
-      "sortKey": "2026-06-17 16:09:08",
-      "text": "Fleet accident follow-up FID-00153 (Legal Follow-up) [id=3EB0E96000F7024C2571F3]",
-      "headline": {
-        "en": "Fleet accident follow-up FID-00153 (Legal Follow-up) [id=3EB0E96000F7024C2571F3]",
-        "ar": "Fleet accident follow-up FID-00153 (Legal Follow-up) [id=3EB0E96000F7024C2571F3]"
-      },
-      "impact": null,
-      "to": "hr group",
-      "source": "send"
-    },
-    {
-      "time": "16:06",
-      "sortKey": "2026-06-17 16:06:18",
-      "text": "APCC-2026-PO-00813 (SAR 750.03)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00813 worth SAR 750.03",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00813 بقيمة SAR 750.03"
-      },
-      "impact": {
-        "en": "SAR 750.03",
-        "ar": "SAR 750.03"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "15:50",
-      "sortKey": "2026-06-17 15:50:27",
-      "text": "BCI-2026-PO-01421 (SAR 2,019.98)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01421 worth SAR 2,019.98",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01421 بقيمة SAR 2,019.98"
-      },
-      "impact": {
-        "en": "SAR 2,019.98",
-        "ar": "SAR 2,019.98"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "15:45",
-      "sortKey": "2026-06-17 15:45:36",
-      "text": "Sameh team 5 below 8 visits [id=3EB02A08B32905337416E2]",
-      "headline": {
-        "en": "Sameh team 5 below 8 visits [id=3EB02A08B32905337416E2]",
-        "ar": "Sameh team 5 below 8 visits [id=3EB02A08B32905337416E2]"
-      },
-      "impact": null,
-      "to": "Sameh Darwish",
-      "source": "send"
     }
   ],
-  "generatedAt": "17:35",
+  "generatedAt": "17:47",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T14:35:49.568Z",
+  "livePublishedAt": "2026-06-17T14:47:25.636Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
