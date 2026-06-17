@@ -1808,7 +1808,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 21,
+    "messagesSentToday": 23,
     "automationsRunToday": 7,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "21 updates | 7 tasks",
-        "ar": "21 تحديثات | 7 مهام"
+        "en": "23 updates | 7 tasks",
+        "ar": "23 تحديثات | 7 مهام"
       }
     },
     {
@@ -1871,6 +1871,36 @@
     }
   ],
   "activity": [
+    {
+      "time": "11:53",
+      "sortKey": "2026-06-17 11:53:12",
+      "text": "1 new APC PO(s): APCC-2026-PO-00817",
+      "headline": {
+        "en": "Procurement sent 1 new APC purchase order to Anas",
+        "ar": "المشتريات أرسلت 1 أوامر شراء جديدة من APC إلى Anas"
+      },
+      "impact": {
+        "en": "1 POs",
+        "ar": "1 أوامر شراء"
+      },
+      "to": "Anas",
+      "source": "send"
+    },
+    {
+      "time": "11:51",
+      "sortKey": "2026-06-17 11:51:27",
+      "text": "BCI-2026-PO-01442 (SAR 370.00)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01442 worth SAR 370",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01442 بقيمة SAR 370"
+      },
+      "impact": {
+        "en": "SAR 370",
+        "ar": "SAR 370"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "11:28",
       "sortKey": "2026-06-17 11:28:10",
@@ -2157,11 +2187,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "11:47",
+  "generatedAt": "11:56",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T08:47:27.599Z",
+  "livePublishedAt": "2026-06-17T08:56:20.199Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
