@@ -1872,6 +1872,21 @@
   ],
   "activity": [
     {
+      "time": "12:55",
+      "sortKey": "2026-06-17 12:55:11",
+      "text": "1 new APC PO(s): APCC-2026-PO-00818",
+      "headline": {
+        "en": "Procurement sent 1 new APC purchase order to Anas",
+        "ar": "المشتريات أرسلت 1 أوامر شراء جديدة من APC إلى Anas"
+      },
+      "impact": {
+        "en": "1 POs",
+        "ar": "1 أوامر شراء"
+      },
+      "to": "Anas",
+      "source": "send"
+    },
+    {
       "time": "12:48",
       "sortKey": "2026-06-17 12:48:16",
       "text": "BCI-2026-PO-01444 (SAR 1,600.00)",
@@ -2197,25 +2212,13 @@
       "impact": null,
       "to": "WhatsApp group",
       "source": "send"
-    },
-    {
-      "time": "10:02",
-      "sortKey": "2026-06-17 10:02:41",
-      "text": "missing DN reminder for BCI-2026-SO-01384 [id=3EB057B1EA07D91039ACEE]",
-      "headline": {
-        "en": "missing DN reminder for BCI-2026-SO-01384 [id=3EB057B1EA07D91039ACEE]",
-        "ar": "missing DN reminder for BCI-2026-SO-01384 [id=3EB057B1EA07D91039ACEE]"
-      },
-      "impact": null,
-      "to": "WhatsApp group",
-      "source": "send"
     }
   ],
-  "generatedAt": "12:52",
+  "generatedAt": "12:57",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T09:52:46.124Z",
+  "livePublishedAt": "2026-06-17T09:57:58.437Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
