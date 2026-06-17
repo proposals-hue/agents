@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 7,138.21",
-        "ar": "SAR 7,138.21"
+        "en": "SAR 6,838.21",
+        "ar": "SAR 6,838.21"
       }
     },
     {
@@ -1879,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "14 chats/groups",
-        "ar": "14 محادثات/مجموعات"
+        "en": "13 chats/groups",
+        "ar": "13 محادثات/مجموعات"
       }
     }
   ],
@@ -1901,6 +1901,33 @@
     }
   ],
   "activity": [
+    {
+      "time": "16:25",
+      "sortKey": "2026-06-17 16:25:37",
+      "text": "APCC-2026-PO-00418 (SAR 220.00)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00418 worth SAR 220",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00418 بقيمة SAR 220"
+      },
+      "impact": {
+        "en": "SAR 220",
+        "ar": "SAR 220"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "16:24",
+      "sortKey": "2026-06-17 16:24:54",
+      "text": "delayed store intake reply: payment_missing_amount [id=3EB06B6121F8D2722445AB]",
+      "headline": {
+        "en": "delayed store intake reply: payment_missing_amount [id=3EB06B6121F8D2722445AB]",
+        "ar": "delayed store intake reply: payment_missing_amount [id=3EB06B6121F8D2722445AB]"
+      },
+      "impact": null,
+      "to": "WhatsApp group",
+      "source": "send"
+    },
     {
       "time": "16:17",
       "sortKey": "2026-06-17 16:17:47",
@@ -2200,37 +2227,13 @@
       },
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "14:04",
-      "sortKey": "2026-06-17 14:04:58",
-      "text": "Fleet accident follow-up FID-00155 (Payment Follow-up) [id=3EB003509E2FCD5C06A713]",
-      "headline": {
-        "en": "Fleet accident follow-up FID-00155 (Payment Follow-up) [id=3EB003509E2FCD5C06A713]",
-        "ar": "Fleet accident follow-up FID-00155 (Payment Follow-up) [id=3EB003509E2FCD5C06A713]"
-      },
-      "impact": null,
-      "to": "hr group",
-      "source": "send"
-    },
-    {
-      "time": "13:37",
-      "sortKey": "2026-06-17 13:37:24",
-      "text": "BCI-2026-SO-01317, BCI-2026-SO-01324-1, BCI-2026-SO-01334, BCI-2026-SO-01343, BCI-2026-SO-01288, BCI-2026-SO-01291, BCI-2026-SO-01295, BCI-2026-SO-01304, BCI-2026-SO-01362, BCI-2026-SO-01363",
-      "headline": {
-        "en": "BCI-2026-SO-01317, BCI-2026-SO-01324-1, BCI-2026-SO-01334, BCI-2026-SO-01343, BCI-2026-SO-01288, BCI-2026-SO-01291, BCI-2026-SO-01295, BCI-2026-SO-01304, BCI-2026-SO-01362, BCI-2026-SO-01363",
-        "ar": "BCI-2026-SO-01317, BCI-2026-SO-01324-1, BCI-2026-SO-01334, BCI-2026-SO-01343, BCI-2026-SO-01288, BCI-2026-SO-01291, BCI-2026-SO-01295, BCI-2026-SO-01304, BCI-2026-SO-01362, BCI-2026-SO-01363"
-      },
-      "impact": null,
-      "to": "Javed personal WhatsApp",
-      "source": "send"
     }
   ],
-  "generatedAt": "16:23",
+  "generatedAt": "16:32",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T13:23:31.263Z",
+  "livePublishedAt": "2026-06-17T13:32:18.757Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
