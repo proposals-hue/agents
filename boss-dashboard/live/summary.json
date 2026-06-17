@@ -1827,8 +1827,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 2.95M",
-        "ar": "SAR 2.95M"
+        "en": "SAR 2.96M",
+        "ar": "SAR 2.96M"
       }
     },
     {
@@ -1849,8 +1849,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "13 chats/groups",
-        "ar": "13 محادثات/مجموعات"
+        "en": "11 chats/groups",
+        "ar": "11 محادثات/مجموعات"
       }
     }
   ],
@@ -1871,6 +1871,45 @@
     }
   ],
   "activity": [
+    {
+      "time": "12:11",
+      "sortKey": "2026-06-17 12:11:52",
+      "text": "APCC-2026-PO-00791 (SAR 4,030.00)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00791 worth SAR 4,030",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00791 بقيمة SAR 4,030"
+      },
+      "impact": {
+        "en": "SAR 4,030",
+        "ar": "SAR 4,030"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "12:10",
+      "sortKey": "2026-06-17 12:10:06",
+      "text": "Sameh team 5 below 1 visits [id=3EB09F24B014A3915488B7]",
+      "headline": {
+        "en": "Sameh team 5 below 1 visits [id=3EB09F24B014A3915488B7]",
+        "ar": "Sameh team 5 below 1 visits [id=3EB09F24B014A3915488B7]"
+      },
+      "impact": null,
+      "to": "Sameh Darwish",
+      "source": "send"
+    },
+    {
+      "time": "12:09",
+      "sortKey": "2026-06-17 12:09:25",
+      "text": "noon visits 0/1 [id=3EB01D2B624998694ADFC0]",
+      "headline": {
+        "en": "noon visits 0/1 [id=3EB01D2B624998694ADFC0]",
+        "ar": "noon visits 0/1 [id=3EB01D2B624998694ADFC0]"
+      },
+      "impact": null,
+      "to": "Sameh Darwish",
+      "source": "send"
+    },
     {
       "time": "12:07",
       "sortKey": "2026-06-17 12:07:55",
@@ -2170,49 +2209,13 @@
       "impact": null,
       "to": "+********4778",
       "source": "send"
-    },
-    {
-      "time": "09:32",
-      "sortKey": "2026-06-17 09:32:02",
-      "text": "Digest: 1 open quotes for FATHY SAAD [id=3EB0AD0D08AF6B1C3AADD9]",
-      "headline": {
-        "en": "Digest: 1 open quotes for FATHY SAAD [id=3EB0AD0D08AF6B1C3AADD9]",
-        "ar": "Digest: 1 open quotes for FATHY SAAD [id=3EB0AD0D08AF6B1C3AADD9]"
-      },
-      "impact": null,
-      "to": "+********9868",
-      "source": "send"
-    },
-    {
-      "time": "09:31",
-      "sortKey": "2026-06-17 09:31:22",
-      "text": "Digest: 2 open quotes for Monir [id=3EB0B7C0C529882A14298D]",
-      "headline": {
-        "en": "Digest: 2 open quotes for Monir [id=3EB0B7C0C529882A14298D]",
-        "ar": "Digest: 2 open quotes for Monir [id=3EB0B7C0C529882A14298D]"
-      },
-      "impact": null,
-      "to": "+********5406",
-      "source": "send"
-    },
-    {
-      "time": "09:30",
-      "sortKey": "2026-06-17 09:30:43",
-      "text": "Digest: 7 open quotes for Ayman [id=3EB07914308A2261F01F40]",
-      "headline": {
-        "en": "Digest: 7 open quotes for Ayman [id=3EB07914308A2261F01F40]",
-        "ar": "Digest: 7 open quotes for Ayman [id=3EB07914308A2261F01F40]"
-      },
-      "impact": null,
-      "to": "+********1978",
-      "source": "send"
     }
   ],
-  "generatedAt": "12:08",
+  "generatedAt": "12:14",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T09:08:20.304Z",
+  "livePublishedAt": "2026-06-17T09:14:50.423Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
