@@ -1838,7 +1838,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 33,
+    "messagesSentToday": 34,
     "automationsRunToday": 8,
     "activeAutomations": 54,
     "totalAutomations": 99,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 3,128.01",
-        "ar": "SAR 3,128.01"
+        "en": "SAR 4,028.01",
+        "ar": "SAR 4,028.01"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "33 updates | 8 tasks",
-        "ar": "33 تحديثات | 8 مهام"
+        "en": "34 updates | 8 tasks",
+        "ar": "34 تحديثات | 8 مهام"
       }
     },
     {
@@ -1901,6 +1901,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "17:30",
+      "sortKey": "2026-06-17 17:30:20",
+      "text": "APCC-2026-PO-00476 (SAR 900.00)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00476 worth SAR 900",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00476 بقيمة SAR 900"
+      },
+      "impact": {
+        "en": "SAR 900",
+        "ar": "SAR 900"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "17:23",
       "sortKey": "2026-06-17 17:23:27",
@@ -2203,25 +2218,13 @@
       "impact": null,
       "to": "Sameh Darwish",
       "source": "send"
-    },
-    {
-      "time": "15:44",
-      "sortKey": "2026-06-17 15:44:56",
-      "text": "midday visits 0/8 [id=3EB0C6DB79EA940D6410E2]",
-      "headline": {
-        "en": "midday visits 0/8 [id=3EB0C6DB79EA940D6410E2]",
-        "ar": "midday visits 0/8 [id=3EB0C6DB79EA940D6410E2]"
-      },
-      "impact": null,
-      "to": "Sameh Darwish",
-      "source": "send"
     }
   ],
-  "generatedAt": "17:27",
+  "generatedAt": "17:35",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T14:27:25.085Z",
+  "livePublishedAt": "2026-06-17T14:35:49.568Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
