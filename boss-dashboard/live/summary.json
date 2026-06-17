@@ -1808,7 +1808,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 17,
+    "messagesSentToday": 18,
     "automationsRunToday": 7,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "17 updates | 7 tasks",
-        "ar": "17 تحديثات | 7 مهام"
+        "en": "18 updates | 7 tasks",
+        "ar": "18 تحديثات | 7 مهام"
       }
     },
     {
@@ -1871,6 +1871,18 @@
     }
   ],
   "activity": [
+    {
+      "time": "11:03",
+      "sortKey": "2026-06-17 11:03:29",
+      "text": "missing DN reminder for BCI-2026-SO-01384 [id=3EB0C02DCA0DA3355F2BF7]",
+      "headline": {
+        "en": "missing DN reminder for BCI-2026-SO-01384 [id=3EB0C02DCA0DA3355F2BF7]",
+        "ar": "missing DN reminder for BCI-2026-SO-01384 [id=3EB0C02DCA0DA3355F2BF7]"
+      },
+      "impact": null,
+      "to": "WhatsApp group",
+      "source": "send"
+    },
     {
       "time": "10:51",
       "sortKey": "2026-06-17 10:51:52",
@@ -2100,11 +2112,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "11:01",
+  "generatedAt": "11:07",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T08:01:51.950Z",
+  "livePublishedAt": "2026-06-17T08:07:15.300Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
