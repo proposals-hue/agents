@@ -2238,11 +2238,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "15:11",
+  "generatedAt": "15:21",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T12:11:35.183Z",
+  "livePublishedAt": "2026-06-17T12:21:49.292Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
