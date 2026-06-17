@@ -1901,11 +1901,11 @@
     }
   ],
   "activity": [],
-  "generatedAt": "02:46",
+  "generatedAt": "02:51",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T23:46:51.221Z",
+  "livePublishedAt": "2026-06-17T23:51:20.464Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
