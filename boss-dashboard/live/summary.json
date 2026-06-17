@@ -1808,8 +1808,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 13,
-    "automationsRunToday": 6,
+    "messagesSentToday": 14,
+    "automationsRunToday": 7,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1827,8 +1827,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 2,195.05",
-        "ar": "SAR 2,195.05"
+        "en": "SAR 2.92M",
+        "ar": "SAR 2.92M"
       }
     },
     {
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "13 updates | 6 tasks",
-        "ar": "13 تحديثات | 6 مهام"
+        "en": "14 updates | 7 tasks",
+        "ar": "14 تحديثات | 7 مهام"
       }
     },
     {
@@ -1871,6 +1871,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "10:20",
+      "sortKey": "2026-06-17 10:20:12",
+      "text": "Collections brief: 344 overdue invoices, 2,919,423 SAR",
+      "headline": {
+        "en": "Accounts flagged 344 overdue invoices worth SAR 2.92M",
+        "ar": "الحسابات نبهت على 344 فواتير متأخرة بقيمة SAR 2.92M"
+      },
+      "impact": {
+        "en": "SAR 2.92M",
+        "ar": "SAR 2.92M"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "10:07",
       "sortKey": "2026-06-17 10:07:56",
@@ -2040,11 +2055,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "10:18",
+  "generatedAt": "10:22",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T07:18:07.330Z",
+  "livePublishedAt": "2026-06-17T07:22:33.110Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
