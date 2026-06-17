@@ -78,7 +78,7 @@
         "ar": ""
       },
       "workflowCount": 6,
-      "automationCount": 15
+      "automationCount": 16
     },
     {
       "name": "Naqqal",
@@ -97,7 +97,7 @@
         "ar": ""
       },
       "workflowCount": 4,
-      "automationCount": 11
+      "automationCount": 12
     },
     {
       "name": "Musawwiq",
@@ -571,6 +571,36 @@
         "ar": "كل صباح عند 9:08"
       },
       "hasWorkflow": true
+    },
+    {
+      "id": "py-javed-so-delivery-followup-001",
+      "name": "Javed Sales Order Delivery Follow-up",
+      "description": "Daily 09:18: reminds Javed by personal WhatsApp DM about due approved BCI Sales Orders with no submitted Delivery Note or incomplete partial delivery, rotating fairly through the open backlog.",
+      "displayName": {
+        "en": "Javed Sales Order Delivery Follow-up",
+        "ar": "Javed Sales Order Delivery Follow-up"
+      },
+      "displayDescription": {
+        "en": "Daily 09:18: reminds Javed by personal WhatsApp DM about due approved BCI Sales Orders with no submitted Delivery Note or incomplete partial delivery, rotating fairly through the open backlog.",
+        "ar": "Daily 09:18: reminds Javed by personal WhatsApp DM about due approved BCI Sales Orders with no submitted Delivery Note or incomplete partial delivery, rotating fairly through the open backlog."
+      },
+      "areaKey": "delivery",
+      "relatedAreas": [
+        "delivery",
+        "sales"
+      ],
+      "area": "Naqqal",
+      "category": {
+        "key": "delivery",
+        "en": "Delivery & Fleet",
+        "ar": "التوصيل والأسطول",
+        "icon": "🚚"
+      },
+      "when": {
+        "en": "Every morning at 9:18",
+        "ar": "كل صباح عند 9:18"
+      },
+      "hasWorkflow": false
     },
     {
       "id": "py-quotation-followup-001",
@@ -1762,7 +1792,7 @@
       "en": "Delivery & Fleet",
       "ar": "التوصيل والأسطول",
       "icon": "🚚",
-      "count": 8
+      "count": 9
     },
     {
       "key": "accounts",
@@ -1810,8 +1840,8 @@
   "numbers": {
     "messagesSentToday": 26,
     "automationsRunToday": 6,
-    "activeAutomations": 53,
-    "totalAutomations": 98,
+    "activeAutomations": 54,
+    "totalAutomations": 99,
     "workflowCount": 26,
     "channelsTotal": 0,
     "agentsWorking": 0,
@@ -1827,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 2.97M",
-        "ar": "SAR 2.97M"
+        "en": "SAR 55,434.38",
+        "ar": "SAR 55,434.38"
       }
     },
     {
@@ -1849,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "10 chats/groups",
-        "ar": "10 محادثات/مجموعات"
+        "en": "11 chats/groups",
+        "ar": "11 محادثات/مجموعات"
       }
     }
   ],
@@ -1871,6 +1901,18 @@
     }
   ],
   "activity": [
+    {
+      "time": "13:37",
+      "sortKey": "2026-06-17 13:37:24",
+      "text": "BCI-2026-SO-01317, BCI-2026-SO-01324-1, BCI-2026-SO-01334, BCI-2026-SO-01343, BCI-2026-SO-01288, BCI-2026-SO-01291, BCI-2026-SO-01295, BCI-2026-SO-01304, BCI-2026-SO-01362, BCI-2026-SO-01363",
+      "headline": {
+        "en": "BCI-2026-SO-01317, BCI-2026-SO-01324-1, BCI-2026-SO-01334, BCI-2026-SO-01343, BCI-2026-SO-01288, BCI-2026-SO-01291, BCI-2026-SO-01295, BCI-2026-SO-01304, BCI-2026-SO-01362, BCI-2026-SO-01363",
+        "ar": "BCI-2026-SO-01317, BCI-2026-SO-01324-1, BCI-2026-SO-01334, BCI-2026-SO-01343, BCI-2026-SO-01288, BCI-2026-SO-01291, BCI-2026-SO-01295, BCI-2026-SO-01304, BCI-2026-SO-01362, BCI-2026-SO-01363"
+      },
+      "impact": null,
+      "to": "Javed personal WhatsApp",
+      "source": "send"
+    },
     {
       "time": "13:30",
       "sortKey": "2026-06-17 13:30:57",
@@ -2197,28 +2239,13 @@
       },
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "10:24",
-      "sortKey": "2026-06-17 10:24:08",
-      "text": "APCC-2026-PO-00330 (SAR 17,401)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00330 worth SAR 17,401",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00330 بقيمة SAR 17,401"
-      },
-      "impact": {
-        "en": "SAR 17,401",
-        "ar": "SAR 17,401"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "13:34",
+  "generatedAt": "13:43",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T10:34:32.982Z",
+  "livePublishedAt": "2026-06-17T10:43:04.117Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
