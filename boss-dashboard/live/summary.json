@@ -1872,6 +1872,18 @@
   ],
   "activity": [
     {
+      "time": "13:03",
+      "sortKey": "2026-06-17 13:03:46",
+      "text": "missing DN reminder for BCI-2026-SO-01384 [id=3EB03F08C05C58689BC60A]",
+      "headline": {
+        "en": "missing DN reminder for BCI-2026-SO-01384 [id=3EB03F08C05C58689BC60A]",
+        "ar": "missing DN reminder for BCI-2026-SO-01384 [id=3EB03F08C05C58689BC60A]"
+      },
+      "impact": null,
+      "to": "WhatsApp group",
+      "source": "send"
+    },
+    {
       "time": "12:55",
       "sortKey": "2026-06-17 12:55:11",
       "text": "1 new APC PO(s): APCC-2026-PO-00818",
@@ -2200,25 +2212,13 @@
       },
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "10:07",
-      "sortKey": "2026-06-17 10:07:19",
-      "text": "delayed store intake reply: payment_missing_amount [id=3EB01A953091813C3A4BA2]",
-      "headline": {
-        "en": "delayed store intake reply: payment_missing_amount [id=3EB01A953091813C3A4BA2]",
-        "ar": "delayed store intake reply: payment_missing_amount [id=3EB01A953091813C3A4BA2]"
-      },
-      "impact": null,
-      "to": "WhatsApp group",
-      "source": "send"
     }
   ],
-  "generatedAt": "13:01",
+  "generatedAt": "13:07",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T10:01:53.491Z",
+  "livePublishedAt": "2026-06-17T10:07:18.749Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
