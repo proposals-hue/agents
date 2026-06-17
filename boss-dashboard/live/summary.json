@@ -1838,7 +1838,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 33,
+    "messagesSentToday": 34,
     "automationsRunToday": 8,
     "activeAutomations": 54,
     "totalAutomations": 99,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 41,681.58",
-        "ar": "SAR 41,681.58"
+        "en": "SAR 41,881.58",
+        "ar": "SAR 41,881.58"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "33 updates | 8 tasks",
-        "ar": "33 تحديثات | 8 مهام"
+        "en": "34 updates | 8 tasks",
+        "ar": "34 تحديثات | 8 مهام"
       }
     },
     {
@@ -1901,6 +1901,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "15:30",
+      "sortKey": "2026-06-17 15:30:48",
+      "text": "APCC-2026-PO-00796 (SAR 200.00)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00796 worth SAR 200",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00796 بقيمة SAR 200"
+      },
+      "impact": {
+        "en": "SAR 200",
+        "ar": "SAR 200"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "15:23",
       "sortKey": "2026-06-17 15:23:12",
@@ -2221,25 +2236,13 @@
       "impact": null,
       "to": "Ayman",
       "source": "send"
-    },
-    {
-      "time": "12:03",
-      "sortKey": "2026-06-17 12:03:42",
-      "text": "noon visits 0/1 [id=3EB0C2F1967BAADD829DA6]",
-      "headline": {
-        "en": "noon visits 0/1 [id=3EB0C2F1967BAADD829DA6]",
-        "ar": "noon visits 0/1 [id=3EB0C2F1967BAADD829DA6]"
-      },
-      "impact": null,
-      "to": "Ahmed Adel",
-      "source": "send"
     }
   ],
-  "generatedAt": "15:28",
+  "generatedAt": "15:35",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T12:28:09.066Z",
+  "livePublishedAt": "2026-06-17T12:35:54.506Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
