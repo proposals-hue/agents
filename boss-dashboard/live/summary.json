@@ -1808,8 +1808,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 3,
-    "automationsRunToday": 3,
+    "messagesSentToday": 7,
+    "automationsRunToday": 4,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "3 updates | 3 tasks",
-        "ar": "3 تحديثات | 3 مهام"
+        "en": "7 updates | 4 tasks",
+        "ar": "7 تحديثات | 4 مهام"
       }
     },
     {
@@ -1849,8 +1849,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "3 chats/groups",
-        "ar": "3 محادثات/مجموعات"
+        "en": "7 chats/groups",
+        "ar": "7 محادثات/مجموعات"
       }
     }
   ],
@@ -1871,6 +1871,54 @@
     }
   ],
   "activity": [
+    {
+      "time": "09:32",
+      "sortKey": "2026-06-17 09:32:02",
+      "text": "Digest: 1 open quotes for FATHY SAAD [id=3EB0AD0D08AF6B1C3AADD9]",
+      "headline": {
+        "en": "Digest: 1 open quotes for FATHY SAAD [id=3EB0AD0D08AF6B1C3AADD9]",
+        "ar": "Digest: 1 open quotes for FATHY SAAD [id=3EB0AD0D08AF6B1C3AADD9]"
+      },
+      "impact": null,
+      "to": "+********9868",
+      "source": "send"
+    },
+    {
+      "time": "09:31",
+      "sortKey": "2026-06-17 09:31:22",
+      "text": "Digest: 2 open quotes for Monir [id=3EB0B7C0C529882A14298D]",
+      "headline": {
+        "en": "Digest: 2 open quotes for Monir [id=3EB0B7C0C529882A14298D]",
+        "ar": "Digest: 2 open quotes for Monir [id=3EB0B7C0C529882A14298D]"
+      },
+      "impact": null,
+      "to": "+********5406",
+      "source": "send"
+    },
+    {
+      "time": "09:30",
+      "sortKey": "2026-06-17 09:30:43",
+      "text": "Digest: 7 open quotes for Ayman [id=3EB07914308A2261F01F40]",
+      "headline": {
+        "en": "Digest: 7 open quotes for Ayman [id=3EB07914308A2261F01F40]",
+        "ar": "Digest: 7 open quotes for Ayman [id=3EB07914308A2261F01F40]"
+      },
+      "impact": null,
+      "to": "+********1978",
+      "source": "send"
+    },
+    {
+      "time": "09:30",
+      "sortKey": "2026-06-17 09:30:05",
+      "text": "Digest: 6 open quotes for Sameh Darwish [id=3EB010F3021E399A192471]",
+      "headline": {
+        "en": "Digest: 6 open quotes for Sameh Darwish [id=3EB010F3021E399A192471]",
+        "ar": "Digest: 6 open quotes for Sameh Darwish [id=3EB010F3021E399A192471]"
+      },
+      "impact": null,
+      "to": "+********1070",
+      "source": "send"
+    },
     {
       "time": "09:26",
       "sortKey": "2026-06-17 09:26:11",
@@ -1911,11 +1959,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "09:28",
+  "generatedAt": "09:33",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T06:28:17.579Z",
+  "livePublishedAt": "2026-06-17T06:33:20.253Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
