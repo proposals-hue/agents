@@ -1808,7 +1808,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 19,
+    "messagesSentToday": 20,
     "automationsRunToday": 7,
     "activeAutomations": 53,
     "totalAutomations": 98,
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "19 updates | 7 tasks",
-        "ar": "19 تحديثات | 7 مهام"
+        "en": "20 updates | 7 tasks",
+        "ar": "20 تحديثات | 7 مهام"
       }
     },
     {
@@ -1871,6 +1871,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "11:23",
+      "sortKey": "2026-06-17 11:23:40",
+      "text": "1 new APC PO(s): APCC-2026-PO-00816",
+      "headline": {
+        "en": "Procurement sent 1 new APC purchase order to Anas",
+        "ar": "المشتريات أرسلت 1 أوامر شراء جديدة من APC إلى Anas"
+      },
+      "impact": {
+        "en": "1 POs",
+        "ar": "1 أوامر شراء"
+      },
+      "to": "Anas",
+      "source": "send"
+    },
     {
       "time": "11:10",
       "sortKey": "2026-06-17 11:10:06",
@@ -2127,11 +2142,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "11:21",
+  "generatedAt": "11:26",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T08:21:42.366Z",
+  "livePublishedAt": "2026-06-17T08:26:19.534Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
