@@ -1809,7 +1809,7 @@
   ],
   "numbers": {
     "messagesSentToday": 25,
-    "automationsRunToday": 6,
+    "automationsRunToday": 5,
     "activeAutomations": 53,
     "totalAutomations": 98,
     "workflowCount": 26,
@@ -1838,8 +1838,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "25 updates | 6 tasks",
-        "ar": "25 تحديثات | 6 مهام"
+        "en": "25 updates | 5 tasks",
+        "ar": "25 تحديثات | 5 مهام"
       }
     },
     {
@@ -1849,8 +1849,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "11 chats/groups",
-        "ar": "11 محادثات/مجموعات"
+        "en": "10 chats/groups",
+        "ar": "10 محادثات/مجموعات"
       }
     }
   ],
@@ -1871,6 +1871,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "12:28",
+      "sortKey": "2026-06-17 12:28:00",
+      "text": "BCI-2026-PO-01443 (SAR 6,086.38)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01443 worth SAR 6,086.38",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01443 بقيمة SAR 6,086.38"
+      },
+      "impact": {
+        "en": "SAR 6,086.38",
+        "ar": "SAR 6,086.38"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "12:11",
       "sortKey": "2026-06-17 12:11:52",
@@ -2197,25 +2212,13 @@
       },
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "09:33",
-      "sortKey": "2026-06-17 09:33:26",
-      "text": "Digest: 1 open quotes for Emad Basiony [id=3EB046768AC0254EAF7F9D]",
-      "headline": {
-        "en": "Digest: 1 open quotes for Emad Basiony [id=3EB046768AC0254EAF7F9D]",
-        "ar": "Digest: 1 open quotes for Emad Basiony [id=3EB046768AC0254EAF7F9D]"
-      },
-      "impact": null,
-      "to": "+********4778",
-      "source": "send"
     }
   ],
-  "generatedAt": "12:26",
+  "generatedAt": "12:31",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T09:26:01.152Z",
+  "livePublishedAt": "2026-06-17T09:31:42.365Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
