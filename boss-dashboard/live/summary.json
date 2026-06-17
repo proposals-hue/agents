@@ -1839,7 +1839,7 @@
   ],
   "numbers": {
     "messagesSentToday": 26,
-    "automationsRunToday": 6,
+    "automationsRunToday": 7,
     "activeAutomations": 54,
     "totalAutomations": 99,
     "workflowCount": 26,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 55,434.38",
-        "ar": "SAR 55,434.38"
+        "en": "SAR 38,033.38",
+        "ar": "SAR 38,033.38"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "26 updates | 6 tasks",
-        "ar": "26 تحديثات | 6 مهام"
+        "en": "26 updates | 7 tasks",
+        "ar": "26 تحديثات | 7 مهام"
       }
     },
     {
@@ -1879,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "11 chats/groups",
-        "ar": "11 محادثات/مجموعات"
+        "en": "12 chats/groups",
+        "ar": "12 محادثات/مجموعات"
       }
     }
   ],
@@ -1901,6 +1901,18 @@
     }
   ],
   "activity": [
+    {
+      "time": "14:04",
+      "sortKey": "2026-06-17 14:04:58",
+      "text": "Fleet accident follow-up FID-00155 (Payment Follow-up) [id=3EB003509E2FCD5C06A713]",
+      "headline": {
+        "en": "Fleet accident follow-up FID-00155 (Payment Follow-up) [id=3EB003509E2FCD5C06A713]",
+        "ar": "Fleet accident follow-up FID-00155 (Payment Follow-up) [id=3EB003509E2FCD5C06A713]"
+      },
+      "impact": null,
+      "to": "hr group",
+      "source": "send"
+    },
     {
       "time": "13:37",
       "sortKey": "2026-06-17 13:37:24",
@@ -2224,28 +2236,13 @@
       },
       "to": "Anas",
       "source": "send"
-    },
-    {
-      "time": "10:45",
-      "sortKey": "2026-06-17 10:45:03",
-      "text": "APCC-2026-PO-00333 (SAR 14,087)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00333 worth SAR 14,087",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00333 بقيمة SAR 14,087"
-      },
-      "impact": {
-        "en": "SAR 14,087",
-        "ar": "SAR 14,087"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "14:01",
+  "generatedAt": "14:10",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T11:01:01.233Z",
+  "livePublishedAt": "2026-06-17T11:10:12.407Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
