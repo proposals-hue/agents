@@ -1838,7 +1838,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 26,
+    "messagesSentToday": 27,
     "automationsRunToday": 7,
     "activeAutomations": 54,
     "totalAutomations": 99,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 38,033.38",
-        "ar": "SAR 38,033.38"
+        "en": "SAR 38,608.38",
+        "ar": "SAR 38,608.38"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "26 updates | 7 tasks",
-        "ar": "26 تحديثات | 7 مهام"
+        "en": "27 updates | 7 tasks",
+        "ar": "27 تحديثات | 7 مهام"
       }
     },
     {
@@ -1901,6 +1901,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "14:14",
+      "sortKey": "2026-06-17 14:14:50",
+      "text": "BCI-2026-PO-01449 (SAR 575.00)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01449 worth SAR 575",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01449 بقيمة SAR 575"
+      },
+      "impact": {
+        "en": "SAR 575",
+        "ar": "SAR 575"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "14:04",
       "sortKey": "2026-06-17 14:04:58",
@@ -2221,28 +2236,13 @@
       "impact": null,
       "to": "WhatsApp group",
       "source": "send"
-    },
-    {
-      "time": "10:51",
-      "sortKey": "2026-06-17 10:51:52",
-      "text": "1 new APC PO(s): APCC-2026-PO-00815",
-      "headline": {
-        "en": "Procurement sent 1 new APC purchase order to Anas",
-        "ar": "المشتريات أرسلت 1 أوامر شراء جديدة من APC إلى Anas"
-      },
-      "impact": {
-        "en": "1 POs",
-        "ar": "1 أوامر شراء"
-      },
-      "to": "Anas",
-      "source": "send"
     }
   ],
-  "generatedAt": "14:10",
+  "generatedAt": "14:19",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-17T11:10:12.407Z",
+  "livePublishedAt": "2026-06-17T11:19:06.669Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
