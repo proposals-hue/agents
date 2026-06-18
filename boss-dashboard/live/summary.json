@@ -1839,7 +1839,7 @@
   ],
   "numbers": {
     "messagesSentToday": 29,
-    "automationsRunToday": 13,
+    "automationsRunToday": 14,
     "activeAutomations": 54,
     "totalAutomations": 99,
     "workflowCount": 26,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 3.11M + JOD 1,266",
-        "ar": "SAR 3.11M + JOD 1,266"
+        "en": "SAR 3.12M + JOD 1,266",
+        "ar": "SAR 3.12M + JOD 1,266"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "29 updates | 13 tasks",
-        "ar": "29 تحديثات | 13 مهام"
+        "en": "29 updates | 14 tasks",
+        "ar": "29 تحديثات | 14 مهام"
       }
     },
     {
@@ -1879,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "10 chats/groups",
-        "ar": "10 محادثات/مجموعات"
+        "en": "9 chats/groups",
+        "ar": "9 محادثات/مجموعات"
       }
     }
   ],
@@ -1901,6 +1901,36 @@
     }
   ],
   "activity": [
+    {
+      "time": "11:57",
+      "sortKey": "2026-06-18 11:57:53",
+      "text": "CR-2026-00020 Accountant Received SAR 5,640.00 Riyadh [id=3EB095FA7C307174245B5A]",
+      "headline": {
+        "en": "CR-2026-00020 Accountant Received SAR 5,640.00 Riyadh [id=3EB095FA7C307174245B5A]",
+        "ar": "CR-2026-00020 Accountant Received SAR 5,640.00 Riyadh [id=3EB095FA7C307174245B5A]"
+      },
+      "impact": {
+        "en": "SAR 5,640",
+        "ar": "SAR 5,640"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
+    {
+      "time": "11:57",
+      "sortKey": "2026-06-18 11:57:12",
+      "text": "CR-2026-00020 Driver Received SAR 5,640.00 Riyadh [id=3EB04916700E707B80E658]",
+      "headline": {
+        "en": "CR-2026-00020 Driver Received SAR 5,640.00 Riyadh [id=3EB04916700E707B80E658]",
+        "ar": "CR-2026-00020 Driver Received SAR 5,640.00 Riyadh [id=3EB04916700E707B80E658]"
+      },
+      "impact": {
+        "en": "SAR 5,640",
+        "ar": "SAR 5,640"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
     {
       "time": "11:47",
       "sortKey": "2026-06-18 11:47:56",
@@ -2212,40 +2242,13 @@
       "impact": null,
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "09:16",
-      "sortKey": "2026-06-18 09:16:16",
-      "text": "BCD1007, BCA1032, BCA1036, BCA1038, BCA0168",
-      "headline": {
-        "en": "BCD1007, BCA1032, BCA1036, BCA1038, BCA0168",
-        "ar": "BCD1007, BCA1032, BCA1036, BCA1038, BCA0168"
-      },
-      "impact": null,
-      "to": "Javed personal WhatsApp",
-      "source": "send"
-    },
-    {
-      "time": "09:07",
-      "sortKey": "2026-06-18 09:07:22",
-      "text": "APCC-2026-PO-00521 (SAR 920.00)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00521 worth SAR 920",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00521 بقيمة SAR 920"
-      },
-      "impact": {
-        "en": "SAR 920",
-        "ar": "SAR 920"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "11:51",
+  "generatedAt": "11:58",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T08:51:23.384Z",
+  "livePublishedAt": "2026-06-18T08:58:33.935Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
