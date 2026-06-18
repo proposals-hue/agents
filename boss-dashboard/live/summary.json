@@ -1838,8 +1838,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 29,
-    "automationsRunToday": 16,
+    "messagesSentToday": 28,
+    "automationsRunToday": 15,
     "activeAutomations": 54,
     "totalAutomations": 99,
     "workflowCount": 26,
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "29 updates | 16 tasks",
-        "ar": "29 تحديثات | 16 مهام"
+        "en": "28 updates | 15 tasks",
+        "ar": "28 تحديثات | 15 مهام"
       }
     },
     {
@@ -1901,6 +1901,18 @@
     }
   ],
   "activity": [
+    {
+      "time": "10:32",
+      "sortKey": "2026-06-18 10:32:36",
+      "text": "delayed store intake reply: payment_missing_amount [id=3EB032E0D4DCB84D66F78F]",
+      "headline": {
+        "en": "delayed store intake reply: payment_missing_amount [id=3EB032E0D4DCB84D66F78F]",
+        "ar": "delayed store intake reply: payment_missing_amount [id=3EB032E0D4DCB84D66F78F]"
+      },
+      "impact": null,
+      "to": "WhatsApp group",
+      "source": "send"
+    },
     {
       "time": "10:26",
       "sortKey": "2026-06-18 10:26:58",
@@ -2233,25 +2245,13 @@
       "impact": null,
       "to": "delivery group",
       "source": "send"
-    },
-    {
-      "time": "08:19",
-      "sortKey": "2026-06-18 08:19:22",
-      "text": "MAT-MR-2026-00580",
-      "headline": {
-        "en": "MAT-MR-2026-00580",
-        "ar": "MAT-MR-2026-00580"
-      },
-      "impact": null,
-      "to": "procurement group",
-      "source": "send"
     }
   ],
-  "generatedAt": "10:30",
+  "generatedAt": "10:37",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T07:30:37.457Z",
+  "livePublishedAt": "2026-06-18T07:37:41.121Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
