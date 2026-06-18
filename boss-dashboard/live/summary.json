@@ -1838,8 +1838,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 16,
-    "automationsRunToday": 11,
+    "messagesSentToday": 17,
+    "automationsRunToday": 12,
     "activeAutomations": 54,
     "totalAutomations": 99,
     "workflowCount": 26,
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "16 updates | 11 tasks",
-        "ar": "16 تحديثات | 11 مهام"
+        "en": "17 updates | 12 tasks",
+        "ar": "17 تحديثات | 12 مهام"
       }
     },
     {
@@ -1901,6 +1901,18 @@
     }
   ],
   "activity": [
+    {
+      "time": "09:25",
+      "sortKey": "2026-06-18 09:25:32",
+      "text": "1 alert section(s) sent",
+      "headline": {
+        "en": "1 alert section(s) sent",
+        "ar": "1 alert section(s) sent"
+      },
+      "impact": null,
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "09:16",
       "sortKey": "2026-06-18 09:16:16",
@@ -2121,11 +2133,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "09:22",
+  "generatedAt": "09:27",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T06:22:44.556Z",
+  "livePublishedAt": "2026-06-18T06:27:20.454Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
