@@ -1879,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "15 chats/groups",
-        "ar": "15 محادثات/مجموعات"
+        "en": "14 chats/groups",
+        "ar": "14 محادثات/مجموعات"
       }
     }
   ],
@@ -1901,6 +1901,18 @@
     }
   ],
   "activity": [
+    {
+      "time": "10:46",
+      "sortKey": "2026-06-18 10:46:41",
+      "text": "ISMS-2026-00018 reply from S.NEELAKANDAN -> boss [id=3EB097F5DCF2C9FE0800D2]",
+      "headline": {
+        "en": "ISMS-2026-00018 reply from S.NEELAKANDAN -> boss [id=3EB097F5DCF2C9FE0800D2]",
+        "ar": "ISMS-2026-00018 reply from S.NEELAKANDAN -> boss [id=3EB097F5DCF2C9FE0800D2]"
+      },
+      "impact": null,
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "10:32",
       "sortKey": "2026-06-18 10:32:36",
@@ -2233,25 +2245,13 @@
       "impact": null,
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "08:21",
-      "sortKey": "2026-06-18 08:21:27",
-      "text": "2 unengaged truck(s) [id=3EB06918942E3336918CC6]",
-      "headline": {
-        "en": "2 unengaged truck(s) [id=3EB06918942E3336918CC6]",
-        "ar": "2 unengaged truck(s) [id=3EB06918942E3336918CC6]"
-      },
-      "impact": null,
-      "to": "delivery group",
-      "source": "send"
     }
   ],
-  "generatedAt": "10:41",
+  "generatedAt": "10:47",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T07:41:56.329Z",
+  "livePublishedAt": "2026-06-18T07:47:15.129Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
