@@ -1867,7 +1867,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 44,
+    "messagesSentToday": 45,
     "automationsRunToday": 10,
     "activeAutomations": 55,
     "totalAutomations": 100,
@@ -1897,8 +1897,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "44 updates | 10 tasks",
-        "ar": "44 تحديثات | 10 مهام"
+        "en": "45 updates | 10 tasks",
+        "ar": "45 تحديثات | 10 مهام"
       }
     },
     {
@@ -1930,6 +1930,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "13:21",
+      "sortKey": "2026-06-18 13:21:48",
+      "text": "2 new APC PO(s): APCC-2026-PO-00829, APCC-2026-PO-00830",
+      "headline": {
+        "en": "Procurement sent 2 new APC purchase orders to Anas",
+        "ar": "المشتريات أرسلت 2 أوامر شراء جديدة من APC إلى Anas"
+      },
+      "impact": {
+        "en": "2 POs",
+        "ar": "2 أوامر شراء"
+      },
+      "to": "Anas",
+      "source": "send"
+    },
     {
       "time": "13:14",
       "sortKey": "2026-06-18 13:14:30",
@@ -2265,28 +2280,13 @@
       },
       "to": "WhatsApp group",
       "source": "send"
-    },
-    {
-      "time": "12:04",
-      "sortKey": "2026-06-18 12:04:11",
-      "text": "CR-2026-00026 Driver Received SAR 5,640.00 Riyadh [id=3EB08F3B6EE998B6B71A10]",
-      "headline": {
-        "en": "CR-2026-00026 Driver Received SAR 5,640.00 Riyadh [id=3EB08F3B6EE998B6B71A10]",
-        "ar": "CR-2026-00026 Driver Received SAR 5,640.00 Riyadh [id=3EB08F3B6EE998B6B71A10]"
-      },
-      "impact": {
-        "en": "SAR 5,640",
-        "ar": "SAR 5,640"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
     }
   ],
-  "generatedAt": "13:17",
+  "generatedAt": "13:29",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T10:17:59.398Z",
+  "livePublishedAt": "2026-06-18T10:29:37.183Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
