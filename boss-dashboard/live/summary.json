@@ -2244,11 +2244,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "11:30",
+  "generatedAt": "11:39",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T08:30:12.497Z",
+  "livePublishedAt": "2026-06-18T08:39:24.685Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
