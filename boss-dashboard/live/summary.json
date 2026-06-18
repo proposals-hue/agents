@@ -1928,7 +1928,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 49,
+    "messagesSentToday": 53,
     "automationsRunToday": 11,
     "activeAutomations": 57,
     "totalAutomations": 102,
@@ -1947,8 +1947,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 227,286.11",
-        "ar": "SAR 227,286.11"
+        "en": "SAR 257,250.11",
+        "ar": "SAR 257,250.11"
       }
     },
     {
@@ -1958,8 +1958,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "49 updates | 11 tasks",
-        "ar": "49 تحديثات | 11 مهام"
+        "en": "53 updates | 11 tasks",
+        "ar": "53 تحديثات | 11 مهام"
       }
     },
     {
@@ -1969,8 +1969,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "6 chats/groups",
-        "ar": "6 محادثات/مجموعات"
+        "en": "7 chats/groups",
+        "ar": "7 محادثات/مجموعات"
       }
     }
   ],
@@ -1991,6 +1991,57 @@
     }
   ],
   "activity": [
+    {
+      "time": "14:20",
+      "sortKey": "2026-06-18 14:20:48",
+      "text": "Marwan checked PO BCI-2026-PO-01476 [id=3EB0DDC185D2652A03EB62]",
+      "headline": {
+        "en": "Marwan checked PO BCI-2026-PO-01476 [id=3EB0DDC185D2652A03EB62]",
+        "ar": "Marwan checked PO BCI-2026-PO-01476 [id=3EB0DDC185D2652A03EB62]"
+      },
+      "impact": null,
+      "to": "Adnan",
+      "source": "send"
+    },
+    {
+      "time": "14:19",
+      "sortKey": "2026-06-18 14:19:22",
+      "text": "Marwan checked PO BCI-2026-PO-01473 [id=3EB0AC4D610A41D433E798]",
+      "headline": {
+        "en": "Marwan checked PO BCI-2026-PO-01473 [id=3EB0AC4D610A41D433E798]",
+        "ar": "Marwan checked PO BCI-2026-PO-01473 [id=3EB0AC4D610A41D433E798]"
+      },
+      "impact": null,
+      "to": "Adnan",
+      "source": "send"
+    },
+    {
+      "time": "14:18",
+      "sortKey": "2026-06-18 14:18:42",
+      "text": "Marwan checked PO BCI-2026-PO-01469 [id=3EB08AEE539D2CA94C2564]",
+      "headline": {
+        "en": "Marwan checked PO BCI-2026-PO-01469 [id=3EB08AEE539D2CA94C2564]",
+        "ar": "Marwan checked PO BCI-2026-PO-01469 [id=3EB08AEE539D2CA94C2564]"
+      },
+      "impact": null,
+      "to": "Adnan",
+      "source": "send"
+    },
+    {
+      "time": "14:16",
+      "sortKey": "2026-06-18 14:16:40",
+      "text": "BCI-2026-PO-01461 (SAR 29,964)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01461 worth SAR 29,964",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01461 بقيمة SAR 29,964"
+      },
+      "impact": {
+        "en": "SAR 29,964",
+        "ar": "SAR 29,964"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "14:05",
       "sortKey": "2026-06-18 14:05:55",
@@ -2278,73 +2329,13 @@
       },
       "to": "WhatsApp group",
       "source": "send"
-    },
-    {
-      "time": "12:15",
-      "sortKey": "2026-06-18 12:15:22",
-      "text": "CR-2026-00024 Accountant Received SAR 17,500.00 Riyadh [id=3EB035954FF342280895DD]",
-      "headline": {
-        "en": "CR-2026-00024 Accountant Received SAR 17,500.00 Riyadh [id=3EB035954FF342280895DD]",
-        "ar": "CR-2026-00024 Accountant Received SAR 17,500.00 Riyadh [id=3EB035954FF342280895DD]"
-      },
-      "impact": {
-        "en": "SAR 17,500",
-        "ar": "SAR 17,500"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "12:14",
-      "sortKey": "2026-06-18 12:14:43",
-      "text": "CR-2026-00024 Driver Received SAR 17,500.00 Riyadh [id=3EB05C58BF4A43A594CB07]",
-      "headline": {
-        "en": "CR-2026-00024 Driver Received SAR 17,500.00 Riyadh [id=3EB05C58BF4A43A594CB07]",
-        "ar": "CR-2026-00024 Driver Received SAR 17,500.00 Riyadh [id=3EB05C58BF4A43A594CB07]"
-      },
-      "impact": {
-        "en": "SAR 17,500",
-        "ar": "SAR 17,500"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "12:09",
-      "sortKey": "2026-06-18 12:09:13",
-      "text": "BCI-2026-PO-01457 (SAR 2,000.00)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01457 worth SAR 2,000",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01457 بقيمة SAR 2,000"
-      },
-      "impact": {
-        "en": "SAR 2,000",
-        "ar": "SAR 2,000"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "12:07",
-      "sortKey": "2026-06-18 12:07:13",
-      "text": "CR-2026-00030 Driver Received SAR 11,280.00 Riyadh [id=3EB0AF732FD32AAB7E58EC]",
-      "headline": {
-        "en": "CR-2026-00030 Driver Received SAR 11,280.00 Riyadh [id=3EB0AF732FD32AAB7E58EC]",
-        "ar": "CR-2026-00030 Driver Received SAR 11,280.00 Riyadh [id=3EB0AF732FD32AAB7E58EC]"
-      },
-      "impact": {
-        "en": "SAR 11,280",
-        "ar": "SAR 11,280"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
     }
   ],
-  "generatedAt": "14:11",
+  "generatedAt": "14:27",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T11:11:45.025Z",
+  "livePublishedAt": "2026-06-18T11:27:01.093Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
