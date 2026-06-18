@@ -1867,8 +1867,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 37,
-    "automationsRunToday": 9,
+    "messagesSentToday": 39,
+    "automationsRunToday": 10,
     "activeAutomations": 55,
     "totalAutomations": 100,
     "workflowCount": 26,
@@ -1897,8 +1897,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "37 updates | 9 tasks",
-        "ar": "37 تحديثات | 9 مهام"
+        "en": "39 updates | 10 tasks",
+        "ar": "39 تحديثات | 10 مهام"
       }
     },
     {
@@ -1908,8 +1908,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "4 chats/groups",
-        "ar": "4 محادثات/مجموعات"
+        "en": "5 chats/groups",
+        "ar": "5 محادثات/مجموعات"
       }
     }
   ],
@@ -1930,6 +1930,30 @@
     }
   ],
   "activity": [
+    {
+      "time": "13:03",
+      "sortKey": "2026-06-18 13:03:16",
+      "text": "new PO BCI-2026-PO-01472 from Zainab Ali [id=3EB05C563379FDE07A99BE]",
+      "headline": {
+        "en": "new PO BCI-2026-PO-01472 from Zainab Ali [id=3EB05C563379FDE07A99BE]",
+        "ar": "new PO BCI-2026-PO-01472 from Zainab Ali [id=3EB05C563379FDE07A99BE]"
+      },
+      "impact": null,
+      "to": "Marwan",
+      "source": "send"
+    },
+    {
+      "time": "13:01",
+      "sortKey": "2026-06-18 13:01:50",
+      "text": "new PO BCI-2026-PO-01470 from Zainab Ali [id=3EB0818A92685B993683D5]",
+      "headline": {
+        "en": "new PO BCI-2026-PO-01470 from Zainab Ali [id=3EB0818A92685B993683D5]",
+        "ar": "new PO BCI-2026-PO-01470 from Zainab Ali [id=3EB0818A92685B993683D5]"
+      },
+      "impact": null,
+      "to": "Marwan",
+      "source": "send"
+    },
     {
       "time": "12:49",
       "sortKey": "2026-06-18 12:49:16",
@@ -2268,43 +2292,13 @@
       },
       "to": "WhatsApp group",
       "source": "send"
-    },
-    {
-      "time": "11:59",
-      "sortKey": "2026-06-18 11:59:16",
-      "text": "CR-2026-00021 Accountant Received SAR 3,920.00 Riyadh [id=3EB0A597B7E7BF6754B71A]",
-      "headline": {
-        "en": "CR-2026-00021 Accountant Received SAR 3,920.00 Riyadh [id=3EB0A597B7E7BF6754B71A]",
-        "ar": "CR-2026-00021 Accountant Received SAR 3,920.00 Riyadh [id=3EB0A597B7E7BF6754B71A]"
-      },
-      "impact": {
-        "en": "SAR 3,920",
-        "ar": "SAR 3,920"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "11:58",
-      "sortKey": "2026-06-18 11:58:35",
-      "text": "CR-2026-00021 Driver Received SAR 3,920.00 Riyadh [id=3EB0FACF8ED46383B188F1]",
-      "headline": {
-        "en": "CR-2026-00021 Driver Received SAR 3,920.00 Riyadh [id=3EB0FACF8ED46383B188F1]",
-        "ar": "CR-2026-00021 Driver Received SAR 3,920.00 Riyadh [id=3EB0FACF8ED46383B188F1]"
-      },
-      "impact": {
-        "en": "SAR 3,920",
-        "ar": "SAR 3,920"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
     }
   ],
-  "generatedAt": "12:59",
+  "generatedAt": "13:06",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T09:59:45.251Z",
+  "livePublishedAt": "2026-06-18T10:06:34.182Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
