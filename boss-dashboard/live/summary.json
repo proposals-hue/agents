@@ -1867,7 +1867,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 46,
+    "messagesSentToday": 48,
     "automationsRunToday": 10,
     "activeAutomations": 55,
     "totalAutomations": 100,
@@ -1886,8 +1886,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 177,086.11",
-        "ar": "SAR 177,086.11"
+        "en": "SAR 227,286.11",
+        "ar": "SAR 227,286.11"
       }
     },
     {
@@ -1897,8 +1897,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "46 updates | 10 tasks",
-        "ar": "46 تحديثات | 10 مهام"
+        "en": "48 updates | 10 tasks",
+        "ar": "48 تحديثات | 10 مهام"
       }
     },
     {
@@ -1930,6 +1930,36 @@
     }
   ],
   "activity": [
+    {
+      "time": "13:51",
+      "sortKey": "2026-06-18 13:51:30",
+      "text": "CR-2026-00002 Accountant Received SAR 11,280.00 Riyadh [id=3EB02016CCF8AF3E176695]",
+      "headline": {
+        "en": "CR-2026-00002 Accountant Received SAR 11,280.00 Riyadh [id=3EB02016CCF8AF3E176695]",
+        "ar": "CR-2026-00002 Accountant Received SAR 11,280.00 Riyadh [id=3EB02016CCF8AF3E176695]"
+      },
+      "impact": {
+        "en": "SAR 11,280",
+        "ar": "SAR 11,280"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
+    {
+      "time": "13:47",
+      "sortKey": "2026-06-18 13:47:43",
+      "text": "BCI-2026-PO-01452 (SAR 38,920)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01452 worth SAR 38,920",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01452 بقيمة SAR 38,920"
+      },
+      "impact": {
+        "en": "SAR 38,920",
+        "ar": "SAR 38,920"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "13:32",
       "sortKey": "2026-06-18 13:32:10",
@@ -2250,43 +2280,13 @@
       },
       "to": "WhatsApp group",
       "source": "send"
-    },
-    {
-      "time": "12:04",
-      "sortKey": "2026-06-18 12:04:58",
-      "text": "CR-2026-00033 Accountant Received SAR 2,640.00 Riyadh [id=3EB0A010CE2628C0B57AA5]",
-      "headline": {
-        "en": "CR-2026-00033 Accountant Received SAR 2,640.00 Riyadh [id=3EB0A010CE2628C0B57AA5]",
-        "ar": "CR-2026-00033 Accountant Received SAR 2,640.00 Riyadh [id=3EB0A010CE2628C0B57AA5]"
-      },
-      "impact": {
-        "en": "SAR 2,640",
-        "ar": "SAR 2,640"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "12:04",
-      "sortKey": "2026-06-18 12:04:55",
-      "text": "CR-2026-00026 Accountant Received SAR 5,640.00 Riyadh [id=3EB0FD260D61388C14F2D6]",
-      "headline": {
-        "en": "CR-2026-00026 Accountant Received SAR 5,640.00 Riyadh [id=3EB0FD260D61388C14F2D6]",
-        "ar": "CR-2026-00026 Accountant Received SAR 5,640.00 Riyadh [id=3EB0FD260D61388C14F2D6]"
-      },
-      "impact": {
-        "en": "SAR 5,640",
-        "ar": "SAR 5,640"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
     }
   ],
-  "generatedAt": "13:44",
+  "generatedAt": "13:53",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T10:44:40.985Z",
+  "livePublishedAt": "2026-06-18T10:53:30.425Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
