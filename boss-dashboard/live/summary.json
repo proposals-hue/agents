@@ -1902,6 +1902,18 @@
   ],
   "activity": [
     {
+      "time": "11:13",
+      "sortKey": "2026-06-18 11:13:04",
+      "text": "1 truck(s) arriving soon [id=3EB0C0963D55EE62226956]",
+      "headline": {
+        "en": "1 truck(s) arriving soon [id=3EB0C0963D55EE62226956]",
+        "ar": "1 truck(s) arriving soon [id=3EB0C0963D55EE62226956]"
+      },
+      "impact": null,
+      "to": "delivery group",
+      "source": "send"
+    },
+    {
       "time": "11:05",
       "sortKey": "2026-06-18 11:05:49",
       "text": "APCC-2026-PO-00600 (SAR 260.00)",
@@ -2233,28 +2245,13 @@
       },
       "to": "Anas",
       "source": "send"
-    },
-    {
-      "time": "08:35",
-      "sortKey": "2026-06-18 08:35:45",
-      "text": "MTD SAR 66,220/350,000, rank 4/9",
-      "headline": {
-        "en": "Sales sent an individual target update to Emad Basiony",
-        "ar": "المبيعات أرسلت تحديث هدف فردي إلى Emad Basiony"
-      },
-      "impact": {
-        "en": "SAR 66,220 | rank 4/9",
-        "ar": "SAR 66,220 | الترتيب 4/9"
-      },
-      "to": "Emad Basiony",
-      "source": "send"
     }
   ],
-  "generatedAt": "11:09",
+  "generatedAt": "11:16",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T08:09:47.610Z",
+  "livePublishedAt": "2026-06-18T08:16:45.971Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
