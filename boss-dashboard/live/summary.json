@@ -2250,11 +2250,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "10:58",
+  "generatedAt": "11:03",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T07:58:27.390Z",
+  "livePublishedAt": "2026-06-18T08:03:18.051Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
