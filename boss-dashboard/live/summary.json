@@ -1838,8 +1838,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 25,
-    "automationsRunToday": 14,
+    "messagesSentToday": 28,
+    "automationsRunToday": 16,
     "activeAutomations": 54,
     "totalAutomations": 99,
     "workflowCount": 26,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 428,462.46",
-        "ar": "SAR 428,462.46"
+        "en": "SAR 3.31M + JOD 1,266",
+        "ar": "SAR 3.31M + JOD 1,266"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "25 updates | 14 tasks",
-        "ar": "25 تحديثات | 14 مهام"
+        "en": "28 updates | 16 tasks",
+        "ar": "28 تحديثات | 16 مهام"
       }
     },
     {
@@ -1879,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "14 chats/groups",
-        "ar": "14 محادثات/مجموعات"
+        "en": "15 chats/groups",
+        "ar": "15 محادثات/مجموعات"
       }
     }
   ],
@@ -1901,6 +1901,51 @@
     }
   ],
   "activity": [
+    {
+      "time": "10:22",
+      "sortKey": "2026-06-18 10:22:17",
+      "text": "1 new APC PO(s): APCC-2026-PO-00826",
+      "headline": {
+        "en": "Procurement sent 1 new APC purchase order to Anas",
+        "ar": "المشتريات أرسلت 1 أوامر شراء جديدة من APC إلى Anas"
+      },
+      "impact": {
+        "en": "1 POs",
+        "ar": "1 أوامر شراء"
+      },
+      "to": "Anas",
+      "source": "send"
+    },
+    {
+      "time": "10:21",
+      "sortKey": "2026-06-18 10:21:03",
+      "text": "Collections brief: 339 overdue invoices, 2,880,705 SAR",
+      "headline": {
+        "en": "Accounts flagged 339 overdue invoices worth SAR 2.88M",
+        "ar": "الحسابات نبهت على 339 فواتير متأخرة بقيمة SAR 2.88M"
+      },
+      "impact": {
+        "en": "SAR 2.88M",
+        "ar": "SAR 2.88M"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "10:20",
+      "sortKey": "2026-06-18 10:20:48",
+      "text": "PE ACC-PAY-2026-00008: rent 1266.0 JOD on RC-00049 row idx=5 (2026-04-15) allocated to [5, 6] on 2026-06-17",
+      "headline": {
+        "en": "PE ACC-PAY-2026-00008: rent 1266.0 JOD on RC-00049 row idx=5 (2026-04-15) allocated to [5, 6] on 2026-06-17",
+        "ar": "PE ACC-PAY-2026-00008: rent 1266.0 JOD on RC-00049 row idx=5 (2026-04-15) allocated to [5, 6] on 2026-06-17"
+      },
+      "impact": {
+        "en": "JOD 1,266",
+        "ar": "JOD 1,266"
+      },
+      "to": "ACC-PAY-+2026-*0008",
+      "source": "send"
+    },
     {
       "time": "10:09",
       "sortKey": "2026-06-18 10:09:19",
@@ -2197,52 +2242,13 @@
       "impact": null,
       "to": "hr group",
       "source": "send"
-    },
-    {
-      "time": "08:08",
-      "sortKey": "2026-06-18 08:08:41",
-      "text": "1 contract lead-time alert(s)",
-      "headline": {
-        "en": "1 contract lead-time alert(s)",
-        "ar": "1 contract lead-time alert(s)"
-      },
-      "impact": null,
-      "to": "HR group",
-      "source": "send"
-    },
-    {
-      "time": "08:07",
-      "sortKey": "2026-06-18 08:07:14",
-      "text": "10 fleet expiry alert(s)",
-      "headline": {
-        "en": "10 fleet expiry alert(s)",
-        "ar": "10 fleet expiry alert(s)"
-      },
-      "impact": null,
-      "to": "HR group",
-      "source": "send"
-    },
-    {
-      "time": "08:06",
-      "sortKey": "2026-06-18 08:06:49",
-      "text": "15 new tenders (matched 41 of 480 scanned); voice OK",
-      "headline": {
-        "en": "Sales found 15 matching tenders for review",
-        "ar": "المبيعات وجدت 15 مناقصات مناسبة للمراجعة"
-      },
-      "impact": {
-        "en": "15 tenders",
-        "ar": "15 مناقصات"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "10:19",
+  "generatedAt": "10:25",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T07:19:22.094Z",
+  "livePublishedAt": "2026-06-18T07:25:16.681Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
