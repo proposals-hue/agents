@@ -1867,7 +1867,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 36,
+    "messagesSentToday": 37,
     "automationsRunToday": 9,
     "activeAutomations": 55,
     "totalAutomations": 100,
@@ -1886,8 +1886,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 163,948.61",
-        "ar": "SAR 163,948.61"
+        "en": "SAR 168,836.11",
+        "ar": "SAR 168,836.11"
       }
     },
     {
@@ -1897,8 +1897,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "36 updates | 9 tasks",
-        "ar": "36 تحديثات | 9 مهام"
+        "en": "37 updates | 9 tasks",
+        "ar": "37 تحديثات | 9 مهام"
       }
     },
     {
@@ -1930,6 +1930,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "12:49",
+      "sortKey": "2026-06-18 12:49:16",
+      "text": "APCC-2026-PO-00819 (SAR 4,887.50)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00819 worth SAR 4,887.5",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00819 بقيمة SAR 4,887.5"
+      },
+      "impact": {
+        "en": "SAR 4,887.5",
+        "ar": "SAR 4,887.5"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "12:30",
       "sortKey": "2026-06-18 12:30:43",
@@ -2283,28 +2298,13 @@
       },
       "to": "WhatsApp group",
       "source": "send"
-    },
-    {
-      "time": "11:57",
-      "sortKey": "2026-06-18 11:57:53",
-      "text": "CR-2026-00020 Accountant Received SAR 5,640.00 Riyadh [id=3EB095FA7C307174245B5A]",
-      "headline": {
-        "en": "CR-2026-00020 Accountant Received SAR 5,640.00 Riyadh [id=3EB095FA7C307174245B5A]",
-        "ar": "CR-2026-00020 Accountant Received SAR 5,640.00 Riyadh [id=3EB095FA7C307174245B5A]"
-      },
-      "impact": {
-        "en": "SAR 5,640",
-        "ar": "SAR 5,640"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
     }
   ],
-  "generatedAt": "12:45",
+  "generatedAt": "12:54",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T09:45:32.372Z",
+  "livePublishedAt": "2026-06-18T09:54:51.889Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
