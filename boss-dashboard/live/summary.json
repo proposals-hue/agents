@@ -1838,8 +1838,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 27,
-    "automationsRunToday": 8,
+    "messagesSentToday": 35,
+    "automationsRunToday": 9,
     "activeAutomations": 54,
     "totalAutomations": 99,
     "workflowCount": 26,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 129,238.61",
-        "ar": "SAR 129,238.61"
+        "en": "SAR 163,778.61",
+        "ar": "SAR 163,778.61"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "27 updates | 8 tasks",
-        "ar": "27 تحديثات | 8 مهام"
+        "en": "35 updates | 9 tasks",
+        "ar": "35 تحديثات | 9 مهام"
       }
     },
     {
@@ -1901,6 +1901,120 @@
     }
   ],
   "activity": [
+    {
+      "time": "12:26",
+      "sortKey": "2026-06-18 12:26:32",
+      "text": "CR-2026-00034 Receipt Recorded In ERP SAR 1,380.00 Dammam [id=3EB09A56370E85ECDB06F5]",
+      "headline": {
+        "en": "CR-2026-00034 Receipt Recorded In ERP SAR 1,380.00 Dammam [id=3EB09A56370E85ECDB06F5]",
+        "ar": "CR-2026-00034 Receipt Recorded In ERP SAR 1,380.00 Dammam [id=3EB09A56370E85ECDB06F5]"
+      },
+      "impact": {
+        "en": "SAR 1,380",
+        "ar": "SAR 1,380"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
+    {
+      "time": "12:19",
+      "sortKey": "2026-06-18 12:19:35",
+      "text": "CR-2026-00020 Accountant Received SAR 5,640.00 Riyadh [id=3EB00DEC4E6B7E93FCF189]",
+      "headline": {
+        "en": "CR-2026-00020 Accountant Received SAR 5,640.00 Riyadh [id=3EB00DEC4E6B7E93FCF189]",
+        "ar": "CR-2026-00020 Accountant Received SAR 5,640.00 Riyadh [id=3EB00DEC4E6B7E93FCF189]"
+      },
+      "impact": {
+        "en": "SAR 5,640",
+        "ar": "SAR 5,640"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
+    {
+      "time": "12:19",
+      "sortKey": "2026-06-18 12:19:08",
+      "text": "1 delayed shipment(s) [id=3EB0FD9E54FC7357CD7C03]",
+      "headline": {
+        "en": "1 delayed shipment(s) [id=3EB0FD9E54FC7357CD7C03]",
+        "ar": "1 delayed shipment(s) [id=3EB0FD9E54FC7357CD7C03]"
+      },
+      "impact": null,
+      "to": "delivery group",
+      "source": "send"
+    },
+    {
+      "time": "12:18",
+      "sortKey": "2026-06-18 12:18:55",
+      "text": "CR-2026-00020 Driver Received SAR 5,640.00 Riyadh [id=3EB035E099BF18F6699896]",
+      "headline": {
+        "en": "CR-2026-00020 Driver Received SAR 5,640.00 Riyadh [id=3EB035E099BF18F6699896]",
+        "ar": "CR-2026-00020 Driver Received SAR 5,640.00 Riyadh [id=3EB035E099BF18F6699896]"
+      },
+      "impact": {
+        "en": "SAR 5,640",
+        "ar": "SAR 5,640"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
+    {
+      "time": "12:18",
+      "sortKey": "2026-06-18 12:18:15",
+      "text": "CR-2026-00021 Accountant Received SAR 3,920.00 Riyadh [id=3EB0199546FC8083F05545]",
+      "headline": {
+        "en": "CR-2026-00021 Accountant Received SAR 3,920.00 Riyadh [id=3EB0199546FC8083F05545]",
+        "ar": "CR-2026-00021 Accountant Received SAR 3,920.00 Riyadh [id=3EB0199546FC8083F05545]"
+      },
+      "impact": {
+        "en": "SAR 3,920",
+        "ar": "SAR 3,920"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
+    {
+      "time": "12:17",
+      "sortKey": "2026-06-18 12:17:01",
+      "text": "1 alert section(s) sent",
+      "headline": {
+        "en": "1 alert section(s) sent",
+        "ar": "1 alert section(s) sent"
+      },
+      "impact": null,
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "12:16",
+      "sortKey": "2026-06-18 12:16:48",
+      "text": "CR-2026-00022 Accountant Received SAR 460.00 Riyadh [id=3EB0DCF4888A6B7B6F0269]",
+      "headline": {
+        "en": "CR-2026-00022 Accountant Received SAR 460.00 Riyadh [id=3EB0DCF4888A6B7B6F0269]",
+        "ar": "CR-2026-00022 Accountant Received SAR 460.00 Riyadh [id=3EB0DCF4888A6B7B6F0269]"
+      },
+      "impact": {
+        "en": "SAR 460",
+        "ar": "SAR 460"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
+    {
+      "time": "12:15",
+      "sortKey": "2026-06-18 12:15:22",
+      "text": "CR-2026-00024 Accountant Received SAR 17,500.00 Riyadh [id=3EB035954FF342280895DD]",
+      "headline": {
+        "en": "CR-2026-00024 Accountant Received SAR 17,500.00 Riyadh [id=3EB035954FF342280895DD]",
+        "ar": "CR-2026-00024 Accountant Received SAR 17,500.00 Riyadh [id=3EB035954FF342280895DD]"
+      },
+      "impact": {
+        "en": "SAR 17,500",
+        "ar": "SAR 17,500"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
     {
       "time": "12:14",
       "sortKey": "2026-06-18 12:14:43",
@@ -2155,124 +2269,13 @@
       },
       "to": "WhatsApp group",
       "source": "send"
-    },
-    {
-      "time": "11:47",
-      "sortKey": "2026-06-18 11:47:56",
-      "text": "BCI-2026-PO-01454 (SAR 943.36)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01454 worth SAR 943.36",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01454 بقيمة SAR 943.36"
-      },
-      "impact": {
-        "en": "SAR 943.36",
-        "ar": "SAR 943.36"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "11:45",
-      "sortKey": "2026-06-18 11:45:42",
-      "text": "1 alert section(s) sent",
-      "headline": {
-        "en": "1 alert section(s) sent",
-        "ar": "1 alert section(s) sent"
-      },
-      "impact": null,
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "11:25",
-      "sortKey": "2026-06-18 11:25:51",
-      "text": "BCI-2026-PO-01453 (SAR 2,386.25)",
-      "headline": {
-        "en": "Purchase order update: BCI-2026-PO-01453 worth SAR 2,386.25",
-        "ar": "تحديث أمر شراء: BCI-2026-PO-01453 بقيمة SAR 2,386.25"
-      },
-      "impact": {
-        "en": "SAR 2,386.25",
-        "ar": "SAR 2,386.25"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "11:19",
-      "sortKey": "2026-06-18 11:19:01",
-      "text": "2 unengaged truck(s) [id=3EB0B841A8396B33A6F0A4]",
-      "headline": {
-        "en": "2 unengaged truck(s) [id=3EB0B841A8396B33A6F0A4]",
-        "ar": "2 unengaged truck(s) [id=3EB0B841A8396B33A6F0A4]"
-      },
-      "impact": null,
-      "to": "delivery group",
-      "source": "send"
-    },
-    {
-      "time": "11:13",
-      "sortKey": "2026-06-18 11:13:04",
-      "text": "1 truck(s) arriving soon [id=3EB0C0963D55EE62226956]",
-      "headline": {
-        "en": "1 truck(s) arriving soon [id=3EB0C0963D55EE62226956]",
-        "ar": "1 truck(s) arriving soon [id=3EB0C0963D55EE62226956]"
-      },
-      "impact": null,
-      "to": "delivery group",
-      "source": "send"
-    },
-    {
-      "time": "11:05",
-      "sortKey": "2026-06-18 11:05:49",
-      "text": "APCC-2026-PO-00600 (SAR 260.00)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00600 worth SAR 260",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00600 بقيمة SAR 260"
-      },
-      "impact": {
-        "en": "SAR 260",
-        "ar": "SAR 260"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "10:55",
-      "sortKey": "2026-06-18 10:55:07",
-      "text": "2 new APC PO(s): APCC-2026-PO-00827, APCC-2026-PO-00828",
-      "headline": {
-        "en": "Procurement sent 2 new APC purchase orders to Anas",
-        "ar": "المشتريات أرسلت 2 أوامر شراء جديدة من APC إلى Anas"
-      },
-      "impact": {
-        "en": "2 POs",
-        "ar": "2 أوامر شراء"
-      },
-      "to": "Anas",
-      "source": "send"
-    },
-    {
-      "time": "10:50",
-      "sortKey": "2026-06-18 10:50:01",
-      "text": "APCC-2026-PO-00597 (SAR 169.00)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00597 worth SAR 169",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00597 بقيمة SAR 169"
-      },
-      "impact": {
-        "en": "SAR 169",
-        "ar": "SAR 169"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "12:14",
+  "generatedAt": "12:27",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T09:14:47.450Z",
+  "livePublishedAt": "2026-06-18T09:27:39.196Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
