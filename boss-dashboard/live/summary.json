@@ -1838,7 +1838,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 14,
+    "messagesSentToday": 15,
     "automationsRunToday": 10,
     "activeAutomations": 54,
     "totalAutomations": 99,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 417,919",
-        "ar": "SAR 417,919"
+        "en": "SAR 418,839",
+        "ar": "SAR 418,839"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "14 updates | 10 tasks",
-        "ar": "14 تحديثات | 10 مهام"
+        "en": "15 updates | 10 tasks",
+        "ar": "15 تحديثات | 10 مهام"
       }
     },
     {
@@ -1901,6 +1901,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "09:07",
+      "sortKey": "2026-06-18 09:07:22",
+      "text": "APCC-2026-PO-00521 (SAR 920.00)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00521 worth SAR 920",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00521 بقيمة SAR 920"
+      },
+      "impact": {
+        "en": "SAR 920",
+        "ar": "SAR 920"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "08:54",
       "sortKey": "2026-06-18 08:54:44",
@@ -2094,11 +2109,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "09:04",
+  "generatedAt": "09:11",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T06:04:20.154Z",
+  "livePublishedAt": "2026-06-18T06:11:27.403Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
