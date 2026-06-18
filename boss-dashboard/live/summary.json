@@ -1838,8 +1838,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 17,
-    "automationsRunToday": 12,
+    "messagesSentToday": 23,
+    "automationsRunToday": 14,
     "activeAutomations": 54,
     "totalAutomations": 99,
     "workflowCount": 26,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 418,839",
-        "ar": "SAR 418,839"
+        "en": "SAR 419,782.46",
+        "ar": "SAR 419,782.46"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "17 updates | 12 tasks",
-        "ar": "17 تحديثات | 12 مهام"
+        "en": "23 updates | 14 tasks",
+        "ar": "23 تحديثات | 14 مهام"
       }
     },
     {
@@ -1879,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "12 chats/groups",
-        "ar": "12 محادثات/مجموعات"
+        "en": "14 chats/groups",
+        "ar": "14 محادثات/مجموعات"
       }
     }
   ],
@@ -1901,6 +1901,81 @@
     }
   ],
   "activity": [
+    {
+      "time": "09:33",
+      "sortKey": "2026-06-18 09:33:05",
+      "text": "Rent reminder REN-2026-0019 installment 2/4 due 2026-07-01",
+      "headline": {
+        "en": "Rent reminder REN-2026-0019 installment 2/4 due 2026-07-01",
+        "ar": "Rent reminder REN-2026-0019 installment 2/4 due 2026-07-01"
+      },
+      "impact": null,
+      "to": "+********1681",
+      "source": "send"
+    },
+    {
+      "time": "09:32",
+      "sortKey": "2026-06-18 09:32:23",
+      "text": "Rent reminder REN-2026-0019 installment 2/4 due 2026-07-01",
+      "headline": {
+        "en": "Rent reminder REN-2026-0019 installment 2/4 due 2026-07-01",
+        "ar": "Rent reminder REN-2026-0019 installment 2/4 due 2026-07-01"
+      },
+      "impact": null,
+      "to": "+********2300",
+      "source": "send"
+    },
+    {
+      "time": "09:32",
+      "sortKey": "2026-06-18 09:32:13",
+      "text": "APCC-2026-PO-00525 (SAR 943.46)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00525 worth SAR 943.46",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00525 بقيمة SAR 943.46"
+      },
+      "impact": {
+        "en": "SAR 943.46",
+        "ar": "SAR 943.46"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "09:31",
+      "sortKey": "2026-06-18 09:31:40",
+      "text": "Rent reminder REN-2026-0006 installment 2/2 due 2026-07-01",
+      "headline": {
+        "en": "Rent reminder REN-2026-0006 installment 2/2 due 2026-07-01",
+        "ar": "Rent reminder REN-2026-0006 installment 2/2 due 2026-07-01"
+      },
+      "impact": null,
+      "to": "+********1681",
+      "source": "send"
+    },
+    {
+      "time": "09:30",
+      "sortKey": "2026-06-18 09:30:57",
+      "text": "Rent reminder REN-2026-0006 installment 2/2 due 2026-07-01",
+      "headline": {
+        "en": "Rent reminder REN-2026-0006 installment 2/2 due 2026-07-01",
+        "ar": "Rent reminder REN-2026-0006 installment 2/2 due 2026-07-01"
+      },
+      "impact": null,
+      "to": "+********2300",
+      "source": "send"
+    },
+    {
+      "time": "09:29",
+      "sortKey": "2026-06-18 09:29:53",
+      "text": "BCI-2026-SO-01085, BCI-2026-SO-01087, BCI-2026-SO-01228, BCI-2026-SO-01244, BCI-2026-SO-01091, BCI-2026-SO-01098, BCI-2026-SO-01097, BCI-2026-SO-01237, BCI-2026-SO-01248, BCI-2026-SO-01253",
+      "headline": {
+        "en": "BCI-2026-SO-01085, BCI-2026-SO-01087, BCI-2026-SO-01228, BCI-2026-SO-01244, BCI-2026-SO-01091, BCI-2026-SO-01098, BCI-2026-SO-01097, BCI-2026-SO-01237, BCI-2026-SO-01248, BCI-2026-SO-01253",
+        "ar": "BCI-2026-SO-01085, BCI-2026-SO-01087, BCI-2026-SO-01228, BCI-2026-SO-01244, BCI-2026-SO-01091, BCI-2026-SO-01098, BCI-2026-SO-01097, BCI-2026-SO-01237, BCI-2026-SO-01248, BCI-2026-SO-01253"
+      },
+      "impact": null,
+      "to": "Javed personal WhatsApp",
+      "source": "send"
+    },
     {
       "time": "09:25",
       "sortKey": "2026-06-18 09:25:32",
@@ -2133,11 +2208,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "09:27",
+  "generatedAt": "09:34",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T06:27:20.454Z",
+  "livePublishedAt": "2026-06-18T06:34:21.500Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
