@@ -1838,8 +1838,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 29,
-    "automationsRunToday": 14,
+    "messagesSentToday": 27,
+    "automationsRunToday": 10,
     "activeAutomations": 54,
     "totalAutomations": 99,
     "workflowCount": 26,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 3.12M + JOD 1,266",
-        "ar": "SAR 3.12M + JOD 1,266"
+        "en": "SAR 3.03M + JOD 1,266",
+        "ar": "SAR 3.03M + JOD 1,266"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "29 updates | 14 tasks",
-        "ar": "29 تحديثات | 14 مهام"
+        "en": "27 updates | 10 tasks",
+        "ar": "27 تحديثات | 10 مهام"
       }
     },
     {
@@ -1879,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "9 chats/groups",
-        "ar": "9 محادثات/مجموعات"
+        "en": "5 chats/groups",
+        "ar": "5 محادثات/مجموعات"
       }
     }
   ],
@@ -1901,6 +1901,141 @@
     }
   ],
   "activity": [
+    {
+      "time": "12:04",
+      "sortKey": "2026-06-18 12:04:15",
+      "text": "CR-2026-00033 Driver Received SAR 2,640.00 Riyadh [id=3EB0BE63C12C01A2BEBB53]",
+      "headline": {
+        "en": "CR-2026-00033 Driver Received SAR 2,640.00 Riyadh [id=3EB0BE63C12C01A2BEBB53]",
+        "ar": "CR-2026-00033 Driver Received SAR 2,640.00 Riyadh [id=3EB0BE63C12C01A2BEBB53]"
+      },
+      "impact": {
+        "en": "SAR 2,640",
+        "ar": "SAR 2,640"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
+    {
+      "time": "12:04",
+      "sortKey": "2026-06-18 12:04:11",
+      "text": "CR-2026-00026 Driver Received SAR 5,640.00 Riyadh [id=3EB08F3B6EE998B6B71A10]",
+      "headline": {
+        "en": "CR-2026-00026 Driver Received SAR 5,640.00 Riyadh [id=3EB08F3B6EE998B6B71A10]",
+        "ar": "CR-2026-00026 Driver Received SAR 5,640.00 Riyadh [id=3EB08F3B6EE998B6B71A10]"
+      },
+      "impact": {
+        "en": "SAR 5,640",
+        "ar": "SAR 5,640"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
+    {
+      "time": "12:02",
+      "sortKey": "2026-06-18 12:02:46",
+      "text": "CR-2026-00031 Driver Received SAR 1,000.00 Riyadh [id=3EB0BE4C7E57283328AD37]",
+      "headline": {
+        "en": "CR-2026-00031 Driver Received SAR 1,000.00 Riyadh [id=3EB0BE4C7E57283328AD37]",
+        "ar": "CR-2026-00031 Driver Received SAR 1,000.00 Riyadh [id=3EB0BE4C7E57283328AD37]"
+      },
+      "impact": {
+        "en": "SAR 1,000",
+        "ar": "SAR 1,000"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
+    {
+      "time": "12:02",
+      "sortKey": "2026-06-18 12:02:43",
+      "text": "CR-2026-00025 Driver Received SAR 11,280.00 Riyadh [id=3EB0F8B77BDFCB2711A81A]",
+      "headline": {
+        "en": "CR-2026-00025 Driver Received SAR 11,280.00 Riyadh [id=3EB0F8B77BDFCB2711A81A]",
+        "ar": "CR-2026-00025 Driver Received SAR 11,280.00 Riyadh [id=3EB0F8B77BDFCB2711A81A]"
+      },
+      "impact": {
+        "en": "SAR 11,280",
+        "ar": "SAR 11,280"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
+    {
+      "time": "12:02",
+      "sortKey": "2026-06-18 12:02:01",
+      "text": "CR-2026-00024 Accountant Received SAR 17,500.00 Riyadh [id=3EB068E12D58C21C6720E2]",
+      "headline": {
+        "en": "CR-2026-00024 Accountant Received SAR 17,500.00 Riyadh [id=3EB068E12D58C21C6720E2]",
+        "ar": "CR-2026-00024 Accountant Received SAR 17,500.00 Riyadh [id=3EB068E12D58C21C6720E2]"
+      },
+      "impact": {
+        "en": "SAR 17,500",
+        "ar": "SAR 17,500"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
+    {
+      "time": "12:01",
+      "sortKey": "2026-06-18 12:01:22",
+      "text": "CR-2026-00024 Driver Received SAR 17,500.00 Riyadh [id=3EB0DBAB1F0019B69BD6EB]",
+      "headline": {
+        "en": "CR-2026-00024 Driver Received SAR 17,500.00 Riyadh [id=3EB0DBAB1F0019B69BD6EB]",
+        "ar": "CR-2026-00024 Driver Received SAR 17,500.00 Riyadh [id=3EB0DBAB1F0019B69BD6EB]"
+      },
+      "impact": {
+        "en": "SAR 17,500",
+        "ar": "SAR 17,500"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
+    {
+      "time": "11:59",
+      "sortKey": "2026-06-18 11:59:57",
+      "text": "CR-2026-00022 Driver Received SAR 460.00 Riyadh [id=3EB07ABCF40D25AA9A4F63]",
+      "headline": {
+        "en": "CR-2026-00022 Driver Received SAR 460.00 Riyadh [id=3EB07ABCF40D25AA9A4F63]",
+        "ar": "CR-2026-00022 Driver Received SAR 460.00 Riyadh [id=3EB07ABCF40D25AA9A4F63]"
+      },
+      "impact": {
+        "en": "SAR 460",
+        "ar": "SAR 460"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
+    {
+      "time": "11:59",
+      "sortKey": "2026-06-18 11:59:16",
+      "text": "CR-2026-00021 Accountant Received SAR 3,920.00 Riyadh [id=3EB0A597B7E7BF6754B71A]",
+      "headline": {
+        "en": "CR-2026-00021 Accountant Received SAR 3,920.00 Riyadh [id=3EB0A597B7E7BF6754B71A]",
+        "ar": "CR-2026-00021 Accountant Received SAR 3,920.00 Riyadh [id=3EB0A597B7E7BF6754B71A]"
+      },
+      "impact": {
+        "en": "SAR 3,920",
+        "ar": "SAR 3,920"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
+    {
+      "time": "11:58",
+      "sortKey": "2026-06-18 11:58:35",
+      "text": "CR-2026-00021 Driver Received SAR 3,920.00 Riyadh [id=3EB0FACF8ED46383B188F1]",
+      "headline": {
+        "en": "CR-2026-00021 Driver Received SAR 3,920.00 Riyadh [id=3EB0FACF8ED46383B188F1]",
+        "ar": "CR-2026-00021 Driver Received SAR 3,920.00 Riyadh [id=3EB0FACF8ED46383B188F1]"
+      },
+      "impact": {
+        "en": "SAR 3,920",
+        "ar": "SAR 3,920"
+      },
+      "to": "WhatsApp group",
+      "source": "send"
+    },
     {
       "time": "11:57",
       "sortKey": "2026-06-18 11:57:53",
@@ -2125,130 +2260,13 @@
       },
       "to": "ACC-PAY-+2026-*0008",
       "source": "send"
-    },
-    {
-      "time": "10:09",
-      "sortKey": "2026-06-18 10:09:19",
-      "text": "APCC-2026-PO-00561 (SAR 8,300.00)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00561 worth SAR 8,300",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00561 بقيمة SAR 8,300"
-      },
-      "impact": {
-        "en": "SAR 8,300",
-        "ar": "SAR 8,300"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "09:46",
-      "sortKey": "2026-06-18 09:46:24",
-      "text": "APCC-2026-PO-00551 (SAR 380.00)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00551 worth SAR 380",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00551 بقيمة SAR 380"
-      },
-      "impact": {
-        "en": "SAR 380",
-        "ar": "SAR 380"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "09:33",
-      "sortKey": "2026-06-18 09:33:05",
-      "text": "Rent reminder REN-2026-0019 installment 2/4 due 2026-07-01",
-      "headline": {
-        "en": "Rent reminder REN-2026-0019 installment 2/4 due 2026-07-01",
-        "ar": "Rent reminder REN-2026-0019 installment 2/4 due 2026-07-01"
-      },
-      "impact": null,
-      "to": "+********1681",
-      "source": "send"
-    },
-    {
-      "time": "09:32",
-      "sortKey": "2026-06-18 09:32:23",
-      "text": "Rent reminder REN-2026-0019 installment 2/4 due 2026-07-01",
-      "headline": {
-        "en": "Rent reminder REN-2026-0019 installment 2/4 due 2026-07-01",
-        "ar": "Rent reminder REN-2026-0019 installment 2/4 due 2026-07-01"
-      },
-      "impact": null,
-      "to": "+********2300",
-      "source": "send"
-    },
-    {
-      "time": "09:32",
-      "sortKey": "2026-06-18 09:32:13",
-      "text": "APCC-2026-PO-00525 (SAR 943.46)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00525 worth SAR 943.46",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00525 بقيمة SAR 943.46"
-      },
-      "impact": {
-        "en": "SAR 943.46",
-        "ar": "SAR 943.46"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "09:31",
-      "sortKey": "2026-06-18 09:31:40",
-      "text": "Rent reminder REN-2026-0006 installment 2/2 due 2026-07-01",
-      "headline": {
-        "en": "Rent reminder REN-2026-0006 installment 2/2 due 2026-07-01",
-        "ar": "Rent reminder REN-2026-0006 installment 2/2 due 2026-07-01"
-      },
-      "impact": null,
-      "to": "+********1681",
-      "source": "send"
-    },
-    {
-      "time": "09:30",
-      "sortKey": "2026-06-18 09:30:57",
-      "text": "Rent reminder REN-2026-0006 installment 2/2 due 2026-07-01",
-      "headline": {
-        "en": "Rent reminder REN-2026-0006 installment 2/2 due 2026-07-01",
-        "ar": "Rent reminder REN-2026-0006 installment 2/2 due 2026-07-01"
-      },
-      "impact": null,
-      "to": "+********2300",
-      "source": "send"
-    },
-    {
-      "time": "09:29",
-      "sortKey": "2026-06-18 09:29:53",
-      "text": "BCI-2026-SO-01085, BCI-2026-SO-01087, BCI-2026-SO-01228, BCI-2026-SO-01244, BCI-2026-SO-01091, BCI-2026-SO-01098, BCI-2026-SO-01097, BCI-2026-SO-01237, BCI-2026-SO-01248, BCI-2026-SO-01253",
-      "headline": {
-        "en": "BCI-2026-SO-01085, BCI-2026-SO-01087, BCI-2026-SO-01228, BCI-2026-SO-01244, BCI-2026-SO-01091, BCI-2026-SO-01098, BCI-2026-SO-01097, BCI-2026-SO-01237, BCI-2026-SO-01248, BCI-2026-SO-01253",
-        "ar": "BCI-2026-SO-01085, BCI-2026-SO-01087, BCI-2026-SO-01228, BCI-2026-SO-01244, BCI-2026-SO-01091, BCI-2026-SO-01098, BCI-2026-SO-01097, BCI-2026-SO-01237, BCI-2026-SO-01248, BCI-2026-SO-01253"
-      },
-      "impact": null,
-      "to": "Javed personal WhatsApp",
-      "source": "send"
-    },
-    {
-      "time": "09:25",
-      "sortKey": "2026-06-18 09:25:32",
-      "text": "1 alert section(s) sent",
-      "headline": {
-        "en": "1 alert section(s) sent",
-        "ar": "1 alert section(s) sent"
-      },
-      "impact": null,
-      "to": "Eng. Muhammad",
-      "source": "send"
     }
   ],
-  "generatedAt": "11:58",
+  "generatedAt": "12:04",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T08:58:33.935Z",
+  "livePublishedAt": "2026-06-18T09:04:17.163Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
