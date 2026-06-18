@@ -1798,6 +1798,60 @@
         "ar": "باستمرار (عدا الجمعة)"
       },
       "hasWorkflow": false
+    },
+    {
+      "id": "py-bci-website-product-sync-queue-001",
+      "name": "BCI Website Product Sync Queue",
+      "description": "Every 5 min: drains ERP Item webhook queue and syncs approved Yes-marked BCI finished products to the BCI website via GitHub/Vercel.",
+      "displayName": {
+        "en": "BCI Website Product Sync Queue",
+        "ar": "BCI Website Product Sync Queue"
+      },
+      "displayDescription": {
+        "en": "Every 5 min: drains ERP Item webhook queue and syncs approved Yes-marked BCI finished products to the BCI website via GitHub/Vercel.",
+        "ar": "Every 5 min: drains ERP Item webhook queue and syncs approved Yes-marked BCI finished products to the BCI website via GitHub/Vercel."
+      },
+      "areaKey": "",
+      "relatedAreas": [],
+      "area": "",
+      "category": {
+        "key": "other",
+        "en": "Other",
+        "ar": "أخرى",
+        "icon": "🤖"
+      },
+      "when": {
+        "en": "Every 5 min",
+        "ar": "كل 5 دقيقة"
+      },
+      "hasWorkflow": false
+    },
+    {
+      "id": "py-bci-website-product-sync-nightly-001",
+      "name": "BCI Website Product Sync Nightly",
+      "description": "Daily 19:00 Asia/Riyadh: full ERP reconciliation of approved Yes-marked BCI finished products into the BCI website, including images, sizes, colors, descriptions, and TDS links.",
+      "displayName": {
+        "en": "BCI Website Product Sync Nightly",
+        "ar": "BCI Website Product Sync Nightly"
+      },
+      "displayDescription": {
+        "en": "Daily 19:00 Asia/Riyadh: full ERP reconciliation of approved Yes-marked BCI finished products into the BCI website, including images, sizes, colors, descriptions, and TDS links.",
+        "ar": "Daily 19:00 Asia/Riyadh: full ERP reconciliation of approved Yes-marked BCI finished products into the BCI website, including images, sizes, colors, descriptions, and TDS links."
+      },
+      "areaKey": "",
+      "relatedAreas": [],
+      "area": "",
+      "category": {
+        "key": "other",
+        "en": "Other",
+        "ar": "أخرى",
+        "icon": "🤖"
+      },
+      "when": {
+        "en": "Every evening at 19:00",
+        "ar": "كل مساء عند 19:00"
+      },
+      "hasWorkflow": false
     }
   ],
   "channels": [],
@@ -1864,13 +1918,20 @@
       "ar": "النظام والمراقبة",
       "icon": "🛡️",
       "count": 7
+    },
+    {
+      "key": "other",
+      "en": "Other",
+      "ar": "أخرى",
+      "icon": "🤖",
+      "count": 2
     }
   ],
   "numbers": {
-    "messagesSentToday": 48,
-    "automationsRunToday": 10,
-    "activeAutomations": 55,
-    "totalAutomations": 100,
+    "messagesSentToday": 49,
+    "automationsRunToday": 11,
+    "activeAutomations": 57,
+    "totalAutomations": 102,
     "workflowCount": 26,
     "channelsTotal": 0,
     "agentsWorking": 0,
@@ -1897,8 +1958,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "48 updates | 10 tasks",
-        "ar": "48 تحديثات | 10 مهام"
+        "en": "49 updates | 11 tasks",
+        "ar": "49 تحديثات | 11 مهام"
       }
     },
     {
@@ -1908,8 +1969,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "5 chats/groups",
-        "ar": "5 محادثات/مجموعات"
+        "en": "6 chats/groups",
+        "ar": "6 محادثات/مجموعات"
       }
     }
   ],
@@ -1930,6 +1991,18 @@
     }
   ],
   "activity": [
+    {
+      "time": "14:05",
+      "sortKey": "2026-06-18 14:05:55",
+      "text": "Fleet accident follow-up FID-00157 (Payment Follow-up) [id=3EB017BB8CF7BEE1938262]",
+      "headline": {
+        "en": "Fleet accident follow-up FID-00157 (Payment Follow-up) [id=3EB017BB8CF7BEE1938262]",
+        "ar": "Fleet accident follow-up FID-00157 (Payment Follow-up) [id=3EB017BB8CF7BEE1938262]"
+      },
+      "impact": null,
+      "to": "hr group",
+      "source": "send"
+    },
     {
       "time": "13:51",
       "sortKey": "2026-06-18 13:51:30",
@@ -2265,28 +2338,13 @@
       },
       "to": "WhatsApp group",
       "source": "send"
-    },
-    {
-      "time": "12:07",
-      "sortKey": "2026-06-18 12:07:12",
-      "text": "CR-2026-00029 Driver Received SAR 11,280.00 Riyadh [id=3EB0F671EE4725CCEFE92E]",
-      "headline": {
-        "en": "CR-2026-00029 Driver Received SAR 11,280.00 Riyadh [id=3EB0F671EE4725CCEFE92E]",
-        "ar": "CR-2026-00029 Driver Received SAR 11,280.00 Riyadh [id=3EB0F671EE4725CCEFE92E]"
-      },
-      "impact": {
-        "en": "SAR 11,280",
-        "ar": "SAR 11,280"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
     }
   ],
-  "generatedAt": "14:01",
+  "generatedAt": "14:11",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T11:01:13.406Z",
+  "livePublishedAt": "2026-06-18T11:11:45.025Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
