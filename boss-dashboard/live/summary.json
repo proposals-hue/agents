@@ -1838,7 +1838,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 28,
+    "messagesSentToday": 29,
     "automationsRunToday": 16,
     "activeAutomations": 54,
     "totalAutomations": 99,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 3.31M + JOD 1,266",
-        "ar": "SAR 3.31M + JOD 1,266"
+        "en": "SAR 3.37M + JOD 1,266",
+        "ar": "SAR 3.37M + JOD 1,266"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "28 updates | 16 tasks",
-        "ar": "28 تحديثات | 16 مهام"
+        "en": "29 updates | 16 tasks",
+        "ar": "29 تحديثات | 16 مهام"
       }
     },
     {
@@ -1901,6 +1901,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "10:26",
+      "sortKey": "2026-06-18 10:26:58",
+      "text": "APCC-2026-PO-00595 (SAR 63,250)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00595 worth SAR 63,250",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00595 بقيمة SAR 63,250"
+      },
+      "impact": {
+        "en": "SAR 63,250",
+        "ar": "SAR 63,250"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "10:22",
       "sortKey": "2026-06-18 10:22:17",
@@ -2230,25 +2245,13 @@
       "impact": null,
       "to": "procurement group",
       "source": "send"
-    },
-    {
-      "time": "08:10",
-      "sortKey": "2026-06-18 08:10:26",
-      "text": "Fleet accident follow-up FID-00154 (Claim Submission) [id=3EB0934BDA7A40EC8066D5]",
-      "headline": {
-        "en": "Fleet accident follow-up FID-00154 (Claim Submission) [id=3EB0934BDA7A40EC8066D5]",
-        "ar": "Fleet accident follow-up FID-00154 (Claim Submission) [id=3EB0934BDA7A40EC8066D5]"
-      },
-      "impact": null,
-      "to": "hr group",
-      "source": "send"
     }
   ],
-  "generatedAt": "10:25",
+  "generatedAt": "10:30",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T07:25:16.681Z",
+  "livePublishedAt": "2026-06-18T07:30:37.457Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
