@@ -2282,11 +2282,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "13:38",
+  "generatedAt": "13:44",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T10:38:05.874Z",
+  "livePublishedAt": "2026-06-18T10:44:40.985Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
