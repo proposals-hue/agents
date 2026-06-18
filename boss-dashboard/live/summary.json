@@ -1838,8 +1838,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 8,
-    "automationsRunToday": 8,
+    "messagesSentToday": 13,
+    "automationsRunToday": 10,
     "activeAutomations": 54,
     "totalAutomations": 99,
     "workflowCount": 26,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 690",
-        "ar": "SAR 690"
+        "en": "SAR 417,762",
+        "ar": "SAR 417,762"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "8 updates | 8 tasks",
-        "ar": "8 تحديثات | 8 مهام"
+        "en": "13 updates | 10 tasks",
+        "ar": "13 تحديثات | 10 مهام"
       }
     },
     {
@@ -1879,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "6 chats/groups",
-        "ar": "6 محادثات/مجموعات"
+        "en": "11 chats/groups",
+        "ar": "11 محادثات/مجموعات"
       }
     }
   ],
@@ -1901,6 +1901,81 @@
     }
   ],
   "activity": [
+    {
+      "time": "08:40",
+      "sortKey": "2026-06-18 08:40:02",
+      "text": "Team MTD SAR 150,654/2,500,000 across 6 salesmen",
+      "headline": {
+        "en": "Sales sent the monthly target update for 6 salesmen",
+        "ar": "المبيعات أرسلت تحديث الهدف الشهري لعدد 6 مندوبي مبيعات"
+      },
+      "impact": {
+        "en": "SAR 150,654",
+        "ar": "SAR 150,654"
+      },
+      "to": "Sameh Darwish",
+      "source": "send"
+    },
+    {
+      "time": "08:39",
+      "sortKey": "2026-06-18 08:39:23",
+      "text": "MTD SAR 0/350,000, rank 9/9",
+      "headline": {
+        "en": "Sales sent an individual target update to Ramy",
+        "ar": "المبيعات أرسلت تحديث هدف فردي إلى Ramy"
+      },
+      "impact": {
+        "en": " | rank 9/9",
+        "ar": " | الترتيب 9/9"
+      },
+      "to": "Ramy",
+      "source": "send"
+    },
+    {
+      "time": "08:36",
+      "sortKey": "2026-06-18 08:36:04",
+      "text": "3 new APC PO(s): APCC-2026-PO-00823, APCC-2026-PO-00824, APCC-2026-PO-00825",
+      "headline": {
+        "en": "Procurement sent 3 new APC purchase orders to Anas",
+        "ar": "المشتريات أرسلت 3 أوامر شراء جديدة من APC إلى Anas"
+      },
+      "impact": {
+        "en": "3 POs",
+        "ar": "3 أوامر شراء"
+      },
+      "to": "Anas",
+      "source": "send"
+    },
+    {
+      "time": "08:35",
+      "sortKey": "2026-06-18 08:35:45",
+      "text": "MTD SAR 66,220/350,000, rank 4/9",
+      "headline": {
+        "en": "Sales sent an individual target update to Emad Basiony",
+        "ar": "المبيعات أرسلت تحديث هدف فردي إلى Emad Basiony"
+      },
+      "impact": {
+        "en": "SAR 66,220 | rank 4/9",
+        "ar": "SAR 66,220 | الترتيب 4/9"
+      },
+      "to": "Emad Basiony",
+      "source": "send"
+    },
+    {
+      "time": "08:33",
+      "sortKey": "2026-06-18 08:33:34",
+      "text": "MTD SAR 200,198/800,000, rank 1/9",
+      "headline": {
+        "en": "Sales sent an individual target update to Ayman",
+        "ar": "المبيعات أرسلت تحديث هدف فردي إلى Ayman"
+      },
+      "impact": {
+        "en": "SAR 200,198 | rank 1/9",
+        "ar": "SAR 200,198 | الترتيب 1/9"
+      },
+      "to": "Ayman",
+      "source": "send"
+    },
     {
       "time": "08:24",
       "sortKey": "2026-06-18 08:24:41",
@@ -2004,11 +2079,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "08:30",
+  "generatedAt": "08:41",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T05:30:22.519Z",
+  "livePublishedAt": "2026-06-18T05:41:11.257Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
