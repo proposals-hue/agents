@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 3.37M + JOD 1,266",
-        "ar": "SAR 3.37M + JOD 1,266"
+        "en": "SAR 3.11M + JOD 1,266",
+        "ar": "SAR 3.11M + JOD 1,266"
       }
     },
     {
@@ -1879,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "12 chats/groups",
-        "ar": "12 محادثات/مجموعات"
+        "en": "10 chats/groups",
+        "ar": "10 محادثات/مجموعات"
       }
     }
   ],
@@ -1901,6 +1901,33 @@
     }
   ],
   "activity": [
+    {
+      "time": "11:47",
+      "sortKey": "2026-06-18 11:47:56",
+      "text": "BCI-2026-PO-01454 (SAR 943.36)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01454 worth SAR 943.36",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01454 بقيمة SAR 943.36"
+      },
+      "impact": {
+        "en": "SAR 943.36",
+        "ar": "SAR 943.36"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "11:45",
+      "sortKey": "2026-06-18 11:45:42",
+      "text": "1 alert section(s) sent",
+      "headline": {
+        "en": "1 alert section(s) sent",
+        "ar": "1 alert section(s) sent"
+      },
+      "impact": null,
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "11:25",
       "sortKey": "2026-06-18 11:25:51",
@@ -2212,43 +2239,13 @@
       },
       "to": "Eng. Muhammad",
       "source": "send"
-    },
-    {
-      "time": "08:54",
-      "sortKey": "2026-06-18 08:54:44",
-      "text": "APCC-2026-PO-00511 (SAR 157.00)",
-      "headline": {
-        "en": "Purchase order update: APCC-2026-PO-00511 worth SAR 157",
-        "ar": "تحديث أمر شراء: APCC-2026-PO-00511 بقيمة SAR 157"
-      },
-      "impact": {
-        "en": "SAR 157",
-        "ar": "SAR 157"
-      },
-      "to": "Eng. Muhammad",
-      "source": "send"
-    },
-    {
-      "time": "08:40",
-      "sortKey": "2026-06-18 08:40:02",
-      "text": "Team MTD SAR 150,654/2,500,000 across 6 salesmen",
-      "headline": {
-        "en": "Sales sent the monthly target update for 6 salesmen",
-        "ar": "المبيعات أرسلت تحديث الهدف الشهري لعدد 6 مندوبي مبيعات"
-      },
-      "impact": {
-        "en": "SAR 150,654",
-        "ar": "SAR 150,654"
-      },
-      "to": "Sameh Darwish",
-      "source": "send"
     }
   ],
-  "generatedAt": "11:44",
+  "generatedAt": "11:51",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T08:44:29.988Z",
+  "livePublishedAt": "2026-06-18T08:51:23.384Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
