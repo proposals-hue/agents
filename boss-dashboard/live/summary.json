@@ -1902,6 +1902,18 @@
   ],
   "activity": [
     {
+      "time": "11:19",
+      "sortKey": "2026-06-18 11:19:01",
+      "text": "2 unengaged truck(s) [id=3EB0B841A8396B33A6F0A4]",
+      "headline": {
+        "en": "2 unengaged truck(s) [id=3EB0B841A8396B33A6F0A4]",
+        "ar": "2 unengaged truck(s) [id=3EB0B841A8396B33A6F0A4]"
+      },
+      "impact": null,
+      "to": "delivery group",
+      "source": "send"
+    },
+    {
       "time": "11:13",
       "sortKey": "2026-06-18 11:13:04",
       "text": "1 truck(s) arriving soon [id=3EB0C0963D55EE62226956]",
@@ -2230,28 +2242,13 @@
       },
       "to": "Ramy",
       "source": "send"
-    },
-    {
-      "time": "08:36",
-      "sortKey": "2026-06-18 08:36:04",
-      "text": "3 new APC PO(s): APCC-2026-PO-00823, APCC-2026-PO-00824, APCC-2026-PO-00825",
-      "headline": {
-        "en": "Procurement sent 3 new APC purchase orders to Anas",
-        "ar": "المشتريات أرسلت 3 أوامر شراء جديدة من APC إلى Anas"
-      },
-      "impact": {
-        "en": "3 POs",
-        "ar": "3 أوامر شراء"
-      },
-      "to": "Anas",
-      "source": "send"
     }
   ],
-  "generatedAt": "11:16",
+  "generatedAt": "11:24",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T08:16:45.971Z",
+  "livePublishedAt": "2026-06-18T08:24:02.155Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
