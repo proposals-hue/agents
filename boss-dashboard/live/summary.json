@@ -1867,7 +1867,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 45,
+    "messagesSentToday": 46,
     "automationsRunToday": 10,
     "activeAutomations": 55,
     "totalAutomations": 100,
@@ -1886,8 +1886,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 176,886.11",
-        "ar": "SAR 176,886.11"
+        "en": "SAR 177,086.11",
+        "ar": "SAR 177,086.11"
       }
     },
     {
@@ -1897,8 +1897,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "45 updates | 10 tasks",
-        "ar": "45 تحديثات | 10 مهام"
+        "en": "46 updates | 10 tasks",
+        "ar": "46 تحديثات | 10 مهام"
       }
     },
     {
@@ -1930,6 +1930,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "13:32",
+      "sortKey": "2026-06-18 13:32:10",
+      "text": "BCI-2026-PO-01436 (SAR 200.00)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01436 worth SAR 200",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01436 بقيمة SAR 200"
+      },
+      "impact": {
+        "en": "SAR 200",
+        "ar": "SAR 200"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "13:21",
       "sortKey": "2026-06-18 13:21:48",
@@ -2265,28 +2280,13 @@
       },
       "to": "WhatsApp group",
       "source": "send"
-    },
-    {
-      "time": "12:04",
-      "sortKey": "2026-06-18 12:04:15",
-      "text": "CR-2026-00033 Driver Received SAR 2,640.00 Riyadh [id=3EB0BE63C12C01A2BEBB53]",
-      "headline": {
-        "en": "CR-2026-00033 Driver Received SAR 2,640.00 Riyadh [id=3EB0BE63C12C01A2BEBB53]",
-        "ar": "CR-2026-00033 Driver Received SAR 2,640.00 Riyadh [id=3EB0BE63C12C01A2BEBB53]"
-      },
-      "impact": {
-        "en": "SAR 2,640",
-        "ar": "SAR 2,640"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
     }
   ],
-  "generatedAt": "13:29",
+  "generatedAt": "13:38",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T10:29:37.183Z",
+  "livePublishedAt": "2026-06-18T10:38:05.874Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
