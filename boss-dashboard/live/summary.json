@@ -40,7 +40,7 @@
         "ar": ""
       },
       "workflowCount": 7,
-      "automationCount": 13
+      "automationCount": 14
     },
     {
       "name": "Haseb",
@@ -1071,6 +1071,35 @@
       "hasWorkflow": false
     },
     {
+      "id": "py-po-marwan-adnan-watcher-001",
+      "name": "PO Marwan -> Adnan ERP Watcher",
+      "description": "Every 5 min 08:00-17:59 Saturday-Thursday: watches POs created by Asma, Zainab, or Faisal; notifies Marwan on new PO, Adnan when ERP reaches Checked, and boss when Adnan moves it to Approved.",
+      "displayName": {
+        "en": "PO Marwan -> Adnan ERP Watcher",
+        "ar": "PO Marwan -> Adnan ERP Watcher"
+      },
+      "displayDescription": {
+        "en": "Every 5 min 08:00-17:59 Saturday-Thursday: watches POs created by Asma, Zainab, or Faisal; notifies Marwan on new PO, Adnan when ERP reaches Checked, and boss when Adnan moves it to Approved.",
+        "ar": "Every 5 min 08:00-17:59 Saturday-Thursday: watches POs created by Asma, Zainab, or Faisal; notifies Marwan on new PO, Adnan when ERP reaches Checked, and boss when Adnan moves it to Approved."
+      },
+      "areaKey": "procurement",
+      "relatedAreas": [
+        "procurement"
+      ],
+      "area": "Raqeeb",
+      "category": {
+        "key": "procurement",
+        "en": "Procurement & Suppliers",
+        "ar": "المشتريات والموردون",
+        "icon": "📦"
+      },
+      "when": {
+        "en": "Every 5 min during work hours (not Fri)",
+        "ar": "كل 5 دقيقة خلال ساعات العمل (عدا الجمعة)"
+      },
+      "hasWorkflow": false
+    },
+    {
       "id": "mkt-watchdog",
       "name": "Marketing Watchdog - Every 2 Hours Business Hours",
       "description": "Sun-Thu every 2 hours 9AM-5PM Riyadh: reminds boss about pending marketing approvals with varied value-based nudges, checks overdue tasks, and stays silent if nothing needs action.",
@@ -1778,7 +1807,7 @@
       "en": "Procurement & Suppliers",
       "ar": "المشتريات والموردون",
       "icon": "📦",
-      "count": 13
+      "count": 14
     },
     {
       "key": "sales",
@@ -1840,8 +1869,8 @@
   "numbers": {
     "messagesSentToday": 36,
     "automationsRunToday": 9,
-    "activeAutomations": 54,
-    "totalAutomations": 99,
+    "activeAutomations": 55,
+    "totalAutomations": 100,
     "workflowCount": 26,
     "channelsTotal": 0,
     "agentsWorking": 0,
@@ -2271,11 +2300,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "12:37",
+  "generatedAt": "12:45",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T09:37:31.745Z",
+  "livePublishedAt": "2026-06-18T09:45:32.372Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
