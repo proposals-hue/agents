@@ -1838,8 +1838,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 4,
-    "automationsRunToday": 4,
+    "messagesSentToday": 8,
+    "automationsRunToday": 8,
     "activeAutomations": 54,
     "totalAutomations": 99,
     "workflowCount": 26,
@@ -1857,8 +1857,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "No money updates",
-        "ar": "لا توجد تحديثات مالية"
+        "en": "SAR 690",
+        "ar": "SAR 690"
       }
     },
     {
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "4 updates | 4 tasks",
-        "ar": "4 تحديثات | 4 مهام"
+        "en": "8 updates | 8 tasks",
+        "ar": "8 تحديثات | 8 مهام"
       }
     },
     {
@@ -1879,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "3 chats/groups",
-        "ar": "3 محادثات/مجموعات"
+        "en": "6 chats/groups",
+        "ar": "6 محادثات/مجموعات"
       }
     }
   ],
@@ -1901,6 +1901,57 @@
     }
   ],
   "activity": [
+    {
+      "time": "08:24",
+      "sortKey": "2026-06-18 08:24:41",
+      "text": "APCC-2026-PO-00505 (SAR 690.00)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00505 worth SAR 690",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00505 بقيمة SAR 690"
+      },
+      "impact": {
+        "en": "SAR 690",
+        "ar": "SAR 690"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "08:23",
+      "sortKey": "2026-06-18 08:23:25",
+      "text": "Daily briefing with 4 sections",
+      "headline": {
+        "en": "Daily briefing with 4 sections",
+        "ar": "Daily briefing with 4 sections"
+      },
+      "impact": null,
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
+      "time": "08:21",
+      "sortKey": "2026-06-18 08:21:27",
+      "text": "2 unengaged truck(s) [id=3EB06918942E3336918CC6]",
+      "headline": {
+        "en": "2 unengaged truck(s) [id=3EB06918942E3336918CC6]",
+        "ar": "2 unengaged truck(s) [id=3EB06918942E3336918CC6]"
+      },
+      "impact": null,
+      "to": "delivery group",
+      "source": "send"
+    },
+    {
+      "time": "08:19",
+      "sortKey": "2026-06-18 08:19:22",
+      "text": "MAT-MR-2026-00580",
+      "headline": {
+        "en": "MAT-MR-2026-00580",
+        "ar": "MAT-MR-2026-00580"
+      },
+      "impact": null,
+      "to": "procurement group",
+      "source": "send"
+    },
     {
       "time": "08:10",
       "sortKey": "2026-06-18 08:10:26",
@@ -1953,11 +2004,11 @@
       "source": "send"
     }
   ],
-  "generatedAt": "08:15",
+  "generatedAt": "08:30",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T05:15:09.175Z",
+  "livePublishedAt": "2026-06-18T05:30:22.519Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
