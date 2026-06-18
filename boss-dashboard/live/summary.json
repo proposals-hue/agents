@@ -1839,7 +1839,7 @@
   ],
   "numbers": {
     "messagesSentToday": 29,
-    "automationsRunToday": 14,
+    "automationsRunToday": 13,
     "activeAutomations": 54,
     "totalAutomations": 99,
     "workflowCount": 26,
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "29 updates | 14 tasks",
-        "ar": "29 تحديثات | 14 مهام"
+        "en": "29 updates | 13 tasks",
+        "ar": "29 تحديثات | 13 مهام"
       }
     },
     {
@@ -1879,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "13 chats/groups",
-        "ar": "13 محادثات/مجموعات"
+        "en": "12 chats/groups",
+        "ar": "12 محادثات/مجموعات"
       }
     }
   ],
@@ -1901,6 +1901,21 @@
     }
   ],
   "activity": [
+    {
+      "time": "11:05",
+      "sortKey": "2026-06-18 11:05:49",
+      "text": "APCC-2026-PO-00600 (SAR 260.00)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00600 worth SAR 260",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00600 بقيمة SAR 260"
+      },
+      "impact": {
+        "en": "SAR 260",
+        "ar": "SAR 260"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "10:55",
       "sortKey": "2026-06-18 10:55:07",
@@ -2233,28 +2248,13 @@
       },
       "to": "Emad Basiony",
       "source": "send"
-    },
-    {
-      "time": "08:33",
-      "sortKey": "2026-06-18 08:33:34",
-      "text": "MTD SAR 200,198/800,000, rank 1/9",
-      "headline": {
-        "en": "Sales sent an individual target update to Ayman",
-        "ar": "المبيعات أرسلت تحديث هدف فردي إلى Ayman"
-      },
-      "impact": {
-        "en": "SAR 200,198 | rank 1/9",
-        "ar": "SAR 200,198 | الترتيب 1/9"
-      },
-      "to": "Ayman",
-      "source": "send"
     }
   ],
-  "generatedAt": "11:03",
+  "generatedAt": "11:09",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T08:03:18.051Z",
+  "livePublishedAt": "2026-06-18T08:09:47.610Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
