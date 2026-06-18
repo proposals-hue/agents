@@ -1902,6 +1902,21 @@
   ],
   "activity": [
     {
+      "time": "11:25",
+      "sortKey": "2026-06-18 11:25:51",
+      "text": "BCI-2026-PO-01453 (SAR 2,386.25)",
+      "headline": {
+        "en": "Purchase order update: BCI-2026-PO-01453 worth SAR 2,386.25",
+        "ar": "تحديث أمر شراء: BCI-2026-PO-01453 بقيمة SAR 2,386.25"
+      },
+      "impact": {
+        "en": "SAR 2,386.25",
+        "ar": "SAR 2,386.25"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
+    {
       "time": "11:19",
       "sortKey": "2026-06-18 11:19:01",
       "text": "2 unengaged truck(s) [id=3EB0B841A8396B33A6F0A4]",
@@ -2227,28 +2242,13 @@
       },
       "to": "Sameh Darwish",
       "source": "send"
-    },
-    {
-      "time": "08:39",
-      "sortKey": "2026-06-18 08:39:23",
-      "text": "MTD SAR 0/350,000, rank 9/9",
-      "headline": {
-        "en": "Sales sent an individual target update to Ramy",
-        "ar": "المبيعات أرسلت تحديث هدف فردي إلى Ramy"
-      },
-      "impact": {
-        "en": " | rank 9/9",
-        "ar": " | الترتيب 9/9"
-      },
-      "to": "Ramy",
-      "source": "send"
     }
   ],
-  "generatedAt": "11:24",
+  "generatedAt": "11:30",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T08:24:02.155Z",
+  "livePublishedAt": "2026-06-18T08:30:12.497Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
