@@ -1867,7 +1867,7 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 39,
+    "messagesSentToday": 44,
     "automationsRunToday": 10,
     "activeAutomations": 55,
     "totalAutomations": 100,
@@ -1886,8 +1886,8 @@
         "ar": "الأموال التي تمت متابعتها"
       },
       "value": {
-        "en": "SAR 168,836.11",
-        "ar": "SAR 168,836.11"
+        "en": "SAR 176,886.11",
+        "ar": "SAR 176,886.11"
       }
     },
     {
@@ -1897,8 +1897,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "39 updates | 10 tasks",
-        "ar": "39 تحديثات | 10 مهام"
+        "en": "44 updates | 10 tasks",
+        "ar": "44 تحديثات | 10 مهام"
       }
     },
     {
@@ -1930,6 +1930,69 @@
     }
   ],
   "activity": [
+    {
+      "time": "13:14",
+      "sortKey": "2026-06-18 13:14:30",
+      "text": "new PO BCI-2026-PO-01476 from Zainab Ali [id=3EB086435ECDEE04807E94]",
+      "headline": {
+        "en": "new PO BCI-2026-PO-01476 from Zainab Ali [id=3EB086435ECDEE04807E94]",
+        "ar": "new PO BCI-2026-PO-01476 from Zainab Ali [id=3EB086435ECDEE04807E94]"
+      },
+      "impact": null,
+      "to": "Marwan",
+      "source": "send"
+    },
+    {
+      "time": "13:13",
+      "sortKey": "2026-06-18 13:13:48",
+      "text": "new PO BCI-2026-PO-01475 from Zainab Ali [id=3EB0B2F2FDEF6867D3C24D]",
+      "headline": {
+        "en": "new PO BCI-2026-PO-01475 from Zainab Ali [id=3EB0B2F2FDEF6867D3C24D]",
+        "ar": "new PO BCI-2026-PO-01475 from Zainab Ali [id=3EB0B2F2FDEF6867D3C24D]"
+      },
+      "impact": null,
+      "to": "Marwan",
+      "source": "send"
+    },
+    {
+      "time": "13:13",
+      "sortKey": "2026-06-18 13:13:08",
+      "text": "new PO BCI-2026-PO-01474 from Asma Mohamed [id=3EB0E5B635C9C3877EF406]",
+      "headline": {
+        "en": "new PO BCI-2026-PO-01474 from Asma Mohamed [id=3EB0E5B635C9C3877EF406]",
+        "ar": "new PO BCI-2026-PO-01474 from Asma Mohamed [id=3EB0E5B635C9C3877EF406]"
+      },
+      "impact": null,
+      "to": "Marwan",
+      "source": "send"
+    },
+    {
+      "time": "13:12",
+      "sortKey": "2026-06-18 13:12:31",
+      "text": "new PO BCI-2026-PO-01473 from Zainab Ali [id=3EB0DFF8E2AD5B8A29B4C1]",
+      "headline": {
+        "en": "new PO BCI-2026-PO-01473 from Zainab Ali [id=3EB0DFF8E2AD5B8A29B4C1]",
+        "ar": "new PO BCI-2026-PO-01473 from Zainab Ali [id=3EB0DFF8E2AD5B8A29B4C1]"
+      },
+      "impact": null,
+      "to": "Marwan",
+      "source": "send"
+    },
+    {
+      "time": "13:11",
+      "sortKey": "2026-06-18 13:11:10",
+      "text": "APCC-2026-PO-00820 (SAR 8,050.00)",
+      "headline": {
+        "en": "Purchase order update: APCC-2026-PO-00820 worth SAR 8,050",
+        "ar": "تحديث أمر شراء: APCC-2026-PO-00820 بقيمة SAR 8,050"
+      },
+      "impact": {
+        "en": "SAR 8,050",
+        "ar": "SAR 8,050"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    },
     {
       "time": "13:03",
       "sortKey": "2026-06-18 13:03:16",
@@ -2217,88 +2280,13 @@
       },
       "to": "WhatsApp group",
       "source": "send"
-    },
-    {
-      "time": "12:02",
-      "sortKey": "2026-06-18 12:02:46",
-      "text": "CR-2026-00031 Driver Received SAR 1,000.00 Riyadh [id=3EB0BE4C7E57283328AD37]",
-      "headline": {
-        "en": "CR-2026-00031 Driver Received SAR 1,000.00 Riyadh [id=3EB0BE4C7E57283328AD37]",
-        "ar": "CR-2026-00031 Driver Received SAR 1,000.00 Riyadh [id=3EB0BE4C7E57283328AD37]"
-      },
-      "impact": {
-        "en": "SAR 1,000",
-        "ar": "SAR 1,000"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "12:02",
-      "sortKey": "2026-06-18 12:02:43",
-      "text": "CR-2026-00025 Driver Received SAR 11,280.00 Riyadh [id=3EB0F8B77BDFCB2711A81A]",
-      "headline": {
-        "en": "CR-2026-00025 Driver Received SAR 11,280.00 Riyadh [id=3EB0F8B77BDFCB2711A81A]",
-        "ar": "CR-2026-00025 Driver Received SAR 11,280.00 Riyadh [id=3EB0F8B77BDFCB2711A81A]"
-      },
-      "impact": {
-        "en": "SAR 11,280",
-        "ar": "SAR 11,280"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "12:02",
-      "sortKey": "2026-06-18 12:02:01",
-      "text": "CR-2026-00024 Accountant Received SAR 17,500.00 Riyadh [id=3EB068E12D58C21C6720E2]",
-      "headline": {
-        "en": "CR-2026-00024 Accountant Received SAR 17,500.00 Riyadh [id=3EB068E12D58C21C6720E2]",
-        "ar": "CR-2026-00024 Accountant Received SAR 17,500.00 Riyadh [id=3EB068E12D58C21C6720E2]"
-      },
-      "impact": {
-        "en": "SAR 17,500",
-        "ar": "SAR 17,500"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "12:01",
-      "sortKey": "2026-06-18 12:01:22",
-      "text": "CR-2026-00024 Driver Received SAR 17,500.00 Riyadh [id=3EB0DBAB1F0019B69BD6EB]",
-      "headline": {
-        "en": "CR-2026-00024 Driver Received SAR 17,500.00 Riyadh [id=3EB0DBAB1F0019B69BD6EB]",
-        "ar": "CR-2026-00024 Driver Received SAR 17,500.00 Riyadh [id=3EB0DBAB1F0019B69BD6EB]"
-      },
-      "impact": {
-        "en": "SAR 17,500",
-        "ar": "SAR 17,500"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
-    },
-    {
-      "time": "11:59",
-      "sortKey": "2026-06-18 11:59:57",
-      "text": "CR-2026-00022 Driver Received SAR 460.00 Riyadh [id=3EB07ABCF40D25AA9A4F63]",
-      "headline": {
-        "en": "CR-2026-00022 Driver Received SAR 460.00 Riyadh [id=3EB07ABCF40D25AA9A4F63]",
-        "ar": "CR-2026-00022 Driver Received SAR 460.00 Riyadh [id=3EB07ABCF40D25AA9A4F63]"
-      },
-      "impact": {
-        "en": "SAR 460",
-        "ar": "SAR 460"
-      },
-      "to": "WhatsApp group",
-      "source": "send"
     }
   ],
-  "generatedAt": "13:06",
+  "generatedAt": "13:17",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T10:06:34.182Z",
+  "livePublishedAt": "2026-06-18T10:17:59.398Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
