@@ -1838,8 +1838,8 @@
     }
   ],
   "numbers": {
-    "messagesSentToday": 0,
-    "automationsRunToday": 0,
+    "messagesSentToday": 4,
+    "automationsRunToday": 4,
     "activeAutomations": 54,
     "totalAutomations": 99,
     "workflowCount": 26,
@@ -1868,8 +1868,8 @@
         "ar": "اعتمادات ومتابعات تمت"
       },
       "value": {
-        "en": "0 updates | 0 tasks",
-        "ar": "0 تحديثات | 0 مهام"
+        "en": "4 updates | 4 tasks",
+        "ar": "4 تحديثات | 4 مهام"
       }
     },
     {
@@ -1879,8 +1879,8 @@
         "ar": "الفرق التي تم تنبيهها"
       },
       "value": {
-        "en": "0 chats/groups",
-        "ar": "0 محادثات/مجموعات"
+        "en": "3 chats/groups",
+        "ar": "3 محادثات/مجموعات"
       }
     }
   ],
@@ -1900,12 +1900,64 @@
       }
     }
   ],
-  "activity": [],
-  "generatedAt": "08:01",
+  "activity": [
+    {
+      "time": "08:10",
+      "sortKey": "2026-06-18 08:10:26",
+      "text": "Fleet accident follow-up FID-00154 (Claim Submission) [id=3EB0934BDA7A40EC8066D5]",
+      "headline": {
+        "en": "Fleet accident follow-up FID-00154 (Claim Submission) [id=3EB0934BDA7A40EC8066D5]",
+        "ar": "Fleet accident follow-up FID-00154 (Claim Submission) [id=3EB0934BDA7A40EC8066D5]"
+      },
+      "impact": null,
+      "to": "hr group",
+      "source": "send"
+    },
+    {
+      "time": "08:08",
+      "sortKey": "2026-06-18 08:08:41",
+      "text": "1 contract lead-time alert(s)",
+      "headline": {
+        "en": "1 contract lead-time alert(s)",
+        "ar": "1 contract lead-time alert(s)"
+      },
+      "impact": null,
+      "to": "HR group",
+      "source": "send"
+    },
+    {
+      "time": "08:07",
+      "sortKey": "2026-06-18 08:07:14",
+      "text": "10 fleet expiry alert(s)",
+      "headline": {
+        "en": "10 fleet expiry alert(s)",
+        "ar": "10 fleet expiry alert(s)"
+      },
+      "impact": null,
+      "to": "HR group",
+      "source": "send"
+    },
+    {
+      "time": "08:06",
+      "sortKey": "2026-06-18 08:06:49",
+      "text": "15 new tenders (matched 41 of 480 scanned); voice OK",
+      "headline": {
+        "en": "Sales found 15 matching tenders for review",
+        "ar": "المبيعات وجدت 15 مناقصات مناسبة للمراجعة"
+      },
+      "impact": {
+        "en": "15 tenders",
+        "ar": "15 مناقصات"
+      },
+      "to": "Eng. Muhammad",
+      "source": "send"
+    }
+  ],
+  "generatedAt": "08:15",
   "version": 1,
   "publicLive": true,
   "localSourceMode": "offline",
-  "livePublishedAt": "2026-06-18T05:01:01.288Z",
+  "livePublishedAt": "2026-06-18T05:15:09.175Z",
   "publisher": {
     "name": "openclaw-local-dashboard-publisher",
     "cadence": "5 minutes"
